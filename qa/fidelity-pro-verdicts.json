@@ -1,0 +1,3266 @@
+{
+  "scope": "198 Figma frames; offline Pro 402×874 screenshots only; no simulator actions",
+  "method": "Fresh visual pair inspection. References alpha-composited onto white. Actual scaled1/6 and reference0.5 to equal point scale. Top safe area62 vs48 and bottom34 vs24 accounted for. Matched means no material discrepancy found in inspected visible content, not pixel-perfect equivalence or functional verification.",
+  "counts": {
+    "matched": 194,
+    "os-owned": 4
+  },
+  "frames": [
+    {
+      "id": "4:214",
+      "name": "Main",
+      "section": "Main",
+      "status": "matched",
+      "actual": "/tmp/cleaner-fidelity-pro/4-214.png",
+      "reference": "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/4-214.png",
+      "actual_sha256": "fccf36c11cd92ba297fed1f101720d24c45c7f3dc013fac4192db175d90ed092",
+      "reference_sha256": "e079194a4e23622d1555a88bef464ea312514a28e6ff1bb75175e137937778c5",
+      "evidence": [
+        "Visually inspected app/reference pair in sheet 0. Header, visible copy hierarchy, component grouping, selection/disabled state and action placement checked at equal point scale; safe-area and responsive size differences allowed.",
+        "Additional scrolled-bottom capture visually inspected: Background Remover and Security Center rows, glyphs, subtitles and disclosure controls complete the previously unobserved home content."
+      ],
+      "findings": [],
+      "additional_capture": {
+        "path": "/tmp/cleaner-fidelity-pro-bottom/4-214-bottom.png",
+        "sha256": "0308dbacde78c63545c30236125b25370a26a904dea6c520acfdf5a9b225b2f7"
+      }
+    },
+    {
+      "id": "47:23",
+      "name": "Smart Scan / Scanning",
+      "section": "Smart Scan",
+      "status": "matched",
+      "actual": "/tmp/cleaner-fidelity-pro/47-23.png",
+      "reference": "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/47-23.png",
+      "actual_sha256": "37cf358e1c66f915714c6c03e8f326c33be79fe64aa535e12db50c2d12ed6f07",
+      "reference_sha256": "0409b637042dc0838b196a959f81b9f1859730b99061eea0259ee9aa9a3ffa9e",
+      "evidence": [
+        "Visually inspected app/reference pair in sheet 0. Header, visible copy hierarchy, component grouping, selection/disabled state and action placement checked at equal point scale; safe-area and responsive size differences allowed.",
+        "Dynamic library photography contents excluded; image-container geometry, overlays and controls remain in scope."
+      ],
+      "findings": []
+    },
+    {
+      "id": "47:56",
+      "name": "Smart Scan / Results",
+      "section": "Smart Scan",
+      "status": "matched",
+      "actual": "/tmp/cleaner-fidelity-pro/47-56.png",
+      "reference": "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/47-56.png",
+      "actual_sha256": "1998d5aac0bf151805ea725f66cec48fbb619a19e892b4ca95697f95bb3a6d2f",
+      "reference_sha256": "ced38ac6659a975b577102199136f725e96fb610b90ec787d4629f6ff9bd8167",
+      "evidence": [
+        "Visually inspected app/reference pair in sheet 0. Header, visible copy hierarchy, component grouping, selection/disabled state and action placement checked at equal point scale; safe-area and responsive size differences allowed.",
+        "Dynamic library photography contents excluded; image-container geometry, overlays and controls remain in scope."
+      ],
+      "findings": []
+    },
+    {
+      "id": "51:52",
+      "name": "Photos / First visit",
+      "section": "Photos",
+      "status": "matched",
+      "actual": "/tmp/cleaner-fidelity-pro/51-52.png",
+      "reference": "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/51-52.png",
+      "actual_sha256": "aa1f7b9a4fa244149aede3c8f7751c0c12879ad1422168c9f2b48f966e5a1b2a",
+      "reference_sha256": "2f5f9b121ea3683396f172b4167c26a3167ae7bccdc4ce9bf971b90ece50ebde",
+      "evidence": [
+        "Visually inspected app/reference pair in sheet 0. Header, visible copy hierarchy, component grouping, selection/disabled state and action placement checked at equal point scale; safe-area and responsive size differences allowed.",
+        "Dynamic library photography contents excluded; image-container geometry, overlays and controls remain in scope."
+      ],
+      "findings": []
+    },
+    {
+      "id": "51:87",
+      "name": "Photos / Categories",
+      "section": "Photos",
+      "status": "matched",
+      "actual": "/tmp/cleaner-fidelity-pro/51-87.png",
+      "reference": "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/51-87.png",
+      "actual_sha256": "9b6842853222aa1a20afe149527eaf709eb7583ae7e4b8b2314fffaccfa56543",
+      "reference_sha256": "98aa8f152ef8b80f74307cd84052ac70b21e77cb6e2238d6bb805023785597b9",
+      "evidence": [
+        "Visually inspected app/reference pair in sheet 0. Header, visible copy hierarchy, component grouping, selection/disabled state and action placement checked at equal point scale; safe-area and responsive size differences allowed.",
+        "Dynamic library photography contents excluded; image-container geometry, overlays and controls remain in scope."
+      ],
+      "findings": []
+    },
+    {
+      "id": "51:145",
+      "name": "Photos / Counting",
+      "section": "Photos",
+      "status": "matched",
+      "actual": "/tmp/cleaner-fidelity-pro/51-145.png",
+      "reference": "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/51-145.png",
+      "actual_sha256": "ec3f7ab3bbb779018d41a7d3b7b06526fb29cd89165c81239310d5c027a3c96b",
+      "reference_sha256": "61d23c2b41346c3d537f103d066777d449795bf04e661262e7351e6ef119d14d",
+      "evidence": [
+        "Visually inspected app/reference pair in sheet 0. Header, visible copy hierarchy, component grouping, selection/disabled state and action placement checked at equal point scale; safe-area and responsive size differences allowed.",
+        "Dynamic library photography contents excluded; image-container geometry, overlays and controls remain in scope."
+      ],
+      "findings": []
+    },
+    {
+      "id": "51:211",
+      "name": "Duplicates / Selected",
+      "section": "Photos",
+      "status": "matched",
+      "actual": "/tmp/cleaner-fidelity-pro/51-211.png",
+      "reference": "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/51-211.png",
+      "actual_sha256": "62ce9c02f8d3d01fe6606cdd88f24189667787a820910d57016e6b901cc46ae4",
+      "reference_sha256": "faf9dbaecfa257206d49514a2233e32507cfd96e8f0e8c3866f0895553f85d6d",
+      "evidence": [
+        "Visually inspected app/reference pair in sheet 0. Header, visible copy hierarchy, component grouping, selection/disabled state and action placement checked at equal point scale; safe-area and responsive size differences allowed.",
+        "Dynamic library photography contents excluded; image-container geometry, overlays and controls remain in scope."
+      ],
+      "findings": []
+    },
+    {
+      "id": "51:411",
+      "name": "Duplicates / No selection",
+      "section": "Photos",
+      "status": "matched",
+      "actual": "/tmp/cleaner-fidelity-pro/51-411.png",
+      "reference": "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/51-411.png",
+      "actual_sha256": "b96a94a95a4b37413765a6d010ccb7f0d062e3ff440486f9bfd236489a78f467",
+      "reference_sha256": "1aa59a8a82df15523246b131e2cc0ae7e9d3feba628bd124e41c1e564afa76ac",
+      "evidence": [
+        "Visually inspected app/reference pair in sheet 0. Header, visible copy hierarchy, component grouping, selection/disabled state and action placement checked at equal point scale; safe-area and responsive size differences allowed.",
+        "Dynamic library photography contents excluded; image-container geometry, overlays and controls remain in scope."
+      ],
+      "findings": []
+    },
+    {
+      "id": "51:563",
+      "name": "Similar / Selected",
+      "section": "Photos",
+      "status": "matched",
+      "actual": "/tmp/cleaner-fidelity-pro/51-563.png",
+      "reference": "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/51-563.png",
+      "actual_sha256": "d196f9ef8c73af1252d1e140c5c6c3d023e9ea7424c79a4e14cd2dc8f03b233d",
+      "reference_sha256": "1bda66d508036f082ebdfad26440b97d3411d7123b30137d81be76efa9a17733",
+      "evidence": [
+        "Visually inspected app/reference pair in sheet 0. Header, visible copy hierarchy, component grouping, selection/disabled state and action placement checked at equal point scale; safe-area and responsive size differences allowed.",
+        "Dynamic library photography contents excluded; image-container geometry, overlays and controls remain in scope."
+      ],
+      "findings": []
+    },
+    {
+      "id": "51:763",
+      "name": "Similar / No selection",
+      "section": "Photos",
+      "status": "matched",
+      "actual": "/tmp/cleaner-fidelity-pro/51-763.png",
+      "reference": "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/51-763.png",
+      "actual_sha256": "6c4f6baffa4a15b2274ac381219e630e64ee1e13dcc078c3b4bdec29f372b3d6",
+      "reference_sha256": "0918f0718b7f43827034121145aa647a91d2e6cb1ff84959f59f32ce7a2d87b9",
+      "evidence": [
+        "Visually inspected app/reference pair in sheet 0. Header, visible copy hierarchy, component grouping, selection/disabled state and action placement checked at equal point scale; safe-area and responsive size differences allowed.",
+        "Dynamic library photography contents excluded; image-container geometry, overlays and controls remain in scope."
+      ],
+      "findings": []
+    },
+    {
+      "id": "51:915",
+      "name": "Screenshots / Newest",
+      "section": "Photos",
+      "status": "matched",
+      "actual": "/tmp/cleaner-fidelity-pro/51-915.png",
+      "reference": "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/51-915.png",
+      "actual_sha256": "af15f38772bcd23613c6baad8337bef84f53a0510377a4bef99578a50c9d7005",
+      "reference_sha256": "ea4f58e875c44e9289ef2c915d3dcee9d7f28a23bcc21d36e68708e3bf1e4ca6",
+      "evidence": [
+        "Visually inspected app/reference pair in sheet 0. Header, visible copy hierarchy, component grouping, selection/disabled state and action placement checked at equal point scale; safe-area and responsive size differences allowed.",
+        "Dynamic library photography contents excluded; image-container geometry, overlays and controls remain in scope."
+      ],
+      "findings": []
+    },
+    {
+      "id": "51:1207",
+      "name": "Screenshots / Newest · none",
+      "section": "Photos",
+      "status": "matched",
+      "actual": "/tmp/cleaner-fidelity-pro/51-1207.png",
+      "reference": "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/51-1207.png",
+      "actual_sha256": "9f106a1cc63fae91ac9c9c393d32f8953cce11f7281ce8113186916713899392",
+      "reference_sha256": "826eb00dc4f46713fd6b9e2b6571f43af358ba58d69672ce03fb7f283316995d",
+      "evidence": [
+        "Visually inspected app/reference pair in sheet 0. Header, visible copy hierarchy, component grouping, selection/disabled state and action placement checked at equal point scale; safe-area and responsive size differences allowed.",
+        "Dynamic library photography contents excluded; image-container geometry, overlays and controls remain in scope."
+      ],
+      "findings": []
+    },
+    {
+      "id": "51:1379",
+      "name": "Screenshots / Oldest",
+      "section": "Photos",
+      "status": "matched",
+      "actual": "/tmp/cleaner-fidelity-pro/51-1379.png",
+      "reference": "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/51-1379.png",
+      "actual_sha256": "adea5473b1fc6c40de72c9d5346b904d633a0e5f2a53668d7e60588144401bab",
+      "reference_sha256": "d2eabe0dd672d4d8ded783b80ad2b1e3ee42cd13ba6bd92b30b16188af665c65",
+      "evidence": [
+        "Visually inspected app/reference pair in sheet 1. Header, visible copy hierarchy, component grouping, selection/disabled state and action placement checked at equal point scale; safe-area and responsive size differences allowed.",
+        "Dynamic library photography contents excluded; image-container geometry, overlays and controls remain in scope."
+      ],
+      "findings": []
+    },
+    {
+      "id": "51:1671",
+      "name": "Screenshots / Oldest · none",
+      "section": "Photos",
+      "status": "matched",
+      "actual": "/tmp/cleaner-fidelity-pro/51-1671.png",
+      "reference": "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/51-1671.png",
+      "actual_sha256": "f62fa98b6f07335d90c722dbf5af69bd00a1ebd2edd2bcace5f9ad34477201d2",
+      "reference_sha256": "61c9689d8b56562054dc814e58d26963f852547ee8668dd3249121f789c11adf",
+      "evidence": [
+        "Visually inspected app/reference pair in sheet 1. Header, visible copy hierarchy, component grouping, selection/disabled state and action placement checked at equal point scale; safe-area and responsive size differences allowed.",
+        "Dynamic library photography contents excluded; image-container geometry, overlays and controls remain in scope."
+      ],
+      "findings": []
+    },
+    {
+      "id": "51:1843",
+      "name": "Photos / Deleted",
+      "section": "Photos",
+      "status": "matched",
+      "actual": "/tmp/cleaner-fidelity-pro/51-1843.png",
+      "reference": "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/51-1843.png",
+      "actual_sha256": "102680d9ec5580d96cb3eae7c4f20b25c3cd59ae50e50e04c9911a285b3f0780",
+      "reference_sha256": "46b80fbc7925f7309b12a3ebbf3886c1ab719236888e58a09f8c97fb9273a35c",
+      "evidence": [
+        "Visually inspected app/reference pair in sheet 1. Header, visible copy hierarchy, component grouping, selection/disabled state and action placement checked at equal point scale; safe-area and responsive size differences allowed.",
+        "Dynamic library photography contents excluded; image-container geometry, overlays and controls remain in scope."
+      ],
+      "findings": []
+    },
+    {
+      "id": "51:1878",
+      "name": "Photos / Deleted",
+      "section": "Photos",
+      "status": "matched",
+      "actual": "/tmp/cleaner-fidelity-pro/51-1878.png",
+      "reference": "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/51-1878.png",
+      "actual_sha256": "fe74a12424112cc308279eabbcd3c03f90e00d52fae25e830cdfce4a38be569c",
+      "reference_sha256": "b487093bf3e4e50430711b65cc81263bff5e6ee515afa83632e5ba656c0ec3da",
+      "evidence": [
+        "Visually inspected app/reference pair in sheet 1. Header, visible copy hierarchy, component grouping, selection/disabled state and action placement checked at equal point scale; safe-area and responsive size differences allowed.",
+        "Dynamic library photography contents excluded; image-container geometry, overlays and controls remain in scope."
+      ],
+      "findings": []
+    },
+    {
+      "id": "59:1683",
+      "name": "Photo Swipe / Tutorial",
+      "section": "Photo Swipe",
+      "status": "matched",
+      "actual": "/tmp/cleaner-fidelity-pro/59-1683.png",
+      "reference": "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/59-1683.png",
+      "actual_sha256": "60005b44d42e39da6729250dc811d67877dde855277692916241a71d53bc7aa9",
+      "reference_sha256": "1a79ae4f5cf04111dd9035f098a256334eabc2e6bfcfc09e42430af1cf6a554a",
+      "evidence": [
+        "Visually inspected app/reference pair in sheet 1. Header, visible copy hierarchy, component grouping, selection/disabled state and action placement checked at equal point scale; safe-area and responsive size differences allowed.",
+        "Dynamic library photography contents excluded; image-container geometry, overlays and controls remain in scope."
+      ],
+      "findings": []
+    },
+    {
+      "id": "59:1729",
+      "name": "Photo Swipe / card",
+      "section": "Photo Swipe",
+      "status": "matched",
+      "actual": "/tmp/cleaner-fidelity-pro-recheck/59-1729.png",
+      "reference": "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/59-1729.png",
+      "actual_sha256": "48e4ebb232d05ebfdb3a0eed625e6973e53bcd406fd9a374bcf970e10ec212af",
+      "reference_sha256": "64f16a2fbc050a80a073c7c517e9ad05ec47d1fe84bfbe82b3ce15bc1b5df2d0",
+      "evidence": [
+        "Freshly visually inspected final targeted recheck pair at equal point scale; safe-area and responsive geometry accounted for. Both contact sheets and uncertain details checked.",
+        "Dynamic library image contents excluded; card geometry, pills, controls and counter states inspected."
+      ],
+      "findings": [],
+      "previous_capture": {
+        "path": "/tmp/cleaner-fidelity-pro/59-1729.png",
+        "sha256": "5670ccd3a8a79fe0476252371c5ce6419db3c4792d8a2ba94e8c2134d13d4516",
+        "status": "matched",
+        "findings": []
+      }
+    },
+    {
+      "id": "59:1773",
+      "name": "Photo Swipe / delete",
+      "section": "Photo Swipe",
+      "status": "matched",
+      "actual": "/tmp/cleaner-fidelity-pro-recheck/59-1773.png",
+      "reference": "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/59-1773.png",
+      "actual_sha256": "06a642cc8a7f46d6621ed38ad685fb28d2bbda29b42b74fdf16836c28471aaf7",
+      "reference_sha256": "c6b22eacacd6bea1c443589c325d1a5064a9c7b1323202cd8c0f8e683bb8814b",
+      "evidence": [
+        "Freshly visually inspected final targeted recheck pair at equal point scale; safe-area and responsive geometry accounted for. Both contact sheets and uncertain details checked.",
+        "Delete pill is now visible on moving card with correct light-red fill and rounded corners.",
+        "Dynamic library image contents excluded; card geometry, pills, controls and counter states inspected."
+      ],
+      "findings": [],
+      "previous_capture": {
+        "path": "/tmp/cleaner-fidelity-pro/59-1773.png",
+        "sha256": "3e5cc01363c967812346d644c69781535729b914af81a2c834cbb02e79de0bec",
+        "status": "mismatch",
+        "findings": [
+          "Delete pill on moving swipe card is missing/offscreen in actual; reference keeps pill visible. Confirmed from individual full-resolution capture."
+        ]
+      }
+    },
+    {
+      "id": "59:1819",
+      "name": "Photo Swipe / keep",
+      "section": "Photo Swipe",
+      "status": "matched",
+      "actual": "/tmp/cleaner-fidelity-pro-recheck/59-1819.png",
+      "reference": "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/59-1819.png",
+      "actual_sha256": "d760ea02a4abee0e122c82aaf969f5c02507a7921a28c465fc11f40322f4d077",
+      "reference_sha256": "81a9c909d607ec0e33a7a116e5abbefeb52ce74d02640c330a4d8e55088c666c",
+      "evidence": [
+        "Freshly visually inspected final targeted recheck pair at equal point scale; safe-area and responsive geometry accounted for. Both contact sheets and uncertain details checked.",
+        "Dynamic library image contents excluded; card geometry, pills, controls and counter states inspected."
+      ],
+      "findings": [],
+      "previous_capture": {
+        "path": "/tmp/cleaner-fidelity-pro/59-1819.png",
+        "sha256": "cd691f667918b9068a1f4428106d99d80b2097ce783bfcb55e895598da49b834",
+        "status": "matched",
+        "findings": []
+      }
+    },
+    {
+      "id": "59:1865",
+      "name": "Photo Swipe / afterDelete",
+      "section": "Photo Swipe",
+      "status": "matched",
+      "actual": "/tmp/cleaner-fidelity-pro-recheck/59-1865.png",
+      "reference": "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/59-1865.png",
+      "actual_sha256": "11957fb6e1f796b0f7009219a7156e1fc8e38ce11b2686cf17b80feae708850c",
+      "reference_sha256": "ffef83ad4dad2fc00ca1b153b4af9e2eb7e1dc76e503b7d37899ead8551de076",
+      "evidence": [
+        "Freshly visually inspected final targeted recheck pair at equal point scale; safe-area and responsive geometry accounted for. Both contact sheets and uncertain details checked.",
+        "Dynamic library image contents excluded; card geometry, pills, controls and counter states inspected."
+      ],
+      "findings": [],
+      "previous_capture": {
+        "path": "/tmp/cleaner-fidelity-pro/59-1865.png",
+        "sha256": "52c379d280192f1a86116def8fc8ba0e6809c793e71b6f85ce5d8cf5e3f750b1",
+        "status": "matched",
+        "findings": []
+      }
+    },
+    {
+      "id": "59:1909",
+      "name": "Photo Swipe / afterKeep",
+      "section": "Photo Swipe",
+      "status": "matched",
+      "actual": "/tmp/cleaner-fidelity-pro-recheck/59-1909.png",
+      "reference": "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/59-1909.png",
+      "actual_sha256": "e8ccda5b984f148b1186c463a9d6f559eccc70c6716d19857e60a8f22be56ff6",
+      "reference_sha256": "b723cf733444d49892a9b0eb65d1b6afaad760af1a0297a579d7a2409d5c3134",
+      "evidence": [
+        "Freshly visually inspected final targeted recheck pair at equal point scale; safe-area and responsive geometry accounted for. Both contact sheets and uncertain details checked.",
+        "Dynamic library image contents excluded; card geometry, pills, controls and counter states inspected."
+      ],
+      "findings": [],
+      "previous_capture": {
+        "path": "/tmp/cleaner-fidelity-pro/59-1909.png",
+        "sha256": "610be5ce90e1e288615852d720232fbe3a597103ec8a4b91a45f279c1d5919ba",
+        "status": "matched",
+        "findings": []
+      }
+    },
+    {
+      "id": "59:1953",
+      "name": "Trash / 18 selected",
+      "section": "Photo Swipe",
+      "status": "matched",
+      "actual": "/tmp/cleaner-fidelity-pro/59-1953.png",
+      "reference": "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/59-1953.png",
+      "actual_sha256": "195e5e29c918760e39ad64158df956437c672a8cad2e17ca338c8720c56bbacd",
+      "reference_sha256": "4dc99abda1bcb23ad7cb5535bb4b821e1568ba6a3d3c63ecd3d7d3e8c8cd52aa",
+      "evidence": [
+        "Visually inspected app/reference pair in sheet 1. Header, visible copy hierarchy, component grouping, selection/disabled state and action placement checked at equal point scale; safe-area and responsive size differences allowed.",
+        "Dynamic library photography contents excluded; image-container geometry, overlays and controls remain in scope."
+      ],
+      "findings": []
+    },
+    {
+      "id": "59:2054",
+      "name": "Trash / 18 none",
+      "section": "Photo Swipe",
+      "status": "matched",
+      "actual": "/tmp/cleaner-fidelity-pro/59-2054.png",
+      "reference": "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/59-2054.png",
+      "actual_sha256": "51fafec6b4d0651bde6dcdeba78b51cf23a38156b69f401d980e9bb8057bd14c",
+      "reference_sha256": "6d31b2827506aa4ef79b6757134a56714e68d8e85b043c7cfd8dadf2101c7ee8",
+      "evidence": [
+        "Visually inspected app/reference pair in sheet 1. Header, visible copy hierarchy, component grouping, selection/disabled state and action placement checked at equal point scale; safe-area and responsive size differences allowed.",
+        "Dynamic library photography contents excluded; image-container geometry, overlays and controls remain in scope."
+      ],
+      "findings": []
+    },
+    {
+      "id": "59:2137",
+      "name": "Trash / 17 selected",
+      "section": "Photo Swipe",
+      "status": "matched",
+      "actual": "/tmp/cleaner-fidelity-pro/59-2137.png",
+      "reference": "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/59-2137.png",
+      "actual_sha256": "62761552b264e8ccb704707ec50e6aae2ebe5c8e28c3bacbbf1443cb7b8334c6",
+      "reference_sha256": "1d0746ea4123c7e9a9c501875f618a8e8068295835ae15160c707150db5c6eca",
+      "evidence": [
+        "Visually inspected app/reference pair in sheet 2. Header, visible copy hierarchy, component grouping, selection/disabled state and action placement checked at equal point scale; safe-area and responsive size differences allowed.",
+        "Dynamic library photography contents excluded; image-container geometry, overlays and controls remain in scope."
+      ],
+      "findings": []
+    },
+    {
+      "id": "59:2235",
+      "name": "Trash / 17 none",
+      "section": "Photo Swipe",
+      "status": "matched",
+      "actual": "/tmp/cleaner-fidelity-pro/59-2235.png",
+      "reference": "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/59-2235.png",
+      "actual_sha256": "945ac2c0910ab740db13c7f11425e4a2b9520f9e95c111dfd4d78adcb0ab639c",
+      "reference_sha256": "5f811570cbc70000fc4cd3b4f0759d1cab86f6124d595e76609348da14a71a07",
+      "evidence": [
+        "Visually inspected app/reference pair in sheet 2. Header, visible copy hierarchy, component grouping, selection/disabled state and action placement checked at equal point scale; safe-area and responsive size differences allowed.",
+        "Dynamic library photography contents excluded; image-container geometry, overlays and controls remain in scope."
+      ],
+      "findings": []
+    },
+    {
+      "id": "59:2316",
+      "name": "Photo Swipe / Deleted",
+      "section": "Photo Swipe",
+      "status": "matched",
+      "actual": "/tmp/cleaner-fidelity-pro/59-2316.png",
+      "reference": "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/59-2316.png",
+      "actual_sha256": "2a9592fc0e103121feb82e497a77e3ff010006f0781352ed7f97248858239309",
+      "reference_sha256": "05656c4e07857923ed6bf9b739e9436a18a6216b00efb34ba06d2f8a2c532796",
+      "evidence": [
+        "Visually inspected app/reference pair in sheet 2. Header, visible copy hierarchy, component grouping, selection/disabled state and action placement checked at equal point scale; safe-area and responsive size differences allowed.",
+        "Dynamic library photography contents excluded; image-container geometry, overlays and controls remain in scope."
+      ],
+      "findings": []
+    },
+    {
+      "id": "59:2353",
+      "name": "Photo Swipe / Deleted",
+      "section": "Photo Swipe",
+      "status": "matched",
+      "actual": "/tmp/cleaner-fidelity-pro/59-2353.png",
+      "reference": "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/59-2353.png",
+      "actual_sha256": "69d3a8ab44607180311f4efae0c65ea92453029bb23230047317a183e50fda8d",
+      "reference_sha256": "eae95572a498169d980c7243491cc03b3dd9524e7e6d4d0ad703189d75b9b024",
+      "evidence": [
+        "Visually inspected app/reference pair in sheet 2. Header, visible copy hierarchy, component grouping, selection/disabled state and action placement checked at equal point scale; safe-area and responsive size differences allowed.",
+        "Dynamic library photography contents excluded; image-container geometry, overlays and controls remain in scope."
+      ],
+      "findings": []
+    },
+    {
+      "id": "78:5059",
+      "name": "Videos / cats",
+      "section": "Videos",
+      "status": "matched",
+      "actual": "/tmp/cleaner-fidelity-pro/78-5059.png",
+      "reference": "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/78-5059.png",
+      "actual_sha256": "1d4e5952c01a985c6230a73bd8d9d030199218b969997c57112a34e51a7829d2",
+      "reference_sha256": "069f00d6fd2035a4f17d92a3bc66dfe5daa716dbf10ab54b513438afc2ab1366",
+      "evidence": [
+        "Visually inspected app/reference pair in sheet 2. Header, visible copy hierarchy, component grouping, selection/disabled state and action placement checked at equal point scale; safe-area and responsive size differences allowed.",
+        "Dynamic library photography contents excluded; image-container geometry, overlays and controls remain in scope."
+      ],
+      "findings": []
+    },
+    {
+      "id": "78:5157",
+      "name": "Videos / dup0a",
+      "section": "Videos",
+      "status": "matched",
+      "actual": "/tmp/cleaner-fidelity-pro/78-5157.png",
+      "reference": "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/78-5157.png",
+      "actual_sha256": "867fc7c7ec111a9b58bb76d6d7b761af3a595a6b63d83875d9bb7b409c89b8a6",
+      "reference_sha256": "470122f8cfbb780e499af1340889d0559952c5e1d4d72cbd08c38b3301e99308",
+      "evidence": [
+        "Visually inspected app/reference pair in sheet 2. Header, visible copy hierarchy, component grouping, selection/disabled state and action placement checked at equal point scale; safe-area and responsive size differences allowed.",
+        "Dynamic library photography contents excluded; image-container geometry, overlays and controls remain in scope."
+      ],
+      "findings": []
+    },
+    {
+      "id": "78:5253",
+      "name": "Videos / dup0n",
+      "section": "Videos",
+      "status": "matched",
+      "actual": "/tmp/cleaner-fidelity-pro/78-5253.png",
+      "reference": "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/78-5253.png",
+      "actual_sha256": "749062dd475bd6ef959d74f1dc8756ad6c0818695385437ebd7d20dcba7c47f4",
+      "reference_sha256": "619c35f28bda8f64feccc37c2e42db9b8d353fb3bb411f47e9ab188c05a295c1",
+      "evidence": [
+        "Visually inspected app/reference pair in sheet 2. Header, visible copy hierarchy, component grouping, selection/disabled state and action placement checked at equal point scale; safe-area and responsive size differences allowed.",
+        "Dynamic library photography contents excluded; image-container geometry, overlays and controls remain in scope."
+      ],
+      "findings": []
+    },
+    {
+      "id": "78:5345",
+      "name": "Videos / sim0a",
+      "section": "Videos",
+      "status": "matched",
+      "actual": "/tmp/cleaner-fidelity-pro/78-5345.png",
+      "reference": "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/78-5345.png",
+      "actual_sha256": "e6591f591388e537b87bc129c00198539a1d592715ee303c2a9df6e3aa4ca88c",
+      "reference_sha256": "f24752d1985260061ff03a818816325ffddf9fafd71f91fefbe87175be24fd4b",
+      "evidence": [
+        "Visually inspected app/reference pair in sheet 2. Header, visible copy hierarchy, component grouping, selection/disabled state and action placement checked at equal point scale; safe-area and responsive size differences allowed.",
+        "Dynamic library photography contents excluded; image-container geometry, overlays and controls remain in scope."
+      ],
+      "findings": []
+    },
+    {
+      "id": "78:5455",
+      "name": "Videos / sim0n",
+      "section": "Videos",
+      "status": "matched",
+      "actual": "/tmp/cleaner-fidelity-pro/78-5455.png",
+      "reference": "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/78-5455.png",
+      "actual_sha256": "f7f8214a72463ccddc6ad7505706db78c6593ac92a6eac6488375250ff88c8da",
+      "reference_sha256": "9971eda054fbf0c2185973a5e0bbe7fcce4dadacd3d1dd5a0ce8bf79528b148c",
+      "evidence": [
+        "Visually inspected app/reference pair in sheet 2. Header, visible copy hierarchy, component grouping, selection/disabled state and action placement checked at equal point scale; safe-area and responsive size differences allowed.",
+        "Dynamic library photography contents excluded; image-container geometry, overlays and controls remain in scope."
+      ],
+      "findings": []
+    },
+    {
+      "id": "78:5559",
+      "name": "Videos / large0a",
+      "section": "Videos",
+      "status": "matched",
+      "actual": "/tmp/cleaner-fidelity-pro/78-5559.png",
+      "reference": "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/78-5559.png",
+      "actual_sha256": "81159595c4d632a74a866cd3f01eb95a0325a956c98a056f6635674b266699f9",
+      "reference_sha256": "2ae5a43510b863ec7baa76cadc79a1e0ed95c8797baeeda77f1b7789a19d3858",
+      "evidence": [
+        "Visually inspected app/reference pair in sheet 2. Header, visible copy hierarchy, component grouping, selection/disabled state and action placement checked at equal point scale; safe-area and responsive size differences allowed.",
+        "Dynamic library photography contents excluded; image-container geometry, overlays and controls remain in scope."
+      ],
+      "findings": []
+    },
+    {
+      "id": "78:5659",
+      "name": "Videos / large0n",
+      "section": "Videos",
+      "status": "matched",
+      "actual": "/tmp/cleaner-fidelity-pro/78-5659.png",
+      "reference": "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/78-5659.png",
+      "actual_sha256": "e682e289c47ad78fdaa1d89eba1e5321b74fbf5298b81746220416c88ed24486",
+      "reference_sha256": "0c2afc7d86b06bf638707a417e6f0280bbd87b7c6b3d352653e2bbbafadfb7ad",
+      "evidence": [
+        "Visually inspected app/reference pair in sheet 2. Header, visible copy hierarchy, component grouping, selection/disabled state and action placement checked at equal point scale; safe-area and responsive size differences allowed.",
+        "Dynamic library photography contents excluded; image-container geometry, overlays and controls remain in scope."
+      ],
+      "findings": []
+    },
+    {
+      "id": "78:5754",
+      "name": "Videos / large1a",
+      "section": "Videos",
+      "status": "matched",
+      "actual": "/tmp/cleaner-fidelity-pro/78-5754.png",
+      "reference": "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/78-5754.png",
+      "actual_sha256": "afe50c6e39c63cef5230e736dd448031668d7e498a0f90687b990a74e64aaf74",
+      "reference_sha256": "5cea32a136f64c65e5530c878bd71fc7ab6770ba47763cb6659c7ba86e1b5b2f",
+      "evidence": [
+        "Visually inspected app/reference pair in sheet 2. Header, visible copy hierarchy, component grouping, selection/disabled state and action placement checked at equal point scale; safe-area and responsive size differences allowed.",
+        "Dynamic library photography contents excluded; image-container geometry, overlays and controls remain in scope."
+      ],
+      "findings": []
+    },
+    {
+      "id": "78:5852",
+      "name": "Videos / large1n",
+      "section": "Videos",
+      "status": "matched",
+      "actual": "/tmp/cleaner-fidelity-pro/78-5852.png",
+      "reference": "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/78-5852.png",
+      "actual_sha256": "7ee2c2641e88e7993b4a760ae3dfee2a55fdadec4b7f14712b905c34a831b49a",
+      "reference_sha256": "1674a971b80570fc18994c78ba958232546571fa2bf72e61d570dcc0ba35829e",
+      "evidence": [
+        "Visually inspected app/reference pair in sheet 3. Header, visible copy hierarchy, component grouping, selection/disabled state and action placement checked at equal point scale; safe-area and responsive size differences allowed.",
+        "Dynamic library photography contents excluded; image-container geometry, overlays and controls remain in scope."
+      ],
+      "findings": []
+    },
+    {
+      "id": "78:5947",
+      "name": "Videos / large2a",
+      "section": "Videos",
+      "status": "matched",
+      "actual": "/tmp/cleaner-fidelity-pro/78-5947.png",
+      "reference": "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/78-5947.png",
+      "actual_sha256": "e18cd11eafc09bd30e8ea82f20c28f0d6d8b0ed8878d9ae6204736160a7c5a5d",
+      "reference_sha256": "703a9d8ede9d009e6ec3ea78dc71f7856d3728aa53a4eec014a99d4aa1fac916",
+      "evidence": [
+        "Visually inspected app/reference pair in sheet 3. Header, visible copy hierarchy, component grouping, selection/disabled state and action placement checked at equal point scale; safe-area and responsive size differences allowed.",
+        "Dynamic library photography contents excluded; image-container geometry, overlays and controls remain in scope."
+      ],
+      "findings": []
+    },
+    {
+      "id": "78:6045",
+      "name": "Videos / large2n",
+      "section": "Videos",
+      "status": "matched",
+      "actual": "/tmp/cleaner-fidelity-pro/78-6045.png",
+      "reference": "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/78-6045.png",
+      "actual_sha256": "bea77d5cd6f0834ed2eccb2ccf0cfe92fb7fd8db187d0b42315709bb87a55a3d",
+      "reference_sha256": "85af9f78816dda2c933a877bdbe4196454afe8073b3bbd27a23a602065f05472",
+      "evidence": [
+        "Visually inspected app/reference pair in sheet 3. Header, visible copy hierarchy, component grouping, selection/disabled state and action placement checked at equal point scale; safe-area and responsive size differences allowed.",
+        "Dynamic library photography contents excluded; image-container geometry, overlays and controls remain in scope."
+      ],
+      "findings": []
+    },
+    {
+      "id": "78:6140",
+      "name": "Videos / large3a",
+      "section": "Videos",
+      "status": "matched",
+      "actual": "/tmp/cleaner-fidelity-pro/78-6140.png",
+      "reference": "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/78-6140.png",
+      "actual_sha256": "2360c74f732345da9c9adcc8d987c064c1672df841814aca35d3e9449434b6a1",
+      "reference_sha256": "5d3e1e90577cffbacb99028f22d08c41d1a38c6f96426ccc5462959f8c0a597c",
+      "evidence": [
+        "Visually inspected app/reference pair in sheet 3. Header, visible copy hierarchy, component grouping, selection/disabled state and action placement checked at equal point scale; safe-area and responsive size differences allowed.",
+        "Dynamic library photography contents excluded; image-container geometry, overlays and controls remain in scope."
+      ],
+      "findings": []
+    },
+    {
+      "id": "78:6238",
+      "name": "Videos / large3n",
+      "section": "Videos",
+      "status": "matched",
+      "actual": "/tmp/cleaner-fidelity-pro/78-6238.png",
+      "reference": "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/78-6238.png",
+      "actual_sha256": "a6463eecf1365f25b512379ea87ce8f890a9039dd3c69222b42e6ed051aa7ee8",
+      "reference_sha256": "7ce308eff4490ee94c0a03a90db76cfe4523fa13464fb5bef87c35355e1c1de6",
+      "evidence": [
+        "Visually inspected app/reference pair in sheet 3. Header, visible copy hierarchy, component grouping, selection/disabled state and action placement checked at equal point scale; safe-area and responsive size differences allowed.",
+        "Dynamic library photography contents excluded; image-container geometry, overlays and controls remain in scope."
+      ],
+      "findings": []
+    },
+    {
+      "id": "78:6333",
+      "name": "Videos / rec0a",
+      "section": "Videos",
+      "status": "matched",
+      "actual": "/tmp/cleaner-fidelity-pro/78-6333.png",
+      "reference": "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/78-6333.png",
+      "actual_sha256": "a4c31b7974d00f0487141a97435ca32c91f61b1f4bef2b90988a3928f2b4381c",
+      "reference_sha256": "132f3f7c8d831a17430abce18cb4efb003217cc4f127eb194a3705164fcb9f75",
+      "evidence": [
+        "Visually inspected app/reference pair in sheet 3. Header, visible copy hierarchy, component grouping, selection/disabled state and action placement checked at equal point scale; safe-area and responsive size differences allowed.",
+        "Dynamic library photography contents excluded; image-container geometry, overlays and controls remain in scope."
+      ],
+      "findings": []
+    },
+    {
+      "id": "78:6433",
+      "name": "Videos / rec0n",
+      "section": "Videos",
+      "status": "matched",
+      "actual": "/tmp/cleaner-fidelity-pro/78-6433.png",
+      "reference": "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/78-6433.png",
+      "actual_sha256": "e37f14025676e5bf2bb703311302171d16ff403591e0bc6bd0b20c0db34c1e7a",
+      "reference_sha256": "a9a32c3132e491e5860258527cf989650fe61359bcca9467e2114e4503aaed7c",
+      "evidence": [
+        "Visually inspected app/reference pair in sheet 3. Header, visible copy hierarchy, component grouping, selection/disabled state and action placement checked at equal point scale; safe-area and responsive size differences allowed.",
+        "Dynamic library photography contents excluded; image-container geometry, overlays and controls remain in scope."
+      ],
+      "findings": []
+    },
+    {
+      "id": "78:6528",
+      "name": "Videos / rec1a",
+      "section": "Videos",
+      "status": "matched",
+      "actual": "/tmp/cleaner-fidelity-pro/78-6528.png",
+      "reference": "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/78-6528.png",
+      "actual_sha256": "6cc4d13e3f4e0a13880ad1699fc07a2d4ebc65b7818b2e73e33e1b857938af0e",
+      "reference_sha256": "72dea07dc431e3d5f7d68c53e657f860138c4625fe5faab58bd2d1f95024ff7e",
+      "evidence": [
+        "Visually inspected app/reference pair in sheet 3. Header, visible copy hierarchy, component grouping, selection/disabled state and action placement checked at equal point scale; safe-area and responsive size differences allowed.",
+        "Dynamic library photography contents excluded; image-container geometry, overlays and controls remain in scope."
+      ],
+      "findings": []
+    },
+    {
+      "id": "78:6626",
+      "name": "Videos / rec1n",
+      "section": "Videos",
+      "status": "matched",
+      "actual": "/tmp/cleaner-fidelity-pro/78-6626.png",
+      "reference": "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/78-6626.png",
+      "actual_sha256": "62889af27f8f3abcd4ec1c9ac6e824a80da359f81eddc4c267fbba6896cf2125",
+      "reference_sha256": "0786c650e8709f1c95df65508915c9292b454d3e16b5d09958689d6635aa689d",
+      "evidence": [
+        "Visually inspected app/reference pair in sheet 3. Header, visible copy hierarchy, component grouping, selection/disabled state and action placement checked at equal point scale; safe-area and responsive size differences allowed.",
+        "Dynamic library photography contents excluded; image-container geometry, overlays and controls remain in scope."
+      ],
+      "findings": []
+    },
+    {
+      "id": "78:6721",
+      "name": "Videos / rec2a",
+      "section": "Videos",
+      "status": "matched",
+      "actual": "/tmp/cleaner-fidelity-pro/78-6721.png",
+      "reference": "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/78-6721.png",
+      "actual_sha256": "64f87d26fc9fcf82ab26b16a15a4da4bd4d3542390ba4109122967989a97a9d8",
+      "reference_sha256": "08305681d5bfba9feec3bac345b8dc966cd977dab73d3453c44e02b4d8af237f",
+      "evidence": [
+        "Visually inspected app/reference pair in sheet 3. Header, visible copy hierarchy, component grouping, selection/disabled state and action placement checked at equal point scale; safe-area and responsive size differences allowed.",
+        "Dynamic library photography contents excluded; image-container geometry, overlays and controls remain in scope."
+      ],
+      "findings": []
+    },
+    {
+      "id": "78:6819",
+      "name": "Videos / rec2n",
+      "section": "Videos",
+      "status": "matched",
+      "actual": "/tmp/cleaner-fidelity-pro/78-6819.png",
+      "reference": "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/78-6819.png",
+      "actual_sha256": "464da1f9cff4c8f5c452dbd73f1c37cae9777595fc8feaaa26cf77237ecabfd8",
+      "reference_sha256": "b0dfea1262617445899cf81dae5ddcf07ff2b51347b184e26ad7569f516e04b8",
+      "evidence": [
+        "Visually inspected app/reference pair in sheet 3. Header, visible copy hierarchy, component grouping, selection/disabled state and action placement checked at equal point scale; safe-area and responsive size differences allowed.",
+        "Dynamic library photography contents excluded; image-container geometry, overlays and controls remain in scope."
+      ],
+      "findings": []
+    },
+    {
+      "id": "78:6914",
+      "name": "Videos / rec3a",
+      "section": "Videos",
+      "status": "matched",
+      "actual": "/tmp/cleaner-fidelity-pro/78-6914.png",
+      "reference": "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/78-6914.png",
+      "actual_sha256": "0e33adce7d26b4eb189bf995451ff7e3107eda8b281954a6c7148fc346d9eb91",
+      "reference_sha256": "840a391099105194b5b2aff2bc88d5232e733b274e27c483ff89b6debbd605bf",
+      "evidence": [
+        "Visually inspected app/reference pair in sheet 3. Header, visible copy hierarchy, component grouping, selection/disabled state and action placement checked at equal point scale; safe-area and responsive size differences allowed.",
+        "Dynamic library photography contents excluded; image-container geometry, overlays and controls remain in scope."
+      ],
+      "findings": []
+    },
+    {
+      "id": "78:7012",
+      "name": "Videos / rec3n",
+      "section": "Videos",
+      "status": "matched",
+      "actual": "/tmp/cleaner-fidelity-pro/78-7012.png",
+      "reference": "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/78-7012.png",
+      "actual_sha256": "4b538599d5358462b70aa5daaec3f6b8d26abe19f60a199124762f950dff4b31",
+      "reference_sha256": "66cfe5d1b8505a5cf2711c759139ed73b3e9765ae908a72bb0ce6342fdc41087",
+      "evidence": [
+        "Visually inspected app/reference pair in sheet 4. Header, visible copy hierarchy, component grouping, selection/disabled state and action placement checked at equal point scale; safe-area and responsive size differences allowed.",
+        "Dynamic library photography contents excluded; image-container geometry, overlays and controls remain in scope."
+      ],
+      "findings": []
+    },
+    {
+      "id": "78:7107",
+      "name": "Videos / other0a",
+      "section": "Videos",
+      "status": "matched",
+      "actual": "/tmp/cleaner-fidelity-pro/78-7107.png",
+      "reference": "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/78-7107.png",
+      "actual_sha256": "b057943c46857d4c74cd8a8e29d00c1e3f36feeff1c75f63a121e224863be97a",
+      "reference_sha256": "5c08925e66cbf1741a26ee3b879c530bd32f588dd04b45b9966a57d957eb6aeb",
+      "evidence": [
+        "Visually inspected app/reference pair in sheet 4. Header, visible copy hierarchy, component grouping, selection/disabled state and action placement checked at equal point scale; safe-area and responsive size differences allowed.",
+        "Dynamic library photography contents excluded; image-container geometry, overlays and controls remain in scope."
+      ],
+      "findings": []
+    },
+    {
+      "id": "78:7207",
+      "name": "Videos / other0n",
+      "section": "Videos",
+      "status": "matched",
+      "actual": "/tmp/cleaner-fidelity-pro/78-7207.png",
+      "reference": "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/78-7207.png",
+      "actual_sha256": "c8fd43c8f6d0b9b1efa95e715c2cd0b211831630a3f3c79695d1eb2e112227ab",
+      "reference_sha256": "ff2c71e467c8a7e80d593cd33bbcf88002d3faec558fc6269a886854aa77ef47",
+      "evidence": [
+        "Visually inspected app/reference pair in sheet 4. Header, visible copy hierarchy, component grouping, selection/disabled state and action placement checked at equal point scale; safe-area and responsive size differences allowed.",
+        "Dynamic library photography contents excluded; image-container geometry, overlays and controls remain in scope."
+      ],
+      "findings": []
+    },
+    {
+      "id": "78:7302",
+      "name": "Videos / other1a",
+      "section": "Videos",
+      "status": "matched",
+      "actual": "/tmp/cleaner-fidelity-pro/78-7302.png",
+      "reference": "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/78-7302.png",
+      "actual_sha256": "b4611ffc113083918c7a12bfe81c4d3945efd4a597ac4a0500f9b433963e22b1",
+      "reference_sha256": "afe520f588bfb533c79bec00f44c823b23bed6d8f84ca5aa6ec2b02f240b4c3d",
+      "evidence": [
+        "Visually inspected app/reference pair in sheet 4. Header, visible copy hierarchy, component grouping, selection/disabled state and action placement checked at equal point scale; safe-area and responsive size differences allowed.",
+        "Dynamic library photography contents excluded; image-container geometry, overlays and controls remain in scope."
+      ],
+      "findings": []
+    },
+    {
+      "id": "78:7400",
+      "name": "Videos / other1n",
+      "section": "Videos",
+      "status": "matched",
+      "actual": "/tmp/cleaner-fidelity-pro/78-7400.png",
+      "reference": "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/78-7400.png",
+      "actual_sha256": "58916702f0ccb519e3b1aaad5d168049ad83985886e04f20054d1b85f60d0d01",
+      "reference_sha256": "b2f7eaf8c4706a0503cceb11c4d8b261208463e16a38ab01e2ee0a0bc2ca94ed",
+      "evidence": [
+        "Visually inspected app/reference pair in sheet 4. Header, visible copy hierarchy, component grouping, selection/disabled state and action placement checked at equal point scale; safe-area and responsive size differences allowed.",
+        "Dynamic library photography contents excluded; image-container geometry, overlays and controls remain in scope."
+      ],
+      "findings": []
+    },
+    {
+      "id": "78:7495",
+      "name": "Videos / other2a",
+      "section": "Videos",
+      "status": "matched",
+      "actual": "/tmp/cleaner-fidelity-pro/78-7495.png",
+      "reference": "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/78-7495.png",
+      "actual_sha256": "a3c2ed1c69583c9683aa47d56615c503c881f848941c4fc43088b44c5687f306",
+      "reference_sha256": "bc859fd889065857ae2448f74b33dc1aef6b70596759d4a4b5b291a456e6fc36",
+      "evidence": [
+        "Visually inspected app/reference pair in sheet 4. Header, visible copy hierarchy, component grouping, selection/disabled state and action placement checked at equal point scale; safe-area and responsive size differences allowed.",
+        "Dynamic library photography contents excluded; image-container geometry, overlays and controls remain in scope."
+      ],
+      "findings": []
+    },
+    {
+      "id": "78:7593",
+      "name": "Videos / other2n",
+      "section": "Videos",
+      "status": "matched",
+      "actual": "/tmp/cleaner-fidelity-pro/78-7593.png",
+      "reference": "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/78-7593.png",
+      "actual_sha256": "ef0a365868ce64454fc4b8c591b0869cc3b54918af96e4d0350eff7256ed1381",
+      "reference_sha256": "f40626e956907237514544ae9dbf5b43dcd43dd32f0ddaf5a1435d6613073658",
+      "evidence": [
+        "Visually inspected app/reference pair in sheet 4. Header, visible copy hierarchy, component grouping, selection/disabled state and action placement checked at equal point scale; safe-area and responsive size differences allowed.",
+        "Dynamic library photography contents excluded; image-container geometry, overlays and controls remain in scope."
+      ],
+      "findings": []
+    },
+    {
+      "id": "78:7688",
+      "name": "Videos / other3a",
+      "section": "Videos",
+      "status": "matched",
+      "actual": "/tmp/cleaner-fidelity-pro/78-7688.png",
+      "reference": "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/78-7688.png",
+      "actual_sha256": "7b4bf70e0e65180b545668e2b0792ae81c3fcd795ab644edebc9479093b5f15c",
+      "reference_sha256": "82c2481a4166ba651414534a9e720a7891cb8dfbdf37f5b490f2ac94f11fd937",
+      "evidence": [
+        "Visually inspected app/reference pair in sheet 4. Header, visible copy hierarchy, component grouping, selection/disabled state and action placement checked at equal point scale; safe-area and responsive size differences allowed.",
+        "Dynamic library photography contents excluded; image-container geometry, overlays and controls remain in scope."
+      ],
+      "findings": []
+    },
+    {
+      "id": "78:7786",
+      "name": "Videos / other3n",
+      "section": "Videos",
+      "status": "matched",
+      "actual": "/tmp/cleaner-fidelity-pro/78-7786.png",
+      "reference": "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/78-7786.png",
+      "actual_sha256": "46e4654cc9b0907a89c644fb4ac71389cfc29470ddfe3769354d0c5f098c37ea",
+      "reference_sha256": "0b43f413bbebac2f62d9f8648aa10a83a01aee384deb9cda4e60238e568d6ea9",
+      "evidence": [
+        "Visually inspected app/reference pair in sheet 4. Header, visible copy hierarchy, component grouping, selection/disabled state and action placement checked at equal point scale; safe-area and responsive size differences allowed.",
+        "Dynamic library photography contents excluded; image-container geometry, overlays and controls remain in scope."
+      ],
+      "findings": []
+    },
+    {
+      "id": "78:7881",
+      "name": "Videos / playlarge0a",
+      "section": "Videos",
+      "status": "matched",
+      "actual": "/tmp/cleaner-fidelity-pro/78-7881.png",
+      "reference": "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/78-7881.png",
+      "actual_sha256": "5d1aa634eb83bbda52a1ce1886ebaca7fa37a0f968f385c7d523d74fa0016362",
+      "reference_sha256": "24e1f2e724d08e66d737703db8e9ae99595beef23877b8d6c4729fe150b3931b",
+      "evidence": [
+        "Visually inspected app/reference pair in sheet 4. Header, visible copy hierarchy, component grouping, selection/disabled state and action placement checked at equal point scale; safe-area and responsive size differences allowed.",
+        "Dynamic library photography contents excluded; image-container geometry, overlays and controls remain in scope."
+      ],
+      "findings": []
+    },
+    {
+      "id": "78:7951",
+      "name": "Videos / playlarge0n",
+      "section": "Videos",
+      "status": "matched",
+      "actual": "/tmp/cleaner-fidelity-pro/78-7951.png",
+      "reference": "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/78-7951.png",
+      "actual_sha256": "2fc2c8c37b2a98c52c17bb52105b7cbd1df883e8eadc8fea3faaa871125a8284",
+      "reference_sha256": "55ca76d668818ffcb3449dd96c870b36e401ee427177d5e23c96ff17b656869a",
+      "evidence": [
+        "Visually inspected app/reference pair in sheet 4. Header, visible copy hierarchy, component grouping, selection/disabled state and action placement checked at equal point scale; safe-area and responsive size differences allowed.",
+        "Dynamic library photography contents excluded; image-container geometry, overlays and controls remain in scope."
+      ],
+      "findings": []
+    },
+    {
+      "id": "78:8018",
+      "name": "Videos / playlarge1a",
+      "section": "Videos",
+      "status": "matched",
+      "actual": "/tmp/cleaner-fidelity-pro/78-8018.png",
+      "reference": "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/78-8018.png",
+      "actual_sha256": "842407a8b3bcb5b30c696a1bf26f4a0b8763b10069e63309f70729a26d9cde33",
+      "reference_sha256": "b19ebd7e72d9f4f14128d01e62d265bfbc266281ce0339a87a50ebe49a695f0f",
+      "evidence": [
+        "Visually inspected app/reference pair in sheet 4. Header, visible copy hierarchy, component grouping, selection/disabled state and action placement checked at equal point scale; safe-area and responsive size differences allowed.",
+        "Dynamic library photography contents excluded; image-container geometry, overlays and controls remain in scope."
+      ],
+      "findings": []
+    },
+    {
+      "id": "78:8086",
+      "name": "Videos / playlarge1n",
+      "section": "Videos",
+      "status": "matched",
+      "actual": "/tmp/cleaner-fidelity-pro/78-8086.png",
+      "reference": "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/78-8086.png",
+      "actual_sha256": "87f497689658e2572082ec1cc3b5cfe0fc8162ee731ed8be407cef1e69a2f968",
+      "reference_sha256": "bd6f442fe77f8d0316b01b38c49639cba49a019d5d7bdeb282c4df0ca959355b",
+      "evidence": [
+        "Visually inspected app/reference pair in sheet 5. Header, visible copy hierarchy, component grouping, selection/disabled state and action placement checked at equal point scale; safe-area and responsive size differences allowed.",
+        "Dynamic library photography contents excluded; image-container geometry, overlays and controls remain in scope."
+      ],
+      "findings": []
+    },
+    {
+      "id": "78:8153",
+      "name": "Videos / playlarge2a",
+      "section": "Videos",
+      "status": "matched",
+      "actual": "/tmp/cleaner-fidelity-pro/78-8153.png",
+      "reference": "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/78-8153.png",
+      "actual_sha256": "6e33c6e2ce84ea20a4d6f80f243ff8abd67ae2949c729fba6ede5ea84aa178e0",
+      "reference_sha256": "8f64605de2dbd488d9a396ec83fd4ff1ece5a9d15dd842aa1e14ccad8fe20942",
+      "evidence": [
+        "Visually inspected app/reference pair in sheet 5. Header, visible copy hierarchy, component grouping, selection/disabled state and action placement checked at equal point scale; safe-area and responsive size differences allowed.",
+        "Dynamic library photography contents excluded; image-container geometry, overlays and controls remain in scope."
+      ],
+      "findings": []
+    },
+    {
+      "id": "78:8221",
+      "name": "Videos / playlarge2n",
+      "section": "Videos",
+      "status": "matched",
+      "actual": "/tmp/cleaner-fidelity-pro/78-8221.png",
+      "reference": "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/78-8221.png",
+      "actual_sha256": "358cc0a067cfb8a31496ee1ee1b1c4bbd3ee56f7f834023d046bf54b1e779e43",
+      "reference_sha256": "fddf0fc06f9a52e8005697dc8de751de490c1851df72ccd840704ceb000540eb",
+      "evidence": [
+        "Visually inspected app/reference pair in sheet 5. Header, visible copy hierarchy, component grouping, selection/disabled state and action placement checked at equal point scale; safe-area and responsive size differences allowed.",
+        "Dynamic library photography contents excluded; image-container geometry, overlays and controls remain in scope."
+      ],
+      "findings": []
+    },
+    {
+      "id": "78:8288",
+      "name": "Videos / playrec0a",
+      "section": "Videos",
+      "status": "matched",
+      "actual": "/tmp/cleaner-fidelity-pro/78-8288.png",
+      "reference": "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/78-8288.png",
+      "actual_sha256": "0a252840e18d26e9c33e917d392cb7bb64a9a905f83d4e36d29832c24f87f4a0",
+      "reference_sha256": "f72591cc6c5a69266f76c1e46e82e819ea1eb7ba9261471ee6ef855fa2314244",
+      "evidence": [
+        "Visually inspected app/reference pair in sheet 5. Header, visible copy hierarchy, component grouping, selection/disabled state and action placement checked at equal point scale; safe-area and responsive size differences allowed.",
+        "Dynamic library photography contents excluded; image-container geometry, overlays and controls remain in scope."
+      ],
+      "findings": []
+    },
+    {
+      "id": "78:8358",
+      "name": "Videos / playrec0n",
+      "section": "Videos",
+      "status": "matched",
+      "actual": "/tmp/cleaner-fidelity-pro/78-8358.png",
+      "reference": "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/78-8358.png",
+      "actual_sha256": "e1a65c26e3bff351f9905f2c6b17a37753b22188d1030177f08cd33f6cde4995",
+      "reference_sha256": "bb47632bb19d9e845d96fe4a8c20943ec12a795f6f32d0aee7db3de7f690bb24",
+      "evidence": [
+        "Visually inspected app/reference pair in sheet 5. Header, visible copy hierarchy, component grouping, selection/disabled state and action placement checked at equal point scale; safe-area and responsive size differences allowed.",
+        "Dynamic library photography contents excluded; image-container geometry, overlays and controls remain in scope."
+      ],
+      "findings": []
+    },
+    {
+      "id": "78:8425",
+      "name": "Videos / playrec1a",
+      "section": "Videos",
+      "status": "matched",
+      "actual": "/tmp/cleaner-fidelity-pro/78-8425.png",
+      "reference": "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/78-8425.png",
+      "actual_sha256": "df9eeabe4fbd464fe17eebff01794b8ebe65a5524d10414603fbfed642d8f561",
+      "reference_sha256": "55c3b0fff2f61fc081b179908d2f05f6e916638634f15b563b6161c21a7fa833",
+      "evidence": [
+        "Visually inspected app/reference pair in sheet 5. Header, visible copy hierarchy, component grouping, selection/disabled state and action placement checked at equal point scale; safe-area and responsive size differences allowed.",
+        "Dynamic library photography contents excluded; image-container geometry, overlays and controls remain in scope."
+      ],
+      "findings": []
+    },
+    {
+      "id": "78:8493",
+      "name": "Videos / playrec1n",
+      "section": "Videos",
+      "status": "matched",
+      "actual": "/tmp/cleaner-fidelity-pro/78-8493.png",
+      "reference": "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/78-8493.png",
+      "actual_sha256": "24ad24a6488a33fd746e4c391ffe9c2cb4e0e391381cc76f8c154b8ba3f4aede",
+      "reference_sha256": "70cd0bf2f528930383b752ad9670c91ffcc0c8df41e15a018a60c92718ba5b91",
+      "evidence": [
+        "Visually inspected app/reference pair in sheet 5. Header, visible copy hierarchy, component grouping, selection/disabled state and action placement checked at equal point scale; safe-area and responsive size differences allowed.",
+        "Dynamic library photography contents excluded; image-container geometry, overlays and controls remain in scope."
+      ],
+      "findings": []
+    },
+    {
+      "id": "78:8560",
+      "name": "Videos / playrec2a",
+      "section": "Videos",
+      "status": "matched",
+      "actual": "/tmp/cleaner-fidelity-pro/78-8560.png",
+      "reference": "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/78-8560.png",
+      "actual_sha256": "e0870e8ac3f48492f42357084c8e07c4383426a41de3ffcf6eb0ffaaecf3343e",
+      "reference_sha256": "45d3487d2409c6c348355635153a4c96149a30597d47a6ec830885a4cf80a67b",
+      "evidence": [
+        "Visually inspected app/reference pair in sheet 5. Header, visible copy hierarchy, component grouping, selection/disabled state and action placement checked at equal point scale; safe-area and responsive size differences allowed.",
+        "Dynamic library photography contents excluded; image-container geometry, overlays and controls remain in scope."
+      ],
+      "findings": []
+    },
+    {
+      "id": "78:8628",
+      "name": "Videos / playrec2n",
+      "section": "Videos",
+      "status": "matched",
+      "actual": "/tmp/cleaner-fidelity-pro/78-8628.png",
+      "reference": "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/78-8628.png",
+      "actual_sha256": "b4e677fcfb97fc69efc525344df3a44ba97f9653990ecaf6598790855e263817",
+      "reference_sha256": "05753baab3595b32d6e2b6dc00f38d183f418bed32827c587f5758fb38d54b3e",
+      "evidence": [
+        "Visually inspected app/reference pair in sheet 5. Header, visible copy hierarchy, component grouping, selection/disabled state and action placement checked at equal point scale; safe-area and responsive size differences allowed.",
+        "Dynamic library photography contents excluded; image-container geometry, overlays and controls remain in scope."
+      ],
+      "findings": []
+    },
+    {
+      "id": "78:8695",
+      "name": "Videos / playother0a",
+      "section": "Videos",
+      "status": "matched",
+      "actual": "/tmp/cleaner-fidelity-pro/78-8695.png",
+      "reference": "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/78-8695.png",
+      "actual_sha256": "2c5c19d899265cc5bd5b4841d64bb7af8d88be55b694abc5ce37d6f6982efc6c",
+      "reference_sha256": "90c45bd03856e64005c5347358e506cae1eca1f8ae8a91ad60a0fc8a2bd7606e",
+      "evidence": [
+        "Visually inspected app/reference pair in sheet 5. Header, visible copy hierarchy, component grouping, selection/disabled state and action placement checked at equal point scale; safe-area and responsive size differences allowed.",
+        "Dynamic library photography contents excluded; image-container geometry, overlays and controls remain in scope."
+      ],
+      "findings": []
+    },
+    {
+      "id": "78:8765",
+      "name": "Videos / playother0n",
+      "section": "Videos",
+      "status": "matched",
+      "actual": "/tmp/cleaner-fidelity-pro/78-8765.png",
+      "reference": "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/78-8765.png",
+      "actual_sha256": "3768f46ddbeb0211419655bd6215832695bcbc8c5c03145ba1bdcf394baf366f",
+      "reference_sha256": "23cf7a0bec3bcaeab497e851065b15176e4a2a8e1d3390c27b31e41293c24754",
+      "evidence": [
+        "Visually inspected app/reference pair in sheet 5. Header, visible copy hierarchy, component grouping, selection/disabled state and action placement checked at equal point scale; safe-area and responsive size differences allowed.",
+        "Dynamic library photography contents excluded; image-container geometry, overlays and controls remain in scope."
+      ],
+      "findings": []
+    },
+    {
+      "id": "78:8832",
+      "name": "Videos / playother1a",
+      "section": "Videos",
+      "status": "matched",
+      "actual": "/tmp/cleaner-fidelity-pro/78-8832.png",
+      "reference": "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/78-8832.png",
+      "actual_sha256": "77e5c18a7b7d3cb66318008480c936f908a6f9d14b3e28e970f891e63c8d983b",
+      "reference_sha256": "a0636b3d5ce8d8e833d69ea36e18b44535be53ae14b9b522c82e77590b0f9405",
+      "evidence": [
+        "Visually inspected app/reference pair in sheet 5. Header, visible copy hierarchy, component grouping, selection/disabled state and action placement checked at equal point scale; safe-area and responsive size differences allowed.",
+        "Dynamic library photography contents excluded; image-container geometry, overlays and controls remain in scope."
+      ],
+      "findings": []
+    },
+    {
+      "id": "78:8900",
+      "name": "Videos / playother1n",
+      "section": "Videos",
+      "status": "matched",
+      "actual": "/tmp/cleaner-fidelity-pro/78-8900.png",
+      "reference": "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/78-8900.png",
+      "actual_sha256": "e0d405af22285ade94c8259a7f0a98c064f4a1a8fac719606c0ff988b76a9161",
+      "reference_sha256": "c645696de5c9545ad72f5c0698cbce0b6add5b477cdb40d3396027b7f864d715",
+      "evidence": [
+        "Visually inspected app/reference pair in sheet 6. Header, visible copy hierarchy, component grouping, selection/disabled state and action placement checked at equal point scale; safe-area and responsive size differences allowed.",
+        "Dynamic library photography contents excluded; image-container geometry, overlays and controls remain in scope."
+      ],
+      "findings": []
+    },
+    {
+      "id": "78:8967",
+      "name": "Videos / playother2a",
+      "section": "Videos",
+      "status": "matched",
+      "actual": "/tmp/cleaner-fidelity-pro/78-8967.png",
+      "reference": "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/78-8967.png",
+      "actual_sha256": "1edd9314568350b683e93bfe0ccaedb079d292ec446896874d724a6222e5eebb",
+      "reference_sha256": "70c25ea55f7e43936b9c5a2aea0dbe5b9cce8e6b71645e79728b3ce6f0b355a6",
+      "evidence": [
+        "Visually inspected app/reference pair in sheet 6. Header, visible copy hierarchy, component grouping, selection/disabled state and action placement checked at equal point scale; safe-area and responsive size differences allowed.",
+        "Dynamic library photography contents excluded; image-container geometry, overlays and controls remain in scope."
+      ],
+      "findings": []
+    },
+    {
+      "id": "78:9035",
+      "name": "Videos / playother2n",
+      "section": "Videos",
+      "status": "matched",
+      "actual": "/tmp/cleaner-fidelity-pro/78-9035.png",
+      "reference": "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/78-9035.png",
+      "actual_sha256": "609e3e7089006245b6f98f4089ae9fb3583fdb43e19b0db4919c0388698fe387",
+      "reference_sha256": "c4f0779eb923f668e413023b10ad46f1ead4619f2ae7a6159e3fa4d7a84419b4",
+      "evidence": [
+        "Visually inspected app/reference pair in sheet 6. Header, visible copy hierarchy, component grouping, selection/disabled state and action placement checked at equal point scale; safe-area and responsive size differences allowed.",
+        "Dynamic library photography contents excluded; image-container geometry, overlays and controls remain in scope."
+      ],
+      "findings": []
+    },
+    {
+      "id": "78:9102",
+      "name": "Videos / playDup0a",
+      "section": "Videos",
+      "status": "matched",
+      "actual": "/tmp/cleaner-fidelity-pro/78-9102.png",
+      "reference": "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/78-9102.png",
+      "actual_sha256": "7261ae413e0f9dfa7641044b51a89191452b7b08a2a896a3ead57cbb264c89a6",
+      "reference_sha256": "43eda7cabb20f3d3b94f2ff6df55aafee0cc757749fda807cbef24550f39dcfd",
+      "evidence": [
+        "Visually inspected app/reference pair in sheet 6. Header, visible copy hierarchy, component grouping, selection/disabled state and action placement checked at equal point scale; safe-area and responsive size differences allowed.",
+        "Dynamic library photography contents excluded; image-container geometry, overlays and controls remain in scope."
+      ],
+      "findings": []
+    },
+    {
+      "id": "78:9172",
+      "name": "Videos / playDup0n",
+      "section": "Videos",
+      "status": "matched",
+      "actual": "/tmp/cleaner-fidelity-pro/78-9172.png",
+      "reference": "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/78-9172.png",
+      "actual_sha256": "8b6bdee6e60f8ba904734ec0dd50562102a1fa06e4069ea49417323ded0918f5",
+      "reference_sha256": "6faee9ab93317af9fd2899d67d9c3b19012e3b76a5a88e68c46a8364bc203e99",
+      "evidence": [
+        "Visually inspected app/reference pair in sheet 6. Header, visible copy hierarchy, component grouping, selection/disabled state and action placement checked at equal point scale; safe-area and responsive size differences allowed.",
+        "Dynamic library photography contents excluded; image-container geometry, overlays and controls remain in scope."
+      ],
+      "findings": []
+    },
+    {
+      "id": "78:9239",
+      "name": "Videos / playDup1a",
+      "section": "Videos",
+      "status": "matched",
+      "actual": "/tmp/cleaner-fidelity-pro/78-9239.png",
+      "reference": "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/78-9239.png",
+      "actual_sha256": "b07ea725b56897852f426b4c841fea8c7e7c1946408bbbe405df9605864c5e72",
+      "reference_sha256": "aa4c1c0a50eb94a6b870a600b146da2f6ba79f86ba07082c20f3b632cff3b02c",
+      "evidence": [
+        "Visually inspected app/reference pair in sheet 6. Header, visible copy hierarchy, component grouping, selection/disabled state and action placement checked at equal point scale; safe-area and responsive size differences allowed.",
+        "Dynamic library photography contents excluded; image-container geometry, overlays and controls remain in scope."
+      ],
+      "findings": []
+    },
+    {
+      "id": "78:9307",
+      "name": "Videos / playDup1n",
+      "section": "Videos",
+      "status": "matched",
+      "actual": "/tmp/cleaner-fidelity-pro/78-9307.png",
+      "reference": "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/78-9307.png",
+      "actual_sha256": "27c7e07877e2f8e90e6ea322e3dcc3823c95431f6b9e00aebfafb0e0e07085b4",
+      "reference_sha256": "96146a0300c686501e8983e3f3a8094b33b514b414c1b0e748fdbb9631f80646",
+      "evidence": [
+        "Visually inspected app/reference pair in sheet 6. Header, visible copy hierarchy, component grouping, selection/disabled state and action placement checked at equal point scale; safe-area and responsive size differences allowed.",
+        "Dynamic library photography contents excluded; image-container geometry, overlays and controls remain in scope."
+      ],
+      "findings": []
+    },
+    {
+      "id": "78:9374",
+      "name": "Videos / playSim0a",
+      "section": "Videos",
+      "status": "matched",
+      "actual": "/tmp/cleaner-fidelity-pro/78-9374.png",
+      "reference": "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/78-9374.png",
+      "actual_sha256": "3db5acbe581ead59077ea04f53dd747ee9088930ff838c467da5185e9659a129",
+      "reference_sha256": "a0a424c5afc462bd2b4d362c69b07f6d29d5e77363c1cd28341cb5dfbffdc4bc",
+      "evidence": [
+        "Visually inspected app/reference pair in sheet 6. Header, visible copy hierarchy, component grouping, selection/disabled state and action placement checked at equal point scale; safe-area and responsive size differences allowed.",
+        "Dynamic library photography contents excluded; image-container geometry, overlays and controls remain in scope."
+      ],
+      "findings": []
+    },
+    {
+      "id": "78:9444",
+      "name": "Videos / playSim0n",
+      "section": "Videos",
+      "status": "matched",
+      "actual": "/tmp/cleaner-fidelity-pro/78-9444.png",
+      "reference": "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/78-9444.png",
+      "actual_sha256": "740ea1dbae8b75ad637e1c44ccb023519609607a5215ef9ae38d24982706bb99",
+      "reference_sha256": "b8abb0f078183334ea1023b7c57673271f528fe689a42ffaad407fa27dfca037",
+      "evidence": [
+        "Visually inspected app/reference pair in sheet 6. Header, visible copy hierarchy, component grouping, selection/disabled state and action placement checked at equal point scale; safe-area and responsive size differences allowed.",
+        "Dynamic library photography contents excluded; image-container geometry, overlays and controls remain in scope."
+      ],
+      "findings": []
+    },
+    {
+      "id": "78:9511",
+      "name": "Videos / playSim1a",
+      "section": "Videos",
+      "status": "matched",
+      "actual": "/tmp/cleaner-fidelity-pro/78-9511.png",
+      "reference": "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/78-9511.png",
+      "actual_sha256": "772322f984bb608984182992259de333e7f87a2d6d8a3cdef3c67f32e85e4fce",
+      "reference_sha256": "c595e64e1b1c6674f4eed352eeee3f5e5e01a2a65c97a1dd2bf7b76af5f6b36a",
+      "evidence": [
+        "Visually inspected app/reference pair in sheet 6. Header, visible copy hierarchy, component grouping, selection/disabled state and action placement checked at equal point scale; safe-area and responsive size differences allowed.",
+        "Dynamic library photography contents excluded; image-container geometry, overlays and controls remain in scope."
+      ],
+      "findings": []
+    },
+    {
+      "id": "78:9579",
+      "name": "Videos / playSim1n",
+      "section": "Videos",
+      "status": "matched",
+      "actual": "/tmp/cleaner-fidelity-pro/78-9579.png",
+      "reference": "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/78-9579.png",
+      "actual_sha256": "06bc6d5a536fd1bb6470abb27559fd5c8868608d4350f648c55b3d59a8628254",
+      "reference_sha256": "fd69528f9e8a2c2a294b897c47abddb46021351efffcee1f957a8f40e30a0f9c",
+      "evidence": [
+        "Visually inspected app/reference pair in sheet 6. Header, visible copy hierarchy, component grouping, selection/disabled state and action placement checked at equal point scale; safe-area and responsive size differences allowed.",
+        "Dynamic library photography contents excluded; image-container geometry, overlays and controls remain in scope."
+      ],
+      "findings": []
+    },
+    {
+      "id": "78:9646",
+      "name": "Videos / Deleted · Duplicates",
+      "section": "Videos",
+      "status": "matched",
+      "actual": "/tmp/cleaner-fidelity-pro/78-9646.png",
+      "reference": "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/78-9646.png",
+      "actual_sha256": "70b95121a237652cdfe1d8c9d34e18f1df7eca731b9e63b3d7387d977354d479",
+      "reference_sha256": "cc3a7ac26bccc12bdbadcefabd721bf3b4d5e8fcd08ff42546c6a4e7de4cb73f",
+      "evidence": [
+        "Visually inspected app/reference pair in sheet 6. Header, visible copy hierarchy, component grouping, selection/disabled state and action placement checked at equal point scale; safe-area and responsive size differences allowed.",
+        "Dynamic library photography contents excluded; image-container geometry, overlays and controls remain in scope."
+      ],
+      "findings": []
+    },
+    {
+      "id": "78:9760",
+      "name": "Videos / Deleted · Similar",
+      "section": "Videos",
+      "status": "matched",
+      "actual": "/tmp/cleaner-fidelity-pro/78-9760.png",
+      "reference": "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/78-9760.png",
+      "actual_sha256": "3b26d897a949bcdb34934fb10c45ac24c57326b6f82e1b2470e4a02f295b931f",
+      "reference_sha256": "9dc800c3446680f01ce4cb8b42e087b823ff473a470f630d1ebc325b687a6ee0",
+      "evidence": [
+        "Visually inspected app/reference pair in sheet 7. Header, visible copy hierarchy, component grouping, selection/disabled state and action placement checked at equal point scale; safe-area and responsive size differences allowed.",
+        "Dynamic library photography contents excluded; image-container geometry, overlays and controls remain in scope."
+      ],
+      "findings": []
+    },
+    {
+      "id": "78:9874",
+      "name": "Videos / Deleted · Large videos",
+      "section": "Videos",
+      "status": "matched",
+      "actual": "/tmp/cleaner-fidelity-pro/78-9874.png",
+      "reference": "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/78-9874.png",
+      "actual_sha256": "224e43fe2a7d32b16530b17bfdadb30fb70fa437172e923ebdaa012b06ffed6e",
+      "reference_sha256": "f3ed5ff31c1e7759b66b3dec9416b3c76c5f37ad6e514650063f9db0d2a6dcad",
+      "evidence": [
+        "Visually inspected app/reference pair in sheet 7. Header, visible copy hierarchy, component grouping, selection/disabled state and action placement checked at equal point scale; safe-area and responsive size differences allowed.",
+        "Dynamic library photography contents excluded; image-container geometry, overlays and controls remain in scope."
+      ],
+      "findings": []
+    },
+    {
+      "id": "78:9988",
+      "name": "Videos / Deleted · Screen recordings",
+      "section": "Videos",
+      "status": "matched",
+      "actual": "/tmp/cleaner-fidelity-pro/78-9988.png",
+      "reference": "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/78-9988.png",
+      "actual_sha256": "8bcdfdb3c38c307cbf45c1e816f744e050ba270f9f61c47e788402910efdc9e3",
+      "reference_sha256": "117e2343d4c8360bd2ac9e5e56c1eeaa38b289834b524d368adbb0dcc2bac36e",
+      "evidence": [
+        "Visually inspected app/reference pair in sheet 7. Header, visible copy hierarchy, component grouping, selection/disabled state and action placement checked at equal point scale; safe-area and responsive size differences allowed.",
+        "Dynamic library photography contents excluded; image-container geometry, overlays and controls remain in scope."
+      ],
+      "findings": []
+    },
+    {
+      "id": "78:10102",
+      "name": "Videos / Deleted · Other",
+      "section": "Videos",
+      "status": "matched",
+      "actual": "/tmp/cleaner-fidelity-pro/78-10102.png",
+      "reference": "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/78-10102.png",
+      "actual_sha256": "1cd168e10b93ff6fa04b34e7ba5b2d428d55366c734ea984a7ba8a3b8d8f81bb",
+      "reference_sha256": "291a9c965a9c44289362e61fd2d6ded20c66d7221cd2bec843062c8b83935561",
+      "evidence": [
+        "Visually inspected app/reference pair in sheet 7. Header, visible copy hierarchy, component grouping, selection/disabled state and action placement checked at equal point scale; safe-area and responsive size differences allowed.",
+        "Dynamic library photography contents excluded; image-container geometry, overlays and controls remain in scope."
+      ],
+      "findings": []
+    },
+    {
+      "id": "94:1327",
+      "name": "Contacts / hub",
+      "section": "Contacts & Backups",
+      "status": "matched",
+      "actual": "/tmp/cleaner-fidelity-pro/94-1327.png",
+      "reference": "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/94-1327.png",
+      "actual_sha256": "9822ee1effea7686916a5d546253e54821f790fe12c4e8a1e11358691bc0ee6a",
+      "reference_sha256": "bf1cefc15f22d4efa3c8cd1d304c4d99b78eb4598b935e19f49a970404138abb",
+      "evidence": [
+        "Visually inspected app/reference pair in sheet 7. Header, visible copy hierarchy, component grouping, selection/disabled state and action placement checked at equal point scale; safe-area and responsive size differences allowed.",
+        "Reviewed contact/backup row hierarchy, selection/merge/restore state, bottom action and relevant empty/result artwork."
+      ],
+      "findings": []
+    },
+    {
+      "id": "94:1422",
+      "name": "Contacts / hubSaved",
+      "section": "Contacts & Backups",
+      "status": "matched",
+      "actual": "/tmp/cleaner-fidelity-pro/94-1422.png",
+      "reference": "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/94-1422.png",
+      "actual_sha256": "3ea44b69fab98128b586182284eac168c9130abb5a1ad93c57f7e66c74865a17",
+      "reference_sha256": "64069651dd6aa1d5f48b18d17fc6c23d9069b0985c2ff6b7852b467287dfa8ef",
+      "evidence": [
+        "Visually inspected app/reference pair in sheet 7. Header, visible copy hierarchy, component grouping, selection/disabled state and action placement checked at equal point scale; safe-area and responsive size differences allowed.",
+        "Reviewed contact/backup row hierarchy, selection/merge/restore state, bottom action and relevant empty/result artwork."
+      ],
+      "findings": []
+    },
+    {
+      "id": "94:1517",
+      "name": "Contacts / all0",
+      "section": "Contacts & Backups",
+      "status": "matched",
+      "actual": "/tmp/cleaner-fidelity-pro/94-1517.png",
+      "reference": "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/94-1517.png",
+      "actual_sha256": "48319f001ce68abfb95c2651e92ad776656d92f8896b1f59b2ed4103bc8f5fa8",
+      "reference_sha256": "3fbb204f89b503b2836222e51121c68dda68e0f5e0c4369a4145c384b4954540",
+      "evidence": [
+        "Visually inspected app/reference pair in sheet 7. Header, visible copy hierarchy, component grouping, selection/disabled state and action placement checked at equal point scale; safe-area and responsive size differences allowed.",
+        "Reviewed contact/backup row hierarchy, selection/merge/restore state, bottom action and relevant empty/result artwork."
+      ],
+      "findings": []
+    },
+    {
+      "id": "94:1715",
+      "name": "Contacts / all1",
+      "section": "Contacts & Backups",
+      "status": "matched",
+      "actual": "/tmp/cleaner-fidelity-pro/94-1715.png",
+      "reference": "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/94-1715.png",
+      "actual_sha256": "86e535c1ecefbb0de924c605992f75455eab6c08745e513bca76b94f6f2c773f",
+      "reference_sha256": "17b9840b9ec1925d29008bff270b650edbe4b95820563fd5c2850d43a7a36aff",
+      "evidence": [
+        "Visually inspected app/reference pair in sheet 7. Header, visible copy hierarchy, component grouping, selection/disabled state and action placement checked at equal point scale; safe-area and responsive size differences allowed.",
+        "Reviewed contact/backup row hierarchy, selection/merge/restore state, bottom action and relevant empty/result artwork."
+      ],
+      "findings": []
+    },
+    {
+      "id": "94:1927",
+      "name": "Contacts / allDone",
+      "section": "Contacts & Backups",
+      "status": "matched",
+      "actual": "/tmp/cleaner-fidelity-pro/94-1927.png",
+      "reference": "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/94-1927.png",
+      "actual_sha256": "1719942c210d9f5a85bd27faf6f64094620f63aa698db9c567bfbf73aa5ad404",
+      "reference_sha256": "3e71d8b5f9acbcd3d5889f237892f0ea79a3655a3b50e8996533cd76c64e1f28",
+      "evidence": [
+        "Visually inspected app/reference pair in sheet 7. Header, visible copy hierarchy, component grouping, selection/disabled state and action placement checked at equal point scale; safe-area and responsive size differences allowed.",
+        "Reviewed contact/backup row hierarchy, selection/merge/restore state, bottom action and relevant empty/result artwork."
+      ],
+      "findings": []
+    },
+    {
+      "id": "94:1992",
+      "name": "Contacts / allEmpty",
+      "section": "Contacts & Backups",
+      "status": "matched",
+      "actual": "/tmp/cleaner-fidelity-pro/94-1992.png",
+      "reference": "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/94-1992.png",
+      "actual_sha256": "8de49e689aec5f14cf8f67bae5d85f567fa77ebcc45850b4c3c6339382d45b1b",
+      "reference_sha256": "14ef9c2de8974b021625cff5d84b384f1ce8ec4aab09857a00415bfc8e0426eb",
+      "evidence": [
+        "Visually inspected app/reference pair in sheet 7. Header, visible copy hierarchy, component grouping, selection/disabled state and action placement checked at equal point scale; safe-area and responsive size differences allowed.",
+        "Reviewed contact/backup row hierarchy, selection/merge/restore state, bottom action and relevant empty/result artwork."
+      ],
+      "findings": []
+    },
+    {
+      "id": "94:2057",
+      "name": "Contacts / inc0",
+      "section": "Contacts & Backups",
+      "status": "matched",
+      "actual": "/tmp/cleaner-fidelity-pro/94-2057.png",
+      "reference": "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/94-2057.png",
+      "actual_sha256": "67b6af0e2405bb6af47367fe001f826456d04571f60ea097fa112e479a5a004e",
+      "reference_sha256": "37decb49c6a8f4f8b33cd6c3f5e99f286dd819bd01153a21a4c88a6d6f6fd1f1",
+      "evidence": [
+        "Visually inspected app/reference pair in sheet 7. Header, visible copy hierarchy, component grouping, selection/disabled state and action placement checked at equal point scale; safe-area and responsive size differences allowed.",
+        "Reviewed contact/backup row hierarchy, selection/merge/restore state, bottom action and relevant empty/result artwork."
+      ],
+      "findings": []
+    },
+    {
+      "id": "94:2142",
+      "name": "Contacts / inc1",
+      "section": "Contacts & Backups",
+      "status": "matched",
+      "actual": "/tmp/cleaner-fidelity-pro/94-2142.png",
+      "reference": "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/94-2142.png",
+      "actual_sha256": "26ebee0d02ab42b45288f93ac0bfec45044a15aa0e92be91ebab095bcfd0fd96",
+      "reference_sha256": "bfb28058b2da3e74b45acd5c7d7a60e83c7c5f9bd72a0f304b07d700fc55d62f",
+      "evidence": [
+        "Visually inspected app/reference pair in sheet 7. Header, visible copy hierarchy, component grouping, selection/disabled state and action placement checked at equal point scale; safe-area and responsive size differences allowed.",
+        "Reviewed contact/backup row hierarchy, selection/merge/restore state, bottom action and relevant empty/result artwork."
+      ],
+      "findings": []
+    },
+    {
+      "id": "94:2226",
+      "name": "Contacts / inc2",
+      "section": "Contacts & Backups",
+      "status": "matched",
+      "actual": "/tmp/cleaner-fidelity-pro/94-2226.png",
+      "reference": "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/94-2226.png",
+      "actual_sha256": "2581e331b0c43f42899185e29267ce8abf9c215e48225ba7ba4f19c7df2e1ee3",
+      "reference_sha256": "cc8734994aa6625749141b74cb2cbda133c0c7bbd077cbed73073dd376621633",
+      "evidence": [
+        "Visually inspected app/reference pair in sheet 8. Header, visible copy hierarchy, component grouping, selection/disabled state and action placement checked at equal point scale; safe-area and responsive size differences allowed.",
+        "Reviewed contact/backup row hierarchy, selection/merge/restore state, bottom action and relevant empty/result artwork."
+      ],
+      "findings": []
+    },
+    {
+      "id": "94:2310",
+      "name": "Contacts / inc3",
+      "section": "Contacts & Backups",
+      "status": "matched",
+      "actual": "/tmp/cleaner-fidelity-pro/94-2310.png",
+      "reference": "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/94-2310.png",
+      "actual_sha256": "dab702f6e6db2ef3e6f2f8db52ab0dc6dd033396506fd7546cf7dae6287d2f2f",
+      "reference_sha256": "56fb578ffc2ec9a4a21349afba4b40b0d222502ed2c609fa94dc70948feba0c0",
+      "evidence": [
+        "Visually inspected app/reference pair in sheet 8. Header, visible copy hierarchy, component grouping, selection/disabled state and action placement checked at equal point scale; safe-area and responsive size differences allowed.",
+        "Reviewed contact/backup row hierarchy, selection/merge/restore state, bottom action and relevant empty/result artwork."
+      ],
+      "findings": []
+    },
+    {
+      "id": "94:2395",
+      "name": "Contacts / inc4",
+      "section": "Contacts & Backups",
+      "status": "matched",
+      "actual": "/tmp/cleaner-fidelity-pro/94-2395.png",
+      "reference": "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/94-2395.png",
+      "actual_sha256": "1a663cd51f8de2e3bad5e754ad6f00163f34df241a42a798479244d4ab873502",
+      "reference_sha256": "00732fe49522a03d9382bc4bf5f3a4ac0ac3060bed88cd6baa01e19d6362ede4",
+      "evidence": [
+        "Visually inspected app/reference pair in sheet 8. Header, visible copy hierarchy, component grouping, selection/disabled state and action placement checked at equal point scale; safe-area and responsive size differences allowed.",
+        "Reviewed contact/backup row hierarchy, selection/merge/restore state, bottom action and relevant empty/result artwork."
+      ],
+      "findings": []
+    },
+    {
+      "id": "94:2479",
+      "name": "Contacts / inc5",
+      "section": "Contacts & Backups",
+      "status": "matched",
+      "actual": "/tmp/cleaner-fidelity-pro/94-2479.png",
+      "reference": "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/94-2479.png",
+      "actual_sha256": "f0845920d415b3dfff49c193aeb936675e898073e730820a8a59eedc029d4e02",
+      "reference_sha256": "0897e844d57aaf66f53a7132ccde29a745b176ebd5135f3344e84611d3d1e79d",
+      "evidence": [
+        "Visually inspected app/reference pair in sheet 8. Header, visible copy hierarchy, component grouping, selection/disabled state and action placement checked at equal point scale; safe-area and responsive size differences allowed.",
+        "Reviewed contact/backup row hierarchy, selection/merge/restore state, bottom action and relevant empty/result artwork."
+      ],
+      "findings": []
+    },
+    {
+      "id": "94:2564",
+      "name": "Contacts / inc6",
+      "section": "Contacts & Backups",
+      "status": "matched",
+      "actual": "/tmp/cleaner-fidelity-pro/94-2564.png",
+      "reference": "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/94-2564.png",
+      "actual_sha256": "edf8c410cf08c35d62166dba3e623fdedae483d3ac58df87b3e75c548c4e344f",
+      "reference_sha256": "48437d5ff3969cf9c22687948f209b38fa3b800e26c536e55535bbecab8c3874",
+      "evidence": [
+        "Visually inspected app/reference pair in sheet 8. Header, visible copy hierarchy, component grouping, selection/disabled state and action placement checked at equal point scale; safe-area and responsive size differences allowed.",
+        "Reviewed contact/backup row hierarchy, selection/merge/restore state, bottom action and relevant empty/result artwork."
+      ],
+      "findings": []
+    },
+    {
+      "id": "94:2649",
+      "name": "Contacts / inc7",
+      "section": "Contacts & Backups",
+      "status": "matched",
+      "actual": "/tmp/cleaner-fidelity-pro/94-2649.png",
+      "reference": "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/94-2649.png",
+      "actual_sha256": "44698349b7b33a7ebfb774203a0e168d03e675db48f95beaf1aeb32957e68107",
+      "reference_sha256": "2382f96b90c1e053f0d1460d6b425be5a01aa82885d65054c33a3793ffe69962",
+      "evidence": [
+        "Visually inspected app/reference pair in sheet 8. Header, visible copy hierarchy, component grouping, selection/disabled state and action placement checked at equal point scale; safe-area and responsive size differences allowed.",
+        "Reviewed contact/backup row hierarchy, selection/merge/restore state, bottom action and relevant empty/result artwork."
+      ],
+      "findings": []
+    },
+    {
+      "id": "94:2735",
+      "name": "Contacts / incDone1",
+      "section": "Contacts & Backups",
+      "status": "matched",
+      "actual": "/tmp/cleaner-fidelity-pro/94-2735.png",
+      "reference": "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/94-2735.png",
+      "actual_sha256": "cfe4171c335c565008f3948ab4c5bafd4f64d10eb6eb63badbeb910f09bfa19c",
+      "reference_sha256": "9594ebee82b6219d99818259b607c9bc7410b9ea9f9b5d417729a7f0d16f6230",
+      "evidence": [
+        "Visually inspected app/reference pair in sheet 8. Header, visible copy hierarchy, component grouping, selection/disabled state and action placement checked at equal point scale; safe-area and responsive size differences allowed.",
+        "Reviewed contact/backup row hierarchy, selection/merge/restore state, bottom action and relevant empty/result artwork."
+      ],
+      "findings": []
+    },
+    {
+      "id": "94:2800",
+      "name": "Contacts / incDone2",
+      "section": "Contacts & Backups",
+      "status": "matched",
+      "actual": "/tmp/cleaner-fidelity-pro/94-2800.png",
+      "reference": "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/94-2800.png",
+      "actual_sha256": "3b397a15ea48c43956612d8c8699f7e920917e415250116bb85474a1c8b08c0f",
+      "reference_sha256": "9937773e19ecf4696140a0061d14d3ad230c1e41f7661923b6090016394cc257",
+      "evidence": [
+        "Visually inspected app/reference pair in sheet 8. Header, visible copy hierarchy, component grouping, selection/disabled state and action placement checked at equal point scale; safe-area and responsive size differences allowed.",
+        "Reviewed contact/backup row hierarchy, selection/merge/restore state, bottom action and relevant empty/result artwork."
+      ],
+      "findings": []
+    },
+    {
+      "id": "94:2865",
+      "name": "Contacts / incDone3",
+      "section": "Contacts & Backups",
+      "status": "matched",
+      "actual": "/tmp/cleaner-fidelity-pro/94-2865.png",
+      "reference": "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/94-2865.png",
+      "actual_sha256": "1fc4216db3c088000d851aab78fdb46bcb30402096e56a2a8f930980972b4900",
+      "reference_sha256": "f3060c8e10decda9eab6b0519d3973e85ff81a61cb1df796995706f05b46c7c1",
+      "evidence": [
+        "Visually inspected app/reference pair in sheet 8. Header, visible copy hierarchy, component grouping, selection/disabled state and action placement checked at equal point scale; safe-area and responsive size differences allowed.",
+        "Reviewed contact/backup row hierarchy, selection/merge/restore state, bottom action and relevant empty/result artwork."
+      ],
+      "findings": []
+    },
+    {
+      "id": "94:2930",
+      "name": "Contacts / dupAll",
+      "section": "Contacts & Backups",
+      "status": "matched",
+      "actual": "/tmp/cleaner-fidelity-pro/94-2930.png",
+      "reference": "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/94-2930.png",
+      "actual_sha256": "750d6e0f7fa482b0b64694f6da661e51de91007797c631f51a60910080db1ade",
+      "reference_sha256": "df67e1ab0c98b7b2bc9446565ee4ac3f88c7914c9eef406fdebcdc577624beea",
+      "evidence": [
+        "Visually inspected app/reference pair in sheet 8. Header, visible copy hierarchy, component grouping, selection/disabled state and action placement checked at equal point scale; safe-area and responsive size differences allowed.",
+        "Reviewed contact/backup row hierarchy, selection/merge/restore state, bottom action and relevant empty/result artwork."
+      ],
+      "findings": []
+    },
+    {
+      "id": "94:3084",
+      "name": "Contacts / dupNone",
+      "section": "Contacts & Backups",
+      "status": "matched",
+      "actual": "/tmp/cleaner-fidelity-pro/94-3084.png",
+      "reference": "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/94-3084.png",
+      "actual_sha256": "06fdb7bb4845ab6ef05c4c325a5e397e3c0bbc209b983bd25e85aaed86a06e6e",
+      "reference_sha256": "48e039c223e82957dd1f7379ff2fe96cda1e33faf8417e455f94acdf1f021489",
+      "evidence": [
+        "Visually inspected app/reference pair in sheet 8. Header, visible copy hierarchy, component grouping, selection/disabled state and action placement checked at equal point scale; safe-area and responsive size differences allowed.",
+        "Reviewed contact/backup row hierarchy, selection/merge/restore state, bottom action and relevant empty/result artwork."
+      ],
+      "findings": []
+    },
+    {
+      "id": "94:3224",
+      "name": "Contacts / preview0",
+      "section": "Contacts & Backups",
+      "status": "matched",
+      "actual": "/tmp/cleaner-fidelity-pro/94-3224.png",
+      "reference": "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/94-3224.png",
+      "actual_sha256": "a72c060ea7611999077d784c03db7ce9065ccd60abd5598d0f013325d83195d3",
+      "reference_sha256": "b143df117f37cfdcb73224dafc827642dced809574e42d4ee8e8ffddb1333904",
+      "evidence": [
+        "Visually inspected app/reference pair in sheet 8. Header, visible copy hierarchy, component grouping, selection/disabled state and action placement checked at equal point scale; safe-area and responsive size differences allowed.",
+        "Reviewed contact/backup row hierarchy, selection/merge/restore state, bottom action and relevant empty/result artwork."
+      ],
+      "findings": []
+    },
+    {
+      "id": "94:3304",
+      "name": "Contacts / preview1",
+      "section": "Contacts & Backups",
+      "status": "matched",
+      "actual": "/tmp/cleaner-fidelity-pro/94-3304.png",
+      "reference": "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/94-3304.png",
+      "actual_sha256": "2943182bda0c6583722b214f969a4265a75d5de9d5b61e96bfc0a33ec3b85344",
+      "reference_sha256": "afdddd065bea85c39a66784b2040dd786aef282f9bf9d55ae32c56977a81bf83",
+      "evidence": [
+        "Visually inspected app/reference pair in sheet 9. Header, visible copy hierarchy, component grouping, selection/disabled state and action placement checked at equal point scale; safe-area and responsive size differences allowed.",
+        "Reviewed contact/backup row hierarchy, selection/merge/restore state, bottom action and relevant empty/result artwork."
+      ],
+      "findings": []
+    },
+    {
+      "id": "94:3382",
+      "name": "Contacts / preview2",
+      "section": "Contacts & Backups",
+      "status": "matched",
+      "actual": "/tmp/cleaner-fidelity-pro/94-3382.png",
+      "reference": "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/94-3382.png",
+      "actual_sha256": "74e98ce37f3373178280932503699bd0849d7bc50bdfe490ab83ddbd1b7873e5",
+      "reference_sha256": "0c0e2fd074731de968eec88dd16c93acd670d80bebf5a911e00216dd9b3f40a8",
+      "evidence": [
+        "Visually inspected app/reference pair in sheet 9. Header, visible copy hierarchy, component grouping, selection/disabled state and action placement checked at equal point scale; safe-area and responsive size differences allowed.",
+        "Reviewed contact/backup row hierarchy, selection/merge/restore state, bottom action and relevant empty/result artwork."
+      ],
+      "findings": []
+    },
+    {
+      "id": "94:3460",
+      "name": "Contacts / preview3",
+      "section": "Contacts & Backups",
+      "status": "matched",
+      "actual": "/tmp/cleaner-fidelity-pro/94-3460.png",
+      "reference": "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/94-3460.png",
+      "actual_sha256": "58fe7e2fb91ffe79e97ac34e596625f3eeef767e31e8614106d9a0d6110d1703",
+      "reference_sha256": "844c526255f262175da83697b9452f2819bcd0c774e74c7251bdb4ef0041fb90",
+      "evidence": [
+        "Visually inspected app/reference pair in sheet 9. Header, visible copy hierarchy, component grouping, selection/disabled state and action placement checked at equal point scale; safe-area and responsive size differences allowed.",
+        "Reviewed contact/backup row hierarchy, selection/merge/restore state, bottom action and relevant empty/result artwork."
+      ],
+      "findings": []
+    },
+    {
+      "id": "94:3538",
+      "name": "Contacts / preview4",
+      "section": "Contacts & Backups",
+      "status": "matched",
+      "actual": "/tmp/cleaner-fidelity-pro/94-3538.png",
+      "reference": "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/94-3538.png",
+      "actual_sha256": "bd3b168e737bc06adc0e5a0726acaacad9f70a061ac5f78c9bd18d085642f396",
+      "reference_sha256": "cb173177d19975dddea7749f9f23a04c622e44e5b1a9cc6aff8f92b137d01cfe",
+      "evidence": [
+        "Visually inspected app/reference pair in sheet 9. Header, visible copy hierarchy, component grouping, selection/disabled state and action placement checked at equal point scale; safe-area and responsive size differences allowed.",
+        "Reviewed contact/backup row hierarchy, selection/merge/restore state, bottom action and relevant empty/result artwork."
+      ],
+      "findings": []
+    },
+    {
+      "id": "94:3616",
+      "name": "Contacts / preview5",
+      "section": "Contacts & Backups",
+      "status": "matched",
+      "actual": "/tmp/cleaner-fidelity-pro/94-3616.png",
+      "reference": "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/94-3616.png",
+      "actual_sha256": "48db6178955b2cb774fa35fb968e021b2cee5e35763319d5e08e0c1e258d027f",
+      "reference_sha256": "3661ead6f0b42bcdbb48dae01f223efe016a5b768bf388dce3f91b467a8194ef",
+      "evidence": [
+        "Visually inspected app/reference pair in sheet 9. Header, visible copy hierarchy, component grouping, selection/disabled state and action placement checked at equal point scale; safe-area and responsive size differences allowed.",
+        "Reviewed contact/backup row hierarchy, selection/merge/restore state, bottom action and relevant empty/result artwork."
+      ],
+      "findings": []
+    },
+    {
+      "id": "94:3694",
+      "name": "Contacts / previewAll",
+      "section": "Contacts & Backups",
+      "status": "matched",
+      "actual": "/tmp/cleaner-fidelity-pro/94-3694.png",
+      "reference": "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/94-3694.png",
+      "actual_sha256": "3ef91fe5755a5e5d53981f67888452203453e24bff00b6d8c87877a68753e043",
+      "reference_sha256": "39dd9f9e9ece12a3cd378651327dd2009e2acf77a4525f3134f2e2a5fd8dde84",
+      "evidence": [
+        "Visually inspected app/reference pair in sheet 9. Header, visible copy hierarchy, component grouping, selection/disabled state and action placement checked at equal point scale; safe-area and responsive size differences allowed.",
+        "Reviewed contact/backup row hierarchy, selection/merge/restore state, bottom action and relevant empty/result artwork."
+      ],
+      "findings": []
+    },
+    {
+      "id": "94:3869",
+      "name": "Contacts / mergeDone",
+      "section": "Contacts & Backups",
+      "status": "matched",
+      "actual": "/tmp/cleaner-fidelity-pro/94-3869.png",
+      "reference": "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/94-3869.png",
+      "actual_sha256": "f7a326acb7040cae3a42006c43edf8abb43b50adbc384de2b4f8441a59540d89",
+      "reference_sha256": "9d04214ef549abb892b29c75caf139091be338865f65d51c4d15605f85fc4e10",
+      "evidence": [
+        "Visually inspected app/reference pair in sheet 9. Header, visible copy hierarchy, component grouping, selection/disabled state and action placement checked at equal point scale; safe-area and responsive size differences allowed.",
+        "Reviewed contact/backup row hierarchy, selection/merge/restore state, bottom action and relevant empty/result artwork."
+      ],
+      "findings": []
+    },
+    {
+      "id": "94:3934",
+      "name": "Contacts / mergeAllDone",
+      "section": "Contacts & Backups",
+      "status": "matched",
+      "actual": "/tmp/cleaner-fidelity-pro/94-3934.png",
+      "reference": "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/94-3934.png",
+      "actual_sha256": "0a5e4c631d3a3f5d25058a607fd5243ac619bb161f252cf6ef6155c631523e49",
+      "reference_sha256": "cafe1f215cee14afa1031d65cc886ac61a19c75bc8fe8ea1ebf8782a44e74248",
+      "evidence": [
+        "Visually inspected app/reference pair in sheet 9. Header, visible copy hierarchy, component grouping, selection/disabled state and action placement checked at equal point scale; safe-area and responsive size differences allowed.",
+        "Reviewed contact/backup row hierarchy, selection/merge/restore state, bottom action and relevant empty/result artwork."
+      ],
+      "findings": []
+    },
+    {
+      "id": "94:3999",
+      "name": "Contacts / empty",
+      "section": "Contacts & Backups",
+      "status": "matched",
+      "actual": "/tmp/cleaner-fidelity-pro/94-3999.png",
+      "reference": "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/94-3999.png",
+      "actual_sha256": "eba464148d3dc41bf020e935faac52a1390694508bfb8d67d69aaa195b212e53",
+      "reference_sha256": "27d6d061435e062818e3d37d8bbd882746cdb618dcfb4ac0aa667b10133651b6",
+      "evidence": [
+        "Visually inspected app/reference pair in sheet 9. Header, visible copy hierarchy, component grouping, selection/disabled state and action placement checked at equal point scale; safe-area and responsive size differences allowed.",
+        "Reviewed contact/backup row hierarchy, selection/merge/restore state, bottom action and relevant empty/result artwork."
+      ],
+      "findings": []
+    },
+    {
+      "id": "94:4066",
+      "name": "Contacts / backups",
+      "section": "Contacts & Backups",
+      "status": "matched",
+      "actual": "/tmp/cleaner-fidelity-pro/94-4066.png",
+      "reference": "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/94-4066.png",
+      "actual_sha256": "d0bc05844393f414c16fb8b52c383c735eb47288ca1179f008ab877604ec5afe",
+      "reference_sha256": "087a678336f078b9157fbd721992064915517a71338faac31f59e635d2442997",
+      "evidence": [
+        "Visually inspected app/reference pair in sheet 9. Header, visible copy hierarchy, component grouping, selection/disabled state and action placement checked at equal point scale; safe-area and responsive size differences allowed.",
+        "Reviewed contact/backup row hierarchy, selection/merge/restore state, bottom action and relevant empty/result artwork."
+      ],
+      "findings": []
+    },
+    {
+      "id": "94:4136",
+      "name": "Contacts / backups2",
+      "section": "Contacts & Backups",
+      "status": "matched",
+      "actual": "/tmp/cleaner-fidelity-pro/94-4136.png",
+      "reference": "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/94-4136.png",
+      "actual_sha256": "3e010c663d1a8de3a3dfad8804b1008e40231107937b7edc108ac565799116f2",
+      "reference_sha256": "2b33c4d34b94b3a4349c0f6ac3363ef16e13dd1783d1ba2fdbb4b59529550806",
+      "evidence": [
+        "Visually inspected app/reference pair in sheet 9. Header, visible copy hierarchy, component grouping, selection/disabled state and action placement checked at equal point scale; safe-area and responsive size differences allowed.",
+        "Reviewed contact/backup row hierarchy, selection/merge/restore state, bottom action and relevant empty/result artwork."
+      ],
+      "findings": []
+    },
+    {
+      "id": "94:4213",
+      "name": "Contacts / detail",
+      "section": "Contacts & Backups",
+      "status": "matched",
+      "actual": "/tmp/cleaner-fidelity-pro/94-4213.png",
+      "reference": "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/94-4213.png",
+      "actual_sha256": "31c74f6ffd44af94b4a02019a1e3ef007cf7ec2748881548b9189c53e3a2ff4f",
+      "reference_sha256": "5e0f08db933cf3261ab2b7c22395a3f8480d6bb7a7b1367f1a7e010fdba28096",
+      "evidence": [
+        "Visually inspected app/reference pair in sheet 9. Header, visible copy hierarchy, component grouping, selection/disabled state and action placement checked at equal point scale; safe-area and responsive size differences allowed.",
+        "Reviewed contact/backup row hierarchy, selection/merge/restore state, bottom action and relevant empty/result artwork."
+      ],
+      "findings": []
+    },
+    {
+      "id": "94:4372",
+      "name": "Contacts / restore",
+      "section": "Contacts & Backups",
+      "status": "matched",
+      "actual": "/tmp/cleaner-fidelity-pro/94-4372.png",
+      "reference": "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/94-4372.png",
+      "actual_sha256": "d65415254b0bcd58c92b2cf5ea738f239beec0ca60b3bdfa1fb64f530f7dcb64",
+      "reference_sha256": "2d8fcb046dc1aceef2b83a5736059807c750697b51a840dd0aecfaed2f6da67d",
+      "evidence": [
+        "Visually inspected app/reference pair in sheet 10. Header, visible copy hierarchy, component grouping, selection/disabled state and action placement checked at equal point scale; safe-area and responsive size differences allowed.",
+        "Reviewed contact/backup row hierarchy, selection/merge/restore state, bottom action and relevant empty/result artwork."
+      ],
+      "findings": []
+    },
+    {
+      "id": "94:4441",
+      "name": "Contacts / detail2",
+      "section": "Contacts & Backups",
+      "status": "matched",
+      "actual": "/tmp/cleaner-fidelity-pro/94-4441.png",
+      "reference": "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/94-4441.png",
+      "actual_sha256": "cfb35554d0823247fbdea51426a0d37c5491a0079c3cb758e49db5b40b039c99",
+      "reference_sha256": "d4a9c2af7cfa111a9751fed7728e03eec6cfac01e3fd78741f00e275dcdb7831",
+      "evidence": [
+        "Visually inspected app/reference pair in sheet 10. Header, visible copy hierarchy, component grouping, selection/disabled state and action placement checked at equal point scale; safe-area and responsive size differences allowed.",
+        "Reviewed contact/backup row hierarchy, selection/merge/restore state, bottom action and relevant empty/result artwork."
+      ],
+      "findings": []
+    },
+    {
+      "id": "94:4598",
+      "name": "Contacts / restore2",
+      "section": "Contacts & Backups",
+      "status": "matched",
+      "actual": "/tmp/cleaner-fidelity-pro/94-4598.png",
+      "reference": "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/94-4598.png",
+      "actual_sha256": "d65415254b0bcd58c92b2cf5ea738f239beec0ca60b3bdfa1fb64f530f7dcb64",
+      "reference_sha256": "804ceaff6604f7e9255f57ce9b71c09848a80d02976600fdef74bd221dd61ca9",
+      "evidence": [
+        "Visually inspected app/reference pair in sheet 10. Header, visible copy hierarchy, component grouping, selection/disabled state and action placement checked at equal point scale; safe-area and responsive size differences allowed.",
+        "Reviewed contact/backup row hierarchy, selection/merge/restore state, bottom action and relevant empty/result artwork."
+      ],
+      "findings": []
+    },
+    {
+      "id": "94:4665",
+      "name": "Contacts / restored",
+      "section": "Contacts & Backups",
+      "status": "matched",
+      "actual": "/tmp/cleaner-fidelity-pro/94-4665.png",
+      "reference": "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/94-4665.png",
+      "actual_sha256": "8a71b3621dc2f402854fb84f78ff25ee87ff6ca41bcc0c0c8934b2d150738549",
+      "reference_sha256": "d1dd0c58cae941804ec161c24e27475524f7119a2096ca52c93bade75fe7edff",
+      "evidence": [
+        "Visually inspected app/reference pair in sheet 10. Header, visible copy hierarchy, component grouping, selection/disabled state and action placement checked at equal point scale; safe-area and responsive size differences allowed.",
+        "Reviewed contact/backup row hierarchy, selection/merge/restore state, bottom action and relevant empty/result artwork."
+      ],
+      "findings": []
+    },
+    {
+      "id": "105:1866",
+      "name": "Contacts / All contacts · A–Z · default",
+      "section": "Contacts & Backups",
+      "status": "matched",
+      "actual": "/tmp/cleaner-fidelity-pro/105-1866.png",
+      "reference": "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/105-1866.png",
+      "actual_sha256": "6674c31b4c92a7a873eaed4984b256d517d96ad7e973e01b8644c6928354df15",
+      "reference_sha256": "fab9c881253230f43dac5f201ec5381c59abf8263b74c53d633a16f1ce66ec06",
+      "evidence": [
+        "Visually inspected app/reference pair in sheet 10. Header, visible copy hierarchy, component grouping, selection/disabled state and action placement checked at equal point scale; safe-area and responsive size differences allowed.",
+        "Reviewed contact/backup row hierarchy, selection/merge/restore state, bottom action and relevant empty/result artwork."
+      ],
+      "findings": []
+    },
+    {
+      "id": "105:2338",
+      "name": "Contacts / All contacts · A–Z · selected",
+      "section": "Contacts & Backups",
+      "status": "matched",
+      "actual": "/tmp/cleaner-fidelity-pro/105-2338.png",
+      "reference": "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/105-2338.png",
+      "actual_sha256": "964d6af12c1ff5445ac6a8cf648b2d59fc3be0894c8ae3a2f9d134339298aa65",
+      "reference_sha256": "c8cff312994be9e7ea6f32cbc5f91a84819c1baf95eee96e04b082df093d3569",
+      "evidence": [
+        "Visually inspected app/reference pair in sheet 10. Header, visible copy hierarchy, component grouping, selection/disabled state and action placement checked at equal point scale; safe-area and responsive size differences allowed.",
+        "Reviewed contact/backup row hierarchy, selection/merge/restore state, bottom action and relevant empty/result artwork."
+      ],
+      "findings": []
+    },
+    {
+      "id": "105:2853",
+      "name": "Contacts / A–Z · Deleted",
+      "section": "Contacts & Backups",
+      "status": "matched",
+      "actual": "/tmp/cleaner-fidelity-pro/105-2853.png",
+      "reference": "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/105-2853.png",
+      "actual_sha256": "c193566c4a656891da70cae268bba2817686836becbf0bb6bef723885e6ed8e0",
+      "reference_sha256": "74ba3aa482915f6f8dc951f4a52499235d5ce47921d3925588f822a112514da8",
+      "evidence": [
+        "Visually inspected app/reference pair in sheet 10. Header, visible copy hierarchy, component grouping, selection/disabled state and action placement checked at equal point scale; safe-area and responsive size differences allowed.",
+        "Reviewed contact/backup row hierarchy, selection/merge/restore state, bottom action and relevant empty/result artwork."
+      ],
+      "findings": []
+    },
+    {
+      "id": "119:1912",
+      "name": "Calendar / Past · browse",
+      "section": "Calendar",
+      "status": "matched",
+      "actual": "/tmp/cleaner-fidelity-pro/119-1912.png",
+      "reference": "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/119-1912.png",
+      "actual_sha256": "3f8267eeedabe3dc463763dfd2df27e8e61d8b512d518b89590e7e63879cc708",
+      "reference_sha256": "c759592fdadcd836e428ccbf3bd03f52db220b833bced04d48a47cda35f67f97",
+      "evidence": [
+        "Visually inspected app/reference pair in sheet 10. Header, visible copy hierarchy, component grouping, selection/disabled state and action placement checked at equal point scale; safe-area and responsive size differences allowed.",
+        "Reviewed Past/Future selection, selected-row combination, event count and enabled/disabled deletion or outcome overlay."
+      ],
+      "findings": []
+    },
+    {
+      "id": "119:2205",
+      "name": "Calendar / Past · all",
+      "section": "Calendar",
+      "status": "matched",
+      "actual": "/tmp/cleaner-fidelity-pro/119-2205.png",
+      "reference": "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/119-2205.png",
+      "actual_sha256": "caf8f33e109716d31b9da31a998a2c7f2aa9de5da594811d13f8290449e7842d",
+      "reference_sha256": "0f18f8eaccbceb9d8fdd544d7c11c8bd510c5a4b4524255ac75af7d3039a6fdf",
+      "evidence": [
+        "Visually inspected app/reference pair in sheet 10. Header, visible copy hierarchy, component grouping, selection/disabled state and action placement checked at equal point scale; safe-area and responsive size differences allowed.",
+        "Reviewed Past/Future selection, selected-row combination, event count and enabled/disabled deletion or outcome overlay."
+      ],
+      "findings": []
+    },
+    {
+      "id": "119:2510",
+      "name": "Calendar / Past · partial",
+      "section": "Calendar",
+      "status": "matched",
+      "actual": "/tmp/cleaner-fidelity-pro/119-2510.png",
+      "reference": "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/119-2510.png",
+      "actual_sha256": "4d134eda81985481dc86fa934cfe2a0149db11d5a445cdfc58efe9c460ea0eeb",
+      "reference_sha256": "d739034c97e80687ef88f30a99a2f8d01ad53b49a3c83ad7af5e8e40f6d6ed10",
+      "evidence": [
+        "Visually inspected app/reference pair in sheet 10. Header, visible copy hierarchy, component grouping, selection/disabled state and action placement checked at equal point scale; safe-area and responsive size differences allowed.",
+        "Reviewed Past/Future selection, selected-row combination, event count and enabled/disabled deletion or outcome overlay."
+      ],
+      "findings": []
+    },
+    {
+      "id": "119:2804",
+      "name": "Calendar / Past · empty",
+      "section": "Calendar",
+      "status": "matched",
+      "actual": "/tmp/cleaner-fidelity-pro/119-2804.png",
+      "reference": "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/119-2804.png",
+      "actual_sha256": "2ee0544705e8f5e209125d436022f1b6546938efbe41c6977c3ccb77985de4ae",
+      "reference_sha256": "c8036af9bcfd8c17ceaf6772fe701ff9094fe0dd0007dc0968d52d9591cc2dd5",
+      "evidence": [
+        "Visually inspected app/reference pair in sheet 10. Header, visible copy hierarchy, component grouping, selection/disabled state and action placement checked at equal point scale; safe-area and responsive size differences allowed.",
+        "Reviewed Past/Future selection, selected-row combination, event count and enabled/disabled deletion or outcome overlay."
+      ],
+      "findings": []
+    },
+    {
+      "id": "119:2990",
+      "name": "Calendar / Future · browse",
+      "section": "Calendar",
+      "status": "matched",
+      "actual": "/tmp/cleaner-fidelity-pro/119-2990.png",
+      "reference": "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/119-2990.png",
+      "actual_sha256": "6dfcae864d458de7572c8987f33ae3d99fab13c2d611049caddc08dffeb4a813",
+      "reference_sha256": "cbae4a289de7d47738b6357c18f06402e777f5089f03d6db9df2b47dcfb0fa11",
+      "evidence": [
+        "Visually inspected app/reference pair in sheet 10. Header, visible copy hierarchy, component grouping, selection/disabled state and action placement checked at equal point scale; safe-area and responsive size differences allowed.",
+        "Reviewed Past/Future selection, selected-row combination, event count and enabled/disabled deletion or outcome overlay."
+      ],
+      "findings": []
+    },
+    {
+      "id": "119:3280",
+      "name": "Calendar / Future · all",
+      "section": "Calendar",
+      "status": "matched",
+      "actual": "/tmp/cleaner-fidelity-pro/119-3280.png",
+      "reference": "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/119-3280.png",
+      "actual_sha256": "86738598a50c55f890bda3cc57fc32a94f27ae8387187ebd83de24cafd7d7bdc",
+      "reference_sha256": "dfb71b48a60eb9b68872fac55e9fd51599711099b2538ecfb4c26a6c16ba37d4",
+      "evidence": [
+        "Visually inspected app/reference pair in sheet 11. Header, visible copy hierarchy, component grouping, selection/disabled state and action placement checked at equal point scale; safe-area and responsive size differences allowed.",
+        "Reviewed Past/Future selection, selected-row combination, event count and enabled/disabled deletion or outcome overlay."
+      ],
+      "findings": []
+    },
+    {
+      "id": "119:3582",
+      "name": "Calendar / Future · partial",
+      "section": "Calendar",
+      "status": "matched",
+      "actual": "/tmp/cleaner-fidelity-pro/119-3582.png",
+      "reference": "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/119-3582.png",
+      "actual_sha256": "ca55a61c2f0fbadb262efb1d8e01a31cca548edbe5ae13d40b414b6f761b153c",
+      "reference_sha256": "d8391d344f1974c671037b2f22a3897bedfee2acc08fb3b5f86bcf6ac38e7ddf",
+      "evidence": [
+        "Visually inspected app/reference pair in sheet 11. Header, visible copy hierarchy, component grouping, selection/disabled state and action placement checked at equal point scale; safe-area and responsive size differences allowed.",
+        "Reviewed Past/Future selection, selected-row combination, event count and enabled/disabled deletion or outcome overlay."
+      ],
+      "findings": []
+    },
+    {
+      "id": "119:3873",
+      "name": "Calendar / Future · empty",
+      "section": "Calendar",
+      "status": "matched",
+      "actual": "/tmp/cleaner-fidelity-pro/119-3873.png",
+      "reference": "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/119-3873.png",
+      "actual_sha256": "9864d2ea5afc8e2cdc6ae744db5eda12b0e0fd42e45b2345d6642ba3232b0a47",
+      "reference_sha256": "cae1812fffb8eb22195f0f3a90a301036440c18a959b1d5e2d81ef4c64e74e77",
+      "evidence": [
+        "Visually inspected app/reference pair in sheet 11. Header, visible copy hierarchy, component grouping, selection/disabled state and action placement checked at equal point scale; safe-area and responsive size differences allowed.",
+        "Reviewed Past/Future selection, selected-row combination, event count and enabled/disabled deletion or outcome overlay."
+      ],
+      "findings": []
+    },
+    {
+      "id": "119:4059",
+      "name": "Calendar / Past · success",
+      "section": "Calendar",
+      "status": "matched",
+      "actual": "/tmp/cleaner-fidelity-pro/119-4059.png",
+      "reference": "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/119-4059.png",
+      "actual_sha256": "000cb48cfaf36db97ba8e557b90fa28e7a595fbaf3b2c5dee5b5f5b60c515e80",
+      "reference_sha256": "a65f05a98d3a1fd5a2035fe86274aa02ea544be580e1af43a8d16ca03e8a862e",
+      "evidence": [
+        "Visually inspected app/reference pair in sheet 11. Header, visible copy hierarchy, component grouping, selection/disabled state and action placement checked at equal point scale; safe-area and responsive size differences allowed.",
+        "Reviewed Past/Future selection, selected-row combination, event count and enabled/disabled deletion or outcome overlay."
+      ],
+      "findings": []
+    },
+    {
+      "id": "119:4146",
+      "name": "Calendar / Past · partial success",
+      "section": "Calendar",
+      "status": "matched",
+      "actual": "/tmp/cleaner-fidelity-pro/119-4146.png",
+      "reference": "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/119-4146.png",
+      "actual_sha256": "0ea46dcf2a39cc46ecf5050e3d05e423f9c8cc93a7ead0f662ac8c10f3250556",
+      "reference_sha256": "7cc665c6d654070b5c56f41ea9aa2b6abcc5fac06933491d4b21eb25cc784beb",
+      "evidence": [
+        "Visually inspected app/reference pair in sheet 11. Header, visible copy hierarchy, component grouping, selection/disabled state and action placement checked at equal point scale; safe-area and responsive size differences allowed.",
+        "Reviewed Past/Future selection, selected-row combination, event count and enabled/disabled deletion or outcome overlay."
+      ],
+      "findings": []
+    },
+    {
+      "id": "119:4338",
+      "name": "Calendar / Future · success",
+      "section": "Calendar",
+      "status": "matched",
+      "actual": "/tmp/cleaner-fidelity-pro/119-4338.png",
+      "reference": "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/119-4338.png",
+      "actual_sha256": "ceb72d1e20dfa4395f0d35f26920b6f9e8478874857050d0ca69f8a4608b92b5",
+      "reference_sha256": "4584ce5190941f821d4f4bebe7e7e664ac655c02f1663788056a34b64f42082a",
+      "evidence": [
+        "Visually inspected app/reference pair in sheet 11. Header, visible copy hierarchy, component grouping, selection/disabled state and action placement checked at equal point scale; safe-area and responsive size differences allowed.",
+        "Reviewed Past/Future selection, selected-row combination, event count and enabled/disabled deletion or outcome overlay."
+      ],
+      "findings": []
+    },
+    {
+      "id": "119:4425",
+      "name": "Calendar / Future · partial success",
+      "section": "Calendar",
+      "status": "matched",
+      "actual": "/tmp/cleaner-fidelity-pro/119-4425.png",
+      "reference": "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/119-4425.png",
+      "actual_sha256": "4b8facbce9a2d8e4089af20ea6d76d44f5e6520e62080bcbe499c7d1b59034f1",
+      "reference_sha256": "7954d1311e1c99200a135169d56ffa4e22d38fe1aad32f4908725caf1c1569ef",
+      "evidence": [
+        "Visually inspected app/reference pair in sheet 11. Header, visible copy hierarchy, component grouping, selection/disabled state and action placement checked at equal point scale; safe-area and responsive size differences allowed.",
+        "Reviewed Past/Future selection, selected-row combination, event count and enabled/disabled deletion or outcome overlay."
+      ],
+      "findings": []
+    },
+    {
+      "id": "127:2092",
+      "name": "Background Remover / Choose photo",
+      "section": "Background Remover",
+      "status": "matched",
+      "actual": "/tmp/cleaner-fidelity-pro/127-2092.png",
+      "reference": "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/127-2092.png",
+      "actual_sha256": "157820edb7e281836dcd63a1aa0a8da31869c325d9fa6f00c9ff6ac349ce1a6f",
+      "reference_sha256": "915fe90bc0a9fc19d03cdf8c884d85ff25fce1cf30ea459699497ef8ab457249",
+      "evidence": [
+        "Visually inspected app/reference pair in sheet 11. Header, visible copy hierarchy, component grouping, selection/disabled state and action placement checked at equal point scale; safe-area and responsive size differences allowed.",
+        "Reviewed selected background mode/options, adaptive preview geometry, footer actions and relevant loading/result/permission state."
+      ],
+      "findings": []
+    },
+    {
+      "id": "129:2123",
+      "name": "Background Remover / Processing · 1",
+      "section": "Background Remover",
+      "status": "matched",
+      "actual": "/tmp/cleaner-fidelity-pro/129-2123.png",
+      "reference": "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/129-2123.png",
+      "actual_sha256": "637b9ed33a17d55a00fafe3ffb025f2c7f1e56c90a0df585c2f7f2f7caf56bf1",
+      "reference_sha256": "0fdac333396c7fe2720b92f8de895077d4cfcb7aed5f581de29a68ea18ae5eff",
+      "evidence": [
+        "Visually inspected app/reference pair in sheet 11. Header, visible copy hierarchy, component grouping, selection/disabled state and action placement checked at equal point scale; safe-area and responsive size differences allowed.",
+        "Reviewed selected background mode/options, adaptive preview geometry, footer actions and relevant loading/result/permission state."
+      ],
+      "findings": []
+    },
+    {
+      "id": "129:2169",
+      "name": "Background Remover / Processing · 2",
+      "section": "Background Remover",
+      "status": "matched",
+      "actual": "/tmp/cleaner-fidelity-pro/129-2169.png",
+      "reference": "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/129-2169.png",
+      "actual_sha256": "abffd671b8a0306afdfcc9c631564ff534d3312953b356f4766d6a5401b2eb26",
+      "reference_sha256": "162dc499904b99a6bc890befb13fd52ed49b76bf0e78b4253cdb1ea56a5fc4d0",
+      "evidence": [
+        "Visually inspected app/reference pair in sheet 11. Header, visible copy hierarchy, component grouping, selection/disabled state and action placement checked at equal point scale; safe-area and responsive size differences allowed.",
+        "Reviewed selected background mode/options, adaptive preview geometry, footer actions and relevant loading/result/permission state."
+      ],
+      "findings": []
+    },
+    {
+      "id": "129:2217",
+      "name": "Background Remover / Transparent",
+      "section": "Background Remover",
+      "status": "matched",
+      "actual": "/tmp/cleaner-fidelity-pro/129-2217.png",
+      "reference": "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/129-2217.png",
+      "actual_sha256": "d5f9ea30427fa51ca0c3a76e6b565112ae82a10d899682843d5e706abddb7098",
+      "reference_sha256": "60b7f75bfcd46191924cfcb077c79e5e6fdaddfc9bfccee1c144c753a0293aa7",
+      "evidence": [
+        "Visually inspected app/reference pair in sheet 11. Header, visible copy hierarchy, component grouping, selection/disabled state and action placement checked at equal point scale; safe-area and responsive size differences allowed.",
+        "Reviewed selected background mode/options, adaptive preview geometry, footer actions and relevant loading/result/permission state."
+      ],
+      "findings": []
+    },
+    {
+      "id": "129:2277",
+      "name": "Background Remover / Color · Mist",
+      "section": "Background Remover",
+      "status": "matched",
+      "actual": "/tmp/cleaner-fidelity-pro/129-2277.png",
+      "reference": "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/129-2277.png",
+      "actual_sha256": "10ecff684df4d6a5112b1758563db2882bf14dce3bb8eacb5361de7ac71a498a",
+      "reference_sha256": "8f7a94aca737017add0bbb0b210271e9f44f80715602897d10a8daa45c30fe0f",
+      "evidence": [
+        "Visually inspected app/reference pair in sheet 11. Header, visible copy hierarchy, component grouping, selection/disabled state and action placement checked at equal point scale; safe-area and responsive size differences allowed.",
+        "Reviewed selected background mode/options, adaptive preview geometry, footer actions and relevant loading/result/permission state."
+      ],
+      "findings": []
+    },
+    {
+      "id": "129:2344",
+      "name": "Background Remover / Color · Peach",
+      "section": "Background Remover",
+      "status": "matched",
+      "actual": "/tmp/cleaner-fidelity-pro/129-2344.png",
+      "reference": "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/129-2344.png",
+      "actual_sha256": "3061ffdb28345242ee114b47a2f5a1cb168651264498a891a1cda2970a8c61ea",
+      "reference_sha256": "5225981fda3e8d3284068d994a1a43cca9cb3ecb6370eb3ccb8479cb5941ad9a",
+      "evidence": [
+        "Visually inspected app/reference pair in sheet 12. Header, visible copy hierarchy, component grouping, selection/disabled state and action placement checked at equal point scale; safe-area and responsive size differences allowed.",
+        "Reviewed selected background mode/options, adaptive preview geometry, footer actions and relevant loading/result/permission state."
+      ],
+      "findings": []
+    },
+    {
+      "id": "129:2411",
+      "name": "Background Remover / Color · Sage",
+      "section": "Background Remover",
+      "status": "matched",
+      "actual": "/tmp/cleaner-fidelity-pro/129-2411.png",
+      "reference": "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/129-2411.png",
+      "actual_sha256": "529f73e66f487430fafb42e90efbbc58f49b050124bcd38abb1b3b0f0f2ecaab",
+      "reference_sha256": "f72f0e4e6d23db7b870b95174836b9beabbdef12077443607e41ede4d3c3f9d1",
+      "evidence": [
+        "Visually inspected app/reference pair in sheet 12. Header, visible copy hierarchy, component grouping, selection/disabled state and action placement checked at equal point scale; safe-area and responsive size differences allowed.",
+        "Reviewed selected background mode/options, adaptive preview geometry, footer actions and relevant loading/result/permission state."
+      ],
+      "findings": []
+    },
+    {
+      "id": "129:2478",
+      "name": "Background Remover / Color · Paper",
+      "section": "Background Remover",
+      "status": "matched",
+      "actual": "/tmp/cleaner-fidelity-pro/129-2478.png",
+      "reference": "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/129-2478.png",
+      "actual_sha256": "36c94f1e6a296f05f4ddc567ae0e7cb65d389e7e61d31a0e5f63cb6a9e778555",
+      "reference_sha256": "776724e79c2cc0e1130252a326fb9f55eac0856ce3bab5856eab483a7692c601",
+      "evidence": [
+        "Visually inspected app/reference pair in sheet 12. Header, visible copy hierarchy, component grouping, selection/disabled state and action placement checked at equal point scale; safe-area and responsive size differences allowed.",
+        "Reviewed selected background mode/options, adaptive preview geometry, footer actions and relevant loading/result/permission state."
+      ],
+      "findings": []
+    },
+    {
+      "id": "129:2545",
+      "name": "Background Remover / Gradient · Sky",
+      "section": "Background Remover",
+      "status": "matched",
+      "actual": "/tmp/cleaner-fidelity-pro/129-2545.png",
+      "reference": "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/129-2545.png",
+      "actual_sha256": "df2079888f0d7012dbc0e37d6a13be676810bee19849e207e84a632d50a25e54",
+      "reference_sha256": "bedf96a4f0ae3cfef18f3752762d36965521def1736fe8e61fa5f0e00cb84a75",
+      "evidence": [
+        "Visually inspected app/reference pair in sheet 12. Header, visible copy hierarchy, component grouping, selection/disabled state and action placement checked at equal point scale; safe-area and responsive size differences allowed.",
+        "Reviewed selected background mode/options, adaptive preview geometry, footer actions and relevant loading/result/permission state."
+      ],
+      "findings": []
+    },
+    {
+      "id": "129:2610",
+      "name": "Background Remover / Gradient · Dawn",
+      "section": "Background Remover",
+      "status": "matched",
+      "actual": "/tmp/cleaner-fidelity-pro/129-2610.png",
+      "reference": "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/129-2610.png",
+      "actual_sha256": "28135c313586b9d6b0ac0eb9576efc7a82eb23c0967d2cd6d8210457c287652a",
+      "reference_sha256": "15e383fd73f49107c38022e993e4f27640d71da0a142b73b7c05a4086827df82",
+      "evidence": [
+        "Visually inspected app/reference pair in sheet 12. Header, visible copy hierarchy, component grouping, selection/disabled state and action placement checked at equal point scale; safe-area and responsive size differences allowed.",
+        "Reviewed selected background mode/options, adaptive preview geometry, footer actions and relevant loading/result/permission state."
+      ],
+      "findings": []
+    },
+    {
+      "id": "129:2675",
+      "name": "Background Remover / Gradient · Mint",
+      "section": "Background Remover",
+      "status": "matched",
+      "actual": "/tmp/cleaner-fidelity-pro/129-2675.png",
+      "reference": "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/129-2675.png",
+      "actual_sha256": "e13f61ae47814e842c570a8fef51c1d4fb27ff06186785bf28049002872f185b",
+      "reference_sha256": "40cfb01b8a2b74458a729840b7660f639cb2a957217e0eeec6bf718464ee57b6",
+      "evidence": [
+        "Visually inspected app/reference pair in sheet 12. Header, visible copy hierarchy, component grouping, selection/disabled state and action placement checked at equal point scale; safe-area and responsive size differences allowed.",
+        "Reviewed selected background mode/options, adaptive preview geometry, footer actions and relevant loading/result/permission state."
+      ],
+      "findings": []
+    },
+    {
+      "id": "129:2740",
+      "name": "Background Remover / Image · Coast",
+      "section": "Background Remover",
+      "status": "matched",
+      "actual": "/tmp/cleaner-fidelity-pro/129-2740.png",
+      "reference": "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/129-2740.png",
+      "actual_sha256": "29eaf88b516a065db1ce10351d364463dd60913e6a15680ca1ca2db061ee7ee8",
+      "reference_sha256": "816b8f9a5311545ea59c077c1333b04ade56bbf3145d70c2bdb597a96531f786",
+      "evidence": [
+        "Visually inspected app/reference pair in sheet 12. Header, visible copy hierarchy, component grouping, selection/disabled state and action placement checked at equal point scale; safe-area and responsive size differences allowed.",
+        "Reviewed selected background mode/options, adaptive preview geometry, footer actions and relevant loading/result/permission state."
+      ],
+      "findings": []
+    },
+    {
+      "id": "129:2805",
+      "name": "Background Remover / Image · Meadow",
+      "section": "Background Remover",
+      "status": "matched",
+      "actual": "/tmp/cleaner-fidelity-pro/129-2805.png",
+      "reference": "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/129-2805.png",
+      "actual_sha256": "b24a6f7856b9f54aaaa02c1aeb57805092e7aa85ff8733c3ce1ed3a83c8c1ccc",
+      "reference_sha256": "ba5530e0c4867898ddf204b52e7b22bf3775b145c8b226db3dc323c9438f7f5e",
+      "evidence": [
+        "Visually inspected app/reference pair in sheet 12. Header, visible copy hierarchy, component grouping, selection/disabled state and action placement checked at equal point scale; safe-area and responsive size differences allowed.",
+        "Reviewed selected background mode/options, adaptive preview geometry, footer actions and relevant loading/result/permission state."
+      ],
+      "findings": []
+    },
+    {
+      "id": "129:2870",
+      "name": "Background Remover / Image · Fountain",
+      "section": "Background Remover",
+      "status": "matched",
+      "actual": "/tmp/cleaner-fidelity-pro/129-2870.png",
+      "reference": "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/129-2870.png",
+      "actual_sha256": "94d9f4b3cd97df4255b7445f814a23cd1dcf8d793090ceaf5ac9580f399c1bab",
+      "reference_sha256": "e81e7bc8c6938eb5b8bd8111b3fd873ba4a90750260a9643efcce6fa9820d428",
+      "evidence": [
+        "Visually inspected app/reference pair in sheet 12. Header, visible copy hierarchy, component grouping, selection/disabled state and action placement checked at equal point scale; safe-area and responsive size differences allowed.",
+        "Reviewed selected background mode/options, adaptive preview geometry, footer actions and relevant loading/result/permission state."
+      ],
+      "findings": []
+    },
+    {
+      "id": "129:2935",
+      "name": "Share image · system handoff",
+      "section": "Background Remover",
+      "status": "os-owned",
+      "actual": "/tmp/cleaner-fidelity-pro/129-2935.png",
+      "reference": "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/129-2935.png",
+      "actual_sha256": "d5f9ea30427fa51ca0c3a76e6b565112ae82a10d899682843d5e706abddb7098",
+      "reference_sha256": "d5f3d8e0ae543de4dc67f30730453d51707e7f26bd18bdde5347539ad87536ab",
+      "evidence": [
+        "Native Photos picker, add-only permission or share handoff: app screenshot cannot establish OS-sheet fidelity."
+      ],
+      "findings": []
+    },
+    {
+      "id": "141:2302",
+      "name": "iOS / Select a photo",
+      "section": "Background Remover · Выбор и сохранение",
+      "status": "os-owned",
+      "actual": "/tmp/cleaner-fidelity-pro/141-2302.png",
+      "reference": "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/141-2302.png",
+      "actual_sha256": "157820edb7e281836dcd63a1aa0a8da31869c325d9fa6f00c9ff6ac349ce1a6f",
+      "reference_sha256": "acb23f06c8030af0060af6a33a109a9099f0a5bf3eb50c616ac7d9c749495937",
+      "evidence": [
+        "Native Photos picker, add-only permission or share handoff: app screenshot cannot establish OS-sheet fidelity."
+      ],
+      "findings": []
+    },
+    {
+      "id": "141:2383",
+      "name": "App / Loading selected photo",
+      "section": "Background Remover · Выбор и сохранение",
+      "status": "matched",
+      "actual": "/tmp/cleaner-fidelity-pro/141-2383.png",
+      "reference": "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/141-2383.png",
+      "actual_sha256": "c7767b0986efcedfee99d67f91cce8cda56afb8029d7e63c585648040e59bfc8",
+      "reference_sha256": "e456595e247feb0b9d77c0ba14de0c873453ad32c3758cf41ec72bbe59c61d54",
+      "evidence": [
+        "Visually inspected app/reference pair in sheet 12. Header, visible copy hierarchy, component grouping, selection/disabled state and action placement checked at equal point scale; safe-area and responsive size differences allowed.",
+        "Reviewed selected background mode/options, adaptive preview geometry, footer actions and relevant loading/result/permission state."
+      ],
+      "findings": []
+    },
+    {
+      "id": "141:2430",
+      "name": "iOS / Add Photos Only",
+      "section": "Background Remover · Выбор и сохранение",
+      "status": "os-owned",
+      "actual": "/tmp/cleaner-fidelity-pro/141-2430.png",
+      "reference": "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/141-2430.png",
+      "actual_sha256": "d5f9ea30427fa51ca0c3a76e6b565112ae82a10d899682843d5e706abddb7098",
+      "reference_sha256": "be588d6ceeab8423013f318c08fa5ab66876c773c0db12fad11d97108c930cf0",
+      "evidence": [
+        "Native Photos picker, add-only permission or share handoff: app screenshot cannot establish OS-sheet fidelity."
+      ],
+      "findings": []
+    },
+    {
+      "id": "141:2461",
+      "name": "App / Photos access off",
+      "section": "Background Remover · Выбор и сохранение",
+      "status": "matched",
+      "actual": "/tmp/cleaner-fidelity-pro/141-2461.png",
+      "reference": "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/141-2461.png",
+      "actual_sha256": "19da1f4da7d443cfe544747c97bb328ed09ae1f4b8f8cd862b7fd500b53ef474",
+      "reference_sha256": "30926dab7b241f2011c9f3bf5adb35c30472d298718abba331bd54897df8806e",
+      "evidence": [
+        "Visually inspected app/reference pair in sheet 13. Header, visible copy hierarchy, component grouping, selection/disabled state and action placement checked at equal point scale; safe-area and responsive size differences allowed.",
+        "Reviewed selected background mode/options, adaptive preview geometry, footer actions and relevant loading/result/permission state."
+      ],
+      "findings": []
+    },
+    {
+      "id": "141:2492",
+      "name": "App / Photo saved",
+      "section": "Background Remover · Выбор и сохранение",
+      "status": "matched",
+      "actual": "/tmp/cleaner-fidelity-pro/141-2492.png",
+      "reference": "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/141-2492.png",
+      "actual_sha256": "942f619724bc8cad0240f247d223400597bb1eee08c41b17612d492346fc9d11",
+      "reference_sha256": "cf2bc2d51f47b2aadb7a0dad1e879807ed7dc95e567aebef582805bdc4ba5a72",
+      "evidence": [
+        "Visually inspected app/reference pair in sheet 13. Header, visible copy hierarchy, component grouping, selection/disabled state and action placement checked at equal point scale; safe-area and responsive size differences allowed.",
+        "Reviewed selected background mode/options, adaptive preview geometry, footer actions and relevant loading/result/permission state."
+      ],
+      "findings": []
+    },
+    {
+      "id": "141:2550",
+      "name": "Overlay · iOS add-only",
+      "section": "Background Remover · Выбор и сохранение",
+      "status": "os-owned",
+      "actual": "/tmp/cleaner-fidelity-pro/141-2550.png",
+      "reference": "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/141-2550.png",
+      "actual_sha256": "ad1a05b3e2fd4ce91cc6b760ab8f752ed8417718f64730872fe4958759c86679",
+      "reference_sha256": "1efbf48853642db78f59cc4897ab4669696490142d5d2253142e863fd8c17df6",
+      "evidence": [
+        "Native Photos picker, add-only permission or share handoff: app screenshot cannot establish OS-sheet fidelity."
+      ],
+      "findings": []
+    },
+    {
+      "id": "141:2558",
+      "name": "Overlay · Access off",
+      "section": "Background Remover · Выбор и сохранение",
+      "status": "matched",
+      "actual": "/tmp/cleaner-fidelity-pro/141-2558.png",
+      "reference": "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/141-2558.png",
+      "actual_sha256": "6984ec1fa1125c597445a76af876568e0574cf91c927d421fa27d204a6251860",
+      "reference_sha256": "28324051c7a518624c51281643101cc57a383edd4e88e2d5a3a1d882a14d5b8c",
+      "evidence": [
+        "Visually inspected app/reference pair in sheet 13. Header, visible copy hierarchy, component grouping, selection/disabled state and action placement checked at equal point scale; safe-area and responsive size differences allowed.",
+        "Reviewed selected background mode/options, adaptive preview geometry, footer actions and relevant loading/result/permission state."
+      ],
+      "findings": []
+    },
+    {
+      "id": "141:2564",
+      "name": "Overlay · Photo saved",
+      "section": "Background Remover · Выбор и сохранение",
+      "status": "matched",
+      "actual": "/tmp/cleaner-fidelity-pro/141-2564.png",
+      "reference": "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/141-2564.png",
+      "actual_sha256": "3338580760b617523e80770254d7a1846eaf9d87b5f3d7a77ad6df4de199851d",
+      "reference_sha256": "da807390431ce801692dae94891ac074af69d79819c36ef16fb55ec571b9673f",
+      "evidence": [
+        "Visually inspected app/reference pair in sheet 13. Header, visible copy hierarchy, component grouping, selection/disabled state and action placement checked at equal point scale; safe-area and responsive size differences allowed.",
+        "Reviewed selected background mode/options, adaptive preview geometry, footer actions and relevant loading/result/permission state."
+      ],
+      "findings": []
+    },
+    {
+      "id": "147:2387",
+      "name": "Security Center / hub",
+      "section": "Security Center",
+      "status": "matched",
+      "actual": "/tmp/cleaner-pro-security-batch-final/147-2387.png",
+      "reference": "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/147-2387.png",
+      "actual_sha256": "16563df14b7120965a97d2f98e9bd65bb64c64dcd091b48b3fb90b26639b16a2",
+      "reference_sha256": "fd7da60e9385dffeabef85a72b02a5b639cf91643f048e1c6756a71490649ff5",
+      "evidence": [
+        "Visually inspected app/reference pair in sheet 13. Header, visible copy hierarchy, component grouping, selection/disabled state and action placement checked at equal point scale; safe-area and responsive size differences allowed.",
+        "Reviewed form validation, loading arc phase, result/status badges, password strength meter, guide glyphs and appropriate bottom versus inline actions for this state.",
+        "Final badge/caption batch visually inspected against cached reference in pairs-0.jpg, pairs-4.jpg and pairs-checking.jpg; status fills/inks, checking caption and both spinner phases confirmed. Adaptive width/safe-area differences excluded."
+      ],
+      "findings": [],
+      "review_history": [
+        {
+          "status": "matched",
+          "actual": "/tmp/cleaner-fidelity-pro/147-2387.png",
+          "actual_sha256": "cf95816b35962d3ab9e142ee9e190160649b01a43c93bb3ad488ec1e5c9486b5",
+          "findings": []
+        }
+      ]
+    },
+    {
+      "id": "147:2473",
+      "name": "Security Center / hubReviewed",
+      "section": "Security Center",
+      "status": "matched",
+      "actual": "/tmp/cleaner-pro-security-batch-final/147-2473.png",
+      "reference": "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/147-2473.png",
+      "actual_sha256": "48595cda0a18f44769d20afce89b3086982295ce8c0fc99e826039435644056c",
+      "reference_sha256": "213b95ab096277a515bc065573ebfdb2c54dbef8a538656f83898a1516ff0535",
+      "evidence": [
+        "Visually inspected app/reference pair in sheet 13. Header, visible copy hierarchy, component grouping, selection/disabled state and action placement checked at equal point scale; safe-area and responsive size differences allowed.",
+        "Reviewed form validation, loading arc phase, result/status badges, password strength meter, guide glyphs and appropriate bottom versus inline actions for this state.",
+        "Final badge/caption batch visually inspected against cached reference in pairs-0.jpg, pairs-4.jpg and pairs-checking.jpg; status fills/inks, checking caption and both spinner phases confirmed. Adaptive width/safe-area differences excluded."
+      ],
+      "findings": [],
+      "review_history": [
+        {
+          "status": "matched",
+          "actual": "/tmp/cleaner-fidelity-pro/147-2473.png",
+          "actual_sha256": "705ffc42c0e9c0d715adc5d68bee9fed52dad13d53982fdcd13d3e351c648416",
+          "findings": []
+        }
+      ]
+    },
+    {
+      "id": "147:2559",
+      "name": "Security Center / emailEmpty",
+      "section": "Security Center",
+      "status": "matched",
+      "actual": "/tmp/cleaner-pro-security-final/147-2559.png",
+      "reference": "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/147-2559.png",
+      "actual_sha256": "3725033579b75cb42a058a2af2073dceb95370ae42432558cf9f66ed53ca9d8d",
+      "reference_sha256": "f4b50084a0776502fca7af6ca077726fa19a4736e0f203d2794da96458731765",
+      "evidence": [
+        "Visually inspected app/reference pair in sheet 13. Header, visible copy hierarchy, component grouping, selection/disabled state and action placement checked at equal point scale; safe-area and responsive size differences allowed.",
+        "Reviewed form validation, loading arc phase, result/status badges, password strength meter, guide glyphs and appropriate bottom versus inline actions for this state.",
+        "2026-11-10 final Security typography/color patch: visually compared source and fresh capture in cleaner-pro-security-pairs1/2.jpg; field labels, strength value, active/inactive bars and warning/result states inspected. Responsive width and safe-area adaptation retained."
+      ],
+      "findings": [],
+      "review_history": [
+        {
+          "status": "matched",
+          "actual": "/tmp/cleaner-fidelity-pro/147-2559.png",
+          "actual_sha256": "c08c3664a6c09cae16d7e5d6d4133d0af452296a3a4261dd1ede742d2e677b37",
+          "findings": []
+        }
+      ]
+    },
+    {
+      "id": "147:2613",
+      "name": "Security Center / emailFilled",
+      "section": "Security Center",
+      "status": "matched",
+      "actual": "/tmp/cleaner-pro-security-final/147-2613.png",
+      "reference": "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/147-2613.png",
+      "actual_sha256": "380d98eadd7f9fbb2f676c167e5758cee9e9b25feae82c455e835ed73db0958a",
+      "reference_sha256": "05b72fe4eb1dbd62eef056c009bca7443e200da32eae29f30a2795357d3ad5b7",
+      "evidence": [
+        "Visually inspected app/reference pair in sheet 13. Header, visible copy hierarchy, component grouping, selection/disabled state and action placement checked at equal point scale; safe-area and responsive size differences allowed.",
+        "Reviewed form validation, loading arc phase, result/status badges, password strength meter, guide glyphs and appropriate bottom versus inline actions for this state.",
+        "2026-11-10 final Security typography/color patch: visually compared source and fresh capture in cleaner-pro-security-pairs1/2.jpg; field labels, strength value, active/inactive bars and warning/result states inspected. Responsive width and safe-area adaptation retained."
+      ],
+      "findings": [],
+      "review_history": [
+        {
+          "status": "matched",
+          "actual": "/tmp/cleaner-fidelity-pro/147-2613.png",
+          "actual_sha256": "82eb38f068095a0f390aa99df520ce5dc67715c643bdb43143699444e8b82a1f",
+          "findings": []
+        }
+      ]
+    },
+    {
+      "id": "147:2665",
+      "name": "Security Center / emailRisk",
+      "section": "Security Center",
+      "status": "matched",
+      "actual": "/tmp/cleaner-pro-security-final/147-2665.png",
+      "reference": "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/147-2665.png",
+      "actual_sha256": "84b95a443dbdfe51e9b6e65ef52f4b72523d86d0a834b0b4cbf4afaf2b2084f9",
+      "reference_sha256": "1a2566e2bf8d89da9cb14320864b22b106a6f1a68723d5a7da6f0a7b47480dad",
+      "evidence": [
+        "Visually inspected app/reference pair in sheet 13. Header, visible copy hierarchy, component grouping, selection/disabled state and action placement checked at equal point scale; safe-area and responsive size differences allowed.",
+        "Reviewed form validation, loading arc phase, result/status badges, password strength meter, guide glyphs and appropriate bottom versus inline actions for this state.",
+        "2026-11-10 final Security typography/color patch: visually compared source and fresh capture in cleaner-pro-security-pairs1/2.jpg; field labels, strength value, active/inactive bars and warning/result states inspected. Responsive width and safe-area adaptation retained."
+      ],
+      "findings": [],
+      "review_history": [
+        {
+          "status": "matched",
+          "actual": "/tmp/cleaner-fidelity-pro/147-2665.png",
+          "actual_sha256": "7df2abf1d83b0633101cd13e95c925ef03e2647b71dddcba76780a5843ebb124",
+          "findings": []
+        }
+      ]
+    },
+    {
+      "id": "147:2719",
+      "name": "Security Center / emailInvalid",
+      "section": "Security Center",
+      "status": "matched",
+      "actual": "/tmp/cleaner-pro-invalid-final/147-2719.png",
+      "reference": "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/147-2719.png",
+      "actual_sha256": "fdba9421ff52384166cf13c702a719e533860b82315b1ea0bcf3bc3069f9e94a",
+      "reference_sha256": "1f8acd9846fb1ca70816c12f9ba7b3d6c7196fde59b332beac320b0f15bdbb52",
+      "evidence": [
+        "Visually inspected app/reference pair in sheet 13. Header, visible copy hierarchy, component grouping, selection/disabled state and action placement checked at equal point scale; safe-area and responsive size differences allowed.",
+        "Reviewed form validation, loading arc phase, result/status badges, password strength meter, guide glyphs and appropriate bottom versus inline actions for this state.",
+        "Final invalid-email capture visually rechecked after source #9D3740 validation color correction; semibold label, error field, message and disabled action fit."
+      ],
+      "findings": [],
+      "review_history": [
+        {
+          "status": "matched",
+          "actual": "/tmp/cleaner-fidelity-pro/147-2719.png",
+          "actual_sha256": "66f9b4c1fff8ebb6b0a444a292207d2ea04ba41af9b1209d6de92df28e61c8e1",
+          "findings": []
+        }
+      ]
+    },
+    {
+      "id": "147:2774",
+      "name": "Security Center / checkingClear",
+      "section": "Security Center",
+      "status": "matched",
+      "actual": "/tmp/cleaner-pro-security-batch-final/147-2774.png",
+      "reference": "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/147-2774.png",
+      "actual_sha256": "773ada50db0931e7d6a27c17ad1f6827743f57653f57af1844fc1a42c842d97e",
+      "reference_sha256": "cfb7c001add76b451eb75a4851cc28939f22889e3256b5278063c38eb4404652",
+      "evidence": [
+        "Visually inspected app/reference pair in sheet 14. Header, visible copy hierarchy, component grouping, selection/disabled state and action placement checked at equal point scale; safe-area and responsive size differences allowed.",
+        "Reviewed form validation, loading arc phase, result/status badges, password strength meter, guide glyphs and appropriate bottom versus inline actions for this state.",
+        "Final badge/caption batch visually inspected against cached reference in pairs-0.jpg, pairs-4.jpg and pairs-checking.jpg; status fills/inks, checking caption and both spinner phases confirmed. Adaptive width/safe-area differences excluded."
+      ],
+      "findings": [],
+      "review_history": [
+        {
+          "status": "matched",
+          "actual": "/tmp/cleaner-fidelity-pro/147-2774.png",
+          "actual_sha256": "f68f9f7c8c1a6c5bbaaca4b3c3b9d28832c66b5007d710fbccb2bedb7e04eee8",
+          "findings": []
+        }
+      ]
+    },
+    {
+      "id": "147:2820",
+      "name": "Security Center / checkingLeak",
+      "section": "Security Center",
+      "status": "matched",
+      "actual": "/tmp/cleaner-pro-security-batch-final/147-2820.png",
+      "reference": "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/147-2820.png",
+      "actual_sha256": "3c58d3e7a74273b979fcfa6dcb430e0052354c78c8b67d3901a2f968dd094b8d",
+      "reference_sha256": "3201f2759d34511a751c7e48ce29c4b3e6a98adf123c7091d8160ca00d72a077",
+      "evidence": [
+        "Visually inspected app/reference pair in sheet 14. Header, visible copy hierarchy, component grouping, selection/disabled state and action placement checked at equal point scale; safe-area and responsive size differences allowed.",
+        "Reviewed form validation, loading arc phase, result/status badges, password strength meter, guide glyphs and appropriate bottom versus inline actions for this state.",
+        "Final badge/caption batch visually inspected against cached reference in pairs-0.jpg, pairs-4.jpg and pairs-checking.jpg; status fills/inks, checking caption and both spinner phases confirmed. Adaptive width/safe-area differences excluded."
+      ],
+      "findings": [],
+      "review_history": [
+        {
+          "status": "matched",
+          "actual": "/tmp/cleaner-fidelity-pro/147-2820.png",
+          "actual_sha256": "bf1e306eaf086afaae83dcbd5a7f3ddf37383d720a428c5bbdb20408d7ccfb12",
+          "findings": []
+        }
+      ]
+    },
+    {
+      "id": "147:2864",
+      "name": "Security Center / noLeaks",
+      "section": "Security Center",
+      "status": "matched",
+      "actual": "/tmp/cleaner-fidelity-pro/147-2864.png",
+      "reference": "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/147-2864.png",
+      "actual_sha256": "bf7c3e94f2eb8ad2228eb463b44899467970212cbc7d6ceca1a1b21a882a9d01",
+      "reference_sha256": "518c0a885f787395538128e938aebd857399b26d485d9335266eeba75f74dd09",
+      "evidence": [
+        "Visually inspected app/reference pair in sheet 14. Header, visible copy hierarchy, component grouping, selection/disabled state and action placement checked at equal point scale; safe-area and responsive size differences allowed.",
+        "Reviewed form validation, loading arc phase, result/status badges, password strength meter, guide glyphs and appropriate bottom versus inline actions for this state."
+      ],
+      "findings": []
+    },
+    {
+      "id": "147:2913",
+      "name": "Security Center / leaks",
+      "section": "Security Center",
+      "status": "matched",
+      "actual": "/tmp/cleaner-pro-geometry-final/147-2913.png",
+      "reference": "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/147-2913.png",
+      "actual_sha256": "3ecac7d4b0c230777c3cebd9222a3ceb5153b084abc2b3592e913bfac0d0b3ae",
+      "reference_sha256": "7ac7eb9c6447a1c917fc4cdaafbf3f515b63144c88fcc497e5c56c91d840e210",
+      "evidence": [
+        "Visually inspected app/reference pair in sheet 14. Header, visible copy hierarchy, component grouping, selection/disabled state and action placement checked at equal point scale; safe-area and responsive size differences allowed.",
+        "Reviewed form validation, loading arc phase, result/status badges, password strength meter, guide glyphs and appropriate bottom versus inline actions for this state.",
+        "Final geometry correction inspected in /tmp/cleaner-pro-geometry-final/pairs.jpg: breach rows24pt and guide message/path24pt, long guide title minimum48pt. Source tokens confirmed; wider-device text wrapping is adaptive. Controls and card boundaries fit."
+      ],
+      "findings": [],
+      "review_history": [
+        {
+          "status": "matched",
+          "actual": "/tmp/cleaner-fidelity-pro/147-2913.png",
+          "actual_sha256": "d30f7700a8f33d65aab12edc83539a738c995b7f1d1d65355be5378ce2f3818e",
+          "findings": []
+        }
+      ]
+    },
+    {
+      "id": "147:2969",
+      "name": "Security Center / emailUnavailable",
+      "section": "Security Center",
+      "status": "matched",
+      "actual": "/tmp/cleaner-fidelity-pro/147-2969.png",
+      "reference": "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/147-2969.png",
+      "actual_sha256": "b3cc1d7cafcce54d491b0ac74ba8d2d932e36e71c93f4cf16e3ff57ffc8edffb",
+      "reference_sha256": "f0d85d214dfbc2d2ba509c82400686c92d1785fe164956c5b6b2be5b21e71def",
+      "evidence": [
+        "Visually inspected app/reference pair in sheet 14. Header, visible copy hierarchy, component grouping, selection/disabled state and action placement checked at equal point scale; safe-area and responsive size differences allowed.",
+        "Reviewed form validation, loading arc phase, result/status badges, password strength meter, guide glyphs and appropriate bottom versus inline actions for this state."
+      ],
+      "findings": []
+    },
+    {
+      "id": "147:3019",
+      "name": "Security Center / pwdEmpty",
+      "section": "Security Center",
+      "status": "matched",
+      "actual": "/tmp/cleaner-pro-security-final/147-3019.png",
+      "reference": "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/147-3019.png",
+      "actual_sha256": "c8e25a00bd876b4d82ffcfc36b9f96f4a06472d2b915eb2d91b7c917b843be2c",
+      "reference_sha256": "422614d4e545fd488ccb42bb3f1361662414da5a3c13d42485636e27f16aa820",
+      "evidence": [
+        "Visually inspected app/reference pair in sheet 14. Header, visible copy hierarchy, component grouping, selection/disabled state and action placement checked at equal point scale; safe-area and responsive size differences allowed.",
+        "Reviewed form validation, loading arc phase, result/status badges, password strength meter, guide glyphs and appropriate bottom versus inline actions for this state.",
+        "2026-11-10 final Security typography/color patch: visually compared source and fresh capture in cleaner-pro-security-pairs1/2.jpg; field labels, strength value, active/inactive bars and warning/result states inspected. Responsive width and safe-area adaptation retained."
+      ],
+      "findings": [],
+      "review_history": [
+        {
+          "status": "matched",
+          "actual": "/tmp/cleaner-fidelity-pro/147-3019.png",
+          "actual_sha256": "4f111d73c93687cf4d7dfa5f2acfe4bcf5ddf971318809f5f5c96f36e96e4643",
+          "findings": []
+        }
+      ]
+    },
+    {
+      "id": "147:3080",
+      "name": "Security Center / pwdWeak",
+      "section": "Security Center",
+      "status": "matched",
+      "actual": "/tmp/cleaner-pro-security-final/147-3080.png",
+      "reference": "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/147-3080.png",
+      "actual_sha256": "8f74ca685493e88a4127e92b33a30343a3d096d7c87c972f67dc175dd95c170f",
+      "reference_sha256": "1c264520203b88f00ad910a10f29522aa91c13f9fad041162bb82dc03e6c74ff",
+      "evidence": [
+        "Visually inspected app/reference pair in sheet 14. Header, visible copy hierarchy, component grouping, selection/disabled state and action placement checked at equal point scale; safe-area and responsive size differences allowed.",
+        "Reviewed form validation, loading arc phase, result/status badges, password strength meter, guide glyphs and appropriate bottom versus inline actions for this state.",
+        "2026-11-10 final Security typography/color patch: visually compared source and fresh capture in cleaner-pro-security-pairs1/2.jpg; field labels, strength value, active/inactive bars and warning/result states inspected. Responsive width and safe-area adaptation retained."
+      ],
+      "findings": [],
+      "review_history": [
+        {
+          "status": "matched",
+          "actual": "/tmp/cleaner-fidelity-pro/147-3080.png",
+          "actual_sha256": "712a2860054cc785d4ae73d7dbaa537fb782b0c6152bbabbca07b61a146fe385",
+          "findings": []
+        }
+      ]
+    },
+    {
+      "id": "147:3143",
+      "name": "Security Center / pwdMedium",
+      "section": "Security Center",
+      "status": "matched",
+      "actual": "/tmp/cleaner-pro-security-final/147-3143.png",
+      "reference": "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/147-3143.png",
+      "actual_sha256": "2b31af3a75a61a3b21443c07acb2dfd454bdc3108fd0a6880434799a5483ea56",
+      "reference_sha256": "989c0d7639642620a6271cc57947f7119db3f1005a63ced3874bbc8f66c4be53",
+      "evidence": [
+        "Visually inspected app/reference pair in sheet 14. Header, visible copy hierarchy, component grouping, selection/disabled state and action placement checked at equal point scale; safe-area and responsive size differences allowed.",
+        "Reviewed form validation, loading arc phase, result/status badges, password strength meter, guide glyphs and appropriate bottom versus inline actions for this state.",
+        "2026-11-10 final Security typography/color patch: visually compared source and fresh capture in cleaner-pro-security-pairs1/2.jpg; field labels, strength value, active/inactive bars and warning/result states inspected. Responsive width and safe-area adaptation retained."
+      ],
+      "findings": [],
+      "review_history": [
+        {
+          "status": "matched",
+          "actual": "/tmp/cleaner-fidelity-pro/147-3143.png",
+          "actual_sha256": "4e2c3b71c2ede2e588514f1bf6d64c6d898d7b2c27d7af588bfe2633aab8a6f8",
+          "findings": []
+        }
+      ]
+    },
+    {
+      "id": "147:3206",
+      "name": "Security Center / pwdStrong",
+      "section": "Security Center",
+      "status": "matched",
+      "actual": "/tmp/cleaner-pro-security-final/147-3206.png",
+      "reference": "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/147-3206.png",
+      "actual_sha256": "d99b06e01a8d04758c94777971a64a64f8573f3004ca6ddc5e13b53ee89ebc75",
+      "reference_sha256": "43593fff90c835398198da2a99096f520103868398b354d5b457bf184406fbab",
+      "evidence": [
+        "Visually inspected app/reference pair in sheet 14. Header, visible copy hierarchy, component grouping, selection/disabled state and action placement checked at equal point scale; safe-area and responsive size differences allowed.",
+        "Reviewed form validation, loading arc phase, result/status badges, password strength meter, guide glyphs and appropriate bottom versus inline actions for this state.",
+        "2026-11-10 final Security typography/color patch: visually compared source and fresh capture in cleaner-pro-security-pairs1/2.jpg; field labels, strength value, active/inactive bars and warning/result states inspected. Responsive width and safe-area adaptation retained."
+      ],
+      "findings": [],
+      "review_history": [
+        {
+          "status": "matched",
+          "actual": "/tmp/cleaner-fidelity-pro/147-3206.png",
+          "actual_sha256": "5f1dd3cb24345ee051a800929735eba079fa377bc29b7c111efd7855ffd1cbb9",
+          "findings": []
+        }
+      ]
+    },
+    {
+      "id": "147:3269",
+      "name": "Security Center / pwdLeaks",
+      "section": "Security Center",
+      "status": "matched",
+      "actual": "/tmp/cleaner-pro-security-final/147-3269.png",
+      "reference": "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/147-3269.png",
+      "actual_sha256": "7c542043f37ed72c1ae9a0674930ebabe4ef62f6711deddeeb40000fdeebc907",
+      "reference_sha256": "c25d036003e7d7eec79d9ce922546c63549bd01b44b8e8a1068e62d83d9de01d",
+      "evidence": [
+        "Freshly visually inspected final targeted recheck pair at equal point scale; safe-area and responsive geometry accounted for. Both contact sheets and uncertain details checked.",
+        "Found in leaks heading now matches red source state.",
+        "2026-11-10 final Security typography/color patch: visually compared source and fresh capture in cleaner-pro-security-pairs1/2.jpg; field labels, strength value, active/inactive bars and warning/result states inspected. Responsive width and safe-area adaptation retained."
+      ],
+      "findings": [],
+      "previous_capture": {
+        "path": "/tmp/cleaner-fidelity-pro/147-3269.png",
+        "sha256": "0a878a240b06d4e13e1839b831a993f335a8d93deffbdacdc7016e1548b70bb4",
+        "status": "mismatch",
+        "findings": [
+          "Found in leaks heading is inkblack; Figma node147:3336 specifies red #9D3740. Full-resolution screenshot and fresh node fills checked."
+        ]
+      },
+      "review_history": [
+        {
+          "status": "matched",
+          "actual": "/tmp/cleaner-fidelity-pro-recheck/147-3269.png",
+          "actual_sha256": "6320f4952a56f38e5afa65dda41ad79403897fe0cb8c0b8a769da0fc5a1ea6cc",
+          "findings": []
+        }
+      ]
+    },
+    {
+      "id": "147:3340",
+      "name": "Security Center / deviceStart",
+      "section": "Security Center",
+      "status": "matched",
+      "actual": "/tmp/cleaner-pro-security-batch-final/147-3340.png",
+      "reference": "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/147-3340.png",
+      "actual_sha256": "6be86a08889249b64ab19fe19fe9161b2c958805a4b668990c6eef572fbb3212",
+      "reference_sha256": "f3b461bc3c2edd074a5078b16af6a4b305f16e70df64875775844f6445fcf00e",
+      "evidence": [
+        "Visually inspected app/reference pair in sheet 14. Header, visible copy hierarchy, component grouping, selection/disabled state and action placement checked at equal point scale; safe-area and responsive size differences allowed.",
+        "Reviewed form validation, loading arc phase, result/status badges, password strength meter, guide glyphs and appropriate bottom versus inline actions for this state.",
+        "Final badge/caption batch visually inspected against cached reference in pairs-0.jpg, pairs-4.jpg and pairs-checking.jpg; status fills/inks, checking caption and both spinner phases confirmed. Adaptive width/safe-area differences excluded."
+      ],
+      "findings": [],
+      "review_history": [
+        {
+          "status": "matched",
+          "actual": "/tmp/cleaner-fidelity-pro/147-3340.png",
+          "actual_sha256": "ca9397511d9f565f205dac8e2bdd19f07dda5992eb9dd7e428af2c22b8fc5f09",
+          "findings": []
+        }
+      ]
+    },
+    {
+      "id": "147:3399",
+      "name": "Security Center / deviceMixed",
+      "section": "Security Center",
+      "status": "matched",
+      "actual": "/tmp/cleaner-pro-security-batch-final/147-3399.png",
+      "reference": "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/147-3399.png",
+      "actual_sha256": "f7934b1990615b97c9fff6ce70e5e0463dada08df154bacd448ee91aeac38424",
+      "reference_sha256": "3c7379cc0f54deda159e8a941e0ee35c358e3420ff41898158d14d035e3cf8e7",
+      "evidence": [
+        "Visually inspected app/reference pair in sheet 14. Header, visible copy hierarchy, component grouping, selection/disabled state and action placement checked at equal point scale; safe-area and responsive size differences allowed.",
+        "Reviewed form validation, loading arc phase, result/status badges, password strength meter, guide glyphs and appropriate bottom versus inline actions for this state.",
+        "Final badge/caption batch visually inspected against cached reference in pairs-0.jpg, pairs-4.jpg and pairs-checking.jpg; status fills/inks, checking caption and both spinner phases confirmed. Adaptive width/safe-area differences excluded."
+      ],
+      "findings": [],
+      "review_history": [
+        {
+          "status": "matched",
+          "actual": "/tmp/cleaner-fidelity-pro/147-3399.png",
+          "actual_sha256": "3b3d9a63c9bfac48f5e1d826d3d40bdb860b78b6ac96836681302e447342433a",
+          "findings": []
+        }
+      ]
+    },
+    {
+      "id": "147:3456",
+      "name": "Security Center / deviceOK",
+      "section": "Security Center",
+      "status": "matched",
+      "actual": "/tmp/cleaner-pro-security-batch-final/147-3456.png",
+      "reference": "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/147-3456.png",
+      "actual_sha256": "ef29e443f92ae4cbb47ee963a9482154c8f554fd667b187c4eb014c93de7a94f",
+      "reference_sha256": "386fc5c7a8a053534fc3e00e9b0bd30d102c2cd589e9f9b26d9be2e13bda843a",
+      "evidence": [
+        "Visually inspected app/reference pair in sheet 15. Header, visible copy hierarchy, component grouping, selection/disabled state and action placement checked at equal point scale; safe-area and responsive size differences allowed.",
+        "Reviewed form validation, loading arc phase, result/status badges, password strength meter, guide glyphs and appropriate bottom versus inline actions for this state.",
+        "Final badge/caption batch visually inspected against cached reference in pairs-0.jpg, pairs-4.jpg and pairs-checking.jpg; status fills/inks, checking caption and both spinner phases confirmed. Adaptive width/safe-area differences excluded."
+      ],
+      "findings": [],
+      "review_history": [
+        {
+          "status": "matched",
+          "actual": "/tmp/cleaner-fidelity-pro/147-3456.png",
+          "actual_sha256": "233b985268a69883b389e882060608df86bb0840f5551ef675944319b126461c",
+          "findings": []
+        }
+      ]
+    },
+    {
+      "id": "147:3513",
+      "name": "Security Center / review",
+      "section": "Security Center",
+      "status": "matched",
+      "actual": "/tmp/cleaner-fidelity-pro/147-3513.png",
+      "reference": "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/147-3513.png",
+      "actual_sha256": "47b75f19381f132ee1ca019dbc5c16a982c882c876e9f8c38abb3bf64ba0b86e",
+      "reference_sha256": "7e4cf3d329a3cf8b5a8bbc17ecee0213f057d7f8f00edc6979911b07b699332d",
+      "evidence": [
+        "Visually inspected app/reference pair in sheet 15. Header, visible copy hierarchy, component grouping, selection/disabled state and action placement checked at equal point scale; safe-area and responsive size differences allowed.",
+        "Reviewed form validation, loading arc phase, result/status badges, password strength meter, guide glyphs and appropriate bottom versus inline actions for this state."
+      ],
+      "findings": []
+    },
+    {
+      "id": "147:3565",
+      "name": "Security Center / guide0",
+      "section": "Security Center",
+      "status": "matched",
+      "actual": "/tmp/cleaner-pro-geometry-final/147-3565.png",
+      "reference": "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/147-3565.png",
+      "actual_sha256": "1eef19654e278d093ad18f0cd67edd61a44f200b416687ef9519cdb2a64b9b5f",
+      "reference_sha256": "f1427c8f017cc8ece2818239a326e74448d12d90be6aa9a797946af3ba5dee23",
+      "evidence": [
+        "Visually inspected app/reference pair in sheet 15. Header, visible copy hierarchy, component grouping, selection/disabled state and action placement checked at equal point scale; safe-area and responsive size differences allowed.",
+        "Reviewed form validation, loading arc phase, result/status badges, password strength meter, guide glyphs and appropriate bottom versus inline actions for this state.",
+        "Final geometry correction inspected in /tmp/cleaner-pro-geometry-final/pairs.jpg: breach rows24pt and guide message/path24pt, long guide title minimum48pt. Source tokens confirmed; wider-device text wrapping is adaptive. Controls and card boundaries fit."
+      ],
+      "findings": [],
+      "review_history": [
+        {
+          "status": "matched",
+          "actual": "/tmp/cleaner-fidelity-pro/147-3565.png",
+          "actual_sha256": "9e629339ece5a69c680fc88fcf224b3177878f5fdac2885c5f0b4a7aeead49ae",
+          "findings": []
+        }
+      ]
+    },
+    {
+      "id": "147:3617",
+      "name": "Security Center / guide1",
+      "section": "Security Center",
+      "status": "matched",
+      "actual": "/tmp/cleaner-pro-geometry-final/147-3617.png",
+      "reference": "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/147-3617.png",
+      "actual_sha256": "72aeab728f2cf6a6716563f9647ec4e05627a4318bc06d93c0a148a3fcddb6ab",
+      "reference_sha256": "e38a28b8c99ff6bf5402cfb2256f0712045e3341e67e125e3e98346657e2de18",
+      "evidence": [
+        "Visually inspected app/reference pair in sheet 15. Header, visible copy hierarchy, component grouping, selection/disabled state and action placement checked at equal point scale; safe-area and responsive size differences allowed.",
+        "Reviewed form validation, loading arc phase, result/status badges, password strength meter, guide glyphs and appropriate bottom versus inline actions for this state.",
+        "Final geometry correction inspected in /tmp/cleaner-pro-geometry-final/pairs.jpg: breach rows24pt and guide message/path24pt, long guide title minimum48pt. Source tokens confirmed; wider-device text wrapping is adaptive. Controls and card boundaries fit."
+      ],
+      "findings": [],
+      "review_history": [
+        {
+          "status": "matched",
+          "actual": "/tmp/cleaner-fidelity-pro/147-3617.png",
+          "actual_sha256": "d52f48516bbee0fe529fef4a0663e05e289b6f2c1e8808240b636243a669916a",
+          "findings": []
+        }
+      ]
+    },
+    {
+      "id": "147:3669",
+      "name": "Security Center / guide2",
+      "section": "Security Center",
+      "status": "matched",
+      "actual": "/tmp/cleaner-pro-geometry-final/147-3669.png",
+      "reference": "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/147-3669.png",
+      "actual_sha256": "62aee955f68842c985283281b56ec3564e53ede24811d926a6b334cd5f08784a",
+      "reference_sha256": "9fd35b3e50605a7c3bf2b98ab1f5a1813291ab6ca3b98f2dfff3e9e4672d6cb0",
+      "evidence": [
+        "Visually inspected app/reference pair in sheet 15. Header, visible copy hierarchy, component grouping, selection/disabled state and action placement checked at equal point scale; safe-area and responsive size differences allowed.",
+        "Reviewed form validation, loading arc phase, result/status badges, password strength meter, guide glyphs and appropriate bottom versus inline actions for this state.",
+        "Final geometry correction inspected in /tmp/cleaner-pro-geometry-final/pairs.jpg: breach rows24pt and guide message/path24pt, long guide title minimum48pt. Source tokens confirmed; wider-device text wrapping is adaptive. Controls and card boundaries fit."
+      ],
+      "findings": [],
+      "review_history": [
+        {
+          "status": "matched",
+          "actual": "/tmp/cleaner-fidelity-pro/147-3669.png",
+          "actual_sha256": "49418de467fcc2b3c2557539cefa54135caa70092b2ec4072a9b0e4bcf5a1ca0",
+          "findings": []
+        }
+      ]
+    },
+    {
+      "id": "152:2772",
+      "name": "Security Center / checkingClear · Checking",
+      "section": "Security Center",
+      "status": "matched",
+      "actual": "/tmp/cleaner-pro-security-batch-final/152-2772.png",
+      "reference": "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/152-2772.png",
+      "actual_sha256": "808cf250e8aee63e628346ac41cafa00748971d8f22bc8202eef985982cf3aad",
+      "reference_sha256": "fe5db7e3f02d4e10c01c4302a34f9793fb6ddf1cd6e765edcfbedba6e27c8b75",
+      "evidence": [
+        "Visually inspected app/reference pair in sheet 15. Header, visible copy hierarchy, component grouping, selection/disabled state and action placement checked at equal point scale; safe-area and responsive size differences allowed.",
+        "Reviewed form validation, loading arc phase, result/status badges, password strength meter, guide glyphs and appropriate bottom versus inline actions for this state.",
+        "Final badge/caption batch visually inspected against cached reference in pairs-0.jpg, pairs-4.jpg and pairs-checking.jpg; status fills/inks, checking caption and both spinner phases confirmed. Adaptive width/safe-area differences excluded."
+      ],
+      "findings": [],
+      "review_history": [
+        {
+          "status": "matched",
+          "actual": "/tmp/cleaner-fidelity-pro/152-2772.png",
+          "actual_sha256": "2293389aaeb6471e49b6fc7f1a8421740d465821830483afa95222b7d7b80426",
+          "findings": []
+        }
+      ]
+    },
+    {
+      "id": "152:2885",
+      "name": "Security Center / checkingLeak · Checking",
+      "section": "Security Center",
+      "status": "matched",
+      "actual": "/tmp/cleaner-pro-security-batch-final/152-2885.png",
+      "reference": "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/152-2885.png",
+      "actual_sha256": "394ebae099724df8929230b0512244737ee27f3745fcad244276ae1f094cdcf5",
+      "reference_sha256": "a7eabae7f20b0fd883762d9f0ab10a30431cb2f8d1aaad0d693d4166694f1afe",
+      "evidence": [
+        "Visually inspected app/reference pair in sheet 15. Header, visible copy hierarchy, component grouping, selection/disabled state and action placement checked at equal point scale; safe-area and responsive size differences allowed.",
+        "Reviewed form validation, loading arc phase, result/status badges, password strength meter, guide glyphs and appropriate bottom versus inline actions for this state.",
+        "Final badge/caption batch visually inspected against cached reference in pairs-0.jpg, pairs-4.jpg and pairs-checking.jpg; status fills/inks, checking caption and both spinner phases confirmed. Adaptive width/safe-area differences excluded."
+      ],
+      "findings": [],
+      "review_history": [
+        {
+          "status": "matched",
+          "actual": "/tmp/cleaner-fidelity-pro/152-2885.png",
+          "actual_sha256": "f6132f2763a423499a842e2afc10621166fd673f6b39ac9384dfd47d1df0e39e",
+          "findings": []
+        }
+      ]
+    },
+    {
+      "id": "159:2752",
+      "name": "Settings / No subscription",
+      "section": "Settings",
+      "status": "matched",
+      "actual": "/tmp/cleaner-fidelity-pro/159-2752.png",
+      "reference": "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/159-2752.png",
+      "actual_sha256": "f6d2063222e96e518cb7ce64ec2a9117a54a0630337faeed80004589c2f9d846",
+      "reference_sha256": "47a6c61bb8dc8dbb019df8df5b6771bbd03dadc85ef1f1bd0a161219865e7ab3",
+      "evidence": [
+        "Visually inspected app/reference pair in sheet 15. Header, visible copy hierarchy, component grouping, selection/disabled state and action placement checked at equal point scale; safe-area and responsive size differences allowed.",
+        "Reviewed banner state, setting rows, restoration state and version placement."
+      ],
+      "findings": []
+    },
+    {
+      "id": "159:2866",
+      "name": "Settings / Premium active",
+      "section": "Settings",
+      "status": "matched",
+      "actual": "/tmp/cleaner-fidelity-pro/159-2866.png",
+      "reference": "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/159-2866.png",
+      "actual_sha256": "98309f9b1b0eb4d45c2fef770c62781058b716d651459275347037b38be34095",
+      "reference_sha256": "f7df01638e0c75af7b768d43ca4e0a20ea6e2ed94aff08b433e187d336b305eb",
+      "evidence": [
+        "Visually inspected app/reference pair in sheet 15. Header, visible copy hierarchy, component grouping, selection/disabled state and action placement checked at equal point scale; safe-area and responsive size differences allowed.",
+        "Reviewed banner state, setting rows, restoration state and version placement."
+      ],
+      "findings": []
+    },
+    {
+      "id": "159:2979",
+      "name": "Settings / checking",
+      "section": "Settings",
+      "status": "matched",
+      "actual": "/tmp/cleaner-fidelity-pro/159-2979.png",
+      "reference": "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/159-2979.png",
+      "actual_sha256": "dc0b3a4519595c5bb7cff797a38d8ca76dc754ed840ff0909b2a63ed53cc0959",
+      "reference_sha256": "8c26a01d7c91350a789a8dac18e5620ea304e51d2b342f45376a5733bd184327",
+      "evidence": [
+        "Visually inspected app/reference pair in sheet 15. Header, visible copy hierarchy, component grouping, selection/disabled state and action placement checked at equal point scale; safe-area and responsive size differences allowed.",
+        "Reviewed banner state, setting rows, restoration state and version placement."
+      ],
+      "findings": []
+    },
+    {
+      "id": "159:3054",
+      "name": "Settings / checkingActive",
+      "section": "Settings",
+      "status": "matched",
+      "actual": "/tmp/cleaner-fidelity-pro/159-3054.png",
+      "reference": "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/159-3054.png",
+      "actual_sha256": "8e8d90db8d35c0438e123fe09918adf08cc15afb5c9e51573f9cdead5b565e88",
+      "reference_sha256": "cf4726199e8b6248ed2a91ef6bb3a4ef10922be8a94fa92572c73b26a2e7a018",
+      "evidence": [
+        "Visually inspected app/reference pair in sheet 15. Header, visible copy hierarchy, component grouping, selection/disabled state and action placement checked at equal point scale; safe-area and responsive size differences allowed.",
+        "Reviewed banner state, setting rows, restoration state and version placement."
+      ],
+      "findings": []
+    },
+    {
+      "id": "159:3124",
+      "name": "Settings / restored",
+      "section": "Settings",
+      "status": "matched",
+      "actual": "/tmp/cleaner-fidelity-pro-recheck/159-3124.png",
+      "reference": "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/159-3124.png",
+      "actual_sha256": "f97c9135296d9dc4a7543f2a7c6b5f0776897031d5768760f4ff507851650ca3",
+      "reference_sha256": "c0c1baf5d32284d16babd7d93dbe7c27891abae9910a7cd05929d24d933a0bf0",
+      "evidence": [
+        "Freshly visually inspected final targeted recheck pair at equal point scale; safe-area and responsive geometry accounted for. Both contact sheets and uncertain details checked."
+      ],
+      "findings": [],
+      "previous_capture": {
+        "path": "/tmp/cleaner-fidelity-pro/159-3124.png",
+        "sha256": null,
+        "status": "partial",
+        "findings": []
+      }
+    },
+    {
+      "id": "159:3189",
+      "name": "Settings / none",
+      "section": "Settings",
+      "status": "matched",
+      "actual": "/tmp/cleaner-fidelity-pro-recheck/159-3189.png",
+      "reference": "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/159-3189.png",
+      "actual_sha256": "ca30a3fba7637af17f7bcef3e7418cc4ff2295d026c581dd2d48e45f29169459",
+      "reference_sha256": "28d35663cdecf25180e60a49e354904c0d96de6c2cb78846004a375e8be2354d",
+      "evidence": [
+        "Freshly visually inspected final targeted recheck pair at equal point scale; safe-area and responsive geometry accounted for. Both contact sheets and uncertain details checked."
+      ],
+      "findings": [],
+      "previous_capture": {
+        "path": "/tmp/cleaner-fidelity-pro/159-3189.png",
+        "sha256": null,
+        "status": "partial",
+        "findings": []
+      }
+    },
+    {
+      "id": "159:3259",
+      "name": "Settings / error",
+      "section": "Settings",
+      "status": "matched",
+      "actual": "/tmp/cleaner-pro-final-modal.png",
+      "reference": "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/159-3259.png",
+      "actual_sha256": "df60de5322961a2809d2dc05c2047aa5b704eca955d5d3cf8c9dd9ffea199a2e",
+      "reference_sha256": "a00be0400beb5c0003e26f157d03b58072819fd930ac92a54cddc9ed010c729e",
+      "evidence": [
+        "Freshly visually inspected final targeted recheck pair at equal point scale; safe-area and responsive geometry accounted for. Both contact sheets and uncertain details checked.",
+        "Fresh final build visually compared at equal point scale in /tmp/cleaner-pro-modal-pair.jpg: two-line title, message, 56pt primary action, secondary spacing and artwork match; modal remains centered for 402x874 adaptive viewport. AX confirms secondary hit area 264x44pt."
+      ],
+      "findings": [],
+      "previous_capture": {
+        "path": "/tmp/cleaner-fidelity-pro/159-3259.png",
+        "sha256": null,
+        "status": "partial",
+        "findings": []
+      },
+      "review_history": [
+        {
+          "status": "mismatch",
+          "findings": [
+            "Restore-error title remains one line; reference node159:3322 wraps Couldn’t restore / purchases within264×48. Both dialogs remain312ptwide, so this is not caused by adaptive viewport width."
+          ],
+          "actual": "/tmp/cleaner-fidelity-pro-recheck/159-3259.png",
+          "actual_sha256": "8da4290f60780463b60de606ef8ecf9f22eaf235b75586defa42b40bb2d72d74"
+        }
+      ]
+    },
+    {
+      "id": "175:2863",
+      "name": "Splash / First launch",
+      "section": "01 · Splash",
+      "status": "matched",
+      "actual": "/tmp/cleaner-fidelity-pro-recheck/175-2863.png",
+      "reference": "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/175-2863.png",
+      "actual_sha256": "aaf20ff64451dcefba01c09118f00e3a37cdf3536e8fdfd553a8ca65d20c4e8d",
+      "reference_sha256": "5783d16d7ab34a5356b5375a4aa30dd2e467ad12cee5a5e21e9cf0fe7c7dd665",
+      "evidence": [
+        "Freshly visually inspected final targeted recheck pair at equal point scale; safe-area and responsive geometry accounted for. Both contact sheets and uncertain details checked."
+      ],
+      "findings": [],
+      "previous_capture": {
+        "path": "/tmp/cleaner-fidelity-pro/175-2863.png",
+        "sha256": null,
+        "status": "partial",
+        "findings": []
+      }
+    },
+    {
+      "id": "235:2861",
+      "name": "My subscription / Active",
+      "section": "Settings · Subscription details",
+      "status": "matched",
+      "actual": "/tmp/cleaner-fidelity-pro-recheck/235-2861.png",
+      "reference": "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/235-2861.png",
+      "actual_sha256": "c3a68a0d47d0023dc2acb72f7b4555b3ef75f5d8dd3709514ccdf6f3336bdc31",
+      "reference_sha256": "49f274b19b955c6b9e68ec98515ff95ca3440741320650653b1c17a1528b97f7",
+      "evidence": [
+        "Freshly visually inspected final targeted recheck pair at equal point scale; safe-area and responsive geometry accounted for. Both contact sheets and uncertain details checked."
+      ],
+      "findings": [],
+      "previous_capture": {
+        "path": "/tmp/cleaner-fidelity-pro/235-2861.png",
+        "sha256": null,
+        "status": "partial",
+        "findings": []
+      }
+    },
+    {
+      "id": "235:2908",
+      "name": "My subscription / Renewal off",
+      "section": "Settings · Subscription details",
+      "status": "matched",
+      "actual": "/tmp/cleaner-fidelity-pro-recheck/235-2908.png",
+      "reference": "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/235-2908.png",
+      "actual_sha256": "776333dd5712302fafc98a1f187fc2b9b04f93e71025cae9abf8691411f9a83b",
+      "reference_sha256": "f60cb4f45cc0740d87ea1e5e97a01cc8c1ab20a9a110aaa7296ab0591218e306",
+      "evidence": [
+        "Freshly visually inspected final targeted recheck pair at equal point scale; safe-area and responsive geometry accounted for. Both contact sheets and uncertain details checked."
+      ],
+      "findings": [],
+      "previous_capture": {
+        "path": "/tmp/cleaner-fidelity-pro/235-2908.png",
+        "sha256": null,
+        "status": "partial",
+        "findings": []
+      }
+    },
+    {
+      "id": "235:2955",
+      "name": "My subscription / No subscription",
+      "section": "Settings · Subscription details",
+      "status": "matched",
+      "actual": "/tmp/cleaner-fidelity-pro-recheck/235-2955.png",
+      "reference": "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/235-2955.png",
+      "actual_sha256": "2886a1f1064a78d28d96375ce0ee969e80176e56bb1c0ab65740b56dd604abe2",
+      "reference_sha256": "2e655a5d2bf68b3d9a7103bd081b0328ebb6b49f575ce15d01923230a45e53e6",
+      "evidence": [
+        "Freshly visually inspected final targeted recheck pair at equal point scale; safe-area and responsive geometry accounted for. Both contact sheets and uncertain details checked."
+      ],
+      "findings": [],
+      "previous_capture": {
+        "path": "/tmp/cleaner-fidelity-pro/235-2955.png",
+        "sha256": null,
+        "status": "partial",
+        "findings": []
+      }
+    }
+  ],
+  "final_recheck": "All13 targeted final captures plus scrolled home bottom inspected; prior findings cleared except restore-error title wrapping."
+}

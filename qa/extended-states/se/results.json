@@ -1,0 +1,2407 @@
+[
+  {
+    "key": "max_text:4:214",
+    "mode": "max_text",
+    "id_or_route": "4:214",
+    "name": "Main",
+    "status": "pass",
+    "source_frame": "4:214",
+    "comparison": "adaptation",
+    "findings": [
+      "Post-fix screenshot and real XCTest scroll sequence visually inspected. Complete content is reachable; fixed footer remains readable. Maximum-text adaptation, not dedicated Figma-frame identity."
+    ],
+    "evidence": [
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/maxtext-4-214.png",
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/scroll-attachments/4D9EF084-5F7F-4754-B8AA-867DB15C7B03.txt",
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/scroll-attachments/5FEA4623-7233-413A-BDCD-50DFEEADA3AF.png",
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/scroll-attachments/1E8BADB8-9C82-4F98-BC69-B518B513EC4D.txt",
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/scroll-attachments/12A14E17-1895-4859-9A0B-403898D47073.png",
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/scroll-attachments/5B2D1F09-B3B6-4201-8E0E-125C779E398C.txt",
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/scroll-attachments/F4AEC79E-9B54-4DBF-B3A9-1F94BB71A54A.png",
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/scroll-attachments/7E1B3519-2CA2-4811-9D0B-CE802533B7D3.txt",
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/scroll-attachments/3D56C782-1F4A-424D-A946-A88BE527245E.png"
+    ],
+    "capture_sha256": "3511e77ab7b3421792c35079b6146e7774a94635c4010986486ffca03bdd8ab4",
+    "reference_note": "Maximum text has no dedicated Figma frame; this is adaptation, not pixel identity.",
+    "history": [
+      {
+        "key": "max_text:4:214",
+        "mode": "max_text",
+        "id_or_route": "4:214",
+        "name": "Main",
+        "status": "blocked",
+        "comparison": "adaptation",
+        "findings": [
+          "Blank capture remained after one delayed retry; no screen verdict."
+        ],
+        "evidence": [
+          "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/maxtext-4-214.png"
+        ],
+        "source_frame": "4:214",
+        "reference_note": "No maximum-text Figma source; usability adaptation assessed, not exact design fidelity.",
+        "capture_sha256": "67304e1ab2847f0322d198426b72536944a19c9ba794dc1f601637746518824b"
+      }
+    ],
+    "final_capture": "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/scroll-attachments/3D56C782-1F4A-424D-A946-A88BE527245E.png"
+  },
+  {
+    "key": "max_text:47:23",
+    "mode": "max_text",
+    "id_or_route": "47:23",
+    "name": "Smart Scan / Scanning",
+    "status": "pass",
+    "source_frame": "47:23",
+    "comparison": "adaptation",
+    "findings": [
+      "Post-fix screenshot and real XCTest scroll sequence visually inspected. Complete content is reachable; fixed footer remains readable. Maximum-text adaptation, not dedicated Figma-frame identity."
+    ],
+    "evidence": [
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/maxtext-47-23.png",
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/scroll-attachments/7A99EFEC-09E9-406C-A05A-392A5412348F.txt",
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/scroll-attachments/AC3D1A81-7C99-4F49-AA00-2934D7DBAF4D.png",
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/scroll-attachments/5FAE3141-CDE7-4D87-95D1-C4A05D4A0F88.txt",
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/scroll-attachments/66C56853-775F-4DE4-AEDD-63EC785C9021.png",
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/scroll-attachments/7A42239F-6E99-4F6B-A4F0-E4799DC1CD95.txt",
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/scroll-attachments/F086FF8F-81DF-45E7-8EA9-9423E79765D3.png"
+    ],
+    "capture_sha256": "03e236556e61f7552076a5df2abe966e821ea2928a8cdff46abfb4ce17506b2b",
+    "reference_note": "Maximum text has no dedicated Figma frame; this is adaptation, not pixel identity.",
+    "history": [
+      {
+        "key": "max_text:47:23",
+        "mode": "max_text",
+        "id_or_route": "47:23",
+        "name": "Smart Scan / Scanning",
+        "status": "issue",
+        "comparison": "adaptation",
+        "findings": [
+          "Progress percentage ellipsizes as 6…; scanning caption ellipsizes. Fixed artwork/text geometry loses essential progress at maximum text."
+        ],
+        "evidence": [
+          "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/maxtext-47-23.png"
+        ],
+        "source_frame": "47:23",
+        "reference_note": "No maximum-text Figma source; usability adaptation assessed, not exact design fidelity.",
+        "capture_sha256": "cfe88c7e74018675b344e1b6b5a4e969deed96a9cc587c787f8b541dbe13b56b"
+      }
+    ],
+    "final_capture": "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/scroll-attachments/F086FF8F-81DF-45E7-8EA9-9423E79765D3.png"
+  },
+  {
+    "key": "max_text:47:56",
+    "mode": "max_text",
+    "id_or_route": "47:56",
+    "name": "Smart Scan / Results",
+    "status": "pass",
+    "source_frame": "47:56",
+    "comparison": "adaptation",
+    "findings": [
+      "Post-fix screenshot and real XCTest scroll sequence visually inspected. Complete content is reachable; fixed footer remains readable. Maximum-text adaptation, not dedicated Figma-frame identity."
+    ],
+    "evidence": [
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/maxtext-47-56.png",
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/scroll-attachments/AA668A78-9CFA-4145-BEC1-55F62BF0C312.txt",
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/scroll-attachments/EA5F3815-D209-4D3E-AC68-A1514988367D.png",
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/scroll-attachments/84BCEF52-55F3-47BD-8B77-613F7C5EF05A.txt",
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/scroll-attachments/C4B6F3C1-1D1F-40AF-AD74-804E9DB25D97.png",
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/scroll-attachments/806EABCA-4589-4EFB-AFF6-B7A5A7C5B583.txt",
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/scroll-attachments/ED4088BD-40F5-4584-8A8D-18CA101CDD14.png"
+    ],
+    "capture_sha256": "103b3881bac367b1824cd33d07408cdf181babb50f3d4025efea866da5c59990",
+    "reference_note": "Maximum text has no dedicated Figma frame; this is adaptation, not pixel identity.",
+    "history": [
+      {
+        "key": "max_text:47:56",
+        "mode": "max_text",
+        "id_or_route": "47:56",
+        "name": "Smart Scan / Results",
+        "status": "issue",
+        "comparison": "adaptation",
+        "findings": [
+          "Storage total ellipsizes and overlaps can be freed caption in fixed summary card. Footer readable; summary overlap is visible independently of scrolling."
+        ],
+        "evidence": [
+          "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/maxtext-47-56.png"
+        ],
+        "source_frame": "47:56",
+        "reference_note": "No maximum-text Figma source; usability adaptation assessed, not exact design fidelity.",
+        "capture_sha256": "ff7f10c5cd9a59b3d71babd295fc6e2d845e872a1e2ef8a68087b934281e3a69"
+      }
+    ],
+    "final_capture": "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/scroll-attachments/ED4088BD-40F5-4584-8A8D-18CA101CDD14.png"
+  },
+  {
+    "key": "max_text:51:52",
+    "mode": "max_text",
+    "id_or_route": "51:52",
+    "name": "Photos / First visit",
+    "status": "pass",
+    "source_frame": "51:52",
+    "comparison": "adaptation",
+    "findings": [
+      "Post-fix screenshot and real XCTest scroll sequence visually inspected. Complete content is reachable; fixed footer remains readable. Maximum-text adaptation, not dedicated Figma-frame identity."
+    ],
+    "evidence": [
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/maxtext-51-52.png",
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/scroll-attachments/64484E74-018F-437C-95CC-5DFD12E3C573.txt",
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/scroll-attachments/24AE2F3C-1BF1-47B0-9EC6-BA1F4B7BEC7A.png",
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/scroll-attachments/EB3592BD-D3B8-422A-8862-2A4B7A988309.txt",
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/scroll-attachments/9A5BB9B0-8032-4B1D-970D-C4BFC789B561.png",
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/scroll-attachments/14FDE5C1-CE5A-4E9A-B495-DAD76DFA0231.txt",
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/scroll-attachments/43C7A17D-82B4-464F-9568-84937779E56A.png"
+    ],
+    "capture_sha256": "6d36742f43896e1dc77f400dbf8309cbc5d7c8e2642f412268fca13996a9908c",
+    "reference_note": "Maximum text has no dedicated Figma frame; this is adaptation, not pixel identity.",
+    "history": [
+      {
+        "key": "max_text:51:52",
+        "mode": "max_text",
+        "id_or_route": "51:52",
+        "name": "Photos / First visit",
+        "status": "issue",
+        "comparison": "adaptation",
+        "findings": [
+          "Onboarding title Clean up… and explanatory copy Find duplicates… truncate at maximum text; primary action fits."
+        ],
+        "evidence": [
+          "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/maxtext-51-52.png"
+        ],
+        "source_frame": "51:52",
+        "reference_note": "No maximum-text Figma source; usability adaptation assessed, not exact design fidelity.",
+        "capture_sha256": "c39c88862ac7984664516b7a26f60044a3f21d886391c903817f3566c9389355"
+      }
+    ],
+    "final_capture": "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/scroll-attachments/43C7A17D-82B4-464F-9568-84937779E56A.png"
+  },
+  {
+    "key": "max_text:51:87",
+    "mode": "max_text",
+    "id_or_route": "51:87",
+    "name": "Photos / Categories",
+    "status": "pass",
+    "source_frame": "51:87",
+    "comparison": "adaptation",
+    "findings": [
+      "Post-fix screenshot and real XCTest scroll sequence visually inspected. Complete content is reachable; fixed footer remains readable. Maximum-text adaptation, not dedicated Figma-frame identity."
+    ],
+    "evidence": [
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/maxtext-51-87.png",
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/scroll-attachments/4B90A953-04FE-48EA-8CC2-A4C67B790DA7.txt",
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/scroll-attachments/F308802A-101D-4365-9C74-B926969B6331.png",
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/scroll-attachments/60CB757E-DCDB-4874-85AF-774BE69F068C.txt",
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/scroll-attachments/C14F5946-3B40-4F2D-870C-9C64DB1FA8D0.png",
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/scroll-attachments/B1862475-EC9C-4518-9A09-E47F55433BE3.txt",
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/scroll-attachments/2563F462-3F76-4978-8F3A-A0EE496A85F4.png"
+    ],
+    "capture_sha256": "9deabd26dd339d14fd6593ce6d1d3bfa6cff9d1529df3ab468036132bd6b67fb",
+    "reference_note": "Maximum text has no dedicated Figma frame; this is adaptation, not pixel identity.",
+    "final_capture": "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/scroll-attachments/2563F462-3F76-4978-8F3A-A0EE496A85F4.png"
+  },
+  {
+    "key": "max_text:51:145",
+    "mode": "max_text",
+    "id_or_route": "51:145",
+    "name": "Photos / Counting",
+    "status": "pass",
+    "source_frame": "51:145",
+    "comparison": "adaptation",
+    "findings": [
+      "Post-fix screenshot and real XCTest scroll sequence visually inspected. Complete content is reachable; fixed footer remains readable. Maximum-text adaptation, not dedicated Figma-frame identity."
+    ],
+    "evidence": [
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/maxtext-51-145.png",
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/scroll-attachments/8F5029E4-7272-455B-8A5E-5B0BFB1C9561.txt",
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/scroll-attachments/666F991F-F40C-4FE6-8D46-62D66506EA33.png",
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/scroll-attachments/2023FF62-575B-4953-8184-EDD6855A57CB.txt",
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/scroll-attachments/8D423C71-BAED-4659-8E37-273253138F6B.png",
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/scroll-attachments/D37FE745-2668-498E-8972-C683AD73256A.txt",
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/scroll-attachments/7F0E0CB6-AA0A-4E3E-86EA-36A85B1282F9.png"
+    ],
+    "capture_sha256": "9436ac54d4d226ebfce54cfac400a8f39bcdb4e78569b51b7fd900954fb450ad",
+    "reference_note": "Maximum text has no dedicated Figma frame; this is adaptation, not pixel identity.",
+    "final_capture": "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/scroll-attachments/7F0E0CB6-AA0A-4E3E-86EA-36A85B1282F9.png"
+  },
+  {
+    "key": "max_text:51:211",
+    "mode": "max_text",
+    "id_or_route": "51:211",
+    "name": "Duplicates / Selected",
+    "status": "pass",
+    "source_frame": "51:211",
+    "comparison": "adaptation",
+    "findings": [
+      "Fresh final-build native vertical drag reaches lower content. Visually inspected: labels/Best/time-size overlays readable, controls visible, no overlapping text. Ordinary within-word wraps at extremeAX size retain complete content; no pixel identity claimed."
+    ],
+    "evidence": [
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/maxtext-51-211.png",
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/vertical-attachments/331F41C1-DE84-4CD6-8F79-65A8689FB9E8.txt",
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/vertical-attachments/60C4DBA4-FFC6-4E00-9708-32FB0DAC09E5.png"
+    ],
+    "capture_sha256": "d1f303220e629e40dc94b5c034fe64baf480dfdbf86f8d944cc665d3b1921be6",
+    "reference_note": "Maximum text has no dedicated Figma frame; this is adaptation, not pixel identity."
+  },
+  {
+    "key": "max_text:51:411",
+    "mode": "max_text",
+    "id_or_route": "51:411",
+    "name": "Duplicates / No selection",
+    "status": "pass",
+    "source_frame": "51:411",
+    "comparison": "adaptation",
+    "findings": [
+      "Post-fix screenshot and real XCTest scroll sequence visually inspected. Complete content is reachable; fixed footer remains readable. Maximum-text adaptation, not dedicated Figma-frame identity."
+    ],
+    "evidence": [
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/maxtext-51-411.png",
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/scroll-attachments/CE65220B-B984-41EC-8E0A-355BB1B59D84.txt",
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/scroll-attachments/3B864FA4-2272-41F7-B8B0-3EDC9679F69A.png",
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/scroll-attachments/AA5E9E38-0DE3-4051-A012-78E89A2F9287.txt",
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/scroll-attachments/BDB218F2-41C3-42C7-A7AB-A104F0DAA43C.png",
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/scroll-attachments/BEC12007-960E-4865-BFB7-0DFC6BC9A3B5.txt",
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/scroll-attachments/FB556A1D-AA0F-4F66-A910-CBD8E35368B2.png"
+    ],
+    "capture_sha256": "9f4426987111119a2ec3ba5a1b1dba5221371d640b912c0ad98af296128cfa6d",
+    "reference_note": "Maximum text has no dedicated Figma frame; this is adaptation, not pixel identity.",
+    "final_capture": "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/scroll-attachments/FB556A1D-AA0F-4F66-A910-CBD8E35368B2.png"
+  },
+  {
+    "key": "max_text:51:915",
+    "mode": "max_text",
+    "id_or_route": "51:915",
+    "name": "Screenshots / Newest",
+    "status": "pass",
+    "source_frame": "51:915",
+    "comparison": "adaptation",
+    "findings": [
+      "Fresh final-build native vertical drag reaches lower content. Visually inspected: labels/Best/time-size overlays readable, controls visible, no overlapping text. Ordinary within-word wraps at extremeAX size retain complete content; no pixel identity claimed."
+    ],
+    "evidence": [
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/maxtext-51-915.png",
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/vertical-attachments/8485CD63-AF36-4102-8561-0C18CA22E96D.txt",
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/vertical-attachments/DB3A255E-A192-49A6-A6A3-042735B9B734.png"
+    ],
+    "capture_sha256": "79fd89a76a16246499227701796755448ed75097f731b9f0570c60647ffcef88",
+    "reference_note": "Maximum text has no dedicated Figma frame; this is adaptation, not pixel identity.",
+    "history": [
+      {
+        "key": "max_text:51:915",
+        "mode": "max_text",
+        "id_or_route": "51:915",
+        "name": "Screenshots / Newest",
+        "status": "issue",
+        "comparison": "adaptation",
+        "findings": [
+          "Sort and Deselect all controls visibly ellipsize to Newe… and Desel…; horizontal action row does not adapt."
+        ],
+        "evidence": [
+          "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/maxtext-51-915.png"
+        ],
+        "source_frame": "51:915",
+        "reference_note": "No maximum-text Figma source; usability adaptation assessed, not exact design fidelity.",
+        "capture_sha256": "3c1901e6a9078e93943159f15382e6a09315a360ebc7603582aea63030637a56"
+      }
+    ]
+  },
+  {
+    "key": "max_text:51:1843",
+    "mode": "max_text",
+    "id_or_route": "51:1843",
+    "name": "Photos / Deleted",
+    "status": "pass",
+    "source_frame": "51:1843",
+    "comparison": "adaptation",
+    "findings": [
+      "Fresh post-fix maximum-text screenshot visually inspected: visible content and actions readable without clipping or overlap."
+    ],
+    "evidence": [
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/maxtext-51-1843.png"
+    ],
+    "capture_sha256": "8a7a503b0696ef5991dfeb89b993f6a24b3d23ded5a230f2bee1f717f54a543e",
+    "reference_note": "Maximum text has no dedicated Figma frame; this is adaptation, not pixel identity.",
+    "history": [
+      {
+        "key": "max_text:51:1843",
+        "mode": "max_text",
+        "id_or_route": "51:1843",
+        "name": "Photos / Deleted",
+        "status": "pass",
+        "comparison": "adaptation",
+        "findings": [
+          "Result title, amount and Continue action remain readable and fully visible at maximum text."
+        ],
+        "evidence": [
+          "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/maxtext-51-1843.png"
+        ],
+        "source_frame": "51:1843",
+        "reference_note": "No maximum-text Figma source; usability adaptation assessed, not exact design fidelity.",
+        "capture_sha256": "5afd09acae9b836d0da9b3ad46924e27c00dc29a56c57144500fce535a86e740"
+      }
+    ]
+  },
+  {
+    "key": "max_text:59:1683",
+    "mode": "max_text",
+    "id_or_route": "59:1683",
+    "name": "Photo Swipe / Tutorial",
+    "status": "pass",
+    "source_frame": "59:1683",
+    "comparison": "adaptation",
+    "findings": [
+      "Post-fix screenshot and real XCTest scroll sequence visually inspected. Complete content is reachable; fixed footer remains readable. Maximum-text adaptation, not dedicated Figma-frame identity."
+    ],
+    "evidence": [
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/maxtext-59-1683.png",
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/scroll-attachments/A5E24A10-CFD3-445E-85FC-5DC8508843DD.txt",
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/scroll-attachments/79C976F7-822A-4963-9277-8710BD079413.png",
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/scroll-attachments/ACEF2A0D-975C-46E7-93E3-BD275B5842BE.txt",
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/scroll-attachments/207B98EE-BFE1-45D5-ADC2-134D458ADA72.png",
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/scroll-attachments/75EA8E45-54D0-4D2C-9209-BDBFDB417A4B.txt",
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/scroll-attachments/DAFCACEB-097A-431F-937E-BC89CFC36782.png"
+    ],
+    "capture_sha256": "d17a656a57bc654673613eac4b86691658bfe604ae155e4af3dcd68637083562",
+    "reference_note": "Maximum text has no dedicated Figma frame; this is adaptation, not pixel identity.",
+    "history": [
+      {
+        "key": "max_text:59:1683",
+        "mode": "max_text",
+        "id_or_route": "59:1683",
+        "name": "Photo Swipe / Tutorial",
+        "status": "issue",
+        "comparison": "adaptation",
+        "findings": [
+          "Tutorial title and instructional copy visibly ellipsize at maximum text, losing swipe instructions. Got it remains readable."
+        ],
+        "evidence": [
+          "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/maxtext-59-1683.png"
+        ],
+        "source_frame": "59:1683",
+        "reference_note": "No maximum-text Figma source; usability adaptation assessed, not exact design fidelity.",
+        "capture_sha256": "581578176c85523cef5bda6bc09bb546311115797dcfeb6b3f546ea9a5d158a9"
+      }
+    ],
+    "final_capture": "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/scroll-attachments/DAFCACEB-097A-431F-937E-BC89CFC36782.png"
+  },
+  {
+    "key": "max_text:59:1729",
+    "mode": "max_text",
+    "id_or_route": "59:1729",
+    "name": "Photo Swipe / card",
+    "status": "pass",
+    "source_frame": "59:1729",
+    "comparison": "adaptation",
+    "findings": [
+      "Fresh post-fix maximum-text screenshot visually inspected: visible content and actions readable without clipping or overlap."
+    ],
+    "evidence": [
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/maxtext-59-1729.png"
+    ],
+    "capture_sha256": "45478abb82f8f7930050ca6b49ee9abc39c7530f76d239bac362b39d72b81bfd",
+    "reference_note": "Maximum text has no dedicated Figma frame; this is adaptation, not pixel identity.",
+    "history": [
+      {
+        "key": "max_text:59:1729",
+        "mode": "max_text",
+        "id_or_route": "59:1729",
+        "name": "Photo Swipe / card",
+        "status": "issue",
+        "comparison": "adaptation",
+        "findings": [
+          "Photo Swipe header truncates as Photo S… beside Trash; card/buttons remain visible."
+        ],
+        "evidence": [
+          "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/maxtext-59-1729.png"
+        ],
+        "source_frame": "59:1729",
+        "reference_note": "No maximum-text Figma source; usability adaptation assessed, not exact design fidelity.",
+        "capture_sha256": "acf90df648c13ad4c2cbca384fcf631c253f7ed9824874c800865a246aadc15e"
+      }
+    ]
+  },
+  {
+    "key": "max_text:59:1773",
+    "mode": "max_text",
+    "id_or_route": "59:1773",
+    "name": "Photo Swipe / delete",
+    "status": "pass",
+    "source_frame": "59:1773",
+    "comparison": "adaptation",
+    "findings": [
+      "Fresh post-fix maximum-text screenshot visually inspected: visible content and actions readable without clipping or overlap."
+    ],
+    "evidence": [
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/maxtext-59-1773.png"
+    ],
+    "capture_sha256": "30148dcb5d111cf52241e6f4f7f35a2d265a8a307eca599a04d9b6efe60a0080",
+    "reference_note": "Maximum text has no dedicated Figma frame; this is adaptation, not pixel identity.",
+    "history": [
+      {
+        "key": "max_text:59:1773",
+        "mode": "max_text",
+        "id_or_route": "59:1773",
+        "name": "Photo Swipe / delete",
+        "status": "issue",
+        "comparison": "adaptation",
+        "findings": [
+          "Photo Swipe header truncates as Photo S… beside Trash; card/buttons remain visible.",
+          "Dragged state label is clipped at screen edge at maximum text."
+        ],
+        "evidence": [
+          "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/maxtext-59-1773.png"
+        ],
+        "source_frame": "59:1773",
+        "reference_note": "No maximum-text Figma source; usability adaptation assessed, not exact design fidelity.",
+        "capture_sha256": "fea11ac79a0859ab5114bead9015be14071bf2509d054c103dfb5f4eb49221d2"
+      }
+    ]
+  },
+  {
+    "key": "max_text:59:1819",
+    "mode": "max_text",
+    "id_or_route": "59:1819",
+    "name": "Photo Swipe / keep",
+    "status": "pass",
+    "source_frame": "59:1819",
+    "comparison": "adaptation",
+    "findings": [
+      "Fresh post-fix maximum-text screenshot visually inspected: visible content and actions readable without clipping or overlap."
+    ],
+    "evidence": [
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/maxtext-59-1819.png"
+    ],
+    "capture_sha256": "0b1c843a1d2641d795cdf3639c894d871bab6fcd1a2c603232a9e02e66d1bfb2",
+    "reference_note": "Maximum text has no dedicated Figma frame; this is adaptation, not pixel identity.",
+    "history": [
+      {
+        "key": "max_text:59:1819",
+        "mode": "max_text",
+        "id_or_route": "59:1819",
+        "name": "Photo Swipe / keep",
+        "status": "issue",
+        "comparison": "adaptation",
+        "findings": [
+          "Photo Swipe header truncates as Photo S… beside Trash; card/buttons remain visible.",
+          "Dragged state label is clipped at screen edge at maximum text."
+        ],
+        "evidence": [
+          "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/maxtext-59-1819.png"
+        ],
+        "source_frame": "59:1819",
+        "reference_note": "No maximum-text Figma source; usability adaptation assessed, not exact design fidelity.",
+        "capture_sha256": "3d77e4ee28856360b272c9ddcd93d78a91f802c2b7c2e950844f0dc075d2e687"
+      }
+    ]
+  },
+  {
+    "key": "max_text:59:1953",
+    "mode": "max_text",
+    "id_or_route": "59:1953",
+    "name": "Trash / 18 selected",
+    "status": "pass",
+    "source_frame": "59:1953",
+    "comparison": "adaptation",
+    "findings": [
+      "Fresh final-build native vertical drag reaches lower content. Visually inspected: labels/Best/time-size overlays readable, controls visible, no overlapping text. Ordinary within-word wraps at extremeAX size retain complete content; no pixel identity claimed."
+    ],
+    "evidence": [
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/maxtext-59-1953.png",
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/vertical-attachments/7D719A33-5FFF-46AE-BBE4-7C125D9583AE.txt",
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/vertical-attachments/40BDC605-D046-4A97-AEE9-494C02BFE776.png"
+    ],
+    "capture_sha256": "542d047e064d9933db8e4ce0a4937cd4d69af34dcacd208998c03330e7f1fd38",
+    "reference_note": "Maximum text has no dedicated Figma frame; this is adaptation, not pixel identity."
+  },
+  {
+    "key": "max_text:59:2316",
+    "mode": "max_text",
+    "id_or_route": "59:2316",
+    "name": "Photo Swipe / Deleted",
+    "status": "pass",
+    "source_frame": "59:2316",
+    "comparison": "adaptation",
+    "findings": [
+      "Fresh post-fix maximum-text screenshot visually inspected: visible content and actions readable without clipping or overlap."
+    ],
+    "evidence": [
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/maxtext-59-2316.png"
+    ],
+    "capture_sha256": "d3d9a456e70409400a7b95b804e2048ee61616fffcf85dcc7580f9b748edb33a",
+    "reference_note": "Maximum text has no dedicated Figma frame; this is adaptation, not pixel identity.",
+    "history": [
+      {
+        "key": "max_text:59:2316",
+        "mode": "max_text",
+        "id_or_route": "59:2316",
+        "name": "Photo Swipe / Deleted",
+        "status": "pass",
+        "comparison": "adaptation",
+        "findings": [
+          "Result title, amount and Continue action remain readable and fully visible at maximum text."
+        ],
+        "evidence": [
+          "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/maxtext-59-2316.png"
+        ],
+        "source_frame": "59:2316",
+        "reference_note": "No maximum-text Figma source; usability adaptation assessed, not exact design fidelity.",
+        "capture_sha256": "e62abd774e523d420cc8409d387f12dcdefffae40b6eddd1d6464e873812abfe"
+      }
+    ]
+  },
+  {
+    "key": "max_text:78:5059",
+    "mode": "max_text",
+    "id_or_route": "78:5059",
+    "name": "Videos / cats",
+    "status": "pass",
+    "source_frame": "78:5059",
+    "comparison": "adaptation",
+    "findings": [
+      "Post-fix screenshot and real XCTest scroll sequence visually inspected. Complete content is reachable; fixed footer remains readable. Maximum-text adaptation, not dedicated Figma-frame identity."
+    ],
+    "evidence": [
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/maxtext-78-5059.png",
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/scroll-attachments/0224B501-0789-4A7E-BBE2-2D0984D26434.txt",
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/scroll-attachments/53E10E58-415C-45C0-972F-0364E669AE61.png",
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/scroll-attachments/183BAA01-4E67-4AA9-B6C8-DAA4BC749C09.txt",
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/scroll-attachments/3153202C-5B45-4694-BCDF-CBA7307B88B7.png",
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/scroll-attachments/4CB0656F-26BF-4717-98C0-F9FF262ED693.txt",
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/scroll-attachments/118F88AD-C0F9-4DC8-BF92-3DE8F5C98005.png"
+    ],
+    "capture_sha256": "e15d0a7e30a2cb2580e31e5492af482131c079fcfe491cc087a93ed3b57769fa",
+    "reference_note": "Maximum text has no dedicated Figma frame; this is adaptation, not pixel identity.",
+    "final_capture": "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/scroll-attachments/118F88AD-C0F9-4DC8-BF92-3DE8F5C98005.png"
+  },
+  {
+    "key": "max_text:78:5157",
+    "mode": "max_text",
+    "id_or_route": "78:5157",
+    "name": "Videos / dup0a",
+    "status": "pass",
+    "source_frame": "78:5157",
+    "comparison": "adaptation",
+    "findings": [
+      "Fresh final-build native vertical drag reaches lower content. Visually inspected: labels/Best/time-size overlays readable, controls visible, no overlapping text. Ordinary within-word wraps at extremeAX size retain complete content; no pixel identity claimed."
+    ],
+    "evidence": [
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/maxtext-78-5157.png",
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/vertical-attachments/0E84532F-B531-4F9A-BD76-E4F4A2658CE9.txt",
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/vertical-attachments/DF9218D2-842A-44FC-9BFC-7BAE0B6C3E66.png"
+    ],
+    "capture_sha256": "a6dcc87415e0072e9ca5728c0599ce47455763cf87aecb9465589632cbd68851",
+    "reference_note": "Maximum text has no dedicated Figma frame; this is adaptation, not pixel identity.",
+    "history": [
+      {
+        "key": "max_text:78:5157",
+        "mode": "max_text",
+        "id_or_route": "78:5157",
+        "name": "Videos / dup0a",
+        "status": "issue",
+        "comparison": "adaptation",
+        "findings": [
+          "Group count and Deselect all action visibly ellipsize; large fixed header/footer leave a small media viewport. Scroll reachability assessed separately."
+        ],
+        "evidence": [
+          "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/maxtext-78-5157.png"
+        ],
+        "source_frame": "78:5157",
+        "reference_note": "No maximum-text Figma source; usability adaptation assessed, not exact design fidelity.",
+        "capture_sha256": "e32b51640e62015fa591ea8fcfcf5d354f32e12976c55b2f593f137e8efeb68c"
+      }
+    ]
+  },
+  {
+    "key": "max_text:78:5345",
+    "mode": "max_text",
+    "id_or_route": "78:5345",
+    "name": "Videos / sim0a",
+    "status": "pass",
+    "source_frame": "78:5345",
+    "comparison": "adaptation",
+    "findings": [
+      "Fresh final-build native vertical drag reaches lower content. Visually inspected: labels/Best/time-size overlays readable, controls visible, no overlapping text. Ordinary within-word wraps at extremeAX size retain complete content; no pixel identity claimed."
+    ],
+    "evidence": [
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/maxtext-78-5345.png",
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/vertical-attachments/9EA8F0F3-0E53-4294-8593-3F36CC91FCCC.txt",
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/vertical-attachments/B4F179AE-8B58-4F88-ACB9-CB3197BB95DB.png"
+    ],
+    "capture_sha256": "8679726aa3e6e1a6c87bc3e84a6c1ee35c6a8448ad61a997027f27253e0e02f5",
+    "reference_note": "Maximum text has no dedicated Figma frame; this is adaptation, not pixel identity.",
+    "history": [
+      {
+        "key": "max_text:78:5345",
+        "mode": "max_text",
+        "id_or_route": "78:5345",
+        "name": "Videos / sim0a",
+        "status": "issue",
+        "comparison": "adaptation",
+        "findings": [
+          "Best badge text/metadata ellipsize inside fixed thumbnail; group heading and primary action remain readable."
+        ],
+        "evidence": [
+          "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/maxtext-78-5345.png"
+        ],
+        "source_frame": "78:5345",
+        "reference_note": "No maximum-text Figma source; usability adaptation assessed, not exact design fidelity.",
+        "capture_sha256": "45acc758f0d096522e05cadf393e2e1a4536599d69a44cb3c5d5da67e6cec62a"
+      }
+    ]
+  },
+  {
+    "key": "max_text:78:5559",
+    "mode": "max_text",
+    "id_or_route": "78:5559",
+    "name": "Videos / large0a",
+    "status": "pass",
+    "source_frame": "78:5559",
+    "comparison": "adaptation",
+    "findings": [
+      "Fresh final-build native vertical drag reaches lower content. Visually inspected: labels/Best/time-size overlays readable, controls visible, no overlapping text. Ordinary within-word wraps at extremeAX size retain complete content; no pixel identity claimed."
+    ],
+    "evidence": [
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/maxtext-78-5559.png",
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/vertical-attachments/DEFBA312-D792-4681-9B46-6CFD62B6BB1A.txt",
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/vertical-attachments/33FAEAC6-B2E6-4B16-9F79-5D3BEC435B52.png"
+    ],
+    "capture_sha256": "fa542f853d7fb0178ca51452ac4d0987bff8a4aff3d6f101eb49b8fae69cd5ec",
+    "reference_note": "Maximum text has no dedicated Figma frame; this is adaptation, not pixel identity.",
+    "history": [
+      {
+        "key": "max_text:78:5559",
+        "mode": "max_text",
+        "id_or_route": "78:5559",
+        "name": "Videos / large0a",
+        "status": "issue",
+        "comparison": "adaptation",
+        "findings": [
+          "All four sort labels collapse to initials plus ellipsis; Deselect all and thumbnail duration also truncate."
+        ],
+        "evidence": [
+          "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/maxtext-78-5559.png"
+        ],
+        "source_frame": "78:5559",
+        "reference_note": "No maximum-text Figma source; usability adaptation assessed, not exact design fidelity.",
+        "capture_sha256": "1aa33d663aad2dcaeae30f50e270aea97f75c31e03997b9e149f379a7cd18756"
+      }
+    ]
+  },
+  {
+    "key": "max_text:78:7881",
+    "mode": "max_text",
+    "id_or_route": "78:7881",
+    "name": "Videos / playlarge0a",
+    "status": "pass",
+    "source_frame": "78:7881",
+    "comparison": "adaptation",
+    "findings": [
+      "Fresh post-fix maximum-text screenshot visually inspected: visible content and actions readable without clipping or overlap."
+    ],
+    "evidence": [
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/maxtext-78-7881.png"
+    ],
+    "capture_sha256": "6fe9c144c5026dac4a0850684327e762eb09fffa454e5551c0badd50a777e78d",
+    "reference_note": "Maximum text has no dedicated Figma frame; this is adaptation, not pixel identity.",
+    "history": [
+      {
+        "key": "max_text:78:7881",
+        "mode": "max_text",
+        "id_or_route": "78:7881",
+        "name": "Videos / playlarge0a",
+        "status": "pass",
+        "comparison": "adaptation",
+        "findings": [
+          "Preview title, time controls and wrapped file metadata remain readable within SE viewport at maximum text."
+        ],
+        "evidence": [
+          "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/maxtext-78-7881.png"
+        ],
+        "source_frame": "78:7881",
+        "reference_note": "No maximum-text Figma source; usability adaptation assessed, not exact design fidelity.",
+        "capture_sha256": "6fe9c144c5026dac4a0850684327e762eb09fffa454e5551c0badd50a777e78d"
+      }
+    ]
+  },
+  {
+    "key": "max_text:94:1327",
+    "mode": "max_text",
+    "id_or_route": "94:1327",
+    "name": "Contacts / hub",
+    "status": "pass",
+    "source_frame": "94:1327",
+    "comparison": "adaptation",
+    "findings": [
+      "Post-fix screenshot and real XCTest scroll sequence visually inspected. Complete content is reachable; fixed footer remains readable. Maximum-text adaptation, not dedicated Figma-frame identity."
+    ],
+    "evidence": [
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/maxtext-94-1327.png",
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/scroll-attachments/FB4C4978-4354-4CD2-AB21-F6A02687AA84.txt",
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/scroll-attachments/25539D8D-DA71-4BF1-89A0-6DCCF6FA89D2.png",
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/scroll-attachments/9077D512-8F5D-4A5F-8BF8-DBCEF5672D64.txt",
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/scroll-attachments/0C2211FD-BEA7-4B67-BF78-359E7540F6F0.png",
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/scroll-attachments/1C8677B4-BFD9-48FB-8D48-AA88FC66ED94.txt",
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/scroll-attachments/C137A504-922A-402A-BD08-93133DC7267B.png"
+    ],
+    "capture_sha256": "d6e9d6257301a27a512d65841d48fa255aa843cce840b4459207c7475cd01f2e",
+    "reference_note": "Maximum text has no dedicated Figma frame; this is adaptation, not pixel identity.",
+    "final_capture": "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/scroll-attachments/C137A504-922A-402A-BD08-93133DC7267B.png"
+  },
+  {
+    "key": "max_text:94:1517",
+    "mode": "max_text",
+    "id_or_route": "94:1517",
+    "name": "Contacts / all0",
+    "status": "pass",
+    "source_frame": "94:1517",
+    "comparison": "adaptation",
+    "findings": [
+      "Post-fix screenshot and real XCTest scroll sequence visually inspected. Complete content is reachable; fixed footer remains readable. Maximum-text adaptation, not dedicated Figma-frame identity."
+    ],
+    "evidence": [
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/maxtext-94-1517.png",
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/scroll-attachments/9A95B22B-EA6B-41EB-BDD0-4525120DC690.txt",
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/scroll-attachments/E44CFDF7-2614-48AF-8A5D-7DC7E4845155.png",
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/scroll-attachments/8E8C570E-3E8C-4869-A111-87E80E8B9CB2.txt",
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/scroll-attachments/44842C75-C652-41B7-80FA-DB23D67ECCD1.png",
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/scroll-attachments/8C1E6A1E-F615-4CF1-A595-1B335E46433C.txt",
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/scroll-attachments/A9BD32C0-D399-4347-836D-C8D1E9F93850.png"
+    ],
+    "capture_sha256": "3c0dfddc5b39e25672ca6966cb972bfddfcd1809e836724279c272e2742c8e31",
+    "reference_note": "Maximum text has no dedicated Figma frame; this is adaptation, not pixel identity.",
+    "final_capture": "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/scroll-attachments/A9BD32C0-D399-4347-836D-C8D1E9F93850.png"
+  },
+  {
+    "key": "max_text:94:1992",
+    "mode": "max_text",
+    "id_or_route": "94:1992",
+    "name": "Contacts / allEmpty",
+    "status": "pass",
+    "source_frame": "94:1992",
+    "comparison": "adaptation",
+    "findings": [
+      "Post-fix screenshot and real XCTest scroll sequence visually inspected. Complete content is reachable; fixed footer remains readable. Maximum-text adaptation, not dedicated Figma-frame identity."
+    ],
+    "evidence": [
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/maxtext-94-1992.png",
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/scroll-attachments/379DDACD-9099-4058-8F45-81E55E1C9F8A.txt",
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/scroll-attachments/245655AE-9071-4679-B8E7-CFBDB6F4F4E9.png",
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/scroll-attachments/3D42AE77-2CB8-492C-9AB7-18808A5AE801.txt",
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/scroll-attachments/10F83945-0697-4631-B62C-0DA1CED348CC.png",
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/scroll-attachments/B7E5B608-1D75-4375-A954-3E315F390E71.txt",
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/scroll-attachments/676EFB4A-7B25-4996-9E8E-B9AAFDCFB1FC.png"
+    ],
+    "capture_sha256": "615d48252d4cebced74124399aa8b1a47e31cd30ffff848336e47379c9d3da0b",
+    "reference_note": "Maximum text has no dedicated Figma frame; this is adaptation, not pixel identity.",
+    "history": [
+      {
+        "key": "max_text:94:1992",
+        "mode": "max_text",
+        "id_or_route": "94:1992",
+        "name": "Contacts / allEmpty",
+        "status": "pass",
+        "comparison": "adaptation",
+        "findings": [
+          "Empty contact illustration and full No contacts title fit at maximum text; no required footer is hidden."
+        ],
+        "evidence": [
+          "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/maxtext-94-1992.png"
+        ],
+        "source_frame": "94:1992",
+        "reference_note": "No maximum-text Figma source; usability adaptation assessed, not exact design fidelity.",
+        "capture_sha256": "2ed2da0b272a6ebf1e7f4003356a9253e0ed0d0d48f07fdc4f579de4fcf6a9c4"
+      }
+    ],
+    "final_capture": "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/scroll-attachments/676EFB4A-7B25-4996-9E8E-B9AAFDCFB1FC.png"
+  },
+  {
+    "key": "max_text:94:2057",
+    "mode": "max_text",
+    "id_or_route": "94:2057",
+    "name": "Contacts / inc0",
+    "status": "pass",
+    "source_frame": "94:2057",
+    "comparison": "adaptation",
+    "findings": [
+      "Post-fix screenshot and real XCTest scroll sequence visually inspected. Complete content is reachable; fixed footer remains readable. Maximum-text adaptation, not dedicated Figma-frame identity."
+    ],
+    "evidence": [
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/maxtext-94-2057.png",
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/scroll-attachments/D7D9052D-B8AE-4EFF-9C8C-5DED6F3CFCDA.txt",
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/scroll-attachments/F8A6B8E6-106D-4687-8035-C62836FC167B.png",
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/scroll-attachments/25CD9FA3-26B4-4C49-A387-EA0BAE3E0197.txt",
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/scroll-attachments/FB6E2584-994A-474D-8814-48B3CE1A3B2A.png",
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/scroll-attachments/1744366D-E6E0-4B0C-AE10-97DDEA97E0B5.txt",
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/scroll-attachments/14101736-1AB8-4486-8BD4-A4E1B225B02B.png"
+    ],
+    "capture_sha256": "df7b4e7c20e8407244c322cb0768e1bc5a91f39598f3616356c19ab3a0415f6b",
+    "reference_note": "Maximum text has no dedicated Figma frame; this is adaptation, not pixel identity.",
+    "final_capture": "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/scroll-attachments/14101736-1AB8-4486-8BD4-A4E1B225B02B.png"
+  },
+  {
+    "key": "max_text:94:2930",
+    "mode": "max_text",
+    "id_or_route": "94:2930",
+    "name": "Contacts / dupAll",
+    "status": "pass",
+    "source_frame": "94:2930",
+    "comparison": "adaptation",
+    "findings": [
+      "Post-fix screenshot and real XCTest scroll sequence visually inspected. Complete content is reachable; fixed footer remains readable. Maximum-text adaptation, not dedicated Figma-frame identity."
+    ],
+    "evidence": [
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/maxtext-94-2930.png",
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/scroll-attachments/36DFD0AE-B395-433F-B8A8-23F0B4BFAF43.txt",
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/scroll-attachments/081D00ED-6AB6-41ED-AA2F-C670C72EAEC3.png",
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/scroll-attachments/39826267-6E9D-42B1-9FC0-92AEE238A96F.txt",
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/scroll-attachments/75B2E0E2-5E60-4A6E-A7B0-EAB4967C9AFE.png",
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/scroll-attachments/FE9A4155-715B-460E-8333-69C423F5B7AE.txt",
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/scroll-attachments/6EF46AA4-0054-4AAD-A084-3579B11A225A.png"
+    ],
+    "capture_sha256": "787b3076dfbe761b0307f7b538b4b61ce59c9222dcb99658713454ac96b736d7",
+    "reference_note": "Maximum text has no dedicated Figma frame; this is adaptation, not pixel identity.",
+    "final_capture": "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/scroll-attachments/6EF46AA4-0054-4AAD-A084-3579B11A225A.png"
+  },
+  {
+    "key": "max_text:94:3224",
+    "mode": "max_text",
+    "id_or_route": "94:3224",
+    "name": "Contacts / preview0",
+    "status": "pass",
+    "source_frame": "94:3224",
+    "comparison": "adaptation",
+    "findings": [
+      "Post-fix screenshot and real XCTest scroll sequence visually inspected. Complete content is reachable; fixed footer remains readable. Maximum-text adaptation, not dedicated Figma-frame identity."
+    ],
+    "evidence": [
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/maxtext-94-3224.png",
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/scroll-attachments/F0A546A3-6C40-41B9-8277-7E4B75FEFA1D.txt",
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/scroll-attachments/682DBE8D-5EF6-4F03-98C9-E6E5A4F84F81.png",
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/scroll-attachments/94C54916-2AC9-400B-9AC4-49233B67553E.txt",
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/scroll-attachments/330629B3-42C3-48C5-81DF-FA9827E2033C.png",
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/scroll-attachments/3F464099-6474-4B68-B3DC-39777B787499.txt",
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/scroll-attachments/F757E7A4-FA27-41F3-8DC9-5C07093A4A0F.png"
+    ],
+    "capture_sha256": "908b29a9832a719140f400caef66fa75c951e07fd88da6fd715af6edb87a89fe",
+    "reference_note": "Maximum text has no dedicated Figma frame; this is adaptation, not pixel identity.",
+    "history": [
+      {
+        "key": "max_text:94:3224",
+        "mode": "max_text",
+        "id_or_route": "94:3224",
+        "name": "Contacts / preview0",
+        "status": "issue",
+        "comparison": "adaptation",
+        "findings": [
+          "Merged-contact initials ellipsize in fixed avatar. Header and Merge action remain readable; lower details require scrolling verification."
+        ],
+        "evidence": [
+          "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/maxtext-94-3224.png"
+        ],
+        "source_frame": "94:3224",
+        "reference_note": "No maximum-text Figma source; usability adaptation assessed, not exact design fidelity.",
+        "capture_sha256": "86ef736916a43a5dd8783c0e2760d1b5f3b2a6a76d0c5994f7ed6e87c890702b"
+      }
+    ],
+    "final_capture": "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/scroll-attachments/F757E7A4-FA27-41F3-8DC9-5C07093A4A0F.png"
+  },
+  {
+    "key": "max_text:94:3869",
+    "mode": "max_text",
+    "id_or_route": "94:3869",
+    "name": "Contacts / mergeDone",
+    "status": "pass",
+    "source_frame": "94:3869",
+    "comparison": "adaptation",
+    "findings": [
+      "Post-fix screenshot and real XCTest scroll sequence visually inspected. Complete content is reachable; fixed footer remains readable. Maximum-text adaptation, not dedicated Figma-frame identity."
+    ],
+    "evidence": [
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/maxtext-94-3869.png",
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/scroll-attachments/1273C871-549D-4CD2-BE25-A56073206EAD.txt",
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/scroll-attachments/88AE9E74-3354-448B-8CA2-A2F2DD6DA2B1.png",
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/scroll-attachments/4A685B8C-CFBF-488D-A523-5DF7C2FED05E.txt",
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/scroll-attachments/97646D4C-2D93-4EA7-AE34-46FDCBC586C3.png",
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/scroll-attachments/EE581411-C024-4E94-83EF-AF2C35307178.txt",
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/scroll-attachments/67F5A0B0-0E9E-4B0E-92CC-CDC894D6D2F5.png"
+    ],
+    "capture_sha256": "e174ac7dbb9cfac8282ca8011cc67ab38c76e6c654c0293629e4b277f1473dfc",
+    "reference_note": "Maximum text has no dedicated Figma frame; this is adaptation, not pixel identity.",
+    "history": [
+      {
+        "key": "max_text:94:3869",
+        "mode": "max_text",
+        "id_or_route": "94:3869",
+        "name": "Contacts / mergeDone",
+        "status": "issue",
+        "comparison": "adaptation",
+        "findings": [
+          "Long merge-success modal extends beyond top and bottom of SE screenshot; Continue is outside viewport. Scroll reachability not inferred from this still capture; follow-up required."
+        ],
+        "evidence": [
+          "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/maxtext-94-3869.png"
+        ],
+        "source_frame": "94:3869",
+        "reference_note": "No maximum-text Figma source; usability adaptation assessed, not exact design fidelity.",
+        "capture_sha256": "dd90c6930fe6ea955cd0c879ad3fc2decb2903381f8289b7fc4e84331db0caa9"
+      }
+    ],
+    "final_capture": "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/scroll-attachments/67F5A0B0-0E9E-4B0E-92CC-CDC894D6D2F5.png"
+  },
+  {
+    "key": "max_text:94:4066",
+    "mode": "max_text",
+    "id_or_route": "94:4066",
+    "name": "Contacts / backups",
+    "status": "pass",
+    "source_frame": "94:4066",
+    "comparison": "adaptation",
+    "findings": [
+      "Fresh post-fix maximum-text screenshot visually inspected: visible content and actions readable without clipping or overlap."
+    ],
+    "evidence": [
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/maxtext-94-4066.png"
+    ],
+    "capture_sha256": "41c1a732481a5c07fbd21f3ddcffeae83770e0b0d7420ee34dbf55bcf2d22393",
+    "reference_note": "Maximum text has no dedicated Figma frame; this is adaptation, not pixel identity.",
+    "history": [
+      {
+        "key": "max_text:94:4066",
+        "mode": "max_text",
+        "id_or_route": "94:4066",
+        "name": "Contacts / backups",
+        "status": "pass",
+        "comparison": "adaptation",
+        "findings": [
+          "Backup date/count wrap readably and Create backup remains fully visible at maximum text."
+        ],
+        "evidence": [
+          "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/maxtext-94-4066.png"
+        ],
+        "source_frame": "94:4066",
+        "reference_note": "No maximum-text Figma source; usability adaptation assessed, not exact design fidelity.",
+        "capture_sha256": "41c1a732481a5c07fbd21f3ddcffeae83770e0b0d7420ee34dbf55bcf2d22393"
+      }
+    ]
+  },
+  {
+    "key": "max_text:94:4213",
+    "mode": "max_text",
+    "id_or_route": "94:4213",
+    "name": "Contacts / detail",
+    "status": "pass",
+    "source_frame": "94:4213",
+    "comparison": "adaptation",
+    "findings": [
+      "Post-fix screenshot and real XCTest scroll sequence visually inspected. Complete content is reachable; fixed footer remains readable. Maximum-text adaptation, not dedicated Figma-frame identity."
+    ],
+    "evidence": [
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/maxtext-94-4213.png",
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/scroll-attachments/FD57EC3A-C105-49E4-87A6-079ABCA466E9.txt",
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/scroll-attachments/A8D0C4F7-C198-4513-8FE2-2F5719126674.png",
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/scroll-attachments/F4893E32-119D-4C86-B371-FD43C7067AE0.txt",
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/scroll-attachments/F06D187A-F22B-4410-B6D2-FE28818ABF1B.png",
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/scroll-attachments/14BD673B-83EC-41BA-A905-507B0B890AE0.txt",
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/scroll-attachments/9CE27BC7-9A75-41AF-8DE1-27640F9732DF.png"
+    ],
+    "capture_sha256": "d63cc9502bdccb45f4c6a42f6ff7340dfa4b96d5ba6bacb9398068eecc388059",
+    "reference_note": "Maximum text has no dedicated Figma frame; this is adaptation, not pixel identity.",
+    "final_capture": "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/scroll-attachments/9CE27BC7-9A75-41AF-8DE1-27640F9732DF.png"
+  },
+  {
+    "key": "max_text:94:4372",
+    "mode": "max_text",
+    "id_or_route": "94:4372",
+    "name": "Contacts / restore",
+    "status": "pass",
+    "source_frame": "94:4372",
+    "comparison": "adaptation",
+    "findings": [
+      "Post-fix screenshot and real XCTest scroll sequence visually inspected. Complete content is reachable; fixed footer remains readable. Maximum-text adaptation, not dedicated Figma-frame identity."
+    ],
+    "evidence": [
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/maxtext-94-4372.png",
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/scroll-attachments/C1A8FF9A-1F2C-4ADC-881D-DBC18E048158.txt",
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/scroll-attachments/2BE0DA0A-647B-409C-803B-0EE86A3EDE52.png",
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/scroll-attachments/8EF67E4C-5B79-4591-94B1-704C9F7328F2.txt",
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/scroll-attachments/6DE1516F-62B3-417D-A0FE-6991CF152733.png",
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/scroll-attachments/A7B5FE86-5DAD-49C4-AC3C-E214E43F347D.txt",
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/scroll-attachments/A4447580-7D84-411F-B999-3F71D04EC408.png"
+    ],
+    "capture_sha256": "1ee1d8ab71e90b946441a220c4b027f2c49d43f5f4f20b44686dbfca038a74cb",
+    "reference_note": "Maximum text has no dedicated Figma frame; this is adaptation, not pixel identity.",
+    "history": [
+      {
+        "key": "max_text:94:4372",
+        "mode": "max_text",
+        "id_or_route": "94:4372",
+        "name": "Contacts / restore",
+        "status": "issue",
+        "comparison": "adaptation",
+        "findings": [
+          "Restore header overlaps status-bar region; restoring caption ellipsizes; Cancel is clipped by bottom edge. Scroll reachability requires follow-up."
+        ],
+        "evidence": [
+          "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/maxtext-94-4372.png"
+        ],
+        "source_frame": "94:4372",
+        "reference_note": "No maximum-text Figma source; usability adaptation assessed, not exact design fidelity.",
+        "capture_sha256": "74b13c05864735cac00921c249217e4f655a0502c9438c79af16f1e8ac96c68f"
+      }
+    ],
+    "final_capture": "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/scroll-attachments/A4447580-7D84-411F-B999-3F71D04EC408.png"
+  },
+  {
+    "key": "max_text:94:4665",
+    "mode": "max_text",
+    "id_or_route": "94:4665",
+    "name": "Contacts / restored",
+    "status": "pass",
+    "source_frame": "94:4665",
+    "comparison": "adaptation",
+    "findings": [
+      "Fresh post-fix maximum-text screenshot visually inspected: visible content and actions readable without clipping or overlap."
+    ],
+    "evidence": [
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/maxtext-94-4665.png"
+    ],
+    "capture_sha256": "4ba1f1a0801e70265fd2cbe12e24607e583faebfdef9775e6c7de639268f5737",
+    "reference_note": "Maximum text has no dedicated Figma frame; this is adaptation, not pixel identity.",
+    "history": [
+      {
+        "key": "max_text:94:4665",
+        "mode": "max_text",
+        "id_or_route": "94:4665",
+        "name": "Contacts / restored",
+        "status": "issue",
+        "comparison": "adaptation",
+        "findings": [
+          "Restore success modal artwork/top extends outside safe area at maximum text; Continue remains visible."
+        ],
+        "evidence": [
+          "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/maxtext-94-4665.png"
+        ],
+        "source_frame": "94:4665",
+        "reference_note": "No maximum-text Figma source; usability adaptation assessed, not exact design fidelity.",
+        "capture_sha256": "fce3ba7f84b175688ab332d282f41d1e6f7666d1510096f87b2f9cd0331e45df"
+      }
+    ]
+  },
+  {
+    "key": "max_text:119:1912",
+    "mode": "max_text",
+    "id_or_route": "119:1912",
+    "name": "Calendar / Past · browse",
+    "status": "pass",
+    "source_frame": "119:1912",
+    "comparison": "adaptation",
+    "findings": [
+      "Fresh post-fix maximum-text screenshot visually inspected: visible content and actions readable without clipping or overlap."
+    ],
+    "evidence": [
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/maxtext-119-1912.png"
+    ],
+    "capture_sha256": "bf9eb988362a354be3b4d428f3bf9a0f0f6a4f5dcfb404cf361134f85accf26b",
+    "reference_note": "Maximum text has no dedicated Figma frame; this is adaptation, not pixel identity.",
+    "history": [
+      {
+        "key": "max_text:119:1912",
+        "mode": "max_text",
+        "id_or_route": "119:1912",
+        "name": "Calendar / Past · browse",
+        "status": "issue",
+        "comparison": "adaptation",
+        "findings": [
+          "Year 2026 breaks within number as 202/6 beside event count, harming date readability; footer remains visible."
+        ],
+        "evidence": [
+          "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/maxtext-119-1912.png"
+        ],
+        "source_frame": "119:1912",
+        "reference_note": "No maximum-text Figma source; usability adaptation assessed, not exact design fidelity.",
+        "capture_sha256": "c0174fdc37d91771a7834aa77ef15d5a14f472197108ac5681c4158a630986ad"
+      }
+    ]
+  },
+  {
+    "key": "max_text:119:3280",
+    "mode": "max_text",
+    "id_or_route": "119:3280",
+    "name": "Calendar / Future · all",
+    "status": "pass",
+    "source_frame": "119:3280",
+    "comparison": "adaptation",
+    "findings": [
+      "Post-fix screenshot and real XCTest scroll sequence visually inspected. Complete content is reachable; fixed footer remains readable. Maximum-text adaptation, not dedicated Figma-frame identity."
+    ],
+    "evidence": [
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/maxtext-119-3280.png",
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/scroll-attachments/30619941-53A8-4BE2-924A-85B867EFB754.txt",
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/scroll-attachments/17908560-03AD-4CA5-841B-AC63678913E8.png",
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/scroll-attachments/2B4EBEF0-90CC-441F-B5A4-77906CE27FAF.txt",
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/scroll-attachments/4FC6A254-9715-4BB1-9E98-667AD40532CF.png",
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/scroll-attachments/AFEDF0D8-3535-4473-8F91-5A84429017A1.txt",
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/scroll-attachments/3D7CEB39-0770-49B0-964B-EE531351CDF3.png"
+    ],
+    "capture_sha256": "b91134bc810d3d1c60a15f4f9c895ecbd8047409b033f69c7efb15cb7fe3dd18",
+    "reference_note": "Maximum text has no dedicated Figma frame; this is adaptation, not pixel identity.",
+    "final_capture": "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/scroll-attachments/3D7CEB39-0770-49B0-964B-EE531351CDF3.png"
+  },
+  {
+    "key": "max_text:119:2804",
+    "mode": "max_text",
+    "id_or_route": "119:2804",
+    "name": "Calendar / Past · empty",
+    "status": "pass",
+    "source_frame": "119:2804",
+    "comparison": "adaptation",
+    "findings": [
+      "Post-fix screenshot and real XCTest scroll sequence visually inspected. Complete content is reachable; fixed footer remains readable. Maximum-text adaptation, not dedicated Figma-frame identity."
+    ],
+    "evidence": [
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/maxtext-119-2804.png",
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/scroll-attachments/16108C7E-345F-424C-A0F2-4FB631A3DE4B.txt",
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/scroll-attachments/BF7949D6-57E1-4C71-9B51-398DD4DD171F.png",
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/scroll-attachments/068CC773-B38B-4B52-BB07-B536B5E7B807.txt",
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/scroll-attachments/5A04F9E7-8E46-46E0-B3FC-3456D102A87A.png",
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/scroll-attachments/49392C4A-526A-4A8F-BAAD-32ACE80C5F76.txt",
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/scroll-attachments/3C5C8C09-4F91-41CD-850D-2BC30438C72B.png"
+    ],
+    "capture_sha256": "2304a684b6187c7fb3d74e6ed8a04a6f6f8763085660837fd01ffc998619b37f",
+    "reference_note": "Maximum text has no dedicated Figma frame; this is adaptation, not pixel identity.",
+    "history": [
+      {
+        "key": "max_text:119:2804",
+        "mode": "max_text",
+        "id_or_route": "119:2804",
+        "name": "Calendar / Past · empty",
+        "status": "issue",
+        "comparison": "adaptation",
+        "findings": [
+          "Empty-state title No past e… and message truncate/overflow at maximum text."
+        ],
+        "evidence": [
+          "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/maxtext-119-2804.png"
+        ],
+        "source_frame": "119:2804",
+        "reference_note": "No maximum-text Figma source; usability adaptation assessed, not exact design fidelity.",
+        "capture_sha256": "72043f3d61cd35b77cf03307aff3d6f93c0a3586dbfdc2dbf482009268f62444"
+      }
+    ],
+    "final_capture": "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/scroll-attachments/3C5C8C09-4F91-41CD-850D-2BC30438C72B.png"
+  },
+  {
+    "key": "max_text:119:4146",
+    "mode": "max_text",
+    "id_or_route": "119:4146",
+    "name": "Calendar / Past · partial success",
+    "status": "pass",
+    "source_frame": "119:4146",
+    "comparison": "adaptation",
+    "findings": [
+      "Fresh post-fix maximum-text screenshot visually inspected: visible content and actions readable without clipping or overlap."
+    ],
+    "evidence": [
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/maxtext-119-4146.png"
+    ],
+    "capture_sha256": "0bc8d7db199083d1353fbac6cadeac3dfe6d07b26657cc54c5c5b36f39ca92b0",
+    "reference_note": "Maximum text has no dedicated Figma frame; this is adaptation, not pixel identity.",
+    "history": [
+      {
+        "key": "max_text:119:4146",
+        "mode": "max_text",
+        "id_or_route": "119:4146",
+        "name": "Calendar / Past · partial success",
+        "status": "pass",
+        "comparison": "adaptation",
+        "findings": [
+          "Short calendar success title/message and Continue action fit at maximum text."
+        ],
+        "evidence": [
+          "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/maxtext-119-4146.png"
+        ],
+        "source_frame": "119:4146",
+        "reference_note": "No maximum-text Figma source; usability adaptation assessed, not exact design fidelity.",
+        "capture_sha256": "d007c79d380abf62a24ddda8bdd003d6b83351a9800107aea1dea48f4c2ea784"
+      }
+    ]
+  },
+  {
+    "key": "max_text:127:2092",
+    "mode": "max_text",
+    "id_or_route": "127:2092",
+    "name": "Background Remover / Choose photo",
+    "status": "pass",
+    "source_frame": "127:2092",
+    "comparison": "adaptation",
+    "findings": [
+      "Post-fix screenshot and real XCTest scroll sequence visually inspected. Complete content is reachable; fixed footer remains readable. Maximum-text adaptation, not dedicated Figma-frame identity."
+    ],
+    "evidence": [
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/maxtext-127-2092.png",
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/scroll-attachments/14AA13E3-AC5D-42F0-8582-74C22BC694C2.txt",
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/scroll-attachments/4D0C4452-9BD2-446B-AF99-4AED42081CA4.png",
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/scroll-attachments/E50A0F0B-AC9E-4FB3-B633-E12907907F80.txt",
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/scroll-attachments/E0B27BAE-6AC6-4269-9762-EC0FBDDFF0D6.png",
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/scroll-attachments/7BBDDEFA-0987-4A7D-85F4-22C23BF90591.txt",
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/scroll-attachments/0D0A8F3F-353D-48A5-A751-C79A074767C1.png"
+    ],
+    "capture_sha256": "b595e666970be26a15d6d8e73d3412932109292c06cceec15ec9f3cf4498324c",
+    "reference_note": "Maximum text has no dedicated Figma frame; this is adaptation, not pixel identity.",
+    "final_capture": "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/scroll-attachments/0D0A8F3F-353D-48A5-A751-C79A074767C1.png"
+  },
+  {
+    "key": "max_text:129:2123",
+    "mode": "max_text",
+    "id_or_route": "129:2123",
+    "name": "Background Remover / Processing · 1",
+    "status": "pass",
+    "source_frame": "129:2123",
+    "comparison": "adaptation",
+    "findings": [
+      "Post-fix screenshot and real XCTest scroll sequence visually inspected. Complete content is reachable; fixed footer remains readable. Maximum-text adaptation, not dedicated Figma-frame identity."
+    ],
+    "evidence": [
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/maxtext-129-2123.png",
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/scroll-attachments/8F7F0C07-41A2-4BA0-B63C-4EF57CC760D4.txt",
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/scroll-attachments/9A23E87D-07A3-4DD0-B873-42CFCDA1E1F1.png",
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/scroll-attachments/EB82610D-38BB-42EF-BFC3-DC773E883290.txt",
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/scroll-attachments/D7356D83-6D4E-4051-AC64-19EFE3CA54F3.png",
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/scroll-attachments/E7025E7D-1473-40DB-B1EE-44AEA1B32E86.txt",
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/scroll-attachments/E8976A03-416F-4FBA-80FB-3F713C7FDB6E.png"
+    ],
+    "capture_sha256": "082b79453fbeed88deed6ff9d3c75c28d139f3a1fc7ed2ce6200b76d2ccddec0",
+    "reference_note": "Maximum text has no dedicated Figma frame; this is adaptation, not pixel identity.",
+    "final_capture": "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/scroll-attachments/E8976A03-416F-4FBA-80FB-3F713C7FDB6E.png"
+  },
+  {
+    "key": "max_text:141:2383",
+    "mode": "max_text",
+    "id_or_route": "141:2383",
+    "name": "App / Loading selected photo",
+    "status": "pass",
+    "source_frame": "141:2383",
+    "comparison": "adaptation",
+    "findings": [
+      "Post-fix screenshot and real XCTest scroll sequence visually inspected. Complete content is reachable; fixed footer remains readable. Maximum-text adaptation, not dedicated Figma-frame identity."
+    ],
+    "evidence": [
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/maxtext-141-2383.png",
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/scroll-attachments/C69A2B78-A89C-4D14-BF06-B3DBD4C15B06.txt",
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/scroll-attachments/5AB4A8EF-3538-4AD3-A344-DD7722DECE5A.png",
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/scroll-attachments/A7EF8706-97A7-4B65-A7C6-18F355AEBD21.txt",
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/scroll-attachments/A9DECED6-01E8-4D7B-9E9E-189EE2CF8905.png",
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/scroll-attachments/315A64BB-6D09-4763-8BFA-1B890DE04784.txt",
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/scroll-attachments/8A2646DB-3986-4616-9B2D-EE7522BC7F2E.png"
+    ],
+    "capture_sha256": "dc4ed14403385c25d97ba1519308be4ddebff064d1a05ba0eb324afb01fe6984",
+    "reference_note": "Maximum text has no dedicated Figma frame; this is adaptation, not pixel identity.",
+    "final_capture": "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/scroll-attachments/8A2646DB-3986-4616-9B2D-EE7522BC7F2E.png"
+  },
+  {
+    "key": "max_text:129:2217",
+    "mode": "max_text",
+    "id_or_route": "129:2217",
+    "name": "Background Remover / Transparent",
+    "status": "pass",
+    "source_frame": "129:2217",
+    "comparison": "adaptation",
+    "findings": [
+      "Post-fix screenshot and real XCTest scroll sequence visually inspected. Complete content is reachable; fixed footer remains readable. Maximum-text adaptation, not dedicated Figma-frame identity."
+    ],
+    "evidence": [
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/maxtext-129-2217.png",
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/scroll-attachments/F5065587-CC0B-4B64-B3B7-B3E5BB8059AE.txt",
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/scroll-attachments/C826EDCD-E545-4A23-B102-2B1B63E14B66.png",
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/scroll-attachments/4CE940A3-2019-4714-9A8A-48723CE49B40.txt",
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/scroll-attachments/BA552E02-683A-4414-BD57-DD6F39024DA2.png",
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/scroll-attachments/83AD1C60-74C0-44E9-A873-E58FD992F52C.txt",
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/scroll-attachments/931070C7-0345-4C80-8374-127F062915E8.png"
+    ],
+    "capture_sha256": "6a34d788174a14484b1e65c95c9a94ea70bb67db785bd78737f52c0e0bbd2dc0",
+    "reference_note": "Maximum text has no dedicated Figma frame; this is adaptation, not pixel identity.",
+    "final_capture": "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/scroll-attachments/931070C7-0345-4C80-8374-127F062915E8.png"
+  },
+  {
+    "key": "max_text:141:2461",
+    "mode": "max_text",
+    "id_or_route": "141:2461",
+    "name": "App / Photos access off",
+    "status": "pass",
+    "source_frame": "141:2461",
+    "comparison": "adaptation",
+    "findings": [
+      "Native XCTest asserts Back to editor isHittable after bounded scroll; post-fix modal text and action visually readable."
+    ],
+    "evidence": [
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/maxtext-141-2461.png",
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/scroll-attachments/1BD4EC7D-D33B-451C-AFB8-92511E2A40F9.txt",
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/scroll-attachments/4AA32293-2DC6-4EDF-BDB9-BDFC6FEB35A9.png"
+    ],
+    "capture_sha256": "151eb720865669d6d05598ec78b80e5e788397020fe5e1f763cb194a49736a26",
+    "reference_note": "Maximum text has no dedicated Figma frame; this is adaptation, not pixel identity.",
+    "history": [
+      {
+        "key": "max_text:141:2461",
+        "mode": "max_text",
+        "id_or_route": "141:2461",
+        "name": "App / Photos access off",
+        "status": "issue",
+        "comparison": "adaptation",
+        "findings": [
+          "Access-off recovery modal reaches top edge and Back to editor action ellipsizes as Back to e… at maximum text."
+        ],
+        "evidence": [
+          "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/maxtext-141-2461.png"
+        ],
+        "source_frame": "141:2461",
+        "reference_note": "No maximum-text Figma source; usability adaptation assessed, not exact design fidelity.",
+        "capture_sha256": "fe467f74394568ce49e5154882ffe1e9d27285420f98ab234073eb3c05c89413"
+      }
+    ]
+  },
+  {
+    "key": "max_text:141:2492",
+    "mode": "max_text",
+    "id_or_route": "141:2492",
+    "name": "App / Photo saved",
+    "status": "pass",
+    "source_frame": "141:2492",
+    "comparison": "adaptation",
+    "findings": [
+      "Fresh post-fix maximum-text screenshot visually inspected: visible content and actions readable without clipping or overlap."
+    ],
+    "evidence": [
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/maxtext-141-2492.png"
+    ],
+    "capture_sha256": "02a13b9bcab945ddb637a65127454dd4ccbffbcd104248db7453f50ffd35fb40",
+    "reference_note": "Maximum text has no dedicated Figma frame; this is adaptation, not pixel identity.",
+    "history": [
+      {
+        "key": "max_text:141:2492",
+        "mode": "max_text",
+        "id_or_route": "141:2492",
+        "name": "App / Photo saved",
+        "status": "pass",
+        "comparison": "adaptation",
+        "findings": [
+          "Photo saved title, full explanatory message and Continue remain visible and readable at maximum text."
+        ],
+        "evidence": [
+          "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/maxtext-141-2492.png"
+        ],
+        "source_frame": "141:2492",
+        "reference_note": "No maximum-text Figma source; usability adaptation assessed, not exact design fidelity.",
+        "capture_sha256": "b2dfea0e1ac44a1f20cfe60af168fe85f797d971e9f61db37874840877a51341"
+      }
+    ]
+  },
+  {
+    "key": "max_text:147:2387",
+    "mode": "max_text",
+    "id_or_route": "147:2387",
+    "name": "Security Center / hub",
+    "status": "pass",
+    "source_frame": "147:2387",
+    "comparison": "adaptation",
+    "findings": [
+      "Post-fix screenshot and real XCTest scroll sequence visually inspected. Complete content is reachable; fixed footer remains readable. Maximum-text adaptation, not dedicated Figma-frame identity."
+    ],
+    "evidence": [
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/maxtext-147-2387.png",
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/scroll-attachments/F27655C6-D292-4989-B4D1-D96998848666.txt",
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/scroll-attachments/00B9827D-0079-452A-944B-2E3769027D5E.png",
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/scroll-attachments/086F8184-0D14-44EE-94E7-F57E5036EB1E.txt",
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/scroll-attachments/5443209B-F02C-4521-A56D-4B35A1CF9360.png",
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/scroll-attachments/16CDEB93-9C40-462C-BEF2-43DF7E67C199.txt",
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/scroll-attachments/3FEC1908-1DD8-4F65-9281-6733B0665B42.png"
+    ],
+    "capture_sha256": "d9a02e9a11fd0d0b298c2ef08221dd7df30d4844dab8f4f4534f0b764fd73f92",
+    "reference_note": "Maximum text has no dedicated Figma frame; this is adaptation, not pixel identity.",
+    "final_capture": "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/scroll-attachments/3FEC1908-1DD8-4F65-9281-6733B0665B42.png"
+  },
+  {
+    "key": "max_text:147:2719",
+    "mode": "max_text",
+    "id_or_route": "147:2719",
+    "name": "Security Center / emailInvalid",
+    "status": "pass",
+    "source_frame": "147:2719",
+    "comparison": "adaptation",
+    "findings": [
+      "Post-fix screenshot and real XCTest scroll sequence visually inspected. Complete content is reachable; fixed footer remains readable. Maximum-text adaptation, not dedicated Figma-frame identity."
+    ],
+    "evidence": [
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/maxtext-147-2719.png",
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/scroll-attachments/5080B39B-A466-4223-B7E6-444B9D28E7A7.txt",
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/scroll-attachments/E1E69D62-91AF-4251-8567-ED61BB8CB88E.png",
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/scroll-attachments/7A555DF3-B9D1-4E79-99BF-C242C04C48DB.txt",
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/scroll-attachments/850E0F98-99E0-495D-BB09-24183B8D0799.png",
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/scroll-attachments/D82F9DB7-CB08-4D59-8216-B94CBA199580.txt",
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/scroll-attachments/D62A3CBF-40FD-41FD-9F0A-5BB8BA7426DD.png"
+    ],
+    "capture_sha256": "33adc7fb063c0595772695543a6b435a4151c579f0459e81b0cc0f9e0bd675c4",
+    "reference_note": "Maximum text has no dedicated Figma frame; this is adaptation, not pixel identity.",
+    "final_capture": "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/scroll-attachments/D62A3CBF-40FD-41FD-9F0A-5BB8BA7426DD.png"
+  },
+  {
+    "key": "max_text:147:2774",
+    "mode": "max_text",
+    "id_or_route": "147:2774",
+    "name": "Security Center / checkingClear",
+    "status": "pass",
+    "source_frame": "147:2774",
+    "comparison": "adaptation",
+    "findings": [
+      "Post-fix screenshot and real XCTest scroll sequence visually inspected. Complete content is reachable; fixed footer remains readable. Maximum-text adaptation, not dedicated Figma-frame identity."
+    ],
+    "evidence": [
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/maxtext-147-2774.png",
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/scroll-attachments/2B3741F8-5E54-4E3C-85EA-DD74AA101A3F.txt",
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/scroll-attachments/340385DD-15DE-4D25-9F55-F00613A686A0.png",
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/scroll-attachments/40684212-C691-43A7-B783-B5A70E8BAE7B.txt",
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/scroll-attachments/67E5A2BB-19C9-4D60-B733-E89B55582F5E.png",
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/scroll-attachments/90C054EC-5EAD-43DE-BE0D-5EAABB0DAE72.txt",
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/scroll-attachments/89696E59-7B3A-4B7F-BC12-16B32CE61CE5.png"
+    ],
+    "capture_sha256": "8f3f01cc6ecda9fd449ab08ff76de294526e68a112b3f8797f10c73d1d84f050",
+    "reference_note": "Maximum text has no dedicated Figma frame; this is adaptation, not pixel identity.",
+    "final_capture": "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/scroll-attachments/89696E59-7B3A-4B7F-BC12-16B32CE61CE5.png"
+  },
+  {
+    "key": "max_text:147:2969",
+    "mode": "max_text",
+    "id_or_route": "147:2969",
+    "name": "Security Center / emailUnavailable",
+    "status": "pass",
+    "source_frame": "147:2969",
+    "comparison": "adaptation",
+    "findings": [
+      "Fresh post-fix maximum-text screenshot visually inspected: visible content and actions readable without clipping or overlap."
+    ],
+    "evidence": [
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/maxtext-147-2969.png"
+    ],
+    "capture_sha256": "c9fb0dbe9cf14819684d063fb143bd9c0743176910d7bc21a49565a04827a9c6",
+    "reference_note": "Maximum text has no dedicated Figma frame; this is adaptation, not pixel identity.",
+    "history": [
+      {
+        "key": "max_text:147:2969",
+        "mode": "max_text",
+        "id_or_route": "147:2969",
+        "name": "Security Center / emailUnavailable",
+        "status": "pass",
+        "comparison": "adaptation",
+        "findings": [
+          "Unavailable-state title, error message and Retry are readable and fully visible at maximum text."
+        ],
+        "evidence": [
+          "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/maxtext-147-2969.png"
+        ],
+        "source_frame": "147:2969",
+        "reference_note": "No maximum-text Figma source; usability adaptation assessed, not exact design fidelity.",
+        "capture_sha256": "c9fb0dbe9cf14819684d063fb143bd9c0743176910d7bc21a49565a04827a9c6"
+      }
+    ]
+  },
+  {
+    "key": "max_text:147:3080",
+    "mode": "max_text",
+    "id_or_route": "147:3080",
+    "name": "Security Center / pwdWeak",
+    "status": "pass",
+    "source_frame": "147:3080",
+    "comparison": "adaptation",
+    "findings": [
+      "Post-fix screenshot and real XCTest scroll sequence visually inspected. Complete content is reachable; fixed footer remains readable. Maximum-text adaptation, not dedicated Figma-frame identity."
+    ],
+    "evidence": [
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/maxtext-147-3080.png",
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/scroll-attachments/63692FFD-EBFF-4A16-94FF-0E562C496873.txt",
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/scroll-attachments/47D4D074-3D5E-4898-B649-36F1D8C0DE37.png",
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/scroll-attachments/5CB8ABE0-DC68-44A8-8C18-BFD996D4B395.txt",
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/scroll-attachments/6DADF59E-4D9D-4B63-B675-8B73BB15ABDE.png",
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/scroll-attachments/85C023E1-3A63-476F-B549-F2BC6FCA07BC.txt",
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/scroll-attachments/C3D19993-3139-4B14-B377-31C101070DA1.png"
+    ],
+    "capture_sha256": "f7949d30292bff9d873ad62587701da9452df53f952ac87975c117bd3b3b3ea3",
+    "reference_note": "Maximum text has no dedicated Figma frame; this is adaptation, not pixel identity.",
+    "final_capture": "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/scroll-attachments/C3D19993-3139-4B14-B377-31C101070DA1.png"
+  },
+  {
+    "key": "max_text:147:3269",
+    "mode": "max_text",
+    "id_or_route": "147:3269",
+    "name": "Security Center / pwdLeaks",
+    "status": "pass",
+    "source_frame": "147:3269",
+    "comparison": "adaptation",
+    "findings": [
+      "Post-fix screenshot and real XCTest scroll sequence visually inspected. Complete content is reachable; fixed footer remains readable. Maximum-text adaptation, not dedicated Figma-frame identity."
+    ],
+    "evidence": [
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/maxtext-147-3269.png",
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/scroll-attachments/CA6943CB-9268-44C1-8396-9CAE65C5EF4E.txt",
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/scroll-attachments/8809D76B-B520-4C1E-B05C-CF97B04E75B0.png",
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/scroll-attachments/36CA9599-639C-4B33-B145-9D8DBF28D1BE.txt",
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/scroll-attachments/9213800C-2CAE-425F-B20A-E027AB8119E4.png",
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/scroll-attachments/A1A840E8-5588-48CC-8C30-02E5D69A2336.txt",
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/scroll-attachments/8E0AC248-E1F7-4A09-855E-6BF038C12052.png"
+    ],
+    "capture_sha256": "f7949d30292bff9d873ad62587701da9452df53f952ac87975c117bd3b3b3ea3",
+    "reference_note": "Maximum text has no dedicated Figma frame; this is adaptation, not pixel identity.",
+    "final_capture": "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/scroll-attachments/8E0AC248-E1F7-4A09-855E-6BF038C12052.png"
+  },
+  {
+    "key": "max_text:147:3340",
+    "mode": "max_text",
+    "id_or_route": "147:3340",
+    "name": "Security Center / deviceStart",
+    "status": "pass",
+    "source_frame": "147:3340",
+    "comparison": "adaptation",
+    "findings": [
+      "Fresh final-build native vertical drag reaches lower content. Visually inspected: labels/Best/time-size overlays readable, controls visible, no overlapping text. Ordinary within-word wraps at extremeAX size retain complete content; no pixel identity claimed."
+    ],
+    "evidence": [
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/maxtext-147-3340.png",
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/vertical-attachments/26CD20B3-C5A1-469A-9E80-FF77328EC83C.txt",
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/vertical-attachments/AE44CFC8-DCD0-4A3A-92EE-0E05067D81F2.png"
+    ],
+    "capture_sha256": "6d433bbc26d72716031d3523dbd063531f887dac802322093f7eff784d396f19",
+    "reference_note": "Maximum text has no dedicated Figma frame; this is adaptation, not pixel identity."
+  },
+  {
+    "key": "max_text:147:3669",
+    "mode": "max_text",
+    "id_or_route": "147:3669",
+    "name": "Security Center / guide2",
+    "status": "pass",
+    "source_frame": "147:3669",
+    "comparison": "adaptation",
+    "findings": [
+      "Fresh final-build native vertical drag reaches lower content. Visually inspected: labels/Best/time-size overlays readable, controls visible, no overlapping text. Ordinary within-word wraps at extremeAX size retain complete content; no pixel identity claimed."
+    ],
+    "evidence": [
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/maxtext-147-3669.png",
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/vertical-attachments/D557AF5B-37E9-4E84-8829-EE1FB421E84B.txt",
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/vertical-attachments/378260B0-30D1-44FA-A9E9-643AF7EACC18.png"
+    ],
+    "capture_sha256": "c038dffed8f91f8fc8f54e3f6a62b3e19cf9e8a80c551e59d735fac0717cc401",
+    "reference_note": "Maximum text has no dedicated Figma frame; this is adaptation, not pixel identity."
+  },
+  {
+    "key": "max_text:159:2752",
+    "mode": "max_text",
+    "id_or_route": "159:2752",
+    "name": "Settings / No subscription",
+    "status": "pass",
+    "source_frame": "159:2752",
+    "comparison": "adaptation",
+    "findings": [
+      "Opaque Version footer no longer overlaps rows. XCTest scrolling reaches Privacy Policy and asserts isHittable."
+    ],
+    "evidence": [
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/maxtext-159-2752.png",
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/xctest-settings.log"
+    ],
+    "capture_sha256": "c3b84f60a2867b93e32278d771479dd8ac62a1decf8fbd43de18a7db92ab5ea5",
+    "reference_note": "Maximum text has no dedicated Figma frame; this is adaptation, not pixel identity.",
+    "history": [
+      {
+        "key": "max_text:159:2752",
+        "mode": "max_text",
+        "id_or_route": "159:2752",
+        "name": "Settings / No subscription",
+        "status": "issue",
+        "comparison": "adaptation",
+        "findings": [
+          "Pinned Version 1.0.0 overlaps scrolling settings-row text at maximum text; premium title wraps readably but menu words split."
+        ],
+        "evidence": [
+          "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/maxtext-159-2752.png"
+        ],
+        "source_frame": "159:2752",
+        "reference_note": "No maximum-text Figma source; usability adaptation assessed, not exact design fidelity.",
+        "capture_sha256": "ed85fde041f688d89c96b18a2ea33b64297a6533ed065b71ef484c9ce84f1bae"
+      }
+    ]
+  },
+  {
+    "key": "max_text:159:2979",
+    "mode": "max_text",
+    "id_or_route": "159:2979",
+    "name": "Settings / checking",
+    "status": "pass",
+    "source_frame": "159:2979",
+    "comparison": "adaptation",
+    "findings": [
+      "Opaque Version footer no longer overlaps rows. XCTest scrolling reaches Privacy Policy and asserts isHittable."
+    ],
+    "evidence": [
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/maxtext-159-2979.png",
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/xctest-settings.log"
+    ],
+    "capture_sha256": "c3b84f60a2867b93e32278d771479dd8ac62a1decf8fbd43de18a7db92ab5ea5",
+    "reference_note": "Maximum text has no dedicated Figma frame; this is adaptation, not pixel identity.",
+    "history": [
+      {
+        "key": "max_text:159:2979",
+        "mode": "max_text",
+        "id_or_route": "159:2979",
+        "name": "Settings / checking",
+        "status": "issue",
+        "comparison": "adaptation",
+        "findings": [
+          "Pinned Version 1.0.0 overlaps scrolling settings-row text at maximum text; premium title wraps readably but menu words split."
+        ],
+        "evidence": [
+          "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/maxtext-159-2979.png"
+        ],
+        "source_frame": "159:2979",
+        "reference_note": "No maximum-text Figma source; usability adaptation assessed, not exact design fidelity.",
+        "capture_sha256": "38d031ce340ef23043c1e1758d1fb6cd89f9fd327b25df15e8055eef70f0ea2a"
+      }
+    ]
+  },
+  {
+    "key": "max_text:159:3259",
+    "mode": "max_text",
+    "id_or_route": "159:3259",
+    "name": "Settings / error",
+    "status": "pass",
+    "source_frame": "159:3259",
+    "comparison": "adaptation",
+    "findings": [
+      "Post-fix screenshot and real XCTest scroll sequence visually inspected. Complete content is reachable; fixed footer remains readable. Maximum-text adaptation, not dedicated Figma-frame identity."
+    ],
+    "evidence": [
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/maxtext-159-3259.png",
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/scroll-attachments/1E1BC80D-C6B9-4C92-9A18-C0F562E73104.txt",
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/scroll-attachments/21B0D29A-4251-4BC9-86B3-F0D7AF0DFF7E.png",
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/scroll-attachments/A7AE9661-2CF1-4DB7-ABCB-D037B490ABCC.txt",
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/scroll-attachments/925A248B-395A-4D51-A87E-FCBD2DBBF159.png",
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/scroll-attachments/5821BF9A-BFE6-4511-BEA4-4AB7E848767A.txt",
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/scroll-attachments/20A43D5E-1FCE-4A2D-A7BF-0114A539B4B5.png"
+    ],
+    "capture_sha256": "afaf7d1b89734f6c98b315903cbb5e98f6d3e84eb6c7d0e557d2e06d19973e4d",
+    "reference_note": "Maximum text has no dedicated Figma frame; this is adaptation, not pixel identity.",
+    "history": [
+      {
+        "key": "max_text:159:3259",
+        "mode": "max_text",
+        "id_or_route": "159:3259",
+        "name": "Settings / error",
+        "status": "issue",
+        "comparison": "adaptation",
+        "findings": [
+          "Restore-result modal extends past viewport; required retry/continue controls are partly or fully below screen. Scroll reachability requires follow-up."
+        ],
+        "evidence": [
+          "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/maxtext-159-3259.png"
+        ],
+        "source_frame": "159:3259",
+        "reference_note": "No maximum-text Figma source; usability adaptation assessed, not exact design fidelity.",
+        "capture_sha256": "624fea41539130fa1b49ea86cdecac91025d3f80e961a293a9cea11e3a29cd62"
+      }
+    ],
+    "final_capture": "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/scroll-attachments/20A43D5E-1FCE-4A2D-A7BF-0114A539B4B5.png"
+  },
+  {
+    "key": "max_text:159:3124",
+    "mode": "max_text",
+    "id_or_route": "159:3124",
+    "name": "Settings / restored",
+    "status": "pass",
+    "source_frame": "159:3124",
+    "comparison": "adaptation",
+    "findings": [
+      "Fresh post-fix maximum-text screenshot visually inspected: visible content and actions readable without clipping or overlap."
+    ],
+    "evidence": [
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/maxtext-159-3124.png"
+    ],
+    "capture_sha256": "4c3377cbdcfe97836e4554eeb6c98b79b4cf0c51a4f331177288e1cf4db7370a",
+    "reference_note": "Maximum text has no dedicated Figma frame; this is adaptation, not pixel identity.",
+    "history": [
+      {
+        "key": "max_text:159:3124",
+        "mode": "max_text",
+        "id_or_route": "159:3124",
+        "name": "Settings / restored",
+        "status": "issue",
+        "comparison": "adaptation",
+        "findings": [
+          "Restored modal artwork extends into status region; Purchases splits within word. Continue is visible."
+        ],
+        "evidence": [
+          "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/maxtext-159-3124.png"
+        ],
+        "source_frame": "159:3124",
+        "reference_note": "No maximum-text Figma source; usability adaptation assessed, not exact design fidelity.",
+        "capture_sha256": "1364899772a6fbd0db8a2d15aa9a1b26768a48eac49d4b73e784c33a2a6d98d5"
+      }
+    ]
+  },
+  {
+    "key": "max_text:159:3189",
+    "mode": "max_text",
+    "id_or_route": "159:3189",
+    "name": "Settings / none",
+    "status": "pass",
+    "source_frame": "159:3189",
+    "comparison": "adaptation",
+    "findings": [
+      "Post-fix screenshot and real XCTest scroll sequence visually inspected. Complete content is reachable; fixed footer remains readable. Maximum-text adaptation, not dedicated Figma-frame identity."
+    ],
+    "evidence": [
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/maxtext-159-3189.png",
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/scroll-attachments/8B1902F1-1879-40D1-AD47-292526DAA5CD.txt",
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/scroll-attachments/25ED2B0E-8E97-412F-B2B6-996B498130B0.png",
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/scroll-attachments/5BAFB71E-578D-4846-9B23-DF91090674E3.txt",
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/scroll-attachments/C9B24105-258D-4079-965E-754B2AC8A019.png",
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/scroll-attachments/877E7F68-57B6-4DE3-81DB-8750FB92F0BA.txt",
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/scroll-attachments/38B7DB74-ACD9-47D7-8132-4F8C8F7B48C1.png"
+    ],
+    "capture_sha256": "aae56a75314acd1de0bd9d3f532da6dbae7258636822bf67b341bedc90d0e64a",
+    "reference_note": "Maximum text has no dedicated Figma frame; this is adaptation, not pixel identity.",
+    "history": [
+      {
+        "key": "max_text:159:3189",
+        "mode": "max_text",
+        "id_or_route": "159:3189",
+        "name": "Settings / none",
+        "status": "issue",
+        "comparison": "adaptation",
+        "findings": [
+          "Restore-result modal extends past viewport; required retry/continue controls are partly or fully below screen. Scroll reachability requires follow-up."
+        ],
+        "evidence": [
+          "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/maxtext-159-3189.png"
+        ],
+        "source_frame": "159:3189",
+        "reference_note": "No maximum-text Figma source; usability adaptation assessed, not exact design fidelity.",
+        "capture_sha256": "cc038ad67d02c8e547eb420372d015d64a07825c1aa5e018cbafffdeeeb234a1"
+      }
+    ],
+    "final_capture": "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/scroll-attachments/38B7DB74-ACD9-47D7-8132-4F8C8F7B48C1.png"
+  },
+  {
+    "key": "max_text:235:2861",
+    "mode": "max_text",
+    "id_or_route": "235:2861",
+    "name": "My subscription / Active",
+    "status": "pass",
+    "source_frame": "235:2861",
+    "comparison": "adaptation",
+    "findings": [
+      "Post-fix screenshot and real XCTest scroll sequence visually inspected. Complete content is reachable; fixed footer remains readable. Maximum-text adaptation, not dedicated Figma-frame identity."
+    ],
+    "evidence": [
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/maxtext-235-2861.png",
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/scroll-attachments/46EAA4C6-6D34-427E-92AA-4EF9781BDF00.txt",
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/scroll-attachments/E7EE1F58-7BE0-4F59-B26F-57957A1101CB.png",
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/scroll-attachments/61A456CB-7C2A-42C9-BFFA-3F2441F18035.txt",
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/scroll-attachments/BDA0021D-7869-4CE5-9B48-B5CCA5E28EBA.png",
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/scroll-attachments/02AB72EB-E9A9-4658-B3FC-96FBEC4E2BEC.txt",
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/scroll-attachments/872F4DEC-8FF9-49CC-A284-64EAC9BA7481.png"
+    ],
+    "capture_sha256": "84b3a1984670a3dc538580398973a97164be377a68f47de6e91c35860737261f",
+    "reference_note": "Maximum text has no dedicated Figma frame; this is adaptation, not pixel identity.",
+    "final_capture": "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/scroll-attachments/872F4DEC-8FF9-49CC-A284-64EAC9BA7481.png"
+  },
+  {
+    "key": "max_text:235:2908",
+    "mode": "max_text",
+    "id_or_route": "235:2908",
+    "name": "My subscription / Renewal off",
+    "status": "pass",
+    "source_frame": "235:2908",
+    "comparison": "adaptation",
+    "findings": [
+      "Post-fix screenshot and real XCTest scroll sequence visually inspected. Complete content is reachable; fixed footer remains readable. Maximum-text adaptation, not dedicated Figma-frame identity."
+    ],
+    "evidence": [
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/maxtext-235-2908.png",
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/scroll-attachments/357C45E4-5646-4918-8631-04301E57D09E.txt",
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/scroll-attachments/EE1FEFE3-F1AD-4101-8209-8EAC4DD3E792.png",
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/scroll-attachments/9B946DDA-1223-48B2-A87F-2DE9584FCE30.txt",
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/scroll-attachments/BD151B8C-85D3-490B-BBB5-457C5AF439E3.png",
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/scroll-attachments/E3D43472-58DF-4521-B852-4A03948EAB0E.txt",
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/scroll-attachments/A8EDB2F9-B337-4256-8E63-A4A3AA9332A3.png"
+    ],
+    "capture_sha256": "29cfd06df59ae72372ea8d88a2348369744d729f8a73f7f8b5ccf6e3f508fd44",
+    "reference_note": "Maximum text has no dedicated Figma frame; this is adaptation, not pixel identity.",
+    "final_capture": "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/scroll-attachments/A8EDB2F9-B337-4256-8E63-A4A3AA9332A3.png"
+  },
+  {
+    "key": "max_text:235:2955",
+    "mode": "max_text",
+    "id_or_route": "235:2955",
+    "name": "My subscription / No subscription",
+    "status": "pass",
+    "source_frame": "235:2955",
+    "comparison": "adaptation",
+    "findings": [
+      "Post-fix screenshot and real XCTest scroll sequence visually inspected. Complete content is reachable; fixed footer remains readable. Maximum-text adaptation, not dedicated Figma-frame identity."
+    ],
+    "evidence": [
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/maxtext-235-2955.png",
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/scroll-attachments/5E26EBC7-722A-48AF-ADB8-677537F6D1C0.txt",
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/scroll-attachments/23BC81A4-7C08-4B4D-8355-2F2520FA4607.png",
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/scroll-attachments/724D389D-5B5B-412E-876F-B29C11195FA7.txt",
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/scroll-attachments/951F7BD0-8CA3-403E-A3AD-E342582986CD.png",
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/scroll-attachments/09FD9549-CF09-4C5A-B474-BF5F248749F7.txt",
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/scroll-attachments/FD07833E-F7CE-4001-804B-94EF36DE1B31.png"
+    ],
+    "capture_sha256": "e2f946e773b8131ec08b46edf078f949b6cc62fe56c6c50c039d068ef27c25cc",
+    "reference_note": "Maximum text has no dedicated Figma frame; this is adaptation, not pixel identity.",
+    "final_capture": "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/scroll-attachments/FD07833E-F7CE-4001-804B-94EF36DE1B31.png"
+  },
+  {
+    "key": "max_text:175:2863",
+    "mode": "max_text",
+    "id_or_route": "175:2863",
+    "name": "Splash / First launch",
+    "status": "pass",
+    "source_frame": "175:2863",
+    "comparison": "adaptation",
+    "findings": [
+      "Fresh post-fix maximum-text screenshot visually inspected: visible content and actions readable without clipping or overlap."
+    ],
+    "evidence": [
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/maxtext-175-2863.png"
+    ],
+    "capture_sha256": "8659271d02c235fbd3e1cc71368b5e815880117f97f6e984482fb808b0b00980",
+    "reference_note": "Maximum text has no dedicated Figma frame; this is adaptation, not pixel identity.",
+    "history": [
+      {
+        "key": "max_text:175:2863",
+        "mode": "max_text",
+        "id_or_route": "175:2863",
+        "name": "Splash / First launch",
+        "status": "issue",
+        "comparison": "adaptation",
+        "findings": [
+          "Splash wordmark truncates to Cle… at maximum text despite unused space below."
+        ],
+        "evidence": [
+          "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/maxtext-175-2863.png"
+        ],
+        "source_frame": "175:2863",
+        "reference_note": "No maximum-text Figma source; usability adaptation assessed, not exact design fidelity.",
+        "capture_sha256": "2548f099af3de5f4b053e35a97823974fab0d62605c3fdcefab713d41c9b5069"
+      }
+    ]
+  },
+  {
+    "key": "real:home",
+    "mode": "real",
+    "id_or_route": "home",
+    "name": "home",
+    "status": "pass",
+    "comparison": "source_chrome",
+    "findings": [
+      "Real top and native scrolled-bottom screenshots visually inspected. All lower content/disclosures and actions remain readable. Actual data intentionally differs from Figma examples."
+    ],
+    "evidence": [
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/real-home.png",
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/live-attachments/AC923D65-4D57-483D-85CA-463270EC19C3.txt",
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/live-attachments/E3B2A385-7A0E-4936-A8FC-C061CF81E48E.png"
+    ],
+    "capture_sha256": "68f886c6bc0f69290c96cfec9e3e2d6cb6c837cd3bfedbac66184951425a1d29",
+    "history": [
+      {
+        "key": "real:home",
+        "mode": "real",
+        "id_or_route": "home",
+        "name": "home",
+        "status": "pass",
+        "comparison": "source_chrome",
+        "findings": [
+          "Initial live Home shows real disk usage and truthful Not scanned media state; visible chrome fits. Lower feature rows require scrolling."
+        ],
+        "evidence": [
+          "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/real-home.png"
+        ],
+        "capture_sha256": "868f7f0c8677d62aeb226dd89a4a6a2d27bd89f40960fec8b57dbaeb913d5bc6"
+      }
+    ]
+  },
+  {
+    "key": "real:scan",
+    "mode": "real",
+    "id_or_route": "scan",
+    "name": "scan",
+    "status": "pass",
+    "comparison": "source_chrome",
+    "findings": [
+      "Normal-text live route visually inspected, controls and current live/empty state fit. Dynamic data not compared for identity."
+    ],
+    "evidence": [
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/real-scan.png"
+    ],
+    "capture_sha256": "d57448fb53a258b9cc5e4096aa97e50ce03dc28f62200f91619309acc3b5224c",
+    "history": [
+      {
+        "key": "real:scan",
+        "mode": "real",
+        "id_or_route": "scan",
+        "name": "scan",
+        "status": "pass",
+        "comparison": "source_chrome",
+        "findings": [
+          "Completed scan shows Zero KB available to review and zero category counts without claiming storage freed; primary action and visible cards fit."
+        ],
+        "evidence": [
+          "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/real-scan.png"
+        ],
+        "capture_sha256": "84e48cbbf15ae339aa2f41561dc554fe5a5db9083ec0ba9efd6c849fa5aadf41"
+      }
+    ]
+  },
+  {
+    "key": "real:photos",
+    "mode": "real",
+    "id_or_route": "photos",
+    "name": "photos",
+    "status": "pass",
+    "comparison": "source_chrome",
+    "findings": [
+      "Native XCTest dismissed onboarding and granted actual Photos permission; live category rows rendered. Screenshot visually inspected; counts/images reflect local sample library, not fixture data."
+    ],
+    "evidence": [
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/real-photos.png",
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/photos-v3-attachments/7700B1D3-3C9A-4FD8-BD6B-EBF486938A90.png",
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/xctest-photos-v3.log"
+    ],
+    "capture_sha256": "ee7416fdf99a5469854a74e8e643ea523f0bef1d670280e2a475ebdd6512a0d5",
+    "history": [
+      {
+        "key": "real:photos",
+        "mode": "real",
+        "id_or_route": "photos",
+        "name": "photos",
+        "status": "pass",
+        "comparison": "source_chrome",
+        "findings": [
+          "Default-text live route displays readable source-style chrome and actual available state; dynamic data excluded from Figma identity.",
+          "Read-only screenshot assessment; no purchase/deletion/restore or external-service success asserted."
+        ],
+        "evidence": [
+          "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/real-photos.png"
+        ],
+        "capture_sha256": "aadc39626c165a052112f14632ce5287dbe244b3f6fb633b496b0c9c631a5b81"
+      }
+    ]
+  },
+  {
+    "key": "real:swipe",
+    "mode": "real",
+    "id_or_route": "swipe",
+    "name": "swipe",
+    "status": "pass",
+    "comparison": "source_chrome",
+    "findings": [
+      "Normal-text live route visually inspected, controls and current live/empty state fit. Dynamic data not compared for identity."
+    ],
+    "evidence": [
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/real-swipe.png"
+    ],
+    "capture_sha256": "31697b9079412ef0e4a8bd7bd84629280d2bd1bd334ba39d1355d6ecd5b11533",
+    "history": [
+      {
+        "key": "real:swipe",
+        "mode": "real",
+        "id_or_route": "swipe",
+        "name": "swipe",
+        "status": "pass",
+        "comparison": "source_chrome",
+        "findings": [
+          "Default-text live route displays readable source-style chrome and actual available state; dynamic data excluded from Figma identity.",
+          "Read-only screenshot assessment; no purchase/deletion/restore or external-service success asserted."
+        ],
+        "evidence": [
+          "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/real-swipe.png"
+        ],
+        "capture_sha256": "31697b9079412ef0e4a8bd7bd84629280d2bd1bd334ba39d1355d6ecd5b11533"
+      }
+    ]
+  },
+  {
+    "key": "real:videos",
+    "mode": "real",
+    "id_or_route": "videos",
+    "name": "videos",
+    "status": "pass",
+    "comparison": "source_chrome",
+    "findings": [
+      "Normal-text live route visually inspected, controls and current live/empty state fit. Dynamic data not compared for identity."
+    ],
+    "evidence": [
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/real-videos.png"
+    ],
+    "capture_sha256": "8b560cda19c526afeaf0553d74fb8fcc80fa3e9a6dd0a7a8b0adff85cb9d362d",
+    "history": [
+      {
+        "key": "real:videos",
+        "mode": "real",
+        "id_or_route": "videos",
+        "name": "videos",
+        "status": "pass",
+        "comparison": "source_chrome",
+        "findings": [
+          "Default-text live route displays readable source-style chrome and actual available state; dynamic data excluded from Figma identity.",
+          "Read-only screenshot assessment; no purchase/deletion/restore or external-service success asserted."
+        ],
+        "evidence": [
+          "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/real-videos.png"
+        ],
+        "capture_sha256": "8b560cda19c526afeaf0553d74fb8fcc80fa3e9a6dd0a7a8b0adff85cb9d362d"
+      }
+    ]
+  },
+  {
+    "key": "real:contacts",
+    "mode": "real",
+    "id_or_route": "contacts",
+    "name": "contacts",
+    "status": "pass",
+    "comparison": "source_chrome",
+    "findings": [
+      "Normal-text live route visually inspected, controls and current live/empty state fit. Dynamic data not compared for identity."
+    ],
+    "evidence": [
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/real-contacts.png"
+    ],
+    "capture_sha256": "0516a7c9046db67de9117e62aa51f7bab5d808f61059560e9e135c58c2c941f8",
+    "history": [
+      {
+        "key": "real:contacts",
+        "mode": "real",
+        "id_or_route": "contacts",
+        "name": "contacts",
+        "status": "pass",
+        "comparison": "source_chrome",
+        "findings": [
+          "Default-text live route displays readable source-style chrome and actual available state; dynamic data excluded from Figma identity.",
+          "Read-only screenshot assessment; no purchase/deletion/restore or external-service success asserted."
+        ],
+        "evidence": [
+          "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/real-contacts.png"
+        ],
+        "capture_sha256": "0516a7c9046db67de9117e62aa51f7bab5d808f61059560e9e135c58c2c941f8"
+      }
+    ]
+  },
+  {
+    "key": "real:calendar",
+    "mode": "real",
+    "id_or_route": "calendar",
+    "name": "calendar",
+    "status": "pass",
+    "comparison": "source_chrome",
+    "findings": [
+      "Normal-text live route visually inspected, controls and current live/empty state fit. Dynamic data not compared for identity."
+    ],
+    "evidence": [
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/real-calendar.png"
+    ],
+    "capture_sha256": "d8c466b7c3b058ecc02852d7ec4297ca0c8d045ca24a24d9112b687ab4039686",
+    "history": [
+      {
+        "key": "real:calendar",
+        "mode": "real",
+        "id_or_route": "calendar",
+        "name": "calendar",
+        "status": "pass",
+        "comparison": "source_chrome",
+        "findings": [
+          "Default-text live route displays readable source-style chrome and actual available state; dynamic data excluded from Figma identity.",
+          "Read-only screenshot assessment; no purchase/deletion/restore or external-service success asserted."
+        ],
+        "evidence": [
+          "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/real-calendar.png"
+        ],
+        "capture_sha256": "d8c466b7c3b058ecc02852d7ec4297ca0c8d045ca24a24d9112b687ab4039686"
+      }
+    ]
+  },
+  {
+    "key": "real:background",
+    "mode": "real",
+    "id_or_route": "background",
+    "name": "background",
+    "status": "pass",
+    "comparison": "source_chrome",
+    "findings": [
+      "Normal-text live route visually inspected, controls and current live/empty state fit. Dynamic data not compared for identity."
+    ],
+    "evidence": [
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/real-background.png"
+    ],
+    "capture_sha256": "04ba8a0010d186050c79101122146a4bee6606f258a80419ba253d6ccf4cdb22",
+    "history": [
+      {
+        "key": "real:background",
+        "mode": "real",
+        "id_or_route": "background",
+        "name": "background",
+        "status": "pass",
+        "comparison": "source_chrome",
+        "findings": [
+          "Default-text live route displays readable source-style chrome and actual available state; dynamic data excluded from Figma identity.",
+          "Read-only screenshot assessment; no purchase/deletion/restore or external-service success asserted."
+        ],
+        "evidence": [
+          "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/real-background.png"
+        ],
+        "capture_sha256": "04ba8a0010d186050c79101122146a4bee6606f258a80419ba253d6ccf4cdb22"
+      }
+    ]
+  },
+  {
+    "key": "real:security",
+    "mode": "real",
+    "id_or_route": "security",
+    "name": "security",
+    "status": "pass",
+    "comparison": "source_chrome",
+    "findings": [
+      "Normal-text live route visually inspected, controls and current live/empty state fit. Dynamic data not compared for identity."
+    ],
+    "evidence": [
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/real-security.png"
+    ],
+    "capture_sha256": "960f374b677f42ab0a282f29a9599d68226e594132d5260205f8b30cc5aac40e",
+    "history": [
+      {
+        "key": "real:security",
+        "mode": "real",
+        "id_or_route": "security",
+        "name": "security",
+        "status": "pass",
+        "comparison": "source_chrome",
+        "findings": [
+          "Default-text live route displays readable source-style chrome and actual available state; dynamic data excluded from Figma identity.",
+          "Read-only screenshot assessment; no purchase/deletion/restore or external-service success asserted."
+        ],
+        "evidence": [
+          "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/real-security.png"
+        ],
+        "capture_sha256": "960f374b677f42ab0a282f29a9599d68226e594132d5260205f8b30cc5aac40e"
+      }
+    ]
+  },
+  {
+    "key": "real:settings",
+    "mode": "real",
+    "id_or_route": "settings",
+    "name": "settings",
+    "status": "pass",
+    "comparison": "source_chrome",
+    "findings": [
+      "Normal-text live route visually inspected, controls and current live/empty state fit. Dynamic data not compared for identity."
+    ],
+    "evidence": [
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/real-settings.png"
+    ],
+    "capture_sha256": "f97c1dd97e0c20d904e14718ddc370f59b83dae136b49b86c8e2b3532b1ce25a",
+    "history": [
+      {
+        "key": "real:settings",
+        "mode": "real",
+        "id_or_route": "settings",
+        "name": "settings",
+        "status": "pass",
+        "comparison": "source_chrome",
+        "findings": [
+          "Default-text live route displays readable source-style chrome and actual available state; dynamic data excluded from Figma identity.",
+          "Read-only screenshot assessment; no purchase/deletion/restore or external-service success asserted."
+        ],
+        "evidence": [
+          "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/real-settings.png"
+        ],
+        "capture_sha256": "893cf3bb05b1fa7230d50828eb2aa70106c87f83bbb8e23d03976bd09c682c1b"
+      }
+    ]
+  },
+  {
+    "key": "real:subscription",
+    "mode": "real",
+    "id_or_route": "subscription",
+    "name": "subscription",
+    "status": "pass",
+    "comparison": "source_chrome",
+    "findings": [
+      "Real top and native scrolled-bottom screenshots visually inspected. All lower content/disclosures and actions remain readable. Actual data intentionally differs from Figma examples."
+    ],
+    "evidence": [
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/real-subscription.png",
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/live-attachments/7471F1F9-E266-468C-8CBE-ACE093C4F70F.txt",
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/live-attachments/F5AC82F0-98AD-4A6B-B0E7-CA185E5E111B.png"
+    ],
+    "capture_sha256": "c609b145f299a051f4b9fdd202cd91f4442bd90405606d654f4d6f52d0529217",
+    "history": [
+      {
+        "key": "real:subscription",
+        "mode": "real",
+        "id_or_route": "subscription",
+        "name": "subscription",
+        "status": "pass",
+        "comparison": "source_chrome",
+        "findings": [
+          "No-active-subscription state and Manage/Restore controls fit at default text. Product availability disclosures continue below viewport; no transaction tested."
+        ],
+        "evidence": [
+          "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/real-subscription.png"
+        ],
+        "capture_sha256": "c609b145f299a051f4b9fdd202cd91f4442bd90405606d654f4d6f52d0529217"
+      }
+    ]
+  },
+  {
+    "key": "real:email",
+    "mode": "real",
+    "id_or_route": "email",
+    "name": "email",
+    "status": "pass",
+    "comparison": "source_chrome",
+    "findings": [
+      "Normal-text live route visually inspected, controls and current live/empty state fit. Dynamic data not compared for identity."
+    ],
+    "evidence": [
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/real-email.png"
+    ],
+    "capture_sha256": "3b28275c9fd3b5b0778a6f9ad5a0a069a18343a17f32754139d71eb7974b624d",
+    "history": [
+      {
+        "key": "real:email",
+        "mode": "real",
+        "id_or_route": "email",
+        "name": "email",
+        "status": "pass",
+        "comparison": "source_chrome",
+        "findings": [
+          "Default-text live route displays readable source-style chrome and actual available state; dynamic data excluded from Figma identity.",
+          "Read-only screenshot assessment; no purchase/deletion/restore or external-service success asserted."
+        ],
+        "evidence": [
+          "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/real-email.png"
+        ],
+        "capture_sha256": "3b28275c9fd3b5b0778a6f9ad5a0a069a18343a17f32754139d71eb7974b624d"
+      }
+    ]
+  },
+  {
+    "key": "real:password",
+    "mode": "real",
+    "id_or_route": "password",
+    "name": "password",
+    "status": "pass",
+    "comparison": "source_chrome",
+    "findings": [
+      "Normal-text live route visually inspected, controls and current live/empty state fit. Dynamic data not compared for identity."
+    ],
+    "evidence": [
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/real-password.png"
+    ],
+    "capture_sha256": "cd83dd9dcc185b0d61988325f8690d452e96c3970c1f8a6be8d3623399cc8657",
+    "history": [
+      {
+        "key": "real:password",
+        "mode": "real",
+        "id_or_route": "password",
+        "name": "password",
+        "status": "pass",
+        "comparison": "source_chrome",
+        "findings": [
+          "Default-text live route displays readable source-style chrome and actual available state; dynamic data excluded from Figma identity.",
+          "Read-only screenshot assessment; no purchase/deletion/restore or external-service success asserted."
+        ],
+        "evidence": [
+          "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/real-password.png"
+        ],
+        "capture_sha256": "cd83dd9dcc185b0d61988325f8690d452e96c3970c1f8a6be8d3623399cc8657"
+      }
+    ]
+  },
+  {
+    "key": "real:device",
+    "mode": "real",
+    "id_or_route": "device",
+    "name": "device",
+    "status": "pass",
+    "comparison": "source_chrome",
+    "findings": [
+      "Real top and native scrolled-bottom screenshots visually inspected. All lower content/disclosures and actions remain readable. Actual data intentionally differs from Figma examples."
+    ],
+    "evidence": [
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/real-device.png",
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/live-attachments/0F3C838E-6A3F-4C7F-8906-4C5E42AFB797.txt",
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/live-attachments/D028DBAF-9CDC-4102-AD10-2322CE94860F.png"
+    ],
+    "capture_sha256": "2f6c3268ebd19ec24fb74b6ae136c619214339e47394f08cd47bbd50f7e83028",
+    "history": [
+      {
+        "key": "real:device",
+        "mode": "real",
+        "id_or_route": "device",
+        "name": "device",
+        "status": "pass",
+        "comparison": "source_chrome",
+        "findings": [
+          "Live self-review checklist, not-checked statuses and Review checklist action fit at default text. No actual system-security inspection claimed."
+        ],
+        "evidence": [
+          "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/real-device.png"
+        ],
+        "capture_sha256": "2f6c3268ebd19ec24fb74b6ae136c619214339e47394f08cd47bbd50f7e83028"
+      }
+    ]
+  },
+  {
+    "key": "denied:photos",
+    "mode": "denied",
+    "id_or_route": "photos",
+    "name": "Denied photos",
+    "status": "pass",
+    "comparison": "adaptation",
+    "findings": [
+      "Native XCTest dismissed onboarding; actual denied photo-library explanation and both Open Settings/Try again actions visually inspected and readable. No exact Figma denial frame."
+    ],
+    "evidence": [
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/denied-photos.png",
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/live-attachments/70899A10-C34A-4AEB-AC94-D2502DB8AD7D.txt",
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/live-attachments/310CE84C-4CB4-4CEE-A616-506C2503118F.png"
+    ],
+    "capture_sha256": "aadc39626c165a052112f14632ce5287dbe244b3f6fb633b496b0c9c631a5b81"
+  },
+  {
+    "key": "denied:contacts",
+    "mode": "denied",
+    "id_or_route": "contacts",
+    "name": "Denied contacts",
+    "status": "pass",
+    "comparison": "adaptation",
+    "findings": [
+      "Actual revoked permission captured. Explanation and Open Settings control fully readable; no dedicated Figma denial frame."
+    ],
+    "evidence": [
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/denied-contacts.png"
+    ],
+    "capture_sha256": "0732260d6be135450de30c41608c64775c610d4053e1d843e43235df7da3a786"
+  },
+  {
+    "key": "denied:calendar",
+    "mode": "denied",
+    "id_or_route": "calendar",
+    "name": "Denied calendar",
+    "status": "pass",
+    "comparison": "adaptation",
+    "findings": [
+      "Actual revoked permission captured. Explanation and Open Settings control fully readable; no dedicated Figma denial frame."
+    ],
+    "evidence": [
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/se/final/denied-calendar.png"
+    ],
+    "capture_sha256": "c76596159d76924da020a291a053592456464609eaf1f35839dde262cf44c41a"
+  }
+]

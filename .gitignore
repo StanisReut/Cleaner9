@@ -60,3 +60,49 @@ fastlane/report.xml
 fastlane/Preview.html
 fastlane/screenshots/**/*.png
 fastlane/test_output
+
+# macOS and local editor state
+.DS_Store
+._*
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+!.env.sample
+*.p12
+*.p8
+*.mobileprovision
+*.key
+
+# Xcode build products and test bundles
+DerivedData/
+build/
+*.xcarchive/
+*.xcresult/
+*.xcuserstate
+.swiftpm/xcode/
+
+# Python caches used by QA scripts
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Generated QA evidence stays local; retain scripts, fixtures and reports.
+/qa/**/*.png
+/qa/**/*.jpg
+/qa/**/*.jpeg
+/qa/**/*.log
+/qa/**/*.txt
+/qa/**/*.sha256
+/qa/**/manifest.json
+/qa/extended-states/*/**/*.json
+!/qa/extended-states/*/results.json
+/qa/extended-states/**/DerivedData/
+/qa/extended-states/**/*.xcodeproj/
+/qa/extended-states/**/Info.plist

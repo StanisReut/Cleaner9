@@ -1,0 +1,2660 @@
+[
+  {
+    "key": "max_text:4:214",
+    "mode": "max_text",
+    "id_or_route": "4:214",
+    "name": "Main",
+    "status": "pass",
+    "comparison": "adaptation",
+    "findings": [
+      "Fresh final-build XCTest scroll screenshots visually inspected alongside initial state. Lower content and fixed actions are readable/reachable; clipping at viewport edges during scroll is normal."
+    ],
+    "evidence": [
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/max/final/max_text/4-214.png",
+      "qa/extended-states/max/final/scroll-attachments/21D841C4-BDE1-4AAB-8329-7BB49DA78516.png"
+    ],
+    "source_frame": "4:214",
+    "capture_sha256": "a0133c3ba1b9258f2c8155973bc4243527ba13445e88157f2d0b9316c1f7660c",
+    "review_date": "2026-11-11",
+    "review_history": [
+      {
+        "key": "max_text:4:214",
+        "mode": "max_text",
+        "id_or_route": "4:214",
+        "name": "Main",
+        "status": "blocked",
+        "comparison": "adaptation",
+        "findings": [
+          "Top Home content readable; lower content requires scroll verification."
+        ],
+        "evidence": [
+          "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/max/max_text/4-214.png"
+        ],
+        "source_frame": "4:214",
+        "capture_sha256": "a0133c3ba1b9258f2c8155973bc4243527ba13445e88157f2d0b9316c1f7660c",
+        "reference_sha256": "e079194a4e23622d1555a88bef464ea312514a28e6ff1bb75175e137937778c5",
+        "reference": "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/4-214.png"
+      }
+    ]
+  },
+  {
+    "key": "max_text:47:23",
+    "mode": "max_text",
+    "id_or_route": "47:23",
+    "name": "Smart Scan / Scanning",
+    "status": "pass",
+    "comparison": "adaptation",
+    "findings": [
+      "Fresh maximum-text capture visually inspected: labels, controls and content fit; prior truncation/overlap resolved where applicable."
+    ],
+    "evidence": [
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/max/final/max_text/47-23.png"
+    ],
+    "source_frame": "47:23",
+    "capture_sha256": "26057d728cc1f24c57056fca2672a87496517c9341ee09677b6ed21e7d991d59",
+    "review_date": "2026-11-11",
+    "review_history": [
+      {
+        "key": "max_text:47:23",
+        "mode": "max_text",
+        "id_or_route": "47:23",
+        "name": "Smart Scan / Scanning",
+        "status": "issue",
+        "comparison": "adaptation",
+        "findings": [
+          "Maximum-text scan percentage truncates to \u201c6\u2026\u201d inside fixed progress circle instead of readable64%."
+        ],
+        "evidence": [
+          "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/max/max_text/47-23.png"
+        ],
+        "source_frame": "47:23",
+        "capture_sha256": "c604376a163b3b700b0c2ba026d4a5bdb6cf26c838864547c6a075bdf90f2dab",
+        "reference_sha256": "0409b637042dc0838b196a959f81b9f1859730b99061eea0259ee9aa9a3ffa9e",
+        "reference": "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/47-23.png"
+      }
+    ]
+  },
+  {
+    "key": "max_text:47:56",
+    "mode": "max_text",
+    "id_or_route": "47:56",
+    "name": "Smart Scan / Results",
+    "status": "pass",
+    "comparison": "adaptation",
+    "findings": [
+      "Fresh final-build XCTest scroll screenshots visually inspected alongside initial state. Lower content and fixed actions are readable/reachable; clipping at viewport edges during scroll is normal."
+    ],
+    "evidence": [
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/max/final/max_text/47-56.png",
+      "qa/extended-states/max/final/scroll-attachments/31E9CCC2-1449-42E1-B712-3CCED5271713.png"
+    ],
+    "source_frame": "47:56",
+    "capture_sha256": "722151be46a527cd4303966bba1c2c474f019aa87a96c52f39cb3090a8aaa0c0",
+    "review_date": "2026-11-11",
+    "review_history": [
+      {
+        "key": "max_text:47:56",
+        "mode": "max_text",
+        "id_or_route": "47:56",
+        "name": "Smart Scan / Results",
+        "status": "issue",
+        "comparison": "adaptation",
+        "findings": [
+          "8.5 GB value overlaps \u201ccan be freed\u201d caption in fixed-height result summary."
+        ],
+        "evidence": [
+          "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/max/max_text/47-56.png"
+        ],
+        "source_frame": "47:56",
+        "capture_sha256": "4f793eb27bb5188074f090bc341b3f665e4e4800583e26ad534ec764a478a386",
+        "reference_sha256": "ced38ac6659a975b577102199136f725e96fb610b90ec787d4629f6ff9bd8167",
+        "reference": "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/47-56.png"
+      }
+    ]
+  },
+  {
+    "key": "max_text:51:52",
+    "mode": "max_text",
+    "id_or_route": "51:52",
+    "name": "Photos / First visit",
+    "status": "pass",
+    "comparison": "adaptation",
+    "findings": [
+      "Fresh final-build XCTest scroll screenshots visually inspected alongside initial state. Lower content and fixed actions are readable/reachable; clipping at viewport edges during scroll is normal."
+    ],
+    "evidence": [
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/max/final/max_text/51-52.png",
+      "qa/extended-states/max/final/scroll-attachments/597F9AC6-B3D7-4371-9CFC-7765D656C100.png"
+    ],
+    "source_frame": "51:52",
+    "capture_sha256": "acc28bcfb42d2f7d9cdc3e928a09deb64c304df88156520089f3eaf9246b9a42",
+    "review_date": "2026-11-11",
+    "review_history": [
+      {
+        "key": "max_text:51:52",
+        "mode": "max_text",
+        "id_or_route": "51:52",
+        "name": "Photos / First visit",
+        "status": "issue",
+        "comparison": "adaptation",
+        "findings": [
+          "Intro title truncates \u201cClean up y\u2026\u201d and description ends \u201cthen\u2026\u201d at maximum text; primary action remains visible."
+        ],
+        "evidence": [
+          "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/max/max_text/51-52.png"
+        ],
+        "source_frame": "51:52",
+        "capture_sha256": "15d2efcd224958f95c75d9ecb5302a282493f08729a36739769069c618d9f1a3",
+        "reference_sha256": "2f5f9b121ea3683396f172b4167c26a3167ae7bccdc4ce9bf971b90ece50ebde",
+        "reference": "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/51-52.png"
+      }
+    ]
+  },
+  {
+    "key": "max_text:51:87",
+    "mode": "max_text",
+    "id_or_route": "51:87",
+    "name": "Photos / Categories",
+    "status": "pass",
+    "comparison": "adaptation",
+    "findings": [
+      "Fresh maximum-text capture visually inspected: labels, controls and content fit; prior truncation/overlap resolved where applicable."
+    ],
+    "evidence": [
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/max/final/max_text/51-87.png"
+    ],
+    "source_frame": "51:87",
+    "capture_sha256": "fa79f29b48ce65f3204e90ce0f634944f0778840509c70c3fc8bac39600c55e0",
+    "review_date": "2026-11-11",
+    "review_history": [
+      {
+        "key": "max_text:51:87",
+        "mode": "max_text",
+        "id_or_route": "51:87",
+        "name": "Photos / Categories",
+        "status": "pass",
+        "comparison": "adaptation",
+        "findings": [
+          "All category labels/counts readable with wrapped large text and no overlap."
+        ],
+        "evidence": [
+          "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/max/max_text/51-87.png"
+        ],
+        "source_frame": "51:87",
+        "capture_sha256": "fa79f29b48ce65f3204e90ce0f634944f0778840509c70c3fc8bac39600c55e0",
+        "reference_sha256": "98aa8f152ef8b80f74307cd84052ac70b21e77cb6e2238d6bb805023785597b9",
+        "reference": "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/51-87.png"
+      }
+    ]
+  },
+  {
+    "key": "max_text:51:145",
+    "mode": "max_text",
+    "id_or_route": "51:145",
+    "name": "Photos / Counting",
+    "status": "pass",
+    "comparison": "adaptation",
+    "findings": [
+      "Fresh maximum-text capture visually inspected: labels, controls and content fit; prior truncation/overlap resolved where applicable."
+    ],
+    "evidence": [
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/max/final/max_text/51-145.png"
+    ],
+    "source_frame": "51:145",
+    "capture_sha256": "7935d204ac2bd83063798bd88a73aa4ecbaf0e117942f39d2fc38f040f7f0f4f",
+    "review_date": "2026-11-11",
+    "review_history": [
+      {
+        "key": "max_text:51:145",
+        "mode": "max_text",
+        "id_or_route": "51:145",
+        "name": "Photos / Counting",
+        "status": "pass",
+        "comparison": "adaptation",
+        "findings": [
+          "Counting category labels and loading controls fit at maximum text."
+        ],
+        "evidence": [
+          "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/max/max_text/51-145.png"
+        ],
+        "source_frame": "51:145",
+        "capture_sha256": "ddee654ac8ccc094df901c422b5b3e7cf5ea3998691292097a502b6df0d9216b",
+        "reference_sha256": "61d23c2b41346c3d537f103d066777d449795bf04e661262e7351e6ef119d14d",
+        "reference": "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/51-145.png"
+      }
+    ]
+  },
+  {
+    "key": "max_text:51:211",
+    "mode": "max_text",
+    "id_or_route": "51:211",
+    "name": "Duplicates / Selected",
+    "status": "pass",
+    "comparison": "adaptation",
+    "findings": [
+      "Fresh final-build XCTest scroll screenshots visually inspected alongside initial state. Lower content and fixed actions are readable/reachable; clipping at viewport edges during scroll is normal."
+    ],
+    "evidence": [
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/max/final/max_text/51-211.png",
+      "qa/extended-states/max/final/scroll-attachments/153337FC-DE31-4A43-93D2-96CE6D0E4FDA.png"
+    ],
+    "source_frame": "51:211",
+    "capture_sha256": "8d67a39b8188c5c2260d2e56a2de38f45fd14d9c31b710c4c1f795aad247bd16",
+    "review_date": "2026-11-11",
+    "review_history": [
+      {
+        "key": "max_text:51:211",
+        "mode": "max_text",
+        "id_or_route": "51:211",
+        "name": "Duplicates / Selected",
+        "status": "issue",
+        "comparison": "adaptation",
+        "findings": [
+          "Best badge text is fully clipped by fixed thumbnail badge dimensions at maximum text; only oversized star remains. List scrolling still needs reachability check."
+        ],
+        "evidence": [
+          "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/max/max_text/51-211.png"
+        ],
+        "source_frame": "51:211",
+        "capture_sha256": "695b26cde2c28ff26d3492012cc47707e3150242a282419e7630c1346968255d",
+        "reference_sha256": "faf9dbaecfa257206d49514a2233e32507cfd96e8f0e8c3866f0895553f85d6d",
+        "reference": "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/51-211.png"
+      }
+    ]
+  },
+  {
+    "key": "max_text:51:411",
+    "mode": "max_text",
+    "id_or_route": "51:411",
+    "name": "Duplicates / No selection",
+    "status": "pass",
+    "comparison": "adaptation",
+    "findings": [
+      "Fresh final-build XCTest scroll screenshots visually inspected alongside initial state. Lower content and fixed actions are readable/reachable; clipping at viewport edges during scroll is normal."
+    ],
+    "evidence": [
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/max/final/max_text/51-411.png",
+      "qa/extended-states/max/final/scroll-attachments/F04FB0A6-7ABB-4A0A-8F8A-0FD19CAF6C39.png"
+    ],
+    "source_frame": "51:411",
+    "capture_sha256": "8a52e65392057daf689eb929aaf7654ea4d913e708e8cb1d9406acd6c21140d6",
+    "review_date": "2026-11-11",
+    "review_history": [
+      {
+        "key": "max_text:51:411",
+        "mode": "max_text",
+        "id_or_route": "51:411",
+        "name": "Duplicates / No selection",
+        "status": "issue",
+        "comparison": "adaptation",
+        "findings": [
+          "Best badge text is fully clipped by fixed thumbnail badge dimensions at maximum text; only oversized star remains. List scrolling still needs reachability check."
+        ],
+        "evidence": [
+          "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/max/max_text/51-411.png"
+        ],
+        "source_frame": "51:411",
+        "capture_sha256": "7c9c34f7391924582aa2881b7001015f26ead9df815feba8e51b093fbf2acf4a",
+        "reference_sha256": "1aa59a8a82df15523246b131e2cc0ae7e9d3feba628bd124e41c1e564afa76ac",
+        "reference": "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/51-411.png"
+      }
+    ]
+  },
+  {
+    "key": "max_text:51:915",
+    "mode": "max_text",
+    "id_or_route": "51:915",
+    "name": "Screenshots / Newest",
+    "status": "pass",
+    "comparison": "adaptation",
+    "findings": [
+      "Fresh final-build XCTest scroll screenshots visually inspected alongside initial state. Lower content and fixed actions are readable/reachable; clipping at viewport edges during scroll is normal."
+    ],
+    "evidence": [
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/max/final/max_text/51-915.png",
+      "qa/extended-states/max/final/scroll-attachments/D2E6A09E-731D-4D22-B5E3-1475125A30EB.png"
+    ],
+    "source_frame": "51:915",
+    "capture_sha256": "ac63e62eb6eed2feb9f41dcf2aa8195eff2349fb94a33f9ecddc7395c274dfcb",
+    "review_date": "2026-11-11",
+    "review_history": [
+      {
+        "key": "max_text:51:915",
+        "mode": "max_text",
+        "id_or_route": "51:915",
+        "name": "Screenshots / Newest",
+        "status": "blocked",
+        "comparison": "adaptation",
+        "findings": [
+          "Title wraps final s onto next line; actions readable, gallery lower content requires scroll check."
+        ],
+        "evidence": [
+          "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/max/max_text/51-915.png"
+        ],
+        "source_frame": "51:915",
+        "capture_sha256": "a647e8fd72681a48dc7a783c4b04dfb4c76ebd260f877202d78f226ffe9b0773",
+        "reference_sha256": "ea4f58e875c44e9289ef2c915d3dcee9d7f28a23bcc21d36e68708e3bf1e4ca6",
+        "reference": "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/51-915.png"
+      }
+    ]
+  },
+  {
+    "key": "max_text:51:1843",
+    "mode": "max_text",
+    "id_or_route": "51:1843",
+    "name": "Photos / Deleted",
+    "status": "pass",
+    "comparison": "adaptation",
+    "findings": [
+      "Fresh maximum-text capture visually inspected: labels, controls and content fit; prior truncation/overlap resolved where applicable."
+    ],
+    "evidence": [
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/max/final/max_text/51-1843.png"
+    ],
+    "source_frame": "51:1843",
+    "capture_sha256": "a416f7e5ec92a3e6c0c7b262a76201e004578f0a951a0ff357ab11e7587d3bad",
+    "review_date": "2026-11-11",
+    "review_history": [
+      {
+        "key": "max_text:51:1843",
+        "mode": "max_text",
+        "id_or_route": "51:1843",
+        "name": "Photos / Deleted",
+        "status": "pass",
+        "comparison": "adaptation",
+        "findings": [
+          "Success modal wraps large title/message and retains visible Continue without overlap."
+        ],
+        "evidence": [
+          "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/max/max_text/51-1843.png"
+        ],
+        "source_frame": "51:1843",
+        "capture_sha256": "d04e53d344f6a4155ab0d3530e95f159278acc7ca6a2f9c7a3afa7548d321e63",
+        "reference_sha256": "46b80fbc7925f7309b12a3ebbf3886c1ab719236888e58a09f8c97fb9273a35c",
+        "reference": "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/51-1843.png"
+      }
+    ]
+  },
+  {
+    "key": "max_text:59:1683",
+    "mode": "max_text",
+    "id_or_route": "59:1683",
+    "name": "Photo Swipe / Tutorial",
+    "status": "pass",
+    "comparison": "adaptation",
+    "findings": [
+      "Fresh final-build XCTest scroll screenshots visually inspected alongside initial state. Lower content and fixed actions are readable/reachable; clipping at viewport edges during scroll is normal."
+    ],
+    "evidence": [
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/max/final/max_text/59-1683.png",
+      "qa/extended-states/max/final/scroll-attachments/73988ED0-0BE0-44C1-86C4-B9425EB31E68.png"
+    ],
+    "source_frame": "59:1683",
+    "capture_sha256": "b9f90b4d7779e6991af34dbdcccb1ddf1cb9c4e7c9eaf48ba21074989bba1403",
+    "review_date": "2026-11-11",
+    "review_history": [
+      {
+        "key": "max_text:59:1683",
+        "mode": "max_text",
+        "id_or_route": "59:1683",
+        "name": "Photo Swipe / Tutorial",
+        "status": "issue",
+        "comparison": "adaptation",
+        "findings": [
+          "Tutorial title and body ellipsize at maximum text; Got it action remains visible."
+        ],
+        "evidence": [
+          "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/max/max_text/59-1683.png"
+        ],
+        "source_frame": "59:1683",
+        "capture_sha256": "88a2288742dc463c16c5734f5a51295565073e06d5ca52cf44ac3d27b7eaa812",
+        "reference_sha256": "1a79ae4f5cf04111dd9035f098a256334eabc2e6bfcfc09e42430af1cf6a554a",
+        "reference": "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/59-1683.png"
+      }
+    ]
+  },
+  {
+    "key": "max_text:59:1729",
+    "mode": "max_text",
+    "id_or_route": "59:1729",
+    "name": "Photo Swipe / card",
+    "status": "pass",
+    "comparison": "adaptation",
+    "findings": [
+      "Fresh maximum-text capture visually inspected: labels, controls and content fit; prior truncation/overlap resolved where applicable."
+    ],
+    "evidence": [
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/max/final/max_text/59-1729.png"
+    ],
+    "source_frame": "59:1729",
+    "capture_sha256": "97d2958dfd4e46f697de541b6eb0bac8f9782049fecf0dff7248014eee8469f6",
+    "review_date": "2026-11-11",
+    "review_history": [
+      {
+        "key": "max_text:59:1729",
+        "mode": "max_text",
+        "id_or_route": "59:1729",
+        "name": "Photo Swipe / card",
+        "status": "pass",
+        "comparison": "adaptation",
+        "findings": [
+          "Photo Swipe title/counter/Trash and Keep/Delete actions remain readable; card adapts to remaining height."
+        ],
+        "evidence": [
+          "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/max/max_text/59-1729.png"
+        ],
+        "source_frame": "59:1729",
+        "capture_sha256": "49ccbc594ad83fa4d0de49680fe5b438630b02d515fa15fcf3214974e7eb14f4",
+        "reference_sha256": "64f16a2fbc050a80a073c7c517e9ad05ec47d1fe84bfbe82b3ce15bc1b5df2d0",
+        "reference": "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/59-1729.png"
+      }
+    ]
+  },
+  {
+    "key": "max_text:59:1773",
+    "mode": "max_text",
+    "id_or_route": "59:1773",
+    "name": "Photo Swipe / delete",
+    "status": "pass",
+    "comparison": "adaptation",
+    "findings": [
+      "Maximum-text fresh capture visually inspected; labels and actions fit, including dragged state badge."
+    ],
+    "evidence": [
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/max/final/max_text/59-1773.png"
+    ],
+    "source_frame": "59:1773",
+    "capture_sha256": "292006cc9900bcb40627178747139a9484acabd4f51063d56226429cc668fcc5",
+    "review_date": "2026-11-11",
+    "review_history": [
+      {
+        "key": "max_text:59:1773",
+        "mode": "max_text",
+        "id_or_route": "59:1773",
+        "name": "Photo Swipe / delete",
+        "status": "issue",
+        "comparison": "adaptation",
+        "findings": [
+          "Enlarged Delete gesture badge extends beyond left screen edge, clipping its first letter."
+        ],
+        "evidence": [
+          "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/max/max_text/59-1773.png"
+        ],
+        "source_frame": "59:1773",
+        "capture_sha256": "3c1bde4288d7e2c0095cf96417e02b218d4a22cd341b6aa0e568737c81223135",
+        "reference_sha256": "c6b22eacacd6bea1c443589c325d1a5064a9c7b1323202cd8c0f8e683bb8814b",
+        "reference": "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/59-1773.png"
+      }
+    ]
+  },
+  {
+    "key": "max_text:59:1819",
+    "mode": "max_text",
+    "id_or_route": "59:1819",
+    "name": "Photo Swipe / keep",
+    "status": "pass",
+    "comparison": "adaptation",
+    "findings": [
+      "Maximum-text fresh capture visually inspected; labels and actions fit, including dragged state badge."
+    ],
+    "evidence": [
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/max/final/max_text/59-1819.png"
+    ],
+    "source_frame": "59:1819",
+    "capture_sha256": "bf60519d85a61298eb8b0198d9c5bcb4ae4f13230edc9df89680abca331b0acf",
+    "review_date": "2026-11-11",
+    "review_history": [
+      {
+        "key": "max_text:59:1819",
+        "mode": "max_text",
+        "id_or_route": "59:1819",
+        "name": "Photo Swipe / keep",
+        "status": "pass",
+        "comparison": "adaptation",
+        "findings": [
+          "Photo Swipe title/counter/Trash and Keep/Delete actions remain readable; card adapts to remaining height."
+        ],
+        "evidence": [
+          "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/max/max_text/59-1819.png"
+        ],
+        "source_frame": "59:1819",
+        "capture_sha256": "8ca703289834390697f672408f7e33938589dc905d69035113341ffe2d250a22",
+        "reference_sha256": "81a9c909d607ec0e33a7a116e5abbefeb52ce74d02640c330a4d8e55088c666c",
+        "reference": "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/59-1819.png"
+      }
+    ]
+  },
+  {
+    "key": "max_text:59:1953",
+    "mode": "max_text",
+    "id_or_route": "59:1953",
+    "name": "Trash / 18 selected",
+    "status": "pass",
+    "comparison": "adaptation",
+    "findings": [
+      "Fresh final-build XCTest scroll screenshots visually inspected alongside initial state. Lower content and fixed actions are readable/reachable; clipping at viewport edges during scroll is normal."
+    ],
+    "evidence": [
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/max/final/max_text/59-1953.png",
+      "qa/extended-states/max/final/scroll-attachments/10D6F90C-68D8-46D4-87BD-9808069D8AEA.png"
+    ],
+    "source_frame": "59:1953",
+    "capture_sha256": "ed30be49f65f06dafe5a425e94aa0a982f04306ec267586491678eb0a862d0ae",
+    "review_date": "2026-11-11",
+    "review_history": [
+      {
+        "key": "max_text:59:1953",
+        "mode": "max_text",
+        "id_or_route": "59:1953",
+        "name": "Trash / 18 selected",
+        "status": "blocked",
+        "comparison": "adaptation",
+        "findings": [
+          "Selection controls and two-line delete action readable; gallery scroll reachability pending."
+        ],
+        "evidence": [
+          "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/max/max_text/59-1953.png"
+        ],
+        "source_frame": "59:1953",
+        "capture_sha256": "84b649366fc84a8d574c52e2146e6a9c42ebc400c121cd5a939558c4186ef296",
+        "reference_sha256": "4dc99abda1bcb23ad7cb5535bb4b821e1568ba6a3d3c63ecd3d7d3e8c8cd52aa",
+        "reference": "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/59-1953.png"
+      }
+    ]
+  },
+  {
+    "key": "max_text:59:2316",
+    "mode": "max_text",
+    "id_or_route": "59:2316",
+    "name": "Photo Swipe / Deleted",
+    "status": "pass",
+    "comparison": "adaptation",
+    "findings": [
+      "Maximum-text fresh capture visually inspected; labels and actions fit, including dragged state badge."
+    ],
+    "evidence": [
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/max/final/max_text/59-2316.png"
+    ],
+    "source_frame": "59:2316",
+    "capture_sha256": "67c2b35df58a3b05c2c7cca84d1f065b5568c317e9a1648b741ae709a33ac3a5",
+    "review_date": "2026-11-11",
+    "review_history": [
+      {
+        "key": "max_text:59:2316",
+        "mode": "max_text",
+        "id_or_route": "59:2316",
+        "name": "Photo Swipe / Deleted",
+        "status": "pass",
+        "comparison": "adaptation",
+        "findings": [
+          "Success modal wraps large title/message and retains visible Continue without overlap."
+        ],
+        "evidence": [
+          "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/max/max_text/59-2316.png"
+        ],
+        "source_frame": "59:2316",
+        "capture_sha256": "79c2f3241176fce02afc43e1325f0f56bb72cdd87aa686fe5bd81567051e9358",
+        "reference_sha256": "05656c4e07857923ed6bf9b739e9436a18a6216b00efb34ba06d2f8a2c532796",
+        "reference": "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/59-2316.png"
+      }
+    ]
+  },
+  {
+    "key": "max_text:78:5059",
+    "mode": "max_text",
+    "id_or_route": "78:5059",
+    "name": "Videos / cats",
+    "status": "pass",
+    "comparison": "adaptation",
+    "findings": [
+      "Fresh final-build XCTest scroll screenshots visually inspected alongside initial state. Lower content and fixed actions are readable/reachable; clipping at viewport edges during scroll is normal."
+    ],
+    "evidence": [
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/max/final/max_text/78-5059.png",
+      "qa/extended-states/max/final/scroll-attachments/60D281BB-78A0-444B-8F08-C50DD572AB3C.png"
+    ],
+    "source_frame": "78:5059",
+    "capture_sha256": "4440ea132a7281444ef0e3984bde2cf29688bece9115bfe669d89972dc524ac9",
+    "review_date": "2026-11-11",
+    "review_history": [
+      {
+        "key": "max_text:78:5059",
+        "mode": "max_text",
+        "id_or_route": "78:5059",
+        "name": "Videos / cats",
+        "status": "blocked",
+        "comparison": "adaptation",
+        "findings": [
+          "Visible video category labels/counts wrap readably; lower categories require scroll check."
+        ],
+        "evidence": [
+          "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/max/max_text/78-5059.png"
+        ],
+        "source_frame": "78:5059",
+        "capture_sha256": "d3d9c44f10d1dc5a5e35db3f20d1472cd8f45dd46343c59b651b7446381256c7",
+        "reference_sha256": "069f00d6fd2035a4f17d92a3bc66dfe5daa716dbf10ab54b513438afc2ab1366",
+        "reference": "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/78-5059.png"
+      }
+    ]
+  },
+  {
+    "key": "max_text:78:5157",
+    "mode": "max_text",
+    "id_or_route": "78:5157",
+    "name": "Videos / dup0a",
+    "status": "pass",
+    "comparison": "adaptation",
+    "findings": [
+      "Fresh final-build XCTest scroll screenshots visually inspected alongside initial state. Lower content and fixed actions are readable/reachable; clipping at viewport edges during scroll is normal."
+    ],
+    "evidence": [
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/max/final/max_text/78-5157.png",
+      "qa/extended-states/max/final/scroll-attachments/435C2D14-44E0-4670-B642-427A4BAB51BF.png"
+    ],
+    "source_frame": "78:5157",
+    "capture_sha256": "43f84a62a974b98e10904ed5a0be55ad545a0b4804f33d977eac8e712d739572",
+    "review_date": "2026-11-11",
+    "review_history": [
+      {
+        "key": "max_text:78:5157",
+        "mode": "max_text",
+        "id_or_route": "78:5157",
+        "name": "Videos / dup0a",
+        "status": "issue",
+        "comparison": "adaptation",
+        "findings": [
+          "Video thumbnail duration and byte-size lines overlap and clip at maximum text; Best badge loses text."
+        ],
+        "evidence": [
+          "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/max/max_text/78-5157.png"
+        ],
+        "source_frame": "78:5157",
+        "capture_sha256": "66426960db993ec2f85375905eb1dba969e68de750885c0fb26f3e4352003206",
+        "reference_sha256": "470122f8cfbb780e499af1340889d0559952c5e1d4d72cbd08c38b3301e99308",
+        "reference": "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/78-5157.png"
+      }
+    ]
+  },
+  {
+    "key": "max_text:78:5345",
+    "mode": "max_text",
+    "id_or_route": "78:5345",
+    "name": "Videos / sim0a",
+    "status": "pass",
+    "comparison": "adaptation",
+    "findings": [
+      "Fresh final-build XCTest scroll screenshots visually inspected alongside initial state. Lower content and fixed actions are readable/reachable; clipping at viewport edges during scroll is normal."
+    ],
+    "evidence": [
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/max/final/max_text/78-5345.png",
+      "qa/extended-states/max/final/scroll-attachments/1553F6A3-F4ED-443D-8333-202FD8FA3FD6.png"
+    ],
+    "source_frame": "78:5345",
+    "capture_sha256": "0990c4f0d4c98f077a8e865ffd168ce3bd729a681d69f678e5ac5efdbdbbe3c8",
+    "review_date": "2026-11-11",
+    "review_history": [
+      {
+        "key": "max_text:78:5345",
+        "mode": "max_text",
+        "id_or_route": "78:5345",
+        "name": "Videos / sim0a",
+        "status": "issue",
+        "comparison": "adaptation",
+        "findings": [
+          "Video thumbnail duration and bytes overlap; Best label clips at maximum text."
+        ],
+        "evidence": [
+          "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/max/max_text/78-5345.png"
+        ],
+        "source_frame": "78:5345",
+        "capture_sha256": "28137034c84cdd8d681b4142cba044b31bab6796bd2be21590ee399aa317b0d6",
+        "reference_sha256": "f24752d1985260061ff03a818816325ffddf9fafd71f91fefbe87175be24fd4b",
+        "reference": "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/78-5345.png"
+      }
+    ]
+  },
+  {
+    "key": "max_text:78:5559",
+    "mode": "max_text",
+    "id_or_route": "78:5559",
+    "name": "Videos / large0a",
+    "status": "pass",
+    "comparison": "adaptation",
+    "findings": [
+      "Final row-title patch verified with fresh XCTest scrolled screenshot: Morning surf and Skate session wrap fully; duration, sizes, selection and footer remain readable."
+    ],
+    "evidence": [
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/max/final/max_text/78-5559.png",
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/max/final/row-attachments/6FB4D1A9-32CB-4BE3-B1A3-FF1BA8EA5A37.png"
+    ],
+    "source_frame": "78:5559",
+    "capture_sha256": "ce86fb7ac5d2e88091720c0ad38a0113c1cb5a0ec41623200d78643cf566e02e",
+    "review_date": "2026-11-11",
+    "review_history": [
+      {
+        "key": "max_text:78:5559",
+        "mode": "max_text",
+        "id_or_route": "78:5559",
+        "name": "Videos / large0a",
+        "status": "issue",
+        "comparison": "adaptation",
+        "findings": [
+          "All four sort tabs ellipsize to La\u2026/S\u2026/Ne\u2026/Ol\u2026; video durations clip inside fixed thumbnail overlays and long title truncates."
+        ],
+        "evidence": [
+          "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/max/max_text/78-5559.png"
+        ],
+        "source_frame": "78:5559",
+        "capture_sha256": "527236ed9914eae71f25de34a1ad672f62db6bd5246c32337680ada36b409ba8",
+        "reference_sha256": "2ae5a43510b863ec7baa76cadc79a1e0ed95c8797baeeda77f1b7789a19d3858",
+        "reference": "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/78-5559.png"
+      }
+    ]
+  },
+  {
+    "key": "max_text:78:7881",
+    "mode": "max_text",
+    "id_or_route": "78:7881",
+    "name": "Videos / playlarge0a",
+    "status": "pass",
+    "comparison": "adaptation",
+    "findings": [
+      "Fresh maximum-text view visually inspected; text, controls and metadata fit without overlap."
+    ],
+    "evidence": [
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/max/final/max_text/78-7881.png"
+    ],
+    "source_frame": "78:7881",
+    "capture_sha256": "dec1666700fd94be51b4147ff11905e7eb044e29a4771e11658f767865e47c81",
+    "review_date": "2026-11-11",
+    "review_history": [
+      {
+        "key": "max_text:78:7881",
+        "mode": "max_text",
+        "id_or_route": "78:7881",
+        "name": "Videos / playlarge0a",
+        "status": "pass",
+        "comparison": "adaptation",
+        "findings": [
+          "Maximum-text title/content/actions remain readable and fit without overlapping; adaptation only."
+        ],
+        "evidence": [
+          "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/max/max_text/78-7881.png"
+        ],
+        "source_frame": "78:7881",
+        "capture_sha256": "dec1666700fd94be51b4147ff11905e7eb044e29a4771e11658f767865e47c81",
+        "reference_sha256": "24e1f2e724d08e66d737703db8e9ae99595beef23877b8d6c4729fe150b3931b",
+        "reference": "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/78-7881.png"
+      }
+    ]
+  },
+  {
+    "key": "max_text:94:1327",
+    "mode": "max_text",
+    "id_or_route": "94:1327",
+    "name": "Contacts / hub",
+    "status": "pass",
+    "comparison": "adaptation",
+    "findings": [
+      "Fresh maximum-text view visually inspected; text, controls and metadata fit without overlap."
+    ],
+    "evidence": [
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/max/final/max_text/94-1327.png"
+    ],
+    "source_frame": "94:1327",
+    "capture_sha256": "9622229242d8d6d47705630434061cf4ea9287c464de6c80f825bfb6c2b953fb",
+    "review_date": "2026-11-11",
+    "review_history": [
+      {
+        "key": "max_text:94:1327",
+        "mode": "max_text",
+        "id_or_route": "94:1327",
+        "name": "Contacts / hub",
+        "status": "pass",
+        "comparison": "adaptation",
+        "findings": [
+          "Maximum-text title/content/actions remain readable and fit without overlapping; adaptation only."
+        ],
+        "evidence": [
+          "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/max/max_text/94-1327.png"
+        ],
+        "source_frame": "94:1327",
+        "capture_sha256": "9622229242d8d6d47705630434061cf4ea9287c464de6c80f825bfb6c2b953fb",
+        "reference_sha256": "bf1cefc15f22d4efa3c8cd1d304c4d99b78eb4598b935e19f49a970404138abb",
+        "reference": "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/94-1327.png"
+      }
+    ]
+  },
+  {
+    "key": "max_text:94:1517",
+    "mode": "max_text",
+    "id_or_route": "94:1517",
+    "name": "Contacts / all0",
+    "status": "pass",
+    "comparison": "adaptation",
+    "findings": [
+      "Fresh final-build XCTest scroll screenshots visually inspected alongside initial state. Lower content and fixed actions are readable/reachable; clipping at viewport edges during scroll is normal."
+    ],
+    "evidence": [
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/max/final/max_text/94-1517.png",
+      "qa/extended-states/max/final/scroll-attachments/8D878BD7-DCE7-42C8-9390-0D0EEE02C198.png"
+    ],
+    "source_frame": "94:1517",
+    "capture_sha256": "770b1ffe08df6f1cb65b28ac9e32ad70370bf701762eb893a7409e2b39148c35",
+    "review_date": "2026-11-11",
+    "review_history": [
+      {
+        "key": "max_text:94:1517",
+        "mode": "max_text",
+        "id_or_route": "94:1517",
+        "name": "Contacts / all0",
+        "status": "blocked",
+        "comparison": "adaptation",
+        "findings": [
+          "Contact names/numbers and footer readable in top viewport; fixed avatar initials ellipsize. List scroll reachability pending."
+        ],
+        "evidence": [
+          "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/max/max_text/94-1517.png"
+        ],
+        "source_frame": "94:1517",
+        "capture_sha256": "4aaab6f4396d8e3c42a332c7d20593944b9323274ef0b01bf769f715380236a7",
+        "reference_sha256": "3fbb204f89b503b2836222e51121c68dda68e0f5e0c4369a4145c384b4954540",
+        "reference": "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/94-1517.png"
+      }
+    ]
+  },
+  {
+    "key": "max_text:94:1992",
+    "mode": "max_text",
+    "id_or_route": "94:1992",
+    "name": "Contacts / allEmpty",
+    "status": "pass",
+    "comparison": "adaptation",
+    "findings": [
+      "Fresh maximum-text view visually inspected; text, controls and metadata fit without overlap."
+    ],
+    "evidence": [
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/max/final/max_text/94-1992.png"
+    ],
+    "source_frame": "94:1992",
+    "capture_sha256": "d21c33121b873cea20631cdb1aed88d6ca1237c11846a5d8e11276f1ffd3e606",
+    "review_date": "2026-11-11",
+    "review_history": [
+      {
+        "key": "max_text:94:1992",
+        "mode": "max_text",
+        "id_or_route": "94:1992",
+        "name": "Contacts / allEmpty",
+        "status": "pass",
+        "comparison": "adaptation",
+        "findings": [
+          "Maximum-text title/content/actions remain readable and fit without overlapping; adaptation only."
+        ],
+        "evidence": [
+          "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/max/max_text/94-1992.png"
+        ],
+        "source_frame": "94:1992",
+        "capture_sha256": "079c6d50524a2cc6f52481c20f3a536ff6608cf37cf6635700238033b07ca10b",
+        "reference_sha256": "14ef9c2de8974b021625cff5d84b384f1ce8ec4aab09857a00415bfc8e0426eb",
+        "reference": "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/94-1992.png"
+      }
+    ]
+  },
+  {
+    "key": "max_text:94:2057",
+    "mode": "max_text",
+    "id_or_route": "94:2057",
+    "name": "Contacts / inc0",
+    "status": "pass",
+    "comparison": "adaptation",
+    "findings": [
+      "Fresh final-build XCTest scroll screenshots visually inspected alongside initial state. Lower content and fixed actions are readable/reachable; clipping at viewport edges during scroll is normal."
+    ],
+    "evidence": [
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/max/final/max_text/94-2057.png",
+      "qa/extended-states/max/final/scroll-attachments/46296705-ACE0-48CD-A2A4-1D0B3F528514.png"
+    ],
+    "source_frame": "94:2057",
+    "capture_sha256": "a3e8c412baa8a119aac4c09077e68a879737e8a467e9388e5da9a63f29b3344b",
+    "review_date": "2026-11-11",
+    "review_history": [
+      {
+        "key": "max_text:94:2057",
+        "mode": "max_text",
+        "id_or_route": "94:2057",
+        "name": "Contacts / inc0",
+        "status": "pass",
+        "comparison": "adaptation",
+        "findings": [
+          "Primary action and full text remain visible at maximum size; long modal copy wraps heavily. Avatar initials may ellipsize but full contact names remain readable."
+        ],
+        "evidence": [
+          "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/max/max_text/94-2057.png"
+        ],
+        "source_frame": "94:2057",
+        "capture_sha256": "f54f6f93e46c40519a78f4f3572b7bf20251a02272896596c7106b7b42a8882a",
+        "reference_sha256": "37decb49c6a8f4f8b33cd6c3f5e99f286dd819bd01153a21a4c88a6d6f6fd1f1",
+        "reference": "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/94-2057.png"
+      }
+    ]
+  },
+  {
+    "key": "max_text:94:2930",
+    "mode": "max_text",
+    "id_or_route": "94:2930",
+    "name": "Contacts / dupAll",
+    "status": "pass",
+    "comparison": "adaptation",
+    "findings": [
+      "Fresh final-build XCTest scroll screenshots visually inspected alongside initial state. Lower content and fixed actions are readable/reachable; clipping at viewport edges during scroll is normal."
+    ],
+    "evidence": [
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/max/final/max_text/94-2930.png",
+      "qa/extended-states/max/final/scroll-attachments/DBA91DAE-BFA0-443D-B83F-BC5A521AE1EB.png"
+    ],
+    "source_frame": "94:2930",
+    "capture_sha256": "275d8b0e4d8f02c79d60bf7535985825454e1cd3a9f5cedb77a2417149797604",
+    "review_date": "2026-11-11",
+    "review_history": [
+      {
+        "key": "max_text:94:2930",
+        "mode": "max_text",
+        "id_or_route": "94:2930",
+        "name": "Contacts / dupAll",
+        "status": "blocked",
+        "comparison": "adaptation",
+        "findings": [
+          "Visible content/action readable; lower groups/contact fields require scroll reachability verification."
+        ],
+        "evidence": [
+          "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/max/max_text/94-2930.png"
+        ],
+        "source_frame": "94:2930",
+        "capture_sha256": "95dbf7f0eb05dfdcebcdb345a976b02ffa7f5e7beacbda4a275c550d462bd6fc",
+        "reference_sha256": "df67e1ab0c98b7b2bc9446565ee4ac3f88c7914c9eef406fdebcdc577624beea",
+        "reference": "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/94-2930.png"
+      }
+    ]
+  },
+  {
+    "key": "max_text:94:3224",
+    "mode": "max_text",
+    "id_or_route": "94:3224",
+    "name": "Contacts / preview0",
+    "status": "pass",
+    "comparison": "adaptation",
+    "findings": [
+      "Fresh final-build XCTest scroll screenshots visually inspected alongside initial state. Lower content and fixed actions are readable/reachable; clipping at viewport edges during scroll is normal."
+    ],
+    "evidence": [
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/max/final/max_text/94-3224.png",
+      "qa/extended-states/max/final/scroll-attachments/8D3C1A27-33B7-4288-BB14-529BAFC63BF3.png"
+    ],
+    "source_frame": "94:3224",
+    "capture_sha256": "1796d0f1908476c2c66a433c5a3be4cfacbbdf69c6633f827c58eeefd0739e51",
+    "review_date": "2026-11-11",
+    "review_history": [
+      {
+        "key": "max_text:94:3224",
+        "mode": "max_text",
+        "id_or_route": "94:3224",
+        "name": "Contacts / preview0",
+        "status": "blocked",
+        "comparison": "adaptation",
+        "findings": [
+          "Visible content/action readable; lower groups/contact fields require scroll reachability verification."
+        ],
+        "evidence": [
+          "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/max/max_text/94-3224.png"
+        ],
+        "source_frame": "94:3224",
+        "capture_sha256": "828bb255c85f11ac10a7ad6d0fb3dc3dec15e604fd9f965732c4996feacc0d22",
+        "reference_sha256": "b143df117f37cfdcb73224dafc827642dced809574e42d4ee8e8ffddb1333904",
+        "reference": "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/94-3224.png"
+      }
+    ]
+  },
+  {
+    "key": "max_text:94:3869",
+    "mode": "max_text",
+    "id_or_route": "94:3869",
+    "name": "Contacts / mergeDone",
+    "status": "pass",
+    "comparison": "adaptation",
+    "findings": [
+      "Fresh final-build XCTest scroll screenshots visually inspected alongside initial state. Lower content and fixed actions are readable/reachable; clipping at viewport edges during scroll is normal."
+    ],
+    "evidence": [
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/max/final/max_text/94-3869.png",
+      "qa/extended-states/max/final/scroll-attachments/E64B8A10-E192-43B7-9584-CB178E83B3F7.png"
+    ],
+    "source_frame": "94:3869",
+    "capture_sha256": "c281d3d9a87bcb27650e8a74139a82f55358117d2a4fd309f79391b74753c67e",
+    "review_date": "2026-11-11",
+    "review_history": [
+      {
+        "key": "max_text:94:3869",
+        "mode": "max_text",
+        "id_or_route": "94:3869",
+        "name": "Contacts / mergeDone",
+        "status": "pass",
+        "comparison": "adaptation",
+        "findings": [
+          "Primary action and full text remain visible at maximum size; long modal copy wraps heavily. Avatar initials may ellipsize but full contact names remain readable."
+        ],
+        "evidence": [
+          "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/max/max_text/94-3869.png"
+        ],
+        "source_frame": "94:3869",
+        "capture_sha256": "e04cf3c9b66be63774ff4f6e9ee8305a832f00a01b3622061a6f7b533935d7d3",
+        "reference_sha256": "9d04214ef549abb892b29c75caf139091be338865f65d51c4d15605f85fc4e10",
+        "reference": "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/94-3869.png"
+      }
+    ]
+  },
+  {
+    "key": "max_text:94:4066",
+    "mode": "max_text",
+    "id_or_route": "94:4066",
+    "name": "Contacts / backups",
+    "status": "pass",
+    "comparison": "adaptation",
+    "findings": [
+      "All modal/backups content and primary action visible at maximum text; no clipping."
+    ],
+    "evidence": [
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/max/final/max_text/94-4066.png"
+    ],
+    "source_frame": "94:4066",
+    "capture_sha256": "60b72a6a9e0b3faff76fc80db99cd9b09eca776197eb7a1b85fecb5546505a00",
+    "review_date": "2026-11-11",
+    "review_history": [
+      {
+        "key": "max_text:94:4066",
+        "mode": "max_text",
+        "id_or_route": "94:4066",
+        "name": "Contacts / backups",
+        "status": "pass",
+        "comparison": "adaptation",
+        "findings": [
+          "Primary action and full text remain visible at maximum size; long modal copy wraps heavily. Avatar initials may ellipsize but full contact names remain readable."
+        ],
+        "evidence": [
+          "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/max/max_text/94-4066.png"
+        ],
+        "source_frame": "94:4066",
+        "capture_sha256": "60b72a6a9e0b3faff76fc80db99cd9b09eca776197eb7a1b85fecb5546505a00",
+        "reference_sha256": "087a678336f078b9157fbd721992064915517a71338faac31f59e635d2442997",
+        "reference": "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/94-4066.png"
+      }
+    ]
+  },
+  {
+    "key": "max_text:94:4213",
+    "mode": "max_text",
+    "id_or_route": "94:4213",
+    "name": "Contacts / detail",
+    "status": "pass",
+    "comparison": "adaptation",
+    "findings": [
+      "Fresh final-build XCTest scroll screenshots visually inspected alongside initial state. Lower content and fixed actions are readable/reachable; clipping at viewport edges during scroll is normal."
+    ],
+    "evidence": [
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/max/final/max_text/94-4213.png",
+      "qa/extended-states/max/final/scroll-attachments/E99D5EA2-BC2F-4F6D-8C98-82D3D32F6C23.png"
+    ],
+    "source_frame": "94:4213",
+    "capture_sha256": "339bba49cc277a02d82d89c8b9bd4334b4e12df503e93f85b357e7cde5177627",
+    "review_date": "2026-11-11",
+    "review_history": [
+      {
+        "key": "max_text:94:4213",
+        "mode": "max_text",
+        "id_or_route": "94:4213",
+        "name": "Contacts / detail",
+        "status": "blocked",
+        "comparison": "adaptation",
+        "findings": [
+          "Visible content/action readable; lower groups/contact fields require scroll reachability verification."
+        ],
+        "evidence": [
+          "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/max/max_text/94-4213.png"
+        ],
+        "source_frame": "94:4213",
+        "capture_sha256": "2c716c6d9fc12474eaabc5cef5641852d8f5dbea0bc71f719c912e7cca47c144",
+        "reference_sha256": "5e0f08db933cf3261ab2b7c22395a3f8480d6bb7a7b1367f1a7e010fdba28096",
+        "reference": "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/94-4213.png"
+      }
+    ]
+  },
+  {
+    "key": "max_text:94:4372",
+    "mode": "max_text",
+    "id_or_route": "94:4372",
+    "name": "Contacts / restore",
+    "status": "pass",
+    "comparison": "adaptation",
+    "findings": [
+      "Fresh final-build XCTest scroll screenshots visually inspected alongside initial state. Lower content and fixed actions are readable/reachable; clipping at viewport edges during scroll is normal."
+    ],
+    "evidence": [
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/max/final/max_text/94-4372.png",
+      "qa/extended-states/max/final/scroll-attachments/F5380071-52D4-4B8F-B49C-868C74F527E7.png"
+    ],
+    "source_frame": "94:4372",
+    "capture_sha256": "0cb501aa7e9b10f034cb39d46ea5520ff2aa5d37dc23448315bdad730966e664",
+    "review_date": "2026-11-11",
+    "review_history": [
+      {
+        "key": "max_text:94:4372",
+        "mode": "max_text",
+        "id_or_route": "94:4372",
+        "name": "Contacts / restore",
+        "status": "issue",
+        "comparison": "adaptation",
+        "findings": [
+          "50% label overflows progress ring; names/initials on fixed illustration cards truncate at maximum text. Main status and Cancel remain readable."
+        ],
+        "evidence": [
+          "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/max/max_text/94-4372.png"
+        ],
+        "source_frame": "94:4372",
+        "capture_sha256": "49b21cb6e42604c99905bdf3a9df350604faa0eedd1733ceadc8265cf9a7e6bf",
+        "reference_sha256": "2d8fcb046dc1aceef2b83a5736059807c750697b51a840dd0aecfaed2f6da67d",
+        "reference": "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/94-4372.png"
+      }
+    ]
+  },
+  {
+    "key": "max_text:94:4665",
+    "mode": "max_text",
+    "id_or_route": "94:4665",
+    "name": "Contacts / restored",
+    "status": "pass",
+    "comparison": "adaptation",
+    "findings": [
+      "Fresh final-build XCTest scroll screenshots visually inspected alongside initial state. Lower content and fixed actions are readable/reachable; clipping at viewport edges during scroll is normal."
+    ],
+    "evidence": [
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/max/final/max_text/94-4665.png",
+      "qa/extended-states/max/final/scroll-attachments/85BEA917-05B6-493F-8EA1-D0DD98BE3EC9.png"
+    ],
+    "source_frame": "94:4665",
+    "capture_sha256": "a5833405805e0e230505e73316843917699a373c57d3c354a62c6cfd927105de",
+    "review_date": "2026-11-11",
+    "review_history": [
+      {
+        "key": "max_text:94:4665",
+        "mode": "max_text",
+        "id_or_route": "94:4665",
+        "name": "Contacts / restored",
+        "status": "pass",
+        "comparison": "adaptation",
+        "findings": [
+          "Large success modal title/message and Continue fit without clipping."
+        ],
+        "evidence": [
+          "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/max/max_text/94-4665.png"
+        ],
+        "source_frame": "94:4665",
+        "capture_sha256": "1dee54a27ae8d5da71c6203ccdad29b5badb2496dc244f809d3df75736ac27a8",
+        "reference_sha256": "d1dd0c58cae941804ec161c24e27475524f7119a2096ca52c93bade75fe7edff",
+        "reference": "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/94-4665.png"
+      }
+    ]
+  },
+  {
+    "key": "max_text:119:1912",
+    "mode": "max_text",
+    "id_or_route": "119:1912",
+    "name": "Calendar / Past \u00b7 browse",
+    "status": "pass",
+    "comparison": "adaptation",
+    "findings": [
+      "Fresh final-build XCTest scroll screenshots visually inspected alongside initial state. Lower content and fixed actions are readable/reachable; clipping at viewport edges during scroll is normal."
+    ],
+    "evidence": [
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/max/final/max_text/119-1912.png",
+      "qa/extended-states/max/final/scroll-attachments/14C5A90E-BD30-4E5F-A286-94A87E062981.png"
+    ],
+    "source_frame": "119:1912",
+    "capture_sha256": "2b636e67b517081a1cc9bbaf77aba541214f70284e80e92c353fbc3e14aa33d1",
+    "review_date": "2026-11-11",
+    "review_history": [
+      {
+        "key": "max_text:119:1912",
+        "mode": "max_text",
+        "id_or_route": "119:1912",
+        "name": "Calendar / Past \u00b7 browse",
+        "status": "blocked",
+        "comparison": "adaptation",
+        "findings": [
+          "Visible event rows, tab controls and footer readable; remaining event-list scrolling requires check."
+        ],
+        "evidence": [
+          "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/max/max_text/119-1912.png"
+        ],
+        "source_frame": "119:1912",
+        "capture_sha256": "ef2137ab1f54e50c73a6e9c28890d87d9f1e6228f904107993d2c5f7e61b89e9",
+        "reference_sha256": "c759592fdadcd836e428ccbf3bd03f52db220b833bced04d48a47cda35f67f97",
+        "reference": "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/119-1912.png"
+      }
+    ]
+  },
+  {
+    "key": "max_text:119:3280",
+    "mode": "max_text",
+    "id_or_route": "119:3280",
+    "name": "Calendar / Future \u00b7 all",
+    "status": "pass",
+    "comparison": "adaptation",
+    "findings": [
+      "Fresh final-build XCTest scroll screenshots visually inspected alongside initial state. Lower content and fixed actions are readable/reachable; clipping at viewport edges during scroll is normal."
+    ],
+    "evidence": [
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/max/final/max_text/119-3280.png",
+      "qa/extended-states/max/final/scroll-attachments/FC998188-E403-437F-BA20-1FF847222382.png"
+    ],
+    "source_frame": "119:3280",
+    "capture_sha256": "fbd3af7581273c550fffe6e84cb25821341e88fafa8682a1d52cc281dd361244",
+    "review_date": "2026-11-11",
+    "review_history": [
+      {
+        "key": "max_text:119:3280",
+        "mode": "max_text",
+        "id_or_route": "119:3280",
+        "name": "Calendar / Future \u00b7 all",
+        "status": "blocked",
+        "comparison": "adaptation",
+        "findings": [
+          "Visible event rows, tab controls and footer readable; remaining event-list scrolling requires check."
+        ],
+        "evidence": [
+          "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/max/max_text/119-3280.png"
+        ],
+        "source_frame": "119:3280",
+        "capture_sha256": "16541a03d2558bc423ad84af77341cd0e90a2e49211213477e252afde7762314",
+        "reference_sha256": "dfb71b48a60eb9b68872fac55e9fd51599711099b2538ecfb4c26a6c16ba37d4",
+        "reference": "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/119-3280.png"
+      }
+    ]
+  },
+  {
+    "key": "max_text:119:2804",
+    "mode": "max_text",
+    "id_or_route": "119:2804",
+    "name": "Calendar / Past \u00b7 empty",
+    "status": "pass",
+    "comparison": "adaptation",
+    "findings": [
+      "Fresh final-build XCTest scroll screenshots visually inspected alongside initial state. Lower content and fixed actions are readable/reachable; clipping at viewport edges during scroll is normal."
+    ],
+    "evidence": [
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/max/final/max_text/119-2804.png",
+      "qa/extended-states/max/final/scroll-attachments/7F17A442-8667-4678-A551-EDC8527EA50A.png"
+    ],
+    "source_frame": "119:2804",
+    "capture_sha256": "3cdef3d4725571e1073bc7c54dfef1a164307ac0165c6f699f2027e9ce5e8054",
+    "review_date": "2026-11-11",
+    "review_history": [
+      {
+        "key": "max_text:119:2804",
+        "mode": "max_text",
+        "id_or_route": "119:2804",
+        "name": "Calendar / Past \u00b7 empty",
+        "status": "issue",
+        "comparison": "adaptation",
+        "findings": [
+          "Empty-state title truncates to No past ev\u2026 at maximum text although explanatory message wraps."
+        ],
+        "evidence": [
+          "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/max/max_text/119-2804.png"
+        ],
+        "source_frame": "119:2804",
+        "capture_sha256": "bb0a80f097f17df2a4cb7defda4ac8810d2296079811d7b04eaf46928537869c",
+        "reference_sha256": "c8036af9bcfd8c17ceaf6772fe701ff9094fe0dd0007dc0968d52d9591cc2dd5",
+        "reference": "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/119-2804.png"
+      }
+    ]
+  },
+  {
+    "key": "max_text:119:4146",
+    "mode": "max_text",
+    "id_or_route": "119:4146",
+    "name": "Calendar / Past \u00b7 partial success",
+    "status": "pass",
+    "comparison": "adaptation",
+    "findings": [
+      "Maximum-text capture shows full progress/result content and primary action within safe viewport; decorative text scale bounded."
+    ],
+    "evidence": [
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/max/final/max_text/119-4146.png"
+    ],
+    "source_frame": "119:4146",
+    "capture_sha256": "deb788fdb054106d7504585b47b3f923a9b8d0b07cd692490e9fdd0548326745",
+    "review_date": "2026-11-11",
+    "review_history": [
+      {
+        "key": "max_text:119:4146",
+        "mode": "max_text",
+        "id_or_route": "119:4146",
+        "name": "Calendar / Past \u00b7 partial success",
+        "status": "pass",
+        "comparison": "adaptation",
+        "findings": [
+          "Large success modal title/message and Continue fit without clipping."
+        ],
+        "evidence": [
+          "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/max/max_text/119-4146.png"
+        ],
+        "source_frame": "119:4146",
+        "capture_sha256": "8aa51c0cec57b5e5359b8c634d7f24c4657db50cd21404006909b3e3cc5194ec",
+        "reference_sha256": "7cc665c6d654070b5c56f41ea9aa2b6abcc5fac06933491d4b21eb25cc784beb",
+        "reference": "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/119-4146.png"
+      }
+    ]
+  },
+  {
+    "key": "max_text:127:2092",
+    "mode": "max_text",
+    "id_or_route": "127:2092",
+    "name": "Background Remover / Choose photo",
+    "status": "pass",
+    "comparison": "adaptation",
+    "findings": [
+      "Fresh final-build XCTest scroll screenshots visually inspected alongside initial state. Lower content and fixed actions are readable/reachable; clipping at viewport edges during scroll is normal."
+    ],
+    "evidence": [
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/max/final/max_text/127-2092.png",
+      "qa/extended-states/max/final/scroll-attachments/CCF9B3AC-D8FE-46A8-B7CF-048607565B25.png"
+    ],
+    "source_frame": "127:2092",
+    "capture_sha256": "c19e76cce11b2d18277c04085c49ddab56f4a53eb111a635b7d8e36db2eb7867",
+    "review_date": "2026-11-11",
+    "review_history": [
+      {
+        "key": "max_text:127:2092",
+        "mode": "max_text",
+        "id_or_route": "127:2092",
+        "name": "Background Remover / Choose photo",
+        "status": "issue",
+        "comparison": "adaptation",
+        "findings": [
+          "Intro explanatory text extends underneath Choose photo footer at maximum text; header splits inside Background. Scroll/recovery pending."
+        ],
+        "evidence": [
+          "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/max/max_text/127-2092.png"
+        ],
+        "source_frame": "127:2092",
+        "capture_sha256": "803d2814d915761954a62400e3aa746b32930ef405e5bd6b1e60fb8452225e2f",
+        "reference_sha256": "915fe90bc0a9fc19d03cdf8c884d85ff25fce1cf30ea459699497ef8ab457249",
+        "reference": "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/127-2092.png"
+      }
+    ]
+  },
+  {
+    "key": "max_text:129:2123",
+    "mode": "max_text",
+    "id_or_route": "129:2123",
+    "name": "Background Remover / Processing \u00b7 1",
+    "status": "pass",
+    "comparison": "adaptation",
+    "findings": [
+      "Fresh max-text view visually inspected; progress/status and recovery/success action readable without clipping."
+    ],
+    "evidence": [
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/max/final/max_text/129-2123.png"
+    ],
+    "source_frame": "129:2123",
+    "capture_sha256": "084effada2832cba46177154a67cbfc0cc754fbc1b41ac9221e16dbf8c27c22a",
+    "review_date": "2026-11-11",
+    "review_history": [
+      {
+        "key": "max_text:129:2123",
+        "mode": "max_text",
+        "id_or_route": "129:2123",
+        "name": "Background Remover / Processing \u00b7 1",
+        "status": "issue",
+        "comparison": "adaptation",
+        "findings": [
+          "32% text extends beyond fixed progress circle, overlapping artwork at maximum text."
+        ],
+        "evidence": [
+          "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/max/max_text/129-2123.png"
+        ],
+        "source_frame": "129:2123",
+        "capture_sha256": "d11d8aa22dd284ff8b424f80266b6ac2c6cab3bed7109b2782bfa059f3dedbe6",
+        "reference_sha256": "0fdac333396c7fe2720b92f8de895077d4cfcb7aed5f581de29a68ea18ae5eff",
+        "reference": "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/129-2123.png"
+      }
+    ]
+  },
+  {
+    "key": "max_text:141:2383",
+    "mode": "max_text",
+    "id_or_route": "141:2383",
+    "name": "App / Loading selected photo",
+    "status": "pass",
+    "comparison": "adaptation",
+    "findings": [
+      "Fresh max-text view visually inspected; progress/status and recovery/success action readable without clipping."
+    ],
+    "evidence": [
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/max/final/max_text/141-2383.png"
+    ],
+    "source_frame": "141:2383",
+    "capture_sha256": "6a2968af0afe79a34b9a7bea6f8aae15eb0d56a43fb959b7cdd57f611a714201",
+    "review_date": "2026-11-11",
+    "review_history": [
+      {
+        "key": "max_text:141:2383",
+        "mode": "max_text",
+        "id_or_route": "141:2383",
+        "name": "App / Loading selected photo",
+        "status": "pass",
+        "comparison": "adaptation",
+        "findings": [
+          "Loading preview and loading label fit; header wraps inside word but remains readable."
+        ],
+        "evidence": [
+          "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/max/max_text/141-2383.png"
+        ],
+        "source_frame": "141:2383",
+        "capture_sha256": "bf88853c9c7571781bd54a3e304d2e6e17fd2c55a23d924ee664b1915fbb5adc",
+        "reference_sha256": "e456595e247feb0b9d77c0ba14de0c873453ad32c3758cf41ec72bbe59c61d54",
+        "reference": "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/141-2383.png"
+      }
+    ]
+  },
+  {
+    "key": "max_text:129:2217",
+    "mode": "max_text",
+    "id_or_route": "129:2217",
+    "name": "Background Remover / Transparent",
+    "status": "pass",
+    "comparison": "adaptation",
+    "findings": [
+      "Fresh final-build XCTest scroll screenshots visually inspected alongside initial state. Lower content and fixed actions are readable/reachable; clipping at viewport edges during scroll is normal."
+    ],
+    "evidence": [
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/max/final/max_text/129-2217.png",
+      "qa/extended-states/max/final/scroll-attachments/992DECB5-A54E-4917-85A5-2EAA24F169A0.png"
+    ],
+    "source_frame": "129:2217",
+    "capture_sha256": "e19674273651f0d8002538dd0fae8fa196b99ef3e4128235e713326850760471",
+    "review_date": "2026-11-11",
+    "review_history": [
+      {
+        "key": "max_text:129:2217",
+        "mode": "max_text",
+        "id_or_route": "129:2217",
+        "name": "Background Remover / Transparent",
+        "status": "issue",
+        "comparison": "adaptation",
+        "findings": [
+          "Background selector area is pushed below canvas and overlaps Share/Save footer; category controls clipped at bottom at maximum text."
+        ],
+        "evidence": [
+          "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/max/max_text/129-2217.png"
+        ],
+        "source_frame": "129:2217",
+        "capture_sha256": "c811aefe325a17207825cb9b233d7e4db055d871917315f254ae96739b3f51e3",
+        "reference_sha256": "60b7f75bfcd46191924cfcb077c79e5e6fdaddfc9bfccee1c144c753a0293aa7",
+        "reference": "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/129-2217.png"
+      }
+    ]
+  },
+  {
+    "key": "max_text:141:2461",
+    "mode": "max_text",
+    "id_or_route": "141:2461",
+    "name": "App / Photos access off",
+    "status": "pass",
+    "comparison": "adaptation",
+    "findings": [
+      "Fresh final-build XCTest scroll screenshots visually inspected alongside initial state. Lower content and fixed actions are readable/reachable; clipping at viewport edges during scroll is normal."
+    ],
+    "evidence": [
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/max/final/max_text/141-2461.png",
+      "qa/extended-states/max/final/scroll-attachments/559CC54D-2454-4DFD-A332-808F2ACD54D6.png"
+    ],
+    "source_frame": "141:2461",
+    "capture_sha256": "6520da80a31f7ee152ae4fe9f7b7de2578d16cf525f45142920f4fdf422ce874",
+    "review_date": "2026-11-11",
+    "review_history": [
+      {
+        "key": "max_text:141:2461",
+        "mode": "max_text",
+        "id_or_route": "141:2461",
+        "name": "App / Photos access off",
+        "status": "pass",
+        "comparison": "adaptation",
+        "findings": [
+          "Large alert title, description and primary action all visible without clipping. Background editor has separate overflow finding."
+        ],
+        "evidence": [
+          "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/max/max_text/141-2461.png"
+        ],
+        "source_frame": "141:2461",
+        "capture_sha256": "55f3240a49f903fe867cff0260ccf492ece26d15191ae71b3897676a42e775fc",
+        "reference_sha256": "30926dab7b241f2011c9f3bf5adb35c30472d298718abba331bd54897df8806e",
+        "reference": "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/141-2461.png"
+      }
+    ]
+  },
+  {
+    "key": "max_text:141:2492",
+    "mode": "max_text",
+    "id_or_route": "141:2492",
+    "name": "App / Photo saved",
+    "status": "pass",
+    "comparison": "adaptation",
+    "findings": [
+      "Fresh max-text view visually inspected; progress/status and recovery/success action readable without clipping."
+    ],
+    "evidence": [
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/max/final/max_text/141-2492.png"
+    ],
+    "source_frame": "141:2492",
+    "capture_sha256": "16a86d6ba388361ac348589417559bbb44335b9946fd2ca534cf09c0dccde7c7",
+    "review_date": "2026-11-11",
+    "review_history": [
+      {
+        "key": "max_text:141:2492",
+        "mode": "max_text",
+        "id_or_route": "141:2492",
+        "name": "App / Photo saved",
+        "status": "pass",
+        "comparison": "adaptation",
+        "findings": [
+          "Large alert title, description and primary action all visible without clipping. Background editor has separate overflow finding."
+        ],
+        "evidence": [
+          "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/max/max_text/141-2492.png"
+        ],
+        "source_frame": "141:2492",
+        "capture_sha256": "c065026d06abe9dc0f864d9bd41336730f852d715ddf2cd4fdd58a31a63a5f59",
+        "reference_sha256": "cf2bc2d51f47b2aadb7a0dad1e879807ed7dc95e567aebef582805bdc4ba5a72",
+        "reference": "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/141-2492.png"
+      }
+    ]
+  },
+  {
+    "key": "max_text:147:2387",
+    "mode": "max_text",
+    "id_or_route": "147:2387",
+    "name": "Security Center / hub",
+    "status": "pass",
+    "comparison": "adaptation",
+    "findings": [
+      "Fresh final-build XCTest scroll screenshots visually inspected alongside initial state. Lower content and fixed actions are readable/reachable; clipping at viewport edges during scroll is normal."
+    ],
+    "evidence": [
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/max/final/max_text/147-2387.png",
+      "qa/extended-states/max/final/scroll-attachments/7E6D9C3E-41A7-4404-AC7F-5B9DA3EFB0E7.png"
+    ],
+    "source_frame": "147:2387",
+    "capture_sha256": "78fa531c0e4650dfe16bcfe9889827206575528cd218cf196dc3fd2c7b6e48d3",
+    "review_date": "2026-11-11",
+    "review_history": [
+      {
+        "key": "max_text:147:2387",
+        "mode": "max_text",
+        "id_or_route": "147:2387",
+        "name": "Security Center / hub",
+        "status": "blocked",
+        "comparison": "adaptation",
+        "findings": [
+          "Lower card/error/strength or security action content offscreen under footer; scroll reachability must be tested before verdict."
+        ],
+        "evidence": [
+          "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/max/max_text/147-2387.png"
+        ],
+        "source_frame": "147:2387",
+        "capture_sha256": "4cac16a84bce7753cfe4cd174cc560ff5ac875be38ec51951b04e46677116c42",
+        "reference_sha256": "fd7da60e9385dffeabef85a72b02a5b639cf91643f048e1c6756a71490649ff5",
+        "reference": "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/147-2387.png"
+      }
+    ]
+  },
+  {
+    "key": "max_text:147:2719",
+    "mode": "max_text",
+    "id_or_route": "147:2719",
+    "name": "Security Center / emailInvalid",
+    "status": "pass",
+    "comparison": "adaptation",
+    "findings": [
+      "Fresh final-build XCTest scroll screenshots visually inspected alongside initial state. Lower content and fixed actions are readable/reachable; clipping at viewport edges during scroll is normal."
+    ],
+    "evidence": [
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/max/final/max_text/147-2719.png",
+      "qa/extended-states/max/final/scroll-attachments/993DD036-E793-431B-871B-3D7DB18BCDD0.png"
+    ],
+    "source_frame": "147:2719",
+    "capture_sha256": "e129352ed0c4361c1cdb0700d3c2dcf4aaa05a207b625652aef7a21963ba3e3f",
+    "review_date": "2026-11-11",
+    "review_history": [
+      {
+        "key": "max_text:147:2719",
+        "mode": "max_text",
+        "id_or_route": "147:2719",
+        "name": "Security Center / emailInvalid",
+        "status": "blocked",
+        "comparison": "adaptation",
+        "findings": [
+          "Lower card/error/strength or security action content offscreen under footer; scroll reachability must be tested before verdict."
+        ],
+        "evidence": [
+          "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/max/max_text/147-2719.png"
+        ],
+        "source_frame": "147:2719",
+        "capture_sha256": "542e5b8ae1a8205fac56363c0f53c4d4f499c385ea5dfd50b32897770c8d4767",
+        "reference_sha256": "1f8acd9846fb1ca70816c12f9ba7b3d6c7196fde59b332beac320b0f15bdbb52",
+        "reference": "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/147-2719.png"
+      }
+    ]
+  },
+  {
+    "key": "max_text:147:2774",
+    "mode": "max_text",
+    "id_or_route": "147:2774",
+    "name": "Security Center / checkingClear",
+    "status": "pass",
+    "comparison": "adaptation",
+    "findings": [
+      "Maximum-text fresh view visually inspected; complete text and action visible, prior fixed-layout truncation resolved."
+    ],
+    "evidence": [
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/max/final/max_text/147-2774.png"
+    ],
+    "source_frame": "147:2774",
+    "capture_sha256": "6fdc8e02c327f335b1cdda3332e41ecb5bafaa4002f3d4d708b759a6a6e192d9",
+    "review_date": "2026-11-11",
+    "review_history": [
+      {
+        "key": "max_text:147:2774",
+        "mode": "max_text",
+        "id_or_route": "147:2774",
+        "name": "Security Center / checkingClear",
+        "status": "pass",
+        "comparison": "adaptation",
+        "findings": [
+          "Full large title, status or guide copy and action readable with no overflow in visible content."
+        ],
+        "evidence": [
+          "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/max/max_text/147-2774.png"
+        ],
+        "source_frame": "147:2774",
+        "capture_sha256": "2c83a63de629ac6332e03e9820762c1ad2ac6e6e08a48d0d0f18532db96954db",
+        "reference_sha256": "cfb7c001add76b451eb75a4851cc28939f22889e3256b5278063c38eb4404652",
+        "reference": "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/147-2774.png"
+      }
+    ]
+  },
+  {
+    "key": "max_text:147:2969",
+    "mode": "max_text",
+    "id_or_route": "147:2969",
+    "name": "Security Center / emailUnavailable",
+    "status": "pass",
+    "comparison": "adaptation",
+    "findings": [
+      "Maximum-text fresh view visually inspected; complete text and action visible, prior fixed-layout truncation resolved."
+    ],
+    "evidence": [
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/max/final/max_text/147-2969.png"
+    ],
+    "source_frame": "147:2969",
+    "capture_sha256": "9c046a8c6d1f0df9b921c63aef7fa1e6014af9294b19b5bc6d037d5c4e804782",
+    "review_date": "2026-11-11",
+    "review_history": [
+      {
+        "key": "max_text:147:2969",
+        "mode": "max_text",
+        "id_or_route": "147:2969",
+        "name": "Security Center / emailUnavailable",
+        "status": "pass",
+        "comparison": "adaptation",
+        "findings": [
+          "Full large title, status or guide copy and action readable with no overflow in visible content."
+        ],
+        "evidence": [
+          "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/max/max_text/147-2969.png"
+        ],
+        "source_frame": "147:2969",
+        "capture_sha256": "302aef897cc41f4d45a8d733242c1d627eae9b5d0162692e9f0fb14aff3ccff0",
+        "reference_sha256": "f0d85d214dfbc2d2ba509c82400686c92d1785fe164956c5b6b2be5b21e71def",
+        "reference": "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/147-2969.png"
+      }
+    ]
+  },
+  {
+    "key": "max_text:147:3080",
+    "mode": "max_text",
+    "id_or_route": "147:3080",
+    "name": "Security Center / pwdWeak",
+    "status": "pass",
+    "comparison": "adaptation",
+    "findings": [
+      "Fresh final-build XCTest scroll screenshots visually inspected alongside initial state. Lower content and fixed actions are readable/reachable; clipping at viewport edges during scroll is normal."
+    ],
+    "evidence": [
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/max/final/max_text/147-3080.png",
+      "qa/extended-states/max/final/scroll-attachments/2386C1DC-8E3E-4673-89D0-EB491D5D5CBD.png"
+    ],
+    "source_frame": "147:3080",
+    "capture_sha256": "b49903fa36b9b2972c2e60ed9bdc445d2ac170fe14a4a88b52b6b06f95ad4717",
+    "review_date": "2026-11-11",
+    "review_history": [
+      {
+        "key": "max_text:147:3080",
+        "mode": "max_text",
+        "id_or_route": "147:3080",
+        "name": "Security Center / pwdWeak",
+        "status": "blocked",
+        "comparison": "adaptation",
+        "findings": [
+          "Lower card/error/strength or security action content offscreen under footer; scroll reachability must be tested before verdict."
+        ],
+        "evidence": [
+          "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/max/max_text/147-3080.png"
+        ],
+        "source_frame": "147:3080",
+        "capture_sha256": "ea8c4b4572c8df6d5868eef9934123a2a6ceac5959ad0201344acce8b55003f2",
+        "reference_sha256": "1c264520203b88f00ad910a10f29522aa91c13f9fad041162bb82dc03e6c74ff",
+        "reference": "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/147-3080.png"
+      }
+    ]
+  },
+  {
+    "key": "max_text:147:3269",
+    "mode": "max_text",
+    "id_or_route": "147:3269",
+    "name": "Security Center / pwdLeaks",
+    "status": "pass",
+    "comparison": "adaptation",
+    "findings": [
+      "Fresh final-build XCTest scroll screenshots visually inspected alongside initial state. Lower content and fixed actions are readable/reachable; clipping at viewport edges during scroll is normal."
+    ],
+    "evidence": [
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/max/final/max_text/147-3269.png",
+      "qa/extended-states/max/final/scroll-attachments/0D7E2D90-50F7-40CC-B9AE-FE557B2E27B7.png"
+    ],
+    "source_frame": "147:3269",
+    "capture_sha256": "7a7faf710a6ed1a79a275aa9d4f47361a7ded24ed06eef8c28ecc1aeb845be5f",
+    "review_date": "2026-11-11",
+    "review_history": [
+      {
+        "key": "max_text:147:3269",
+        "mode": "max_text",
+        "id_or_route": "147:3269",
+        "name": "Security Center / pwdLeaks",
+        "status": "blocked",
+        "comparison": "adaptation",
+        "findings": [
+          "Lower card/error/strength or security action content offscreen under footer; scroll reachability must be tested before verdict."
+        ],
+        "evidence": [
+          "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/max/max_text/147-3269.png"
+        ],
+        "source_frame": "147:3269",
+        "capture_sha256": "7611641a7a92ae3799fdc14ff1994209fd6812b27b340a804708612104669b83",
+        "reference_sha256": "c25d036003e7d7eec79d9ce922546c63549bd01b44b8e8a1068e62d83d9de01d",
+        "reference": "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/147-3269.png"
+      }
+    ]
+  },
+  {
+    "key": "max_text:147:3340",
+    "mode": "max_text",
+    "id_or_route": "147:3340",
+    "name": "Security Center / deviceStart",
+    "status": "pass",
+    "comparison": "adaptation",
+    "findings": [
+      "Fresh final-build XCTest scroll screenshots visually inspected alongside initial state. Lower content and fixed actions are readable/reachable; clipping at viewport edges during scroll is normal."
+    ],
+    "evidence": [
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/max/final/max_text/147-3340.png",
+      "qa/extended-states/max/final/scroll-attachments/054FBDD9-2A12-45FE-8FA7-0381694CF6BE.png"
+    ],
+    "source_frame": "147:3340",
+    "capture_sha256": "9ab0242d70d8c83871853a7e8f4b5a35d458bb9e3d66a978b5dc238704f2cbb2",
+    "review_date": "2026-11-11",
+    "review_history": [
+      {
+        "key": "max_text:147:3340",
+        "mode": "max_text",
+        "id_or_route": "147:3340",
+        "name": "Security Center / deviceStart",
+        "status": "blocked",
+        "comparison": "adaptation",
+        "findings": [
+          "Lower card/error/strength or security action content offscreen under footer; scroll reachability must be tested before verdict."
+        ],
+        "evidence": [
+          "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/max/max_text/147-3340.png"
+        ],
+        "source_frame": "147:3340",
+        "capture_sha256": "20fd60c17d1247ffe5bd421cf051ff32628b2f98f1adc03648fd7cec4ad35cec",
+        "reference_sha256": "f3b461bc3c2edd074a5078b16af6a4b305f16e70df64875775844f6445fcf00e",
+        "reference": "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/147-3340.png"
+      }
+    ]
+  },
+  {
+    "key": "max_text:147:3669",
+    "mode": "max_text",
+    "id_or_route": "147:3669",
+    "name": "Security Center / guide2",
+    "status": "pass",
+    "comparison": "adaptation",
+    "findings": [
+      "Maximum-text fresh view visually inspected; complete text and action visible, prior fixed-layout truncation resolved."
+    ],
+    "evidence": [
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/max/final/max_text/147-3669.png"
+    ],
+    "source_frame": "147:3669",
+    "capture_sha256": "e831c44a49c9e4f8b82bd8181457189ea2d6de546ee59002a76cbfa6f5ad1572",
+    "review_date": "2026-11-11",
+    "review_history": [
+      {
+        "key": "max_text:147:3669",
+        "mode": "max_text",
+        "id_or_route": "147:3669",
+        "name": "Security Center / guide2",
+        "status": "pass",
+        "comparison": "adaptation",
+        "findings": [
+          "Full large title, status or guide copy and action readable with no overflow in visible content."
+        ],
+        "evidence": [
+          "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/max/max_text/147-3669.png"
+        ],
+        "source_frame": "147:3669",
+        "capture_sha256": "5629cd13edf9f39ae4ae84087b1848a165df0e5cf62ab548ed76d57a50d7446f",
+        "reference_sha256": "9fd35b3e50605a7c3bf2b98ab1f5a1813291ab6ca3b98f2dfff3e9e4672d6cb0",
+        "reference": "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/147-3669.png"
+      }
+    ]
+  },
+  {
+    "key": "max_text:159:2752",
+    "mode": "max_text",
+    "id_or_route": "159:2752",
+    "name": "Settings / No subscription",
+    "status": "pass",
+    "comparison": "adaptation",
+    "findings": [
+      "Fresh final-build XCTest scroll screenshots visually inspected alongside initial state. Lower content and fixed actions are readable/reachable; clipping at viewport edges during scroll is normal."
+    ],
+    "evidence": [
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/max/final/max_text/159-2752.png",
+      "qa/extended-states/max/final/scroll-attachments/7DB4289F-E883-4773-A4E2-AA4510EB5108.png"
+    ],
+    "source_frame": "159:2752",
+    "capture_sha256": "5fcdb3e1418922cfe9341e58eb1610f5a960544cdd71e2d16ec7ee9c26afecb5",
+    "review_date": "2026-11-11",
+    "review_history": [
+      {
+        "key": "max_text:159:2752",
+        "mode": "max_text",
+        "id_or_route": "159:2752",
+        "name": "Settings / No subscription",
+        "status": "issue",
+        "comparison": "adaptation",
+        "findings": [
+          "Version1.0.0 text overlays Contact us row at maximum text; lower settings rows need scroll reachability check."
+        ],
+        "evidence": [
+          "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/max/max_text/159-2752.png"
+        ],
+        "source_frame": "159:2752",
+        "capture_sha256": "0940925ecf2c6b0a0ae0bbab399b562fef7d5fd7074628a85d751ba16449a345",
+        "reference_sha256": "47a6c61bb8dc8dbb019df8df5b6771bbd03dadc85ef1f1bd0a161219865e7ab3",
+        "reference": "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/159-2752.png"
+      }
+    ]
+  },
+  {
+    "key": "max_text:159:2979",
+    "mode": "max_text",
+    "id_or_route": "159:2979",
+    "name": "Settings / checking",
+    "status": "pass",
+    "comparison": "adaptation",
+    "findings": [
+      "Fresh final-build XCTest scroll screenshots visually inspected alongside initial state. Lower content and fixed actions are readable/reachable; clipping at viewport edges during scroll is normal."
+    ],
+    "evidence": [
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/max/final/max_text/159-2979.png",
+      "qa/extended-states/max/final/scroll-attachments/C03D8217-15E1-467D-A5F8-0F9E649CAF8A.png"
+    ],
+    "source_frame": "159:2979",
+    "capture_sha256": "e11e257268c62c043fffd7f75f43942d2240ff8404ab6c9c391237f6bcbdfe17",
+    "review_date": "2026-11-11",
+    "review_history": [
+      {
+        "key": "max_text:159:2979",
+        "mode": "max_text",
+        "id_or_route": "159:2979",
+        "name": "Settings / checking",
+        "status": "issue",
+        "comparison": "adaptation",
+        "findings": [
+          "Version1.0.0 text overlays Contact us row at maximum text; lower settings rows need scroll reachability check."
+        ],
+        "evidence": [
+          "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/max/max_text/159-2979.png"
+        ],
+        "source_frame": "159:2979",
+        "capture_sha256": "b3184c49b62807ec49fe3b1fd9084b4de2a9668d4bed5fa4754b0bf2e1391b1f",
+        "reference_sha256": "8c26a01d7c91350a789a8dac18e5620ea304e51d2b342f45376a5733bd184327",
+        "reference": "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/159-2979.png"
+      }
+    ]
+  },
+  {
+    "key": "max_text:159:3259",
+    "mode": "max_text",
+    "id_or_route": "159:3259",
+    "name": "Settings / error",
+    "status": "pass",
+    "comparison": "adaptation",
+    "findings": [
+      "Fresh final-build XCTest scroll screenshots visually inspected alongside initial state. Lower content and fixed actions are readable/reachable; clipping at viewport edges during scroll is normal."
+    ],
+    "evidence": [
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/max/final/max_text/159-3259.png",
+      "qa/extended-states/max/final/scroll-attachments/FA78E855-CAE1-4850-BE4C-13749075D949.png"
+    ],
+    "source_frame": "159:3259",
+    "capture_sha256": "48915bf8eb5186237b508623003295057f0f0929993bcb7b4a591f5ac0456c99",
+    "review_date": "2026-11-11",
+    "review_history": [
+      {
+        "key": "max_text:159:3259",
+        "mode": "max_text",
+        "id_or_route": "159:3259",
+        "name": "Settings / error",
+        "status": "issue",
+        "comparison": "adaptation",
+        "findings": [
+          "Narrow modal causes Purchases to split inside word (Purchase / s); entire message/action visible but readability degrades at maximum text."
+        ],
+        "evidence": [
+          "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/max/max_text/159-3259.png"
+        ],
+        "source_frame": "159:3259",
+        "capture_sha256": "fc2b874e0fdeb196e92e8e049cdb3021410d5a0ac37ebd4d4a05f8afb5062b38",
+        "reference_sha256": "a00be0400beb5c0003e26f157d03b58072819fd930ac92a54cddc9ed010c729e",
+        "reference": "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/159-3259.png"
+      }
+    ]
+  },
+  {
+    "key": "max_text:159:3124",
+    "mode": "max_text",
+    "id_or_route": "159:3124",
+    "name": "Settings / restored",
+    "status": "pass",
+    "comparison": "adaptation",
+    "findings": [
+      "Fresh final-build XCTest scroll screenshots visually inspected alongside initial state. Lower content and fixed actions are readable/reachable; clipping at viewport edges during scroll is normal."
+    ],
+    "evidence": [
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/max/final/max_text/159-3124.png",
+      "qa/extended-states/max/final/scroll-attachments/AAD3F744-FE60-4784-B5E5-9CB45A999C93.png"
+    ],
+    "source_frame": "159:3124",
+    "capture_sha256": "3dac59de6a5e1738bc922f62e46559035cd684bb7b9cb746214c59b917aac68b",
+    "review_date": "2026-11-11",
+    "review_history": [
+      {
+        "key": "max_text:159:3124",
+        "mode": "max_text",
+        "id_or_route": "159:3124",
+        "name": "Settings / restored",
+        "status": "issue",
+        "comparison": "adaptation",
+        "findings": [
+          "Narrow modal causes Purchases to split inside word (Purchase / s); entire message/action visible but readability degrades at maximum text."
+        ],
+        "evidence": [
+          "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/max/max_text/159-3124.png"
+        ],
+        "source_frame": "159:3124",
+        "capture_sha256": "cb52a9af38b9f88bd5101b4a8c3f981fe1d38e4a8f600fbfb95712a30ac168fa",
+        "reference_sha256": "c0c1baf5d32284d16babd7d93dbe7c27891abae9910a7cd05929d24d933a0bf0",
+        "reference": "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/159-3124.png"
+      }
+    ]
+  },
+  {
+    "key": "max_text:159:3189",
+    "mode": "max_text",
+    "id_or_route": "159:3189",
+    "name": "Settings / none",
+    "status": "pass",
+    "comparison": "adaptation",
+    "findings": [
+      "Fresh final-build XCTest scroll screenshots visually inspected alongside initial state. Lower content and fixed actions are readable/reachable; clipping at viewport edges during scroll is normal."
+    ],
+    "evidence": [
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/max/final/max_text/159-3189.png",
+      "qa/extended-states/max/final/scroll-attachments/D5E4BB35-44B6-4C7B-A5AB-D1024F20C794.png"
+    ],
+    "source_frame": "159:3189",
+    "capture_sha256": "2b4cc446f742e44dab4ed0c5f4834d997c9df56e06476c29c86d7370a7ffdb96",
+    "review_date": "2026-11-11",
+    "review_history": [
+      {
+        "key": "max_text:159:3189",
+        "mode": "max_text",
+        "id_or_route": "159:3189",
+        "name": "Settings / none",
+        "status": "issue",
+        "comparison": "adaptation",
+        "findings": [
+          "Modal title and message split inside Purchases/subscription due narrow fixed card at maximum text; Continue visible."
+        ],
+        "evidence": [
+          "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/max/max_text/159-3189.png"
+        ],
+        "source_frame": "159:3189",
+        "capture_sha256": "51ef897ef9ad2c56605b5a8a5de08f6c0ff1b7b1df64142974712df5651938f9",
+        "reference_sha256": "28d35663cdecf25180e60a49e354904c0d96de6c2cb78846004a375e8be2354d",
+        "reference": "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/159-3189.png"
+      }
+    ]
+  },
+  {
+    "key": "max_text:235:2861",
+    "mode": "max_text",
+    "id_or_route": "235:2861",
+    "name": "My subscription / Active",
+    "status": "pass",
+    "comparison": "adaptation",
+    "findings": [
+      "Fresh final-build XCTest scroll screenshots visually inspected alongside initial state. Lower content and fixed actions are readable/reachable; clipping at viewport edges during scroll is normal."
+    ],
+    "evidence": [
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/max/final/max_text/235-2861.png",
+      "qa/extended-states/max/final/scroll-attachments/6FD898BD-4A5C-4CD1-96FC-8385F220F085.png"
+    ],
+    "source_frame": "235:2861",
+    "capture_sha256": "df5091ba539c8eaeede35594ea1f9b899c557b30b69aa005098c18c068f77562",
+    "review_date": "2026-11-11",
+    "review_history": [
+      {
+        "key": "max_text:235:2861",
+        "mode": "max_text",
+        "id_or_route": "235:2861",
+        "name": "My subscription / Active",
+        "status": "blocked",
+        "comparison": "adaptation",
+        "findings": [
+          "Subscription header splits final n onto separate line; lower explanatory copy/actions require scroll check."
+        ],
+        "evidence": [
+          "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/max/max_text/235-2861.png"
+        ],
+        "source_frame": "235:2861",
+        "capture_sha256": "f1d8c8d274b025d599d01b1639a6ab54267361022833a129c9c08a54b4efb5c6",
+        "reference_sha256": "49f274b19b955c6b9e68ec98515ff95ca3440741320650653b1c17a1528b97f7",
+        "reference": "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/235-2861.png"
+      }
+    ]
+  },
+  {
+    "key": "max_text:235:2908",
+    "mode": "max_text",
+    "id_or_route": "235:2908",
+    "name": "My subscription / Renewal off",
+    "status": "pass",
+    "comparison": "adaptation",
+    "findings": [
+      "Fresh final-build XCTest scroll screenshots visually inspected alongside initial state. Lower content and fixed actions are readable/reachable; clipping at viewport edges during scroll is normal."
+    ],
+    "evidence": [
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/max/final/max_text/235-2908.png",
+      "qa/extended-states/max/final/scroll-attachments/A22736E7-90D2-4812-9230-DCC82FE3B340.png"
+    ],
+    "source_frame": "235:2908",
+    "capture_sha256": "047faf498e59f9147bda9f45a6fe32728cd2a14ef18d61052a44a513d31abe2a",
+    "review_date": "2026-11-11",
+    "review_history": [
+      {
+        "key": "max_text:235:2908",
+        "mode": "max_text",
+        "id_or_route": "235:2908",
+        "name": "My subscription / Renewal off",
+        "status": "blocked",
+        "comparison": "adaptation",
+        "findings": [
+          "Subscription header splits final n onto separate line; lower explanatory copy/actions require scroll check."
+        ],
+        "evidence": [
+          "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/max/max_text/235-2908.png"
+        ],
+        "source_frame": "235:2908",
+        "capture_sha256": "0901ee4a3a18761f9517f67e96679ab68a81b19b276fa311e1c4527b1bff912e",
+        "reference_sha256": "f60cb4f45cc0740d87ea1e5e97a01cc8c1ab20a9a110aaa7296ab0591218e306",
+        "reference": "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/235-2908.png"
+      }
+    ]
+  },
+  {
+    "key": "max_text:235:2955",
+    "mode": "max_text",
+    "id_or_route": "235:2955",
+    "name": "My subscription / No subscription",
+    "status": "pass",
+    "comparison": "adaptation",
+    "findings": [
+      "Fresh final-build XCTest scroll screenshots visually inspected alongside initial state. Lower content and fixed actions are readable/reachable; clipping at viewport edges during scroll is normal."
+    ],
+    "evidence": [
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/max/final/max_text/235-2955.png",
+      "qa/extended-states/max/final/scroll-attachments/B0B9E056-AB07-4F01-9AFF-7DE34FC6B338.png"
+    ],
+    "source_frame": "235:2955",
+    "capture_sha256": "4d3e94319dbf0f095a78f239c5dc230061557451ea294d44729da741b8372274",
+    "review_date": "2026-11-11",
+    "review_history": [
+      {
+        "key": "max_text:235:2955",
+        "mode": "max_text",
+        "id_or_route": "235:2955",
+        "name": "My subscription / No subscription",
+        "status": "blocked",
+        "comparison": "adaptation",
+        "findings": [
+          "Subscription header splits final n onto separate line; lower explanatory copy/actions require scroll check."
+        ],
+        "evidence": [
+          "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/max/max_text/235-2955.png"
+        ],
+        "source_frame": "235:2955",
+        "capture_sha256": "6281df877e184ffa95e889423138406ac7eb66273de968aae87f5efb629928d3",
+        "reference_sha256": "2e655a5d2bf68b3d9a7103bd081b0328ebb6b49f575ce15d01923230a45e53e6",
+        "reference": "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/235-2955.png"
+      }
+    ]
+  },
+  {
+    "key": "max_text:175:2863",
+    "mode": "max_text",
+    "id_or_route": "175:2863",
+    "name": "Splash / First launch",
+    "status": "pass",
+    "comparison": "adaptation",
+    "findings": [
+      "Maximum-text fresh view visually inspected; complete text and action visible, prior fixed-layout truncation resolved."
+    ],
+    "evidence": [
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/max/final/max_text/175-2863.png"
+    ],
+    "source_frame": "175:2863",
+    "capture_sha256": "e8618d4f269f8afaccc69b75621ca9b30e5ee112aac750b2da4528c8eed844de",
+    "review_date": "2026-11-11",
+    "review_history": [
+      {
+        "key": "max_text:175:2863",
+        "mode": "max_text",
+        "id_or_route": "175:2863",
+        "name": "Splash / First launch",
+        "status": "issue",
+        "comparison": "adaptation",
+        "findings": [
+          "Splash wordmark truncates to Cle\u2026 at maximum text."
+        ],
+        "evidence": [
+          "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/max/max_text/175-2863.png"
+        ],
+        "source_frame": "175:2863",
+        "capture_sha256": "e1e71705a25f577e443c95ce477ebc6b68116fde2d8e4af412e4b9e102d80b1b",
+        "reference_sha256": "5783d16d7ab34a5356b5375a4aa30dd2e467ad12cee5a5e21e9cf0fe7c7dd665",
+        "reference": "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/175-2863.png"
+      }
+    ]
+  },
+  {
+    "key": "real:home",
+    "mode": "real",
+    "id_or_route": "home",
+    "name": "home",
+    "status": "pass",
+    "comparison": "source_chrome",
+    "findings": [
+      "Live default-text top and XCTest scrolled-bottom views visually inspected; all content/actions reachable, truthful extra disclosures visible."
+    ],
+    "evidence": [
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/max/final/real/home.png",
+      "qa/extended-states/max/final/live-attachments/018846A1-2706-46AC-9129-53339475A1D1.png"
+    ],
+    "capture_sha256": "15dd3b222c454a4feb7dfff96d2cbbeb1ead4ea7bcaa276f404f410acfe4a7a3",
+    "review_date": "2026-11-11",
+    "review_history": []
+  },
+  {
+    "key": "real:scan",
+    "mode": "real",
+    "id_or_route": "scan",
+    "name": "scan",
+    "status": "pass",
+    "comparison": "source_chrome",
+    "findings": [
+      "Real default-text screen visually inspected; app chrome, actual state and controls readable. Counts/content differ from Figma mock data by design.",
+      "Scan completed showing zero eligible cleanup; not evidence of nonempty duplicate groups."
+    ],
+    "evidence": [
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/max/final/real/scan.png"
+    ],
+    "capture_sha256": "f9b018b88094dcd3b545405a292b7b8e2afcc35909c02e1c042bc43b46f8c88c",
+    "review_date": "2026-11-11",
+    "review_history": []
+  },
+  {
+    "key": "real:photos",
+    "mode": "real",
+    "id_or_route": "photos",
+    "name": "photos",
+    "status": "pass",
+    "comparison": "source_chrome",
+    "findings": [
+      "Live introduction dismissed with XCTest; loaded real media view captured and visually inspected, controls readable. No deletion or swipe decision performed."
+    ],
+    "evidence": [
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/max/final/real/photos.png",
+      "qa/extended-states/max/final/live-attachments/A256D46A-97C7-4A79-A8CA-C67F6BE41074.png"
+    ],
+    "capture_sha256": "a08b57513b7b9bc16b5e023be1260af7b6df23ae45996705977cf99ceaa79d3b",
+    "review_date": "2026-11-11",
+    "review_history": []
+  },
+  {
+    "key": "real:swipe",
+    "mode": "real",
+    "id_or_route": "swipe",
+    "name": "swipe",
+    "status": "pass",
+    "comparison": "source_chrome",
+    "findings": [
+      "Live introduction dismissed with XCTest; loaded real media view captured and visually inspected, controls readable. No deletion or swipe decision performed."
+    ],
+    "evidence": [
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/max/final/real/swipe.png",
+      "qa/extended-states/max/final/live-attachments/FCD61A5A-8716-4718-AEC3-104DF90DD888.png"
+    ],
+    "capture_sha256": "750fb084116a88daf324a035e1b31e6ed434704666a3d62e022709d0c346a6d1",
+    "review_date": "2026-11-11",
+    "review_history": []
+  },
+  {
+    "key": "real:videos",
+    "mode": "real",
+    "id_or_route": "videos",
+    "name": "videos",
+    "status": "pass",
+    "comparison": "source_chrome",
+    "findings": [
+      "Real default-text screen visually inspected; app chrome, actual state and controls readable. Counts/content differ from Figma mock data by design."
+    ],
+    "evidence": [
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/max/final/real/videos.png"
+    ],
+    "capture_sha256": "7e276283d4efd91e08faca2eba0abf2d21aebe193c174c1cc0be42dc66d9e178",
+    "review_date": "2026-11-11",
+    "review_history": []
+  },
+  {
+    "key": "real:contacts",
+    "mode": "real",
+    "id_or_route": "contacts",
+    "name": "contacts",
+    "status": "pass",
+    "comparison": "source_chrome",
+    "findings": [
+      "Real default-text screen visually inspected; app chrome, actual state and controls readable. Counts/content differ from Figma mock data by design."
+    ],
+    "evidence": [
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/max/final/real/contacts.png"
+    ],
+    "capture_sha256": "3b154917dbcee416c382d358c9a179ce77ca1efe94b4bedb7a20f5a6882d6527",
+    "review_date": "2026-11-11",
+    "review_history": []
+  },
+  {
+    "key": "real:calendar",
+    "mode": "real",
+    "id_or_route": "calendar",
+    "name": "calendar",
+    "status": "pass",
+    "comparison": "source_chrome",
+    "findings": [
+      "Real default-text screen visually inspected; app chrome, actual state and controls readable. Counts/content differ from Figma mock data by design.",
+      "Read-only holiday events shown with locks; no deletion performed."
+    ],
+    "evidence": [
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/max/final/real/calendar.png"
+    ],
+    "capture_sha256": "f27e1062e38b5b70254ae2510ac2a6a308b3f3c1f29e75a98f0fc9e082fcd67a",
+    "review_date": "2026-11-11",
+    "review_history": []
+  },
+  {
+    "key": "real:background",
+    "mode": "real",
+    "id_or_route": "background",
+    "name": "background",
+    "status": "pass",
+    "comparison": "source_chrome",
+    "findings": [
+      "Real default-text screen visually inspected; app chrome, actual state and controls readable. Counts/content differ from Figma mock data by design."
+    ],
+    "evidence": [
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/max/final/real/background.png"
+    ],
+    "capture_sha256": "eee48be9bbd1b199d0eb9c7d4574d3977f5a9a01bb22a4991a778feadcc1a4aa",
+    "review_date": "2026-11-11",
+    "review_history": []
+  },
+  {
+    "key": "real:security",
+    "mode": "real",
+    "id_or_route": "security",
+    "name": "security",
+    "status": "pass",
+    "comparison": "source_chrome",
+    "findings": [
+      "Real default-text screen visually inspected; app chrome, actual state and controls readable. Counts/content differ from Figma mock data by design."
+    ],
+    "evidence": [
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/max/final/real/security.png"
+    ],
+    "capture_sha256": "0baf93919c47ae716ea8a887b853b748389ebe41758c63a72fbe55a30ac0e27c",
+    "review_date": "2026-11-11",
+    "review_history": []
+  },
+  {
+    "key": "real:settings",
+    "mode": "real",
+    "id_or_route": "settings",
+    "name": "settings",
+    "status": "pass",
+    "comparison": "source_chrome",
+    "findings": [
+      "Real default-text screen visually inspected; app chrome, actual state and controls readable. Counts/content differ from Figma mock data by design."
+    ],
+    "evidence": [
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/max/final/real/settings.png"
+    ],
+    "capture_sha256": "b4adc10cb28c3ba68cf7475dc985c35fe4ae132185b470b930de2e893bd0f07a",
+    "review_date": "2026-11-11",
+    "review_history": []
+  },
+  {
+    "key": "real:subscription",
+    "mode": "real",
+    "id_or_route": "subscription",
+    "name": "subscription",
+    "status": "pass",
+    "comparison": "source_chrome",
+    "findings": [
+      "Live default-text top and XCTest scrolled-bottom views visually inspected; all content/actions reachable, truthful extra disclosures visible."
+    ],
+    "evidence": [
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/max/final/real/subscription.png",
+      "qa/extended-states/max/final/live-attachments/F2911FA8-2690-4D26-B0F9-E62B4272A9B5.png"
+    ],
+    "capture_sha256": "820c9db02bb1da8dc0c47f79f4bfa200e2de65efea09ec571a89117fc8b7c234",
+    "review_date": "2026-11-11",
+    "review_history": []
+  },
+  {
+    "key": "real:email",
+    "mode": "real",
+    "id_or_route": "email",
+    "name": "email",
+    "status": "pass",
+    "comparison": "source_chrome",
+    "findings": [
+      "Real default-text screen visually inspected; app chrome, actual state and controls readable. Counts/content differ from Figma mock data by design."
+    ],
+    "evidence": [
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/max/final/real/email.png"
+    ],
+    "capture_sha256": "b4ac5fc8f39fd2cfc3dd17e8c6fe6ee1b0d60fa0353ebc0f3859dba69c30c854",
+    "review_date": "2026-11-11",
+    "review_history": []
+  },
+  {
+    "key": "real:password",
+    "mode": "real",
+    "id_or_route": "password",
+    "name": "password",
+    "status": "pass",
+    "comparison": "source_chrome",
+    "findings": [
+      "Real default-text screen visually inspected; app chrome, actual state and controls readable. Counts/content differ from Figma mock data by design."
+    ],
+    "evidence": [
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/max/final/real/password.png"
+    ],
+    "capture_sha256": "854391ffc6c2f0dccbe4afc526e165b307791341905b9d157288982f6eaa7467",
+    "review_date": "2026-11-11",
+    "review_history": []
+  },
+  {
+    "key": "real:device",
+    "mode": "real",
+    "id_or_route": "device",
+    "name": "device",
+    "status": "pass",
+    "comparison": "source_chrome",
+    "findings": [
+      "Live default-text top and XCTest scrolled-bottom views visually inspected; all content/actions reachable, truthful extra disclosures visible."
+    ],
+    "evidence": [
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/max/final/real/device.png",
+      "qa/extended-states/max/final/live-attachments/7873FE9A-EBF0-42E4-8A33-92DEBD696DE5.png"
+    ],
+    "capture_sha256": "8319d70974c1dfa13510fbc9ec0466676c0390d493bba5f1526864628ce8d4a2",
+    "review_date": "2026-11-11",
+    "review_history": []
+  },
+  {
+    "key": "denied:photos",
+    "mode": "denied",
+    "id_or_route": "photos",
+    "name": "photos",
+    "status": "pass",
+    "comparison": "adaptation",
+    "findings": [
+      "Access-denied state visually inspected after revoking own-app permission: explanation and recovery controls readable; no exact Figma denial frame exists."
+    ],
+    "evidence": [
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/max/final/denied/photos.png"
+    ],
+    "capture_sha256": "aba6e632768fb9037c1889601a020333e7e601fb7f54fd40a1b16e46de45c129",
+    "review_date": "2026-11-11",
+    "review_history": []
+  },
+  {
+    "key": "denied:contacts",
+    "mode": "denied",
+    "id_or_route": "contacts",
+    "name": "contacts",
+    "status": "pass",
+    "comparison": "adaptation",
+    "findings": [
+      "Access-denied state visually inspected after revoking own-app permission: explanation and recovery controls readable; no exact Figma denial frame exists."
+    ],
+    "evidence": [
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/max/final/denied/contacts.png"
+    ],
+    "capture_sha256": "f73945f14a4d3aa851218af2962a101267e2afa117a9c97beb01cbff1a69f8a1",
+    "review_date": "2026-11-11",
+    "review_history": []
+  },
+  {
+    "key": "denied:calendar",
+    "mode": "denied",
+    "id_or_route": "calendar",
+    "name": "calendar",
+    "status": "pass",
+    "comparison": "adaptation",
+    "findings": [
+      "Access-denied state visually inspected after revoking own-app permission: explanation and recovery controls readable; no exact Figma denial frame exists."
+    ],
+    "evidence": [
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/max/final/denied/calendar.png"
+    ],
+    "capture_sha256": "0cc4317b1f311c73419a36dde5fcc4eacd94d6e072cc41a3933d7d2f875a2db1",
+    "review_date": "2026-11-11",
+    "review_history": []
+  },
+  {
+    "key": "supplemental-email-unavailable",
+    "mode": "supplemental",
+    "id_or_route": "supplemental-email-unavailable",
+    "name": "supplemental-email-unavailable",
+    "status": "pass",
+    "comparison": "adaptation",
+    "findings": [
+      "Actual error/unconfigured state reached with XCTest and visually inspected; controls readable, no live service success claimed."
+    ],
+    "evidence": [
+      "qa/extended-states/max/final/live-attachments/5A9A260B-3244-4FC1-BD96-D353AD2E4100.png"
+    ]
+  },
+  {
+    "key": "supplemental-restore-unconfigured",
+    "mode": "supplemental",
+    "id_or_route": "supplemental-restore-unconfigured",
+    "name": "supplemental-restore-unconfigured",
+    "status": "pass",
+    "comparison": "adaptation",
+    "findings": [
+      "Actual error/unconfigured state reached with XCTest and visually inspected; controls readable, no live service success claimed."
+    ],
+    "evidence": [
+      "qa/extended-states/max/final/live-attachments/1719703B-9397-41BE-8B91-4A045D1FA604.png"
+    ]
+  },
+  {
+    "key": "normal_regression:119:2804",
+    "mode": "supplemental",
+    "id_or_route": "119:2804",
+    "name": "Calendar / Past \u00b7 empty",
+    "status": "pass",
+    "comparison": "source_chrome",
+    "findings": [
+      "Ordinary-text final build visually paired with cached Figma: typography, card/control hierarchy and layout maintained under device-size adaptation and dynamic-image exclusions."
+    ],
+    "evidence": [
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/max/final/normal/max_text/119-2804.png"
+    ],
+    "source_frame": "119:2804",
+    "capture_sha256": "029d8402a60f0c871e12938cd19972fb66ad9906e85fd1e71077617ee21e9877"
+  },
+  {
+    "key": "normal_regression:94:4372",
+    "mode": "supplemental",
+    "id_or_route": "94:4372",
+    "name": "Contacts / restore",
+    "status": "pass",
+    "comparison": "source_chrome",
+    "findings": [
+      "Ordinary-text final build visually paired with cached Figma: typography, card/control hierarchy and layout maintained under device-size adaptation and dynamic-image exclusions."
+    ],
+    "evidence": [
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/max/final/normal/max_text/94-4372.png"
+    ],
+    "source_frame": "94:4372",
+    "capture_sha256": "2eeda02d37fc2cc301f774709f5808ca7e1cfa84df28bbb2a6845d1ee3e29047"
+  },
+  {
+    "key": "normal_regression:47:56",
+    "mode": "supplemental",
+    "id_or_route": "47:56",
+    "name": "Smart Scan / Results",
+    "status": "pass",
+    "comparison": "source_chrome",
+    "findings": [
+      "Ordinary-text final build visually paired with cached Figma: typography, card/control hierarchy and layout maintained under device-size adaptation and dynamic-image exclusions."
+    ],
+    "evidence": [
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/max/final/normal/max_text/47-56.png"
+    ],
+    "source_frame": "47:56",
+    "capture_sha256": "b9039014e212f99c4128107404f251c0e0053409f079ec479f9db5ec798a1a2e"
+  },
+  {
+    "key": "normal_regression:159:3259",
+    "mode": "supplemental",
+    "id_or_route": "159:3259",
+    "name": "Settings / error",
+    "status": "pass",
+    "comparison": "source_chrome",
+    "findings": [
+      "Ordinary-text final build visually paired with cached Figma: typography, card/control hierarchy and layout maintained under device-size adaptation and dynamic-image exclusions."
+    ],
+    "evidence": [
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/max/final/normal/max_text/159-3259.png"
+    ],
+    "source_frame": "159:3259",
+    "capture_sha256": "ce86f4211335028cbdf39f6f6d013158a71d29bf3fb868d6c6a27b39d771ebc8"
+  },
+  {
+    "key": "normal_regression:129:2217",
+    "mode": "supplemental",
+    "id_or_route": "129:2217",
+    "name": "Background Remover / Transparent",
+    "status": "pass",
+    "comparison": "source_chrome",
+    "findings": [
+      "Ordinary-text final build visually paired with cached Figma: typography, card/control hierarchy and layout maintained under device-size adaptation and dynamic-image exclusions."
+    ],
+    "evidence": [
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/max/final/normal/max_text/129-2217.png"
+    ],
+    "source_frame": "129:2217",
+    "capture_sha256": "73c17d2ec72dba0a5d7702a3aeb50ba89aed16f71fe9f2720e78b992353c6e03"
+  },
+  {
+    "key": "normal_regression:127:2092",
+    "mode": "supplemental",
+    "id_or_route": "127:2092",
+    "name": "Background Remover / Choose photo",
+    "status": "pass",
+    "comparison": "source_chrome",
+    "findings": [
+      "Ordinary-text final build visually paired with cached Figma: typography, card/control hierarchy and layout maintained under device-size adaptation and dynamic-image exclusions."
+    ],
+    "evidence": [
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/max/final/normal/max_text/127-2092.png"
+    ],
+    "source_frame": "127:2092",
+    "capture_sha256": "eee48be9bbd1b199d0eb9c7d4574d3977f5a9a01bb22a4991a778feadcc1a4aa"
+  },
+  {
+    "key": "normal_regression:51:52",
+    "mode": "supplemental",
+    "id_or_route": "51:52",
+    "name": "Photos / First visit",
+    "status": "pass",
+    "comparison": "source_chrome",
+    "findings": [
+      "Ordinary-text final build visually paired with cached Figma: typography, card/control hierarchy and layout maintained under device-size adaptation and dynamic-image exclusions."
+    ],
+    "evidence": [
+      "/Users/stanislaureut/Desktop/GitProject/PhotoCleanerApp/qa/extended-states/max/final/normal/max_text/51-52.png"
+    ],
+    "source_frame": "51:52",
+    "capture_sha256": "a08b57513b7b9bc16b5e023be1260af7b6df23ae45996705977cf99ceaa79d3b"
+  }
+]

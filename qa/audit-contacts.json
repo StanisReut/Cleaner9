@@ -1,0 +1,5557 @@
+{
+  "scope": "All51top-level375×812screenframes in Contacts & Backups and Calendar; excludes Notely annotations; audited against source as read before concurrent root edits.",
+  "sources": [
+    "~/.figma_cache/Cleaner-9/audit-2026-11-10/page.xml",
+    "PhotoCleanerApp/ContactsFeature.swift",
+    "PhotoCleanerApp/CalendarFeature.swift",
+    "PhotoCleanerApp/DesignSystem.swift"
+  ],
+  "limits": "XML gives geometry/text/hidden flags only. Font sizes/colors/shadows cannot be proven from XML; fetch context for exact style. Native safe-area values vary by device; preserve native status/home bars, compare internal alignment. Frame fixture counts are example data, not production constants. No simulator verification performed.",
+  "frameCount": 51,
+  "frames": [
+    {
+      "figmaFrameID": "94:1327",
+      "figmaFrameName": "Contacts / hub",
+      "productionComponent": "ContactsScreen.hubRow",
+      "requiredDistinctStateOrLayout": "hub",
+      "visibleReferenceText": [
+        "Contacts",
+        "All contacts",
+        "16",
+        "Duplicates",
+        "12",
+        "Incomplete",
+        "3",
+        "Backups",
+        "0"
+      ],
+      "implemented": [
+        "Four category destinations; live counts; backup count updates."
+      ],
+      "missing": [
+        "Exact book/duplicates/incomplete/backup glyphs and circular disclosure."
+      ],
+      "exactNumericDiscrepancies": [
+        "Shared header: Figma Navigation 343×32 at content (16,16); CleanerHeader uses 44pt back hit area plus 8pt vertical padding = 60pt header. Preserve 44pt hit targets while aligning 32pt visual circle to design.",
+        "Shared footer where present: Figma button 343×56 at content (16,668), label height24 with16pt vertical inset; PrimaryButton uses natural Inter16 line height +28pt vertical padding, no56pt minimum.",
+        "Figma icons40×40; code SF Symbol26 inside32pt width. Figma text starts card x64; code x64 coincidentally via32+16gap+16padding.",
+        "Figma row343×80 and16pt gaps; code minHeight48+32padding=80 and16pt gaps match. Figma disclosure24×24 circle versus chevron font12 without circle."
+      ],
+      "figmaGeometry": [
+        {
+          "id": "94:1330",
+          "name": "Navigation",
+          "x": "16",
+          "y": "16",
+          "width": "343",
+          "height": "32"
+        }
+      ],
+      "necessaryAssetNodes": [
+        {
+          "id": "94:1386",
+          "name": "Icon · book",
+          "x": "16",
+          "y": "20",
+          "width": "40",
+          "height": "40"
+        },
+        {
+          "id": "94:1397",
+          "name": "Icon · dups",
+          "x": "16",
+          "y": "20",
+          "width": "40",
+          "height": "40"
+        },
+        {
+          "id": "94:1406",
+          "name": "Icon · incomplete",
+          "x": "16",
+          "y": "20",
+          "width": "40",
+          "height": "40"
+        },
+        {
+          "id": "94:1415",
+          "name": "Icon · backup",
+          "x": "16",
+          "y": "20",
+          "width": "40",
+          "height": "40"
+        }
+      ]
+    },
+    {
+      "figmaFrameID": "94:1422",
+      "figmaFrameName": "Contacts / hubSaved",
+      "productionComponent": "ContactsScreen.hubRow",
+      "requiredDistinctStateOrLayout": "hubSaved",
+      "visibleReferenceText": [
+        "Contacts",
+        "All contacts",
+        "16",
+        "Duplicates",
+        "12",
+        "Incomplete",
+        "3",
+        "Backups",
+        "1"
+      ],
+      "implemented": [
+        "Four category destinations; live counts; backup count updates."
+      ],
+      "missing": [
+        "Exact book/duplicates/incomplete/backup glyphs and circular disclosure."
+      ],
+      "exactNumericDiscrepancies": [
+        "Shared header: Figma Navigation 343×32 at content (16,16); CleanerHeader uses 44pt back hit area plus 8pt vertical padding = 60pt header. Preserve 44pt hit targets while aligning 32pt visual circle to design.",
+        "Shared footer where present: Figma button 343×56 at content (16,668), label height24 with16pt vertical inset; PrimaryButton uses natural Inter16 line height +28pt vertical padding, no56pt minimum.",
+        "Figma icons40×40; code SF Symbol26 inside32pt width. Figma text starts card x64; code x64 coincidentally via32+16gap+16padding.",
+        "Figma row343×80 and16pt gaps; code minHeight48+32padding=80 and16pt gaps match. Figma disclosure24×24 circle versus chevron font12 without circle."
+      ],
+      "figmaGeometry": [
+        {
+          "id": "94:1425",
+          "name": "Navigation",
+          "x": "16",
+          "y": "16",
+          "width": "343",
+          "height": "32"
+        }
+      ],
+      "necessaryAssetNodes": [
+        {
+          "id": "94:1481",
+          "name": "Icon · book",
+          "x": "16",
+          "y": "20",
+          "width": "40",
+          "height": "40"
+        },
+        {
+          "id": "94:1492",
+          "name": "Icon · dups",
+          "x": "16",
+          "y": "20",
+          "width": "40",
+          "height": "40"
+        },
+        {
+          "id": "94:1501",
+          "name": "Icon · incomplete",
+          "x": "16",
+          "y": "20",
+          "width": "40",
+          "height": "40"
+        },
+        {
+          "id": "94:1510",
+          "name": "Icon · backup",
+          "x": "16",
+          "y": "20",
+          "width": "40",
+          "height": "40"
+        }
+      ]
+    },
+    {
+      "figmaFrameID": "94:1517",
+      "figmaFrameName": "Contacts / all0",
+      "productionComponent": "ContactListScreen",
+      "requiredDistinctStateOrLayout": "all0",
+      "visibleReferenceText": [
+        "All contacts",
+        "16 contacts",
+        "Select all",
+        "#",
+        "#",
+        "+1 202 555 0119",
+        "Missing name",
+        "A",
+        "AC",
+        "Alex C.",
+        "+1 202 555 0101",
+        "AC",
+        "Alex Carter",
+        "+1 202 555 0101",
+        "B",
+        "BM",
+        "Ben Morris",
+        "+1 202 555 0102",
+        "BM",
+        "Benjamin Morris",
+        "+1 202 555 0102",
+        "C",
+        "CP",
+        "Chloe P.",
+        "+1 202 555 0103",
+        "CP",
+        "Chloe Park",
+        "+1 202 555 0103",
+        "D",
+        "DL",
+        "Dan Lee",
+        "+1 202 555 0104",
+        "DL",
+        "Daniel Lee",
+        "+1 202 555 0104",
+        "E",
+        "EB",
+        "Ella B.",
+        "+1 202 555 0105",
+        "EB",
+        "Ella Brooks",
+        "+1 202 555 0105",
+        "H",
+        "HR",
+        "Harper Reed",
+        "Missing phone number",
+        "J",
+        "JM",
+        "Jules Martin",
+        "+1 202 555 0114",
+        "M",
+        "MG",
+        "Maya Green",
+        "Missing phone number",
+        "N",
+        "NS",
+        "Noah S.",
+        "+1 202 555 0106",
+        "NS",
+        "Noah Scott",
+        "+1 202 555 0106",
+        "A",
+        "C",
+        "E",
+        "J",
+        "N",
+        "#",
+        "Delete contacts"
+      ],
+      "implemented": [
+        "Individual multiselect, select/deselect, scrolling and deletion; dynamic type adaptations."
+      ],
+      "missing": [
+        "Remove unrequested search field from default design layout.",
+        "Correct partial-selection control: Select all until all visible contacts selected; code Deselect all for any nonempty selection.",
+        "Correct0/1/many delete labels.",
+        "Missing-name rows must use # grouping/initials and Missing name subtitle; code groups by first phone character and repeats phone as subtitle.",
+        "Compressed alphabet rail with dots between displayed letters and #; current44pt-per-letter scrolling rail cannot show27 sections together."
+      ],
+      "exactNumericDiscrepancies": [
+        "Shared header: Figma Navigation 343×32 at content (16,16); CleanerHeader uses 44pt back hit area plus 8pt vertical padding = 60pt header. Preserve 44pt hit targets while aligning 32pt visual circle to design.",
+        "Shared footer where present: Figma button 343×56 at content (16,668), label height24 with16pt vertical inset; PrimaryButton uses natural Inter16 line height +28pt vertical padding, no56pt minimum.",
+        "Figma list width319 and index16pt at container x327; code available list295 (=343-44-4), index44, gap4. Figma contacts rail right edge8pt per note (actual container geometry ends16pt from screen edge; verify screenshot/context inconsistency).",
+        "Figma row horizontal inset16; code padding8; initials40×40 matches. Figma selection row24pt; code44pt minimum Select all button plus search field."
+      ],
+      "figmaGeometry": [
+        {
+          "id": "94:1520",
+          "name": "Navigation",
+          "x": "16",
+          "y": "16",
+          "width": "343",
+          "height": "32"
+        },
+        {
+          "id": "94:1575",
+          "name": "Selection",
+          "x": "16",
+          "y": "64",
+          "width": "343",
+          "height": "24"
+        },
+        {
+          "id": "94:1578",
+          "name": "Contacts with index",
+          "x": "16",
+          "y": "104",
+          "width": "343",
+          "height": "548"
+        },
+        {
+          "id": "94:1579",
+          "name": "Alphabetical list",
+          "x": "0",
+          "y": "0",
+          "width": "319",
+          "height": "548"
+        },
+        {
+          "id": "101:1881",
+          "name": "Alphabet index · right edge",
+          "x": "327",
+          "y": "0",
+          "width": "16",
+          "height": "548"
+        }
+      ],
+      "necessaryAssetNodes": []
+    },
+    {
+      "figmaFrameID": "94:1715",
+      "figmaFrameName": "Contacts / all1",
+      "productionComponent": "ContactListScreen",
+      "requiredDistinctStateOrLayout": "all1",
+      "visibleReferenceText": [
+        "All contacts",
+        "16 contacts",
+        "Deselect all",
+        "#",
+        "#",
+        "+1 202 555 0119",
+        "Missing name",
+        "✓",
+        "A",
+        "AC",
+        "Alex C.",
+        "+1 202 555 0101",
+        "✓",
+        "AC",
+        "Alex Carter",
+        "+1 202 555 0101",
+        "✓",
+        "B",
+        "BM",
+        "Ben Morris",
+        "+1 202 555 0102",
+        "✓",
+        "BM",
+        "Benjamin Morris",
+        "+1 202 555 0102",
+        "✓",
+        "C",
+        "CP",
+        "Chloe P.",
+        "+1 202 555 0103",
+        "✓",
+        "CP",
+        "Chloe Park",
+        "+1 202 555 0103",
+        "✓",
+        "D",
+        "DL",
+        "Dan Lee",
+        "+1 202 555 0104",
+        "✓",
+        "DL",
+        "Daniel Lee",
+        "+1 202 555 0104",
+        "✓",
+        "E",
+        "EB",
+        "Ella B.",
+        "+1 202 555 0105",
+        "✓",
+        "EB",
+        "Ella Brooks",
+        "+1 202 555 0105",
+        "✓",
+        "H",
+        "HR",
+        "Harper Reed",
+        "Missing phone number",
+        "✓",
+        "J",
+        "JM",
+        "Jules Martin",
+        "+1 202 555 0114",
+        "✓",
+        "M",
+        "MG",
+        "Maya Green",
+        "Missing phone number",
+        "✓",
+        "N",
+        "NS",
+        "Noah S.",
+        "+1 202 555 0106",
+        "✓",
+        "NS",
+        "Noah Scott",
+        "+1 202 555 0106",
+        "✓",
+        "A",
+        "C",
+        "E",
+        "J",
+        "N",
+        "#",
+        "Delete 16 Contacts"
+      ],
+      "implemented": [
+        "Individual multiselect, select/deselect, scrolling and deletion; dynamic type adaptations."
+      ],
+      "missing": [
+        "Remove unrequested search field from default design layout.",
+        "Correct partial-selection control: Select all until all visible contacts selected; code Deselect all for any nonempty selection.",
+        "Correct0/1/many delete labels.",
+        "Missing-name rows must use # grouping/initials and Missing name subtitle; code groups by first phone character and repeats phone as subtitle.",
+        "Compressed alphabet rail with dots between displayed letters and #; current44pt-per-letter scrolling rail cannot show27 sections together."
+      ],
+      "exactNumericDiscrepancies": [
+        "Shared header: Figma Navigation 343×32 at content (16,16); CleanerHeader uses 44pt back hit area plus 8pt vertical padding = 60pt header. Preserve 44pt hit targets while aligning 32pt visual circle to design.",
+        "Shared footer where present: Figma button 343×56 at content (16,668), label height24 with16pt vertical inset; PrimaryButton uses natural Inter16 line height +28pt vertical padding, no56pt minimum.",
+        "Figma list width319 and index16pt at container x327; code available list295 (=343-44-4), index44, gap4. Figma contacts rail right edge8pt per note (actual container geometry ends16pt from screen edge; verify screenshot/context inconsistency).",
+        "Figma row horizontal inset16; code padding8; initials40×40 matches. Figma selection row24pt; code44pt minimum Select all button plus search field."
+      ],
+      "figmaGeometry": [
+        {
+          "id": "94:1718",
+          "name": "Navigation",
+          "x": "16",
+          "y": "16",
+          "width": "343",
+          "height": "32"
+        },
+        {
+          "id": "94:1771",
+          "name": "Selection",
+          "x": "16",
+          "y": "64",
+          "width": "343",
+          "height": "24"
+        },
+        {
+          "id": "94:1774",
+          "name": "Contacts with index",
+          "x": "16",
+          "y": "104",
+          "width": "343",
+          "height": "548"
+        },
+        {
+          "id": "94:1775",
+          "name": "Alphabetical list",
+          "x": "0",
+          "y": "0",
+          "width": "319",
+          "height": "548"
+        },
+        {
+          "id": "101:1912",
+          "name": "Alphabet index · right edge",
+          "x": "327",
+          "y": "0",
+          "width": "16",
+          "height": "548"
+        }
+      ],
+      "necessaryAssetNodes": []
+    },
+    {
+      "figmaFrameID": "94:1927",
+      "figmaFrameName": "Contacts / allDone",
+      "productionComponent": "ContactListScreen / ContactsScreen / ContactMergePreview / ContactBackupsScreen",
+      "requiredDistinctStateOrLayout": "allDone",
+      "visibleReferenceText": [
+        "All contacts",
+        "No contacts",
+        "16 contacts deleted",
+        "Your contact list is now empty.",
+        "Continue"
+      ],
+      "implemented": [
+        "Store emits notice strings after successful operations."
+      ],
+      "missing": [
+        "Full-screen dimmed result modal, over correct list/hub/backups destination, with Continue. Current inline notices do not implement this state."
+      ],
+      "exactNumericDiscrepancies": [
+        "Shared header: Figma Navigation 343×32 at content (16,16); CleanerHeader uses 44pt back hit area plus 8pt vertical padding = 60pt header. Preserve 44pt hit targets while aligning 32pt visual circle to design.",
+        "Shared footer where present: Figma button 343×56 at content (16,668), label height24 with16pt vertical inset; PrimaryButton uses natural Inter16 line height +28pt vertical padding, no56pt minimum.",
+        "Figma result panel312×232 (some merge messages expand; see geometry), success artwork112×112, action264×72; code has no modal geometry."
+      ],
+      "figmaGeometry": [
+        {
+          "id": "95:1867",
+          "name": "Navigation",
+          "x": "16",
+          "y": "16",
+          "width": "343",
+          "height": "32"
+        },
+        {
+          "id": "95:1871",
+          "name": "Empty list",
+          "x": "16",
+          "y": "64",
+          "width": "343",
+          "height": "660"
+        },
+        {
+          "id": "109:1954",
+          "name": "Illustration · Empty address book",
+          "x": "15.5",
+          "y": "178",
+          "width": "312",
+          "height": "264"
+        },
+        {
+          "id": "95:1881",
+          "name": "Deletion result",
+          "x": "31.5",
+          "y": "290",
+          "width": "312",
+          "height": "232"
+        },
+        {
+          "id": "95:1890",
+          "name": "Modal action",
+          "x": "24",
+          "y": "136",
+          "width": "264",
+          "height": "72"
+        }
+      ],
+      "necessaryAssetNodes": [
+        {
+          "id": "109:1954",
+          "name": "Illustration · Empty address book",
+          "x": "15.5",
+          "y": "178",
+          "width": "312",
+          "height": "264"
+        },
+        {
+          "id": "123:2091",
+          "name": "Success artwork · Contacts",
+          "x": "0",
+          "y": "0",
+          "width": "112",
+          "height": "112"
+        }
+      ]
+    },
+    {
+      "figmaFrameID": "94:1992",
+      "figmaFrameName": "Contacts / allEmpty",
+      "productionComponent": "ContactListScreen",
+      "requiredDistinctStateOrLayout": "allEmpty",
+      "visibleReferenceText": [
+        "All contacts",
+        "No contacts"
+      ],
+      "implemented": [
+        "Empty list detected."
+      ],
+      "missing": [
+        "Centered312×264 address-book illustration and No contacts title; no search/selection/list-index chrome."
+      ],
+      "exactNumericDiscrepancies": [
+        "Shared header: Figma Navigation 343×32 at content (16,16); CleanerHeader uses 44pt back hit area plus 8pt vertical padding = 60pt header. Preserve 44pt hit targets while aligning 32pt visual circle to design.",
+        "Shared footer where present: Figma button 343×56 at content (16,668), label height24 with16pt vertical inset; PrimaryButton uses natural Inter16 line height +28pt vertical padding, no56pt minimum.",
+        "Figma Empty list343×660 at(16,64); code listControls retained and generic EmptyState44pt icon with extra explanatory text."
+      ],
+      "figmaGeometry": [
+        {
+          "id": "94:1995",
+          "name": "Navigation",
+          "x": "16",
+          "y": "16",
+          "width": "343",
+          "height": "32"
+        },
+        {
+          "id": "94:2048",
+          "name": "Empty list",
+          "x": "16",
+          "y": "64",
+          "width": "343",
+          "height": "660"
+        },
+        {
+          "id": "109:1935",
+          "name": "Illustration · Empty address book",
+          "x": "15.5",
+          "y": "178",
+          "width": "312",
+          "height": "264"
+        }
+      ],
+      "necessaryAssetNodes": [
+        {
+          "id": "109:1935",
+          "name": "Illustration · Empty address book",
+          "x": "15.5",
+          "y": "178",
+          "width": "312",
+          "height": "264"
+        }
+      ]
+    },
+    {
+      "figmaFrameID": "94:2057",
+      "figmaFrameName": "Contacts / inc0",
+      "productionComponent": "ContactListScreen",
+      "requiredDistinctStateOrLayout": "inc0",
+      "visibleReferenceText": [
+        "Incomplete",
+        "3 contacts",
+        "Select all",
+        "HR",
+        "Harper Reed",
+        "Missing phone number",
+        "MG",
+        "Maya Green",
+        "Missing phone number",
+        "#",
+        "+1 202 555 0119",
+        "Missing name",
+        "Delete contacts"
+      ],
+      "implemented": [
+        "Individual multiselect, select/deselect, scrolling and deletion; dynamic type adaptations."
+      ],
+      "missing": [
+        "Remove unrequested search field from default design layout.",
+        "Correct partial-selection control: Select all until all visible contacts selected; code Deselect all for any nonempty selection.",
+        "Correct0/1/many delete labels.",
+        "Missing-name rows must use # grouping/initials and Missing name subtitle; code groups by first phone character and repeats phone as subtitle.",
+        "Incomplete uses flat list with reason subtitles and no alphabet index; code reuses grouped All contacts layout.",
+        "Missing phone number must qualify as incomplete even with email; store currently requires both phone and email empty."
+      ],
+      "exactNumericDiscrepancies": [
+        "Shared header: Figma Navigation 343×32 at content (16,16); CleanerHeader uses 44pt back hit area plus 8pt vertical padding = 60pt header. Preserve 44pt hit targets while aligning 32pt visual circle to design.",
+        "Shared footer where present: Figma button 343×56 at content (16,668), label height24 with16pt vertical inset; PrimaryButton uses natural Inter16 line height +28pt vertical padding, no56pt minimum.",
+        "Figma incomplete cards343×88 and8pt gaps; code minHeight64 (+24pt mismatch),8pt padding rather than horizontal16; index consumes44pt unnecessarily."
+      ],
+      "figmaGeometry": [
+        {
+          "id": "94:2060",
+          "name": "Navigation",
+          "x": "16",
+          "y": "16",
+          "width": "343",
+          "height": "32"
+        },
+        {
+          "id": "94:2115",
+          "name": "Selection",
+          "x": "16",
+          "y": "64",
+          "width": "343",
+          "height": "24"
+        },
+        {
+          "id": "94:2119",
+          "name": "Incomplete contact",
+          "x": "0",
+          "y": "0",
+          "width": "343",
+          "height": "88"
+        },
+        {
+          "id": "94:2126",
+          "name": "Incomplete contact",
+          "x": "0",
+          "y": "96",
+          "width": "343",
+          "height": "88"
+        },
+        {
+          "id": "94:2133",
+          "name": "Incomplete contact",
+          "x": "0",
+          "y": "192",
+          "width": "343",
+          "height": "88"
+        }
+      ],
+      "necessaryAssetNodes": []
+    },
+    {
+      "figmaFrameID": "94:2142",
+      "figmaFrameName": "Contacts / inc1",
+      "productionComponent": "ContactListScreen",
+      "requiredDistinctStateOrLayout": "inc1",
+      "visibleReferenceText": [
+        "Incomplete",
+        "3 contacts",
+        "Select all",
+        "HR",
+        "Harper Reed",
+        "Missing phone number",
+        "✓",
+        "MG",
+        "Maya Green",
+        "Missing phone number",
+        "#",
+        "+1 202 555 0119",
+        "Missing name",
+        "Delete 1 Contact"
+      ],
+      "implemented": [
+        "Individual multiselect, select/deselect, scrolling and deletion; dynamic type adaptations."
+      ],
+      "missing": [
+        "Remove unrequested search field from default design layout.",
+        "Correct partial-selection control: Select all until all visible contacts selected; code Deselect all for any nonempty selection.",
+        "Correct0/1/many delete labels.",
+        "Missing-name rows must use # grouping/initials and Missing name subtitle; code groups by first phone character and repeats phone as subtitle.",
+        "Incomplete uses flat list with reason subtitles and no alphabet index; code reuses grouped All contacts layout.",
+        "Missing phone number must qualify as incomplete even with email; store currently requires both phone and email empty."
+      ],
+      "exactNumericDiscrepancies": [
+        "Shared header: Figma Navigation 343×32 at content (16,16); CleanerHeader uses 44pt back hit area plus 8pt vertical padding = 60pt header. Preserve 44pt hit targets while aligning 32pt visual circle to design.",
+        "Shared footer where present: Figma button 343×56 at content (16,668), label height24 with16pt vertical inset; PrimaryButton uses natural Inter16 line height +28pt vertical padding, no56pt minimum.",
+        "Figma incomplete cards343×88 and8pt gaps; code minHeight64 (+24pt mismatch),8pt padding rather than horizontal16; index consumes44pt unnecessarily."
+      ],
+      "figmaGeometry": [
+        {
+          "id": "94:2145",
+          "name": "Navigation",
+          "x": "16",
+          "y": "16",
+          "width": "343",
+          "height": "32"
+        },
+        {
+          "id": "94:2198",
+          "name": "Selection",
+          "x": "16",
+          "y": "64",
+          "width": "343",
+          "height": "24"
+        },
+        {
+          "id": "94:2202",
+          "name": "Incomplete contact",
+          "x": "0",
+          "y": "0",
+          "width": "343",
+          "height": "88"
+        },
+        {
+          "id": "94:2210",
+          "name": "Incomplete contact",
+          "x": "0",
+          "y": "96",
+          "width": "343",
+          "height": "88"
+        },
+        {
+          "id": "94:2217",
+          "name": "Incomplete contact",
+          "x": "0",
+          "y": "192",
+          "width": "343",
+          "height": "88"
+        }
+      ],
+      "necessaryAssetNodes": []
+    },
+    {
+      "figmaFrameID": "94:2226",
+      "figmaFrameName": "Contacts / inc2",
+      "productionComponent": "ContactListScreen",
+      "requiredDistinctStateOrLayout": "inc2",
+      "visibleReferenceText": [
+        "Incomplete",
+        "3 contacts",
+        "Select all",
+        "HR",
+        "Harper Reed",
+        "Missing phone number",
+        "MG",
+        "Maya Green",
+        "Missing phone number",
+        "✓",
+        "#",
+        "+1 202 555 0119",
+        "Missing name",
+        "Delete 1 Contact"
+      ],
+      "implemented": [
+        "Individual multiselect, select/deselect, scrolling and deletion; dynamic type adaptations."
+      ],
+      "missing": [
+        "Remove unrequested search field from default design layout.",
+        "Correct partial-selection control: Select all until all visible contacts selected; code Deselect all for any nonempty selection.",
+        "Correct0/1/many delete labels.",
+        "Missing-name rows must use # grouping/initials and Missing name subtitle; code groups by first phone character and repeats phone as subtitle.",
+        "Incomplete uses flat list with reason subtitles and no alphabet index; code reuses grouped All contacts layout.",
+        "Missing phone number must qualify as incomplete even with email; store currently requires both phone and email empty."
+      ],
+      "exactNumericDiscrepancies": [
+        "Shared header: Figma Navigation 343×32 at content (16,16); CleanerHeader uses 44pt back hit area plus 8pt vertical padding = 60pt header. Preserve 44pt hit targets while aligning 32pt visual circle to design.",
+        "Shared footer where present: Figma button 343×56 at content (16,668), label height24 with16pt vertical inset; PrimaryButton uses natural Inter16 line height +28pt vertical padding, no56pt minimum.",
+        "Figma incomplete cards343×88 and8pt gaps; code minHeight64 (+24pt mismatch),8pt padding rather than horizontal16; index consumes44pt unnecessarily."
+      ],
+      "figmaGeometry": [
+        {
+          "id": "94:2229",
+          "name": "Navigation",
+          "x": "16",
+          "y": "16",
+          "width": "343",
+          "height": "32"
+        },
+        {
+          "id": "94:2282",
+          "name": "Selection",
+          "x": "16",
+          "y": "64",
+          "width": "343",
+          "height": "24"
+        },
+        {
+          "id": "94:2286",
+          "name": "Incomplete contact",
+          "x": "0",
+          "y": "0",
+          "width": "343",
+          "height": "88"
+        },
+        {
+          "id": "94:2293",
+          "name": "Incomplete contact",
+          "x": "0",
+          "y": "96",
+          "width": "343",
+          "height": "88"
+        },
+        {
+          "id": "94:2301",
+          "name": "Incomplete contact",
+          "x": "0",
+          "y": "192",
+          "width": "343",
+          "height": "88"
+        }
+      ],
+      "necessaryAssetNodes": []
+    },
+    {
+      "figmaFrameID": "94:2310",
+      "figmaFrameName": "Contacts / inc3",
+      "productionComponent": "ContactListScreen",
+      "requiredDistinctStateOrLayout": "inc3",
+      "visibleReferenceText": [
+        "Incomplete",
+        "3 contacts",
+        "Select all",
+        "HR",
+        "Harper Reed",
+        "Missing phone number",
+        "✓",
+        "MG",
+        "Maya Green",
+        "Missing phone number",
+        "✓",
+        "#",
+        "+1 202 555 0119",
+        "Missing name",
+        "Delete 2 Contacts"
+      ],
+      "implemented": [
+        "Individual multiselect, select/deselect, scrolling and deletion; dynamic type adaptations."
+      ],
+      "missing": [
+        "Remove unrequested search field from default design layout.",
+        "Correct partial-selection control: Select all until all visible contacts selected; code Deselect all for any nonempty selection.",
+        "Correct0/1/many delete labels.",
+        "Missing-name rows must use # grouping/initials and Missing name subtitle; code groups by first phone character and repeats phone as subtitle.",
+        "Incomplete uses flat list with reason subtitles and no alphabet index; code reuses grouped All contacts layout.",
+        "Missing phone number must qualify as incomplete even with email; store currently requires both phone and email empty."
+      ],
+      "exactNumericDiscrepancies": [
+        "Shared header: Figma Navigation 343×32 at content (16,16); CleanerHeader uses 44pt back hit area plus 8pt vertical padding = 60pt header. Preserve 44pt hit targets while aligning 32pt visual circle to design.",
+        "Shared footer where present: Figma button 343×56 at content (16,668), label height24 with16pt vertical inset; PrimaryButton uses natural Inter16 line height +28pt vertical padding, no56pt minimum.",
+        "Figma incomplete cards343×88 and8pt gaps; code minHeight64 (+24pt mismatch),8pt padding rather than horizontal16; index consumes44pt unnecessarily."
+      ],
+      "figmaGeometry": [
+        {
+          "id": "94:2313",
+          "name": "Navigation",
+          "x": "16",
+          "y": "16",
+          "width": "343",
+          "height": "32"
+        },
+        {
+          "id": "94:2366",
+          "name": "Selection",
+          "x": "16",
+          "y": "64",
+          "width": "343",
+          "height": "24"
+        },
+        {
+          "id": "94:2370",
+          "name": "Incomplete contact",
+          "x": "0",
+          "y": "0",
+          "width": "343",
+          "height": "88"
+        },
+        {
+          "id": "94:2378",
+          "name": "Incomplete contact",
+          "x": "0",
+          "y": "96",
+          "width": "343",
+          "height": "88"
+        },
+        {
+          "id": "94:2386",
+          "name": "Incomplete contact",
+          "x": "0",
+          "y": "192",
+          "width": "343",
+          "height": "88"
+        }
+      ],
+      "necessaryAssetNodes": []
+    },
+    {
+      "figmaFrameID": "94:2395",
+      "figmaFrameName": "Contacts / inc4",
+      "productionComponent": "ContactListScreen",
+      "requiredDistinctStateOrLayout": "inc4",
+      "visibleReferenceText": [
+        "Incomplete",
+        "3 contacts",
+        "Select all",
+        "HR",
+        "Harper Reed",
+        "Missing phone number",
+        "MG",
+        "Maya Green",
+        "Missing phone number",
+        "#",
+        "+1 202 555 0119",
+        "Missing name",
+        "✓",
+        "Delete 1 Contact"
+      ],
+      "implemented": [
+        "Individual multiselect, select/deselect, scrolling and deletion; dynamic type adaptations."
+      ],
+      "missing": [
+        "Remove unrequested search field from default design layout.",
+        "Correct partial-selection control: Select all until all visible contacts selected; code Deselect all for any nonempty selection.",
+        "Correct0/1/many delete labels.",
+        "Missing-name rows must use # grouping/initials and Missing name subtitle; code groups by first phone character and repeats phone as subtitle.",
+        "Incomplete uses flat list with reason subtitles and no alphabet index; code reuses grouped All contacts layout.",
+        "Missing phone number must qualify as incomplete even with email; store currently requires both phone and email empty."
+      ],
+      "exactNumericDiscrepancies": [
+        "Shared header: Figma Navigation 343×32 at content (16,16); CleanerHeader uses 44pt back hit area plus 8pt vertical padding = 60pt header. Preserve 44pt hit targets while aligning 32pt visual circle to design.",
+        "Shared footer where present: Figma button 343×56 at content (16,668), label height24 with16pt vertical inset; PrimaryButton uses natural Inter16 line height +28pt vertical padding, no56pt minimum.",
+        "Figma incomplete cards343×88 and8pt gaps; code minHeight64 (+24pt mismatch),8pt padding rather than horizontal16; index consumes44pt unnecessarily."
+      ],
+      "figmaGeometry": [
+        {
+          "id": "94:2398",
+          "name": "Navigation",
+          "x": "16",
+          "y": "16",
+          "width": "343",
+          "height": "32"
+        },
+        {
+          "id": "94:2451",
+          "name": "Selection",
+          "x": "16",
+          "y": "64",
+          "width": "343",
+          "height": "24"
+        },
+        {
+          "id": "94:2455",
+          "name": "Incomplete contact",
+          "x": "0",
+          "y": "0",
+          "width": "343",
+          "height": "88"
+        },
+        {
+          "id": "94:2462",
+          "name": "Incomplete contact",
+          "x": "0",
+          "y": "96",
+          "width": "343",
+          "height": "88"
+        },
+        {
+          "id": "94:2469",
+          "name": "Incomplete contact",
+          "x": "0",
+          "y": "192",
+          "width": "343",
+          "height": "88"
+        }
+      ],
+      "necessaryAssetNodes": []
+    },
+    {
+      "figmaFrameID": "94:2479",
+      "figmaFrameName": "Contacts / inc5",
+      "productionComponent": "ContactListScreen",
+      "requiredDistinctStateOrLayout": "inc5",
+      "visibleReferenceText": [
+        "Incomplete",
+        "3 contacts",
+        "Select all",
+        "HR",
+        "Harper Reed",
+        "Missing phone number",
+        "✓",
+        "MG",
+        "Maya Green",
+        "Missing phone number",
+        "#",
+        "+1 202 555 0119",
+        "Missing name",
+        "✓",
+        "Delete 2 Contacts"
+      ],
+      "implemented": [
+        "Individual multiselect, select/deselect, scrolling and deletion; dynamic type adaptations."
+      ],
+      "missing": [
+        "Remove unrequested search field from default design layout.",
+        "Correct partial-selection control: Select all until all visible contacts selected; code Deselect all for any nonempty selection.",
+        "Correct0/1/many delete labels.",
+        "Missing-name rows must use # grouping/initials and Missing name subtitle; code groups by first phone character and repeats phone as subtitle.",
+        "Incomplete uses flat list with reason subtitles and no alphabet index; code reuses grouped All contacts layout.",
+        "Missing phone number must qualify as incomplete even with email; store currently requires both phone and email empty."
+      ],
+      "exactNumericDiscrepancies": [
+        "Shared header: Figma Navigation 343×32 at content (16,16); CleanerHeader uses 44pt back hit area plus 8pt vertical padding = 60pt header. Preserve 44pt hit targets while aligning 32pt visual circle to design.",
+        "Shared footer where present: Figma button 343×56 at content (16,668), label height24 with16pt vertical inset; PrimaryButton uses natural Inter16 line height +28pt vertical padding, no56pt minimum.",
+        "Figma incomplete cards343×88 and8pt gaps; code minHeight64 (+24pt mismatch),8pt padding rather than horizontal16; index consumes44pt unnecessarily."
+      ],
+      "figmaGeometry": [
+        {
+          "id": "94:2482",
+          "name": "Navigation",
+          "x": "16",
+          "y": "16",
+          "width": "343",
+          "height": "32"
+        },
+        {
+          "id": "94:2535",
+          "name": "Selection",
+          "x": "16",
+          "y": "64",
+          "width": "343",
+          "height": "24"
+        },
+        {
+          "id": "94:2539",
+          "name": "Incomplete contact",
+          "x": "0",
+          "y": "0",
+          "width": "343",
+          "height": "88"
+        },
+        {
+          "id": "94:2547",
+          "name": "Incomplete contact",
+          "x": "0",
+          "y": "96",
+          "width": "343",
+          "height": "88"
+        },
+        {
+          "id": "94:2554",
+          "name": "Incomplete contact",
+          "x": "0",
+          "y": "192",
+          "width": "343",
+          "height": "88"
+        }
+      ],
+      "necessaryAssetNodes": []
+    },
+    {
+      "figmaFrameID": "94:2564",
+      "figmaFrameName": "Contacts / inc6",
+      "productionComponent": "ContactListScreen",
+      "requiredDistinctStateOrLayout": "inc6",
+      "visibleReferenceText": [
+        "Incomplete",
+        "3 contacts",
+        "Select all",
+        "HR",
+        "Harper Reed",
+        "Missing phone number",
+        "MG",
+        "Maya Green",
+        "Missing phone number",
+        "✓",
+        "#",
+        "+1 202 555 0119",
+        "Missing name",
+        "✓",
+        "Delete 2 Contacts"
+      ],
+      "implemented": [
+        "Individual multiselect, select/deselect, scrolling and deletion; dynamic type adaptations."
+      ],
+      "missing": [
+        "Remove unrequested search field from default design layout.",
+        "Correct partial-selection control: Select all until all visible contacts selected; code Deselect all for any nonempty selection.",
+        "Correct0/1/many delete labels.",
+        "Missing-name rows must use # grouping/initials and Missing name subtitle; code groups by first phone character and repeats phone as subtitle.",
+        "Incomplete uses flat list with reason subtitles and no alphabet index; code reuses grouped All contacts layout.",
+        "Missing phone number must qualify as incomplete even with email; store currently requires both phone and email empty."
+      ],
+      "exactNumericDiscrepancies": [
+        "Shared header: Figma Navigation 343×32 at content (16,16); CleanerHeader uses 44pt back hit area plus 8pt vertical padding = 60pt header. Preserve 44pt hit targets while aligning 32pt visual circle to design.",
+        "Shared footer where present: Figma button 343×56 at content (16,668), label height24 with16pt vertical inset; PrimaryButton uses natural Inter16 line height +28pt vertical padding, no56pt minimum.",
+        "Figma incomplete cards343×88 and8pt gaps; code minHeight64 (+24pt mismatch),8pt padding rather than horizontal16; index consumes44pt unnecessarily."
+      ],
+      "figmaGeometry": [
+        {
+          "id": "94:2567",
+          "name": "Navigation",
+          "x": "16",
+          "y": "16",
+          "width": "343",
+          "height": "32"
+        },
+        {
+          "id": "94:2620",
+          "name": "Selection",
+          "x": "16",
+          "y": "64",
+          "width": "343",
+          "height": "24"
+        },
+        {
+          "id": "94:2624",
+          "name": "Incomplete contact",
+          "x": "0",
+          "y": "0",
+          "width": "343",
+          "height": "88"
+        },
+        {
+          "id": "94:2631",
+          "name": "Incomplete contact",
+          "x": "0",
+          "y": "96",
+          "width": "343",
+          "height": "88"
+        },
+        {
+          "id": "94:2639",
+          "name": "Incomplete contact",
+          "x": "0",
+          "y": "192",
+          "width": "343",
+          "height": "88"
+        }
+      ],
+      "necessaryAssetNodes": []
+    },
+    {
+      "figmaFrameID": "94:2649",
+      "figmaFrameName": "Contacts / inc7",
+      "productionComponent": "ContactListScreen",
+      "requiredDistinctStateOrLayout": "inc7",
+      "visibleReferenceText": [
+        "Incomplete",
+        "3 contacts",
+        "Deselect all",
+        "HR",
+        "Harper Reed",
+        "Missing phone number",
+        "✓",
+        "MG",
+        "Maya Green",
+        "Missing phone number",
+        "✓",
+        "#",
+        "+1 202 555 0119",
+        "Missing name",
+        "✓",
+        "Delete 3 Contacts"
+      ],
+      "implemented": [
+        "Individual multiselect, select/deselect, scrolling and deletion; dynamic type adaptations."
+      ],
+      "missing": [
+        "Remove unrequested search field from default design layout.",
+        "Correct partial-selection control: Select all until all visible contacts selected; code Deselect all for any nonempty selection.",
+        "Correct0/1/many delete labels.",
+        "Missing-name rows must use # grouping/initials and Missing name subtitle; code groups by first phone character and repeats phone as subtitle.",
+        "Incomplete uses flat list with reason subtitles and no alphabet index; code reuses grouped All contacts layout.",
+        "Missing phone number must qualify as incomplete even with email; store currently requires both phone and email empty."
+      ],
+      "exactNumericDiscrepancies": [
+        "Shared header: Figma Navigation 343×32 at content (16,16); CleanerHeader uses 44pt back hit area plus 8pt vertical padding = 60pt header. Preserve 44pt hit targets while aligning 32pt visual circle to design.",
+        "Shared footer where present: Figma button 343×56 at content (16,668), label height24 with16pt vertical inset; PrimaryButton uses natural Inter16 line height +28pt vertical padding, no56pt minimum.",
+        "Figma incomplete cards343×88 and8pt gaps; code minHeight64 (+24pt mismatch),8pt padding rather than horizontal16; index consumes44pt unnecessarily."
+      ],
+      "figmaGeometry": [
+        {
+          "id": "94:2652",
+          "name": "Navigation",
+          "x": "16",
+          "y": "16",
+          "width": "343",
+          "height": "32"
+        },
+        {
+          "id": "94:2705",
+          "name": "Selection",
+          "x": "16",
+          "y": "64",
+          "width": "343",
+          "height": "24"
+        },
+        {
+          "id": "94:2709",
+          "name": "Incomplete contact",
+          "x": "0",
+          "y": "0",
+          "width": "343",
+          "height": "88"
+        },
+        {
+          "id": "94:2717",
+          "name": "Incomplete contact",
+          "x": "0",
+          "y": "96",
+          "width": "343",
+          "height": "88"
+        },
+        {
+          "id": "94:2725",
+          "name": "Incomplete contact",
+          "x": "0",
+          "y": "192",
+          "width": "343",
+          "height": "88"
+        }
+      ],
+      "necessaryAssetNodes": []
+    },
+    {
+      "figmaFrameID": "94:2735",
+      "figmaFrameName": "Contacts / incDone1",
+      "productionComponent": "ContactListScreen / ContactsScreen / ContactMergePreview / ContactBackupsScreen",
+      "requiredDistinctStateOrLayout": "incDone1",
+      "visibleReferenceText": [
+        "Contacts",
+        "All contacts",
+        "16",
+        "Duplicates",
+        "12",
+        "Incomplete",
+        "3",
+        "Backups",
+        "0",
+        "1 contact deleted",
+        "2 incomplete contacts remain.",
+        "Continue"
+      ],
+      "implemented": [
+        "Store emits notice strings after successful operations."
+      ],
+      "missing": [
+        "Full-screen dimmed result modal, over correct list/hub/backups destination, with Continue. Current inline notices do not implement this state."
+      ],
+      "exactNumericDiscrepancies": [
+        "Shared header: Figma Navigation 343×32 at content (16,16); CleanerHeader uses 44pt back hit area plus 8pt vertical padding = 60pt header. Preserve 44pt hit targets while aligning 32pt visual circle to design.",
+        "Shared footer where present: Figma button 343×56 at content (16,668), label height24 with16pt vertical inset; PrimaryButton uses natural Inter16 line height +28pt vertical padding, no56pt minimum.",
+        "Figma result panel312×232 (some merge messages expand; see geometry), success artwork112×112, action264×72; code has no modal geometry."
+      ],
+      "figmaGeometry": [
+        {
+          "id": "95:1895",
+          "name": "Navigation",
+          "x": "16",
+          "y": "16",
+          "width": "343",
+          "height": "32"
+        },
+        {
+          "id": "95:1937",
+          "name": "Deletion result",
+          "x": "31.5",
+          "y": "290",
+          "width": "312",
+          "height": "232"
+        },
+        {
+          "id": "95:1946",
+          "name": "Modal action",
+          "x": "24",
+          "y": "136",
+          "width": "264",
+          "height": "72"
+        }
+      ],
+      "necessaryAssetNodes": [
+        {
+          "id": "95:1900",
+          "name": "Icon · book",
+          "x": "16",
+          "y": "20",
+          "width": "40",
+          "height": "40"
+        },
+        {
+          "id": "95:1911",
+          "name": "Icon · dups",
+          "x": "16",
+          "y": "20",
+          "width": "40",
+          "height": "40"
+        },
+        {
+          "id": "95:1920",
+          "name": "Icon · incomplete",
+          "x": "16",
+          "y": "20",
+          "width": "40",
+          "height": "40"
+        },
+        {
+          "id": "95:1929",
+          "name": "Icon · backup",
+          "x": "16",
+          "y": "20",
+          "width": "40",
+          "height": "40"
+        },
+        {
+          "id": "125:3287",
+          "name": "Success artwork · Contacts",
+          "x": "0",
+          "y": "0",
+          "width": "112",
+          "height": "112"
+        }
+      ]
+    },
+    {
+      "figmaFrameID": "94:2800",
+      "figmaFrameName": "Contacts / incDone2",
+      "productionComponent": "ContactListScreen / ContactsScreen / ContactMergePreview / ContactBackupsScreen",
+      "requiredDistinctStateOrLayout": "incDone2",
+      "visibleReferenceText": [
+        "Contacts",
+        "All contacts",
+        "16",
+        "Duplicates",
+        "12",
+        "Incomplete",
+        "3",
+        "Backups",
+        "0",
+        "2 contacts deleted",
+        "1 incomplete contact remains.",
+        "Continue"
+      ],
+      "implemented": [
+        "Store emits notice strings after successful operations."
+      ],
+      "missing": [
+        "Full-screen dimmed result modal, over correct list/hub/backups destination, with Continue. Current inline notices do not implement this state."
+      ],
+      "exactNumericDiscrepancies": [
+        "Shared header: Figma Navigation 343×32 at content (16,16); CleanerHeader uses 44pt back hit area plus 8pt vertical padding = 60pt header. Preserve 44pt hit targets while aligning 32pt visual circle to design.",
+        "Shared footer where present: Figma button 343×56 at content (16,668), label height24 with16pt vertical inset; PrimaryButton uses natural Inter16 line height +28pt vertical padding, no56pt minimum.",
+        "Figma result panel312×232 (some merge messages expand; see geometry), success artwork112×112, action264×72; code has no modal geometry."
+      ],
+      "figmaGeometry": [
+        {
+          "id": "95:1951",
+          "name": "Navigation",
+          "x": "16",
+          "y": "16",
+          "width": "343",
+          "height": "32"
+        },
+        {
+          "id": "95:1993",
+          "name": "Deletion result",
+          "x": "31.5",
+          "y": "290",
+          "width": "312",
+          "height": "232"
+        },
+        {
+          "id": "95:2002",
+          "name": "Modal action",
+          "x": "24",
+          "y": "136",
+          "width": "264",
+          "height": "72"
+        }
+      ],
+      "necessaryAssetNodes": [
+        {
+          "id": "95:1956",
+          "name": "Icon · book",
+          "x": "16",
+          "y": "20",
+          "width": "40",
+          "height": "40"
+        },
+        {
+          "id": "95:1967",
+          "name": "Icon · dups",
+          "x": "16",
+          "y": "20",
+          "width": "40",
+          "height": "40"
+        },
+        {
+          "id": "95:1976",
+          "name": "Icon · incomplete",
+          "x": "16",
+          "y": "20",
+          "width": "40",
+          "height": "40"
+        },
+        {
+          "id": "95:1985",
+          "name": "Icon · backup",
+          "x": "16",
+          "y": "20",
+          "width": "40",
+          "height": "40"
+        },
+        {
+          "id": "125:3294",
+          "name": "Success artwork · Contacts",
+          "x": "0",
+          "y": "0",
+          "width": "112",
+          "height": "112"
+        }
+      ]
+    },
+    {
+      "figmaFrameID": "94:2865",
+      "figmaFrameName": "Contacts / incDone3",
+      "productionComponent": "ContactListScreen / ContactsScreen / ContactMergePreview / ContactBackupsScreen",
+      "requiredDistinctStateOrLayout": "incDone3",
+      "visibleReferenceText": [
+        "Contacts",
+        "All contacts",
+        "16",
+        "Duplicates",
+        "12",
+        "Incomplete",
+        "3",
+        "Backups",
+        "0",
+        "3 contacts deleted",
+        "No incomplete contacts remain.",
+        "Continue"
+      ],
+      "implemented": [
+        "Store emits notice strings after successful operations."
+      ],
+      "missing": [
+        "Full-screen dimmed result modal, over correct list/hub/backups destination, with Continue. Current inline notices do not implement this state."
+      ],
+      "exactNumericDiscrepancies": [
+        "Shared header: Figma Navigation 343×32 at content (16,16); CleanerHeader uses 44pt back hit area plus 8pt vertical padding = 60pt header. Preserve 44pt hit targets while aligning 32pt visual circle to design.",
+        "Shared footer where present: Figma button 343×56 at content (16,668), label height24 with16pt vertical inset; PrimaryButton uses natural Inter16 line height +28pt vertical padding, no56pt minimum.",
+        "Figma result panel312×232 (some merge messages expand; see geometry), success artwork112×112, action264×72; code has no modal geometry."
+      ],
+      "figmaGeometry": [
+        {
+          "id": "95:2007",
+          "name": "Navigation",
+          "x": "16",
+          "y": "16",
+          "width": "343",
+          "height": "32"
+        },
+        {
+          "id": "95:2049",
+          "name": "Deletion result",
+          "x": "31.5",
+          "y": "278",
+          "width": "312",
+          "height": "256"
+        },
+        {
+          "id": "95:2058",
+          "name": "Modal action",
+          "x": "24",
+          "y": "160",
+          "width": "264",
+          "height": "72"
+        }
+      ],
+      "necessaryAssetNodes": [
+        {
+          "id": "95:2012",
+          "name": "Icon · book",
+          "x": "16",
+          "y": "20",
+          "width": "40",
+          "height": "40"
+        },
+        {
+          "id": "95:2023",
+          "name": "Icon · dups",
+          "x": "16",
+          "y": "20",
+          "width": "40",
+          "height": "40"
+        },
+        {
+          "id": "95:2032",
+          "name": "Icon · incomplete",
+          "x": "16",
+          "y": "20",
+          "width": "40",
+          "height": "40"
+        },
+        {
+          "id": "95:2041",
+          "name": "Icon · backup",
+          "x": "16",
+          "y": "20",
+          "width": "40",
+          "height": "40"
+        },
+        {
+          "id": "125:3301",
+          "name": "Success artwork · Contacts",
+          "x": "0",
+          "y": "0",
+          "width": "112",
+          "height": "112"
+        }
+      ]
+    },
+    {
+      "figmaFrameID": "94:2930",
+      "figmaFrameName": "Contacts / dupAll",
+      "productionComponent": "ContactDuplicatesScreen",
+      "requiredDistinctStateOrLayout": "dupAll",
+      "visibleReferenceText": [
+        "Duplicates",
+        "6 groups",
+        "Deselect all",
+        "Group 1",
+        "Alex Carter",
+        "+1 202 555 0101",
+        "✓",
+        "Alex C.",
+        "+1 202 555 0101",
+        "✓",
+        "Merge",
+        "Group 2",
+        "Ben Morris",
+        "+1 202 555 0102",
+        "✓",
+        "Benjamin Morris",
+        "+1 202 555 0102",
+        "✓",
+        "Merge",
+        "Group 3",
+        "Chloe Park",
+        "+1 202 555 0103",
+        "✓",
+        "Chloe P.",
+        "+1 202 555 0103",
+        "✓",
+        "Merge",
+        "Group 4",
+        "Daniel Lee",
+        "+1 202 555 0104",
+        "✓",
+        "Dan Lee",
+        "+1 202 555 0104",
+        "✓",
+        "Merge",
+        "Group 5",
+        "Ella Brooks",
+        "+1 202 555 0105",
+        "✓",
+        "Ella B.",
+        "+1 202 555 0105",
+        "✓",
+        "Merge",
+        "Group 6",
+        "Noah Scott",
+        "+1 202 555 0106",
+        "✓",
+        "Noah S.",
+        "+1 202 555 0106",
+        "✓",
+        "Merge",
+        "Merge 6 Groups"
+      ],
+      "implemented": [
+        "Real duplicate groups from shared phone; navigation to preview."
+      ],
+      "missing": [
+        "Group count and Select/Deselect all.",
+        "Per-contact checked rows, group titles, shared phone subtitles, per-group Merge action.",
+        "Bottom selected-group merge button and batch preview route."
+      ],
+      "exactNumericDiscrepancies": [
+        "Shared header: Figma Navigation 343×32 at content (16,16); CleanerHeader uses 44pt back hit area plus 8pt vertical padding = 60pt header. Preserve 44pt hit targets while aligning 32pt visual circle to design.",
+        "Shared footer where present: Figma button 343×56 at content (16,668), label height24 with16pt vertical inset; PrimaryButton uses natural Inter16 line height +28pt vertical padding, no56pt minimum.",
+        "Figma group cards343×200,8pt gaps; pair rows311×48 at(16,48)/(16,104);24pt selectors at x287. Code plain name VStack with8pt gap and16pt card padding,16pt between cards."
+      ],
+      "figmaGeometry": [
+        {
+          "id": "94:2933",
+          "name": "Navigation",
+          "x": "16",
+          "y": "16",
+          "width": "343",
+          "height": "32"
+        },
+        {
+          "id": "94:2988",
+          "name": "Selection",
+          "x": "16",
+          "y": "64",
+          "width": "343",
+          "height": "24"
+        }
+      ],
+      "necessaryAssetNodes": []
+    },
+    {
+      "figmaFrameID": "94:3084",
+      "figmaFrameName": "Contacts / dupNone",
+      "productionComponent": "ContactDuplicatesScreen",
+      "requiredDistinctStateOrLayout": "dupNone",
+      "visibleReferenceText": [
+        "Duplicates",
+        "6 groups",
+        "Select all",
+        "Group 1",
+        "Alex Carter",
+        "+1 202 555 0101",
+        "Alex C.",
+        "+1 202 555 0101",
+        "Merge",
+        "Group 2",
+        "Ben Morris",
+        "+1 202 555 0102",
+        "Benjamin Morris",
+        "+1 202 555 0102",
+        "Merge",
+        "Group 3",
+        "Chloe Park",
+        "+1 202 555 0103",
+        "Chloe P.",
+        "+1 202 555 0103",
+        "Merge",
+        "Group 4",
+        "Daniel Lee",
+        "+1 202 555 0104",
+        "Dan Lee",
+        "+1 202 555 0104",
+        "Merge",
+        "Group 5",
+        "Ella Brooks",
+        "+1 202 555 0105",
+        "Ella B.",
+        "+1 202 555 0105",
+        "Merge",
+        "Group 6",
+        "Noah Scott",
+        "+1 202 555 0106",
+        "Noah S.",
+        "+1 202 555 0106",
+        "Merge",
+        "Merge groups"
+      ],
+      "implemented": [
+        "Real duplicate groups from shared phone; navigation to preview."
+      ],
+      "missing": [
+        "Group count and Select/Deselect all.",
+        "Per-contact checked rows, group titles, shared phone subtitles, per-group Merge action.",
+        "Bottom selected-group merge button and batch preview route."
+      ],
+      "exactNumericDiscrepancies": [
+        "Shared header: Figma Navigation 343×32 at content (16,16); CleanerHeader uses 44pt back hit area plus 8pt vertical padding = 60pt header. Preserve 44pt hit targets while aligning 32pt visual circle to design.",
+        "Shared footer where present: Figma button 343×56 at content (16,668), label height24 with16pt vertical inset; PrimaryButton uses natural Inter16 line height +28pt vertical padding, no56pt minimum.",
+        "Figma group cards343×200,8pt gaps; pair rows311×48 at(16,48)/(16,104);24pt selectors at x287. Code plain name VStack with8pt gap and16pt card padding,16pt between cards."
+      ],
+      "figmaGeometry": [
+        {
+          "id": "94:3087",
+          "name": "Navigation",
+          "x": "16",
+          "y": "16",
+          "width": "343",
+          "height": "32"
+        },
+        {
+          "id": "94:3140",
+          "name": "Selection",
+          "x": "16",
+          "y": "64",
+          "width": "343",
+          "height": "24"
+        }
+      ],
+      "necessaryAssetNodes": []
+    },
+    {
+      "figmaFrameID": "94:3224",
+      "figmaFrameName": "Contacts / preview0",
+      "productionComponent": "ContactMergePreview",
+      "requiredDistinctStateOrLayout": "preview0",
+      "visibleReferenceText": [
+        "Merge preview",
+        "AC",
+        "Alex Carter",
+        "Merged contact",
+        "Mobile",
+        "+1 202 555 0101",
+        "Work",
+        "+1 202 555 0201",
+        "Email",
+        "alex@example.com",
+        "Company",
+        "North Studio",
+        "Merge"
+      ],
+      "implemented": [
+        "Backend union helper, conflict detection, original-field display, backup before combining."
+      ],
+      "missing": [
+        "Render resulting contact(s), initials, Merged contact subtitle, labeled Mobile/Work/Email/Company fields.",
+        "Single sticky Merge action; current explanation, originals cards and Save backup add unrelated visual structure.",
+        "Resolve scalar-name differences for Figma example pair rather than disable merge.",
+        "Faithful merge operation must consolidate duplicate originals only with deliberate preservation; current method deliberately retains all originals."
+      ],
+      "exactNumericDiscrepancies": [
+        "Shared header: Figma Navigation 343×32 at content (16,16); CleanerHeader uses 44pt back hit area plus 8pt vertical padding = 60pt header. Preserve 44pt hit targets while aligning 32pt visual circle to design.",
+        "Shared footer where present: Figma button 343×56 at content (16,668), label height24 with16pt vertical inset; PrimaryButton uses natural Inter16 line height +28pt vertical padding, no56pt minimum.",
+        "Figma result card343×320,identity311×48,initials40×40,field rows311×48 with12pt gaps; current originals have18pt name,unlabeled values and8pt gaps."
+      ],
+      "figmaGeometry": [
+        {
+          "id": "94:3227",
+          "name": "Navigation",
+          "x": "16",
+          "y": "16",
+          "width": "343",
+          "height": "32"
+        },
+        {
+          "id": "94:3282",
+          "name": "Contact preview",
+          "x": "16",
+          "y": "64",
+          "width": "343",
+          "height": "588"
+        },
+        {
+          "id": "94:3283",
+          "name": "Merged contact",
+          "x": "0",
+          "y": "0",
+          "width": "343",
+          "height": "320"
+        }
+      ],
+      "necessaryAssetNodes": []
+    },
+    {
+      "figmaFrameID": "94:3304",
+      "figmaFrameName": "Contacts / preview1",
+      "productionComponent": "ContactMergePreview",
+      "requiredDistinctStateOrLayout": "preview1",
+      "visibleReferenceText": [
+        "Merge preview",
+        "BM",
+        "Ben Morris",
+        "Merged contact",
+        "Mobile",
+        "+1 202 555 0102",
+        "Work",
+        "+1 202 555 0202",
+        "Email",
+        "ben@example.com",
+        "Company",
+        "Fieldwork",
+        "Merge"
+      ],
+      "implemented": [
+        "Backend union helper, conflict detection, original-field display, backup before combining."
+      ],
+      "missing": [
+        "Render resulting contact(s), initials, Merged contact subtitle, labeled Mobile/Work/Email/Company fields.",
+        "Single sticky Merge action; current explanation, originals cards and Save backup add unrelated visual structure.",
+        "Resolve scalar-name differences for Figma example pair rather than disable merge.",
+        "Faithful merge operation must consolidate duplicate originals only with deliberate preservation; current method deliberately retains all originals."
+      ],
+      "exactNumericDiscrepancies": [
+        "Shared header: Figma Navigation 343×32 at content (16,16); CleanerHeader uses 44pt back hit area plus 8pt vertical padding = 60pt header. Preserve 44pt hit targets while aligning 32pt visual circle to design.",
+        "Shared footer where present: Figma button 343×56 at content (16,668), label height24 with16pt vertical inset; PrimaryButton uses natural Inter16 line height +28pt vertical padding, no56pt minimum.",
+        "Figma result card343×320,identity311×48,initials40×40,field rows311×48 with12pt gaps; current originals have18pt name,unlabeled values and8pt gaps."
+      ],
+      "figmaGeometry": [
+        {
+          "id": "94:3307",
+          "name": "Navigation",
+          "x": "16",
+          "y": "16",
+          "width": "343",
+          "height": "32"
+        },
+        {
+          "id": "94:3360",
+          "name": "Contact preview",
+          "x": "16",
+          "y": "64",
+          "width": "343",
+          "height": "588"
+        },
+        {
+          "id": "94:3361",
+          "name": "Merged contact",
+          "x": "0",
+          "y": "0",
+          "width": "343",
+          "height": "320"
+        }
+      ],
+      "necessaryAssetNodes": []
+    },
+    {
+      "figmaFrameID": "94:3382",
+      "figmaFrameName": "Contacts / preview2",
+      "productionComponent": "ContactMergePreview",
+      "requiredDistinctStateOrLayout": "preview2",
+      "visibleReferenceText": [
+        "Merge preview",
+        "CP",
+        "Chloe Park",
+        "Merged contact",
+        "Mobile",
+        "+1 202 555 0103",
+        "Work",
+        "+1 202 555 0203",
+        "Email",
+        "chloe@example.com",
+        "Company",
+        "Studio Park",
+        "Merge"
+      ],
+      "implemented": [
+        "Backend union helper, conflict detection, original-field display, backup before combining."
+      ],
+      "missing": [
+        "Render resulting contact(s), initials, Merged contact subtitle, labeled Mobile/Work/Email/Company fields.",
+        "Single sticky Merge action; current explanation, originals cards and Save backup add unrelated visual structure.",
+        "Resolve scalar-name differences for Figma example pair rather than disable merge.",
+        "Faithful merge operation must consolidate duplicate originals only with deliberate preservation; current method deliberately retains all originals."
+      ],
+      "exactNumericDiscrepancies": [
+        "Shared header: Figma Navigation 343×32 at content (16,16); CleanerHeader uses 44pt back hit area plus 8pt vertical padding = 60pt header. Preserve 44pt hit targets while aligning 32pt visual circle to design.",
+        "Shared footer where present: Figma button 343×56 at content (16,668), label height24 with16pt vertical inset; PrimaryButton uses natural Inter16 line height +28pt vertical padding, no56pt minimum.",
+        "Figma result card343×320,identity311×48,initials40×40,field rows311×48 with12pt gaps; current originals have18pt name,unlabeled values and8pt gaps."
+      ],
+      "figmaGeometry": [
+        {
+          "id": "94:3385",
+          "name": "Navigation",
+          "x": "16",
+          "y": "16",
+          "width": "343",
+          "height": "32"
+        },
+        {
+          "id": "94:3438",
+          "name": "Contact preview",
+          "x": "16",
+          "y": "64",
+          "width": "343",
+          "height": "588"
+        },
+        {
+          "id": "94:3439",
+          "name": "Merged contact",
+          "x": "0",
+          "y": "0",
+          "width": "343",
+          "height": "320"
+        }
+      ],
+      "necessaryAssetNodes": []
+    },
+    {
+      "figmaFrameID": "94:3460",
+      "figmaFrameName": "Contacts / preview3",
+      "productionComponent": "ContactMergePreview",
+      "requiredDistinctStateOrLayout": "preview3",
+      "visibleReferenceText": [
+        "Merge preview",
+        "DL",
+        "Daniel Lee",
+        "Merged contact",
+        "Mobile",
+        "+1 202 555 0104",
+        "Work",
+        "+1 202 555 0204",
+        "Email",
+        "dan@example.com",
+        "Company",
+        "North Studio",
+        "Merge"
+      ],
+      "implemented": [
+        "Backend union helper, conflict detection, original-field display, backup before combining."
+      ],
+      "missing": [
+        "Render resulting contact(s), initials, Merged contact subtitle, labeled Mobile/Work/Email/Company fields.",
+        "Single sticky Merge action; current explanation, originals cards and Save backup add unrelated visual structure.",
+        "Resolve scalar-name differences for Figma example pair rather than disable merge.",
+        "Faithful merge operation must consolidate duplicate originals only with deliberate preservation; current method deliberately retains all originals."
+      ],
+      "exactNumericDiscrepancies": [
+        "Shared header: Figma Navigation 343×32 at content (16,16); CleanerHeader uses 44pt back hit area plus 8pt vertical padding = 60pt header. Preserve 44pt hit targets while aligning 32pt visual circle to design.",
+        "Shared footer where present: Figma button 343×56 at content (16,668), label height24 with16pt vertical inset; PrimaryButton uses natural Inter16 line height +28pt vertical padding, no56pt minimum.",
+        "Figma result card343×320,identity311×48,initials40×40,field rows311×48 with12pt gaps; current originals have18pt name,unlabeled values and8pt gaps."
+      ],
+      "figmaGeometry": [
+        {
+          "id": "94:3463",
+          "name": "Navigation",
+          "x": "16",
+          "y": "16",
+          "width": "343",
+          "height": "32"
+        },
+        {
+          "id": "94:3516",
+          "name": "Contact preview",
+          "x": "16",
+          "y": "64",
+          "width": "343",
+          "height": "588"
+        },
+        {
+          "id": "94:3517",
+          "name": "Merged contact",
+          "x": "0",
+          "y": "0",
+          "width": "343",
+          "height": "320"
+        }
+      ],
+      "necessaryAssetNodes": []
+    },
+    {
+      "figmaFrameID": "94:3538",
+      "figmaFrameName": "Contacts / preview4",
+      "productionComponent": "ContactMergePreview",
+      "requiredDistinctStateOrLayout": "preview4",
+      "visibleReferenceText": [
+        "Merge preview",
+        "EB",
+        "Ella Brooks",
+        "Merged contact",
+        "Mobile",
+        "+1 202 555 0105",
+        "Work",
+        "+1 202 555 0205",
+        "Email",
+        "ella@example.com",
+        "Company",
+        "Fieldwork",
+        "Merge"
+      ],
+      "implemented": [
+        "Backend union helper, conflict detection, original-field display, backup before combining."
+      ],
+      "missing": [
+        "Render resulting contact(s), initials, Merged contact subtitle, labeled Mobile/Work/Email/Company fields.",
+        "Single sticky Merge action; current explanation, originals cards and Save backup add unrelated visual structure.",
+        "Resolve scalar-name differences for Figma example pair rather than disable merge.",
+        "Faithful merge operation must consolidate duplicate originals only with deliberate preservation; current method deliberately retains all originals."
+      ],
+      "exactNumericDiscrepancies": [
+        "Shared header: Figma Navigation 343×32 at content (16,16); CleanerHeader uses 44pt back hit area plus 8pt vertical padding = 60pt header. Preserve 44pt hit targets while aligning 32pt visual circle to design.",
+        "Shared footer where present: Figma button 343×56 at content (16,668), label height24 with16pt vertical inset; PrimaryButton uses natural Inter16 line height +28pt vertical padding, no56pt minimum.",
+        "Figma result card343×320,identity311×48,initials40×40,field rows311×48 with12pt gaps; current originals have18pt name,unlabeled values and8pt gaps."
+      ],
+      "figmaGeometry": [
+        {
+          "id": "94:3541",
+          "name": "Navigation",
+          "x": "16",
+          "y": "16",
+          "width": "343",
+          "height": "32"
+        },
+        {
+          "id": "94:3594",
+          "name": "Contact preview",
+          "x": "16",
+          "y": "64",
+          "width": "343",
+          "height": "588"
+        },
+        {
+          "id": "94:3595",
+          "name": "Merged contact",
+          "x": "0",
+          "y": "0",
+          "width": "343",
+          "height": "320"
+        }
+      ],
+      "necessaryAssetNodes": []
+    },
+    {
+      "figmaFrameID": "94:3616",
+      "figmaFrameName": "Contacts / preview5",
+      "productionComponent": "ContactMergePreview",
+      "requiredDistinctStateOrLayout": "preview5",
+      "visibleReferenceText": [
+        "Merge preview",
+        "NS",
+        "Noah Scott",
+        "Merged contact",
+        "Mobile",
+        "+1 202 555 0106",
+        "Work",
+        "+1 202 555 0206",
+        "Email",
+        "noah@example.com",
+        "Company",
+        "Studio Park",
+        "Merge"
+      ],
+      "implemented": [
+        "Backend union helper, conflict detection, original-field display, backup before combining."
+      ],
+      "missing": [
+        "Render resulting contact(s), initials, Merged contact subtitle, labeled Mobile/Work/Email/Company fields.",
+        "Single sticky Merge action; current explanation, originals cards and Save backup add unrelated visual structure.",
+        "Resolve scalar-name differences for Figma example pair rather than disable merge.",
+        "Faithful merge operation must consolidate duplicate originals only with deliberate preservation; current method deliberately retains all originals."
+      ],
+      "exactNumericDiscrepancies": [
+        "Shared header: Figma Navigation 343×32 at content (16,16); CleanerHeader uses 44pt back hit area plus 8pt vertical padding = 60pt header. Preserve 44pt hit targets while aligning 32pt visual circle to design.",
+        "Shared footer where present: Figma button 343×56 at content (16,668), label height24 with16pt vertical inset; PrimaryButton uses natural Inter16 line height +28pt vertical padding, no56pt minimum.",
+        "Figma result card343×320,identity311×48,initials40×40,field rows311×48 with12pt gaps; current originals have18pt name,unlabeled values and8pt gaps."
+      ],
+      "figmaGeometry": [
+        {
+          "id": "94:3619",
+          "name": "Navigation",
+          "x": "16",
+          "y": "16",
+          "width": "343",
+          "height": "32"
+        },
+        {
+          "id": "94:3672",
+          "name": "Contact preview",
+          "x": "16",
+          "y": "64",
+          "width": "343",
+          "height": "588"
+        },
+        {
+          "id": "94:3673",
+          "name": "Merged contact",
+          "x": "0",
+          "y": "0",
+          "width": "343",
+          "height": "320"
+        }
+      ],
+      "necessaryAssetNodes": []
+    },
+    {
+      "figmaFrameID": "94:3694",
+      "figmaFrameName": "Contacts / previewAll",
+      "productionComponent": "ContactMergePreview",
+      "requiredDistinctStateOrLayout": "previewAll",
+      "visibleReferenceText": [
+        "Merge preview",
+        "AC",
+        "Alex Carter",
+        "Merged contact",
+        "Mobile",
+        "+1 202 555 0101",
+        "Work",
+        "+1 202 555 0201",
+        "Email",
+        "alex@example.com",
+        "Company",
+        "North Studio",
+        "BM",
+        "Ben Morris",
+        "Merged contact",
+        "Mobile",
+        "+1 202 555 0102",
+        "Work",
+        "+1 202 555 0202",
+        "Email",
+        "ben@example.com",
+        "Company",
+        "Fieldwork",
+        "CP",
+        "Chloe Park",
+        "Merged contact",
+        "Mobile",
+        "+1 202 555 0103",
+        "Work",
+        "+1 202 555 0203",
+        "Email",
+        "chloe@example.com",
+        "Company",
+        "Studio Park",
+        "DL",
+        "Daniel Lee",
+        "Merged contact",
+        "Mobile",
+        "+1 202 555 0104",
+        "Work",
+        "+1 202 555 0204",
+        "Email",
+        "dan@example.com",
+        "Company",
+        "North Studio",
+        "EB",
+        "Ella Brooks",
+        "Merged contact",
+        "Mobile",
+        "+1 202 555 0105",
+        "Work",
+        "+1 202 555 0205",
+        "Email",
+        "ella@example.com",
+        "Company",
+        "Fieldwork",
+        "NS",
+        "Noah Scott",
+        "Merged contact",
+        "Mobile",
+        "+1 202 555 0106",
+        "Work",
+        "+1 202 555 0206",
+        "Email",
+        "noah@example.com",
+        "Company",
+        "Studio Park",
+        "Merge 6 Groups"
+      ],
+      "implemented": [
+        "Backend union helper, conflict detection, original-field display, backup before combining."
+      ],
+      "missing": [
+        "Render resulting contact(s), initials, Merged contact subtitle, labeled Mobile/Work/Email/Company fields.",
+        "Single sticky Merge action; current explanation, originals cards and Save backup add unrelated visual structure.",
+        "Batch preview and execution.",
+        "Faithful merge operation must consolidate duplicate originals only with deliberate preservation; current method deliberately retains all originals."
+      ],
+      "exactNumericDiscrepancies": [
+        "Shared header: Figma Navigation 343×32 at content (16,16); CleanerHeader uses 44pt back hit area plus 8pt vertical padding = 60pt header. Preserve 44pt hit targets while aligning 32pt visual circle to design.",
+        "Shared footer where present: Figma button 343×56 at content (16,668), label height24 with16pt vertical inset; PrimaryButton uses natural Inter16 line height +28pt vertical padding, no56pt minimum.",
+        "Figma result card343×320,identity311×48,initials40×40,field rows311×48 with12pt gaps; current originals have18pt name,unlabeled values and8pt gaps."
+      ],
+      "figmaGeometry": [
+        {
+          "id": "94:3697",
+          "name": "Navigation",
+          "x": "16",
+          "y": "16",
+          "width": "343",
+          "height": "32"
+        },
+        {
+          "id": "94:3753",
+          "name": "Merged contact",
+          "x": "0",
+          "y": "0",
+          "width": "343",
+          "height": "320"
+        },
+        {
+          "id": "94:3772",
+          "name": "Merged contact",
+          "x": "0",
+          "y": "328",
+          "width": "343",
+          "height": "320"
+        },
+        {
+          "id": "94:3791",
+          "name": "Merged contact",
+          "x": "0",
+          "y": "656",
+          "width": "343",
+          "height": "320"
+        },
+        {
+          "id": "94:3810",
+          "name": "Merged contact",
+          "x": "0",
+          "y": "984",
+          "width": "343",
+          "height": "304"
+        },
+        {
+          "id": "94:3829",
+          "name": "Merged contact",
+          "x": "0",
+          "y": "1296",
+          "width": "343",
+          "height": "304"
+        },
+        {
+          "id": "94:3848",
+          "name": "Merged contact",
+          "x": "0",
+          "y": "1608",
+          "width": "343",
+          "height": "304"
+        }
+      ],
+      "necessaryAssetNodes": []
+    },
+    {
+      "figmaFrameID": "94:3869",
+      "figmaFrameName": "Contacts / mergeDone",
+      "productionComponent": "ContactListScreen / ContactsScreen / ContactMergePreview / ContactBackupsScreen",
+      "requiredDistinctStateOrLayout": "mergeDone",
+      "visibleReferenceText": [
+        "Contacts",
+        "All contacts",
+        "16",
+        "Duplicates",
+        "12",
+        "Incomplete",
+        "3",
+        "Backups",
+        "0",
+        "Contacts merged",
+        "Two duplicate entries were combined into one contact.",
+        "Continue"
+      ],
+      "implemented": [
+        "Store emits notice strings after successful operations."
+      ],
+      "missing": [
+        "Full-screen dimmed result modal, over correct list/hub/backups destination, with Continue. Current inline notices do not implement this state.",
+        "Actual duplicate consolidation: store keeps original contacts, so cannot truthfully show pairs becoming one. Named pairs also trigger scalar conflict errors. Implement explicit resolution and preservation strategy; never merely change success copy."
+      ],
+      "exactNumericDiscrepancies": [
+        "Shared header: Figma Navigation 343×32 at content (16,16); CleanerHeader uses 44pt back hit area plus 8pt vertical padding = 60pt header. Preserve 44pt hit targets while aligning 32pt visual circle to design.",
+        "Shared footer where present: Figma button 343×56 at content (16,668), label height24 with16pt vertical inset; PrimaryButton uses natural Inter16 line height +28pt vertical padding, no56pt minimum.",
+        "Figma result panel312×232 (some merge messages expand; see geometry), success artwork112×112, action264×72; code has no modal geometry."
+      ],
+      "figmaGeometry": [
+        {
+          "id": "95:2063",
+          "name": "Navigation",
+          "x": "16",
+          "y": "16",
+          "width": "343",
+          "height": "32"
+        },
+        {
+          "id": "95:2105",
+          "name": "Deletion result",
+          "x": "31.5",
+          "y": "278",
+          "width": "312",
+          "height": "256"
+        },
+        {
+          "id": "95:2114",
+          "name": "Modal action",
+          "x": "24",
+          "y": "160",
+          "width": "264",
+          "height": "72"
+        }
+      ],
+      "necessaryAssetNodes": [
+        {
+          "id": "95:2068",
+          "name": "Icon · book",
+          "x": "16",
+          "y": "20",
+          "width": "40",
+          "height": "40"
+        },
+        {
+          "id": "95:2079",
+          "name": "Icon · dups",
+          "x": "16",
+          "y": "20",
+          "width": "40",
+          "height": "40"
+        },
+        {
+          "id": "95:2088",
+          "name": "Icon · incomplete",
+          "x": "16",
+          "y": "20",
+          "width": "40",
+          "height": "40"
+        },
+        {
+          "id": "95:2097",
+          "name": "Icon · backup",
+          "x": "16",
+          "y": "20",
+          "width": "40",
+          "height": "40"
+        },
+        {
+          "id": "125:3273",
+          "name": "Success artwork · Contacts",
+          "x": "0",
+          "y": "0",
+          "width": "112",
+          "height": "112"
+        }
+      ]
+    },
+    {
+      "figmaFrameID": "94:3934",
+      "figmaFrameName": "Contacts / mergeAllDone",
+      "productionComponent": "ContactListScreen / ContactsScreen / ContactMergePreview / ContactBackupsScreen",
+      "requiredDistinctStateOrLayout": "mergeAllDone",
+      "visibleReferenceText": [
+        "Contacts",
+        "All contacts",
+        "16",
+        "Duplicates",
+        "12",
+        "Incomplete",
+        "3",
+        "Backups",
+        "0",
+        "6 groups merged",
+        "Each pair is now a single contact.",
+        "Continue"
+      ],
+      "implemented": [
+        "Store emits notice strings after successful operations."
+      ],
+      "missing": [
+        "Full-screen dimmed result modal, over correct list/hub/backups destination, with Continue. Current inline notices do not implement this state.",
+        "Actual duplicate consolidation: store keeps original contacts, so cannot truthfully show pairs becoming one. Named pairs also trigger scalar conflict errors. Implement explicit resolution and preservation strategy; never merely change success copy."
+      ],
+      "exactNumericDiscrepancies": [
+        "Shared header: Figma Navigation 343×32 at content (16,16); CleanerHeader uses 44pt back hit area plus 8pt vertical padding = 60pt header. Preserve 44pt hit targets while aligning 32pt visual circle to design.",
+        "Shared footer where present: Figma button 343×56 at content (16,668), label height24 with16pt vertical inset; PrimaryButton uses natural Inter16 line height +28pt vertical padding, no56pt minimum.",
+        "Figma result panel312×232 (some merge messages expand; see geometry), success artwork112×112, action264×72; code has no modal geometry."
+      ],
+      "figmaGeometry": [
+        {
+          "id": "95:2119",
+          "name": "Navigation",
+          "x": "16",
+          "y": "16",
+          "width": "343",
+          "height": "32"
+        },
+        {
+          "id": "95:2161",
+          "name": "Deletion result",
+          "x": "31.5",
+          "y": "278",
+          "width": "312",
+          "height": "256"
+        },
+        {
+          "id": "95:2170",
+          "name": "Modal action",
+          "x": "24",
+          "y": "160",
+          "width": "264",
+          "height": "72"
+        }
+      ],
+      "necessaryAssetNodes": [
+        {
+          "id": "95:2124",
+          "name": "Icon · book",
+          "x": "16",
+          "y": "20",
+          "width": "40",
+          "height": "40"
+        },
+        {
+          "id": "95:2135",
+          "name": "Icon · dups",
+          "x": "16",
+          "y": "20",
+          "width": "40",
+          "height": "40"
+        },
+        {
+          "id": "95:2144",
+          "name": "Icon · incomplete",
+          "x": "16",
+          "y": "20",
+          "width": "40",
+          "height": "40"
+        },
+        {
+          "id": "95:2153",
+          "name": "Icon · backup",
+          "x": "16",
+          "y": "20",
+          "width": "40",
+          "height": "40"
+        },
+        {
+          "id": "125:3280",
+          "name": "Success artwork · Contacts",
+          "x": "0",
+          "y": "0",
+          "width": "112",
+          "height": "112"
+        }
+      ]
+    },
+    {
+      "figmaFrameID": "94:3999",
+      "figmaFrameName": "Contacts / empty",
+      "productionComponent": "ContactBackupsScreen",
+      "requiredDistinctStateOrLayout": "empty",
+      "visibleReferenceText": [
+        "Backups",
+        "No backups yet",
+        "Save a copy of your contacts before making changes.",
+        "Create backup"
+      ],
+      "implemented": [
+        "Local vCard creation,list sorting,navigation,empty condition."
+      ],
+      "missing": [
+        "Create backup pinned at bottom rather than preceding scrollable content.",
+        "Human date/time and count for each backup; code displays technical filename.",
+        "Exact empty illustration/copy; move storage limitations out of main fidelity layout while retaining truthful disclosure."
+      ],
+      "exactNumericDiscrepancies": [
+        "Shared header: Figma Navigation 343×32 at content (16,16); CleanerHeader uses 44pt back hit area plus 8pt vertical padding = 60pt header. Preserve 44pt hit targets while aligning 32pt visual circle to design.",
+        "Shared footer where present: Figma button 343×56 at content (16,668), label height24 with16pt vertical inset; PrimaryButton uses natural Inter16 line height +28pt vertical padding, no56pt minimum.",
+        "Figma backup cards343×96,icon40×40 at(16,28),two-line details231×48 at(64,24); code unbounded one-line14pt filename and SF doc icon.",
+        "Figma empty illustration312×264; generic EmptyState icon44."
+      ],
+      "figmaGeometry": [
+        {
+          "id": "94:4002",
+          "name": "Navigation",
+          "x": "16",
+          "y": "16",
+          "width": "343",
+          "height": "32"
+        },
+        {
+          "id": "94:4057",
+          "name": "Empty state",
+          "x": "16",
+          "y": "64",
+          "width": "343",
+          "height": "588"
+        },
+        {
+          "id": "109:1911",
+          "name": "Illustration · Contacts into backup",
+          "x": "15.5",
+          "y": "114",
+          "width": "312",
+          "height": "264"
+        }
+      ],
+      "necessaryAssetNodes": [
+        {
+          "id": "109:1911",
+          "name": "Illustration · Contacts into backup",
+          "x": "15.5",
+          "y": "114",
+          "width": "312",
+          "height": "264"
+        }
+      ]
+    },
+    {
+      "figmaFrameID": "94:4066",
+      "figmaFrameName": "Contacts / backups",
+      "productionComponent": "ContactBackupsScreen",
+      "requiredDistinctStateOrLayout": "backups",
+      "visibleReferenceText": [
+        "Backups",
+        "Nov 5, 2026 · 12:24",
+        "16 contacts",
+        "Create backup"
+      ],
+      "implemented": [
+        "Local vCard creation,list sorting,navigation,empty condition."
+      ],
+      "missing": [
+        "Create backup pinned at bottom rather than preceding scrollable content.",
+        "Human date/time and count for each backup; code displays technical filename.",
+        "Exact empty illustration/copy; move storage limitations out of main fidelity layout while retaining truthful disclosure."
+      ],
+      "exactNumericDiscrepancies": [
+        "Shared header: Figma Navigation 343×32 at content (16,16); CleanerHeader uses 44pt back hit area plus 8pt vertical padding = 60pt header. Preserve 44pt hit targets while aligning 32pt visual circle to design.",
+        "Shared footer where present: Figma button 343×56 at content (16,668), label height24 with16pt vertical inset; PrimaryButton uses natural Inter16 line height +28pt vertical padding, no56pt minimum.",
+        "Figma backup cards343×96,icon40×40 at(16,28),two-line details231×48 at(64,24); code unbounded one-line14pt filename and SF doc icon.",
+        "Figma empty illustration312×264; generic EmptyState icon44."
+      ],
+      "figmaGeometry": [
+        {
+          "id": "94:4069",
+          "name": "Navigation",
+          "x": "16",
+          "y": "16",
+          "width": "343",
+          "height": "32"
+        },
+        {
+          "id": "94:4124",
+          "name": "Saved backups",
+          "x": "16",
+          "y": "64",
+          "width": "343",
+          "height": "588"
+        }
+      ],
+      "necessaryAssetNodes": [
+        {
+          "id": "94:4126",
+          "name": "Icon · backup",
+          "x": "16",
+          "y": "28",
+          "width": "40",
+          "height": "40"
+        }
+      ]
+    },
+    {
+      "figmaFrameID": "94:4136",
+      "figmaFrameName": "Contacts / backups2",
+      "productionComponent": "ContactBackupsScreen",
+      "requiredDistinctStateOrLayout": "backups2",
+      "visibleReferenceText": [
+        "Backups",
+        "Nov 5, 2026 · 12:28",
+        "16 contacts",
+        "Nov 5, 2026 · 12:24",
+        "16 contacts",
+        "Create backup"
+      ],
+      "implemented": [
+        "Local vCard creation,list sorting,navigation,empty condition."
+      ],
+      "missing": [
+        "Create backup pinned at bottom rather than preceding scrollable content.",
+        "Human date/time and count for each backup; code displays technical filename.",
+        "Exact empty illustration/copy; move storage limitations out of main fidelity layout while retaining truthful disclosure."
+      ],
+      "exactNumericDiscrepancies": [
+        "Shared header: Figma Navigation 343×32 at content (16,16); CleanerHeader uses 44pt back hit area plus 8pt vertical padding = 60pt header. Preserve 44pt hit targets while aligning 32pt visual circle to design.",
+        "Shared footer where present: Figma button 343×56 at content (16,668), label height24 with16pt vertical inset; PrimaryButton uses natural Inter16 line height +28pt vertical padding, no56pt minimum.",
+        "Figma backup cards343×96,icon40×40 at(16,28),two-line details231×48 at(64,24); code unbounded one-line14pt filename and SF doc icon.",
+        "Figma empty illustration312×264; generic EmptyState icon44."
+      ],
+      "figmaGeometry": [
+        {
+          "id": "94:4139",
+          "name": "Navigation",
+          "x": "16",
+          "y": "16",
+          "width": "343",
+          "height": "32"
+        },
+        {
+          "id": "94:4192",
+          "name": "Saved backups",
+          "x": "16",
+          "y": "64",
+          "width": "343",
+          "height": "588"
+        }
+      ],
+      "necessaryAssetNodes": [
+        {
+          "id": "94:4194",
+          "name": "Icon · backup",
+          "x": "16",
+          "y": "28",
+          "width": "40",
+          "height": "40"
+        },
+        {
+          "id": "94:4203",
+          "name": "Icon · backup",
+          "x": "16",
+          "y": "28",
+          "width": "40",
+          "height": "40"
+        }
+      ]
+    },
+    {
+      "figmaFrameID": "94:4213",
+      "figmaFrameName": "Contacts / detail",
+      "productionComponent": "ContactBackupDetail",
+      "requiredDistinctStateOrLayout": "detail",
+      "visibleReferenceText": [
+        "Contact backup",
+        "Nov 5, 2026 · 12:24",
+        "16 contacts",
+        "#",
+        "+1 202 555 0119",
+        "Missing name",
+        "AC",
+        "Alex C.",
+        "+1 202 555 0101",
+        "AC",
+        "Alex Carter",
+        "+1 202 555 0101",
+        "BM",
+        "Ben Morris",
+        "+1 202 555 0102",
+        "BM",
+        "Benjamin Morris",
+        "+1 202 555 0102",
+        "CP",
+        "Chloe P.",
+        "+1 202 555 0103",
+        "CP",
+        "Chloe Park",
+        "+1 202 555 0103",
+        "DL",
+        "Dan Lee",
+        "+1 202 555 0104",
+        "DL",
+        "Daniel Lee",
+        "+1 202 555 0104",
+        "EB",
+        "Ella B.",
+        "+1 202 555 0105",
+        "EB",
+        "Ella Brooks",
+        "+1 202 555 0105",
+        "HR",
+        "Harper Reed",
+        "Missing phone number",
+        "JM",
+        "Jules Martin",
+        "+1 202 555 0114",
+        "MG",
+        "Maya Green",
+        "Missing phone number",
+        "NS",
+        "Noah S.",
+        "+1 202 555 0106",
+        "NS",
+        "Noah Scott",
+        "+1 202 555 0106",
+        "Restore"
+      ],
+      "implemented": [
+        "Reads specific vCard; lists names; restore and export."
+      ],
+      "missing": [
+        "Contact backup title, saved date/time, count, initials and phone/reason rows; current title Backup and names-only cards.",
+        "Bottom fixed Restore action; current button follows full list."
+      ],
+      "exactNumericDiscrepancies": [
+        "Shared header: Figma Navigation 343×32 at content (16,16); CleanerHeader uses 44pt back hit area plus 8pt vertical padding = 60pt header. Preserve 44pt hit targets while aligning 32pt visual circle to design.",
+        "Shared footer where present: Figma button 343×56 at content (16,668), label height24 with16pt vertical inset; PrimaryButton uses natural Inter16 line height +28pt vertical padding, no56pt minimum.",
+        "Figma list343×508 begins content y144 with64pt rows separated8pt; current plain-name cleanerCard applies32pt padding and16pt outer gap.",
+        "Figma count text box height24; current count font20 semibold."
+      ],
+      "figmaGeometry": [
+        {
+          "id": "94:4216",
+          "name": "Navigation",
+          "x": "16",
+          "y": "16",
+          "width": "343",
+          "height": "32"
+        },
+        {
+          "id": "94:4273",
+          "name": "Backed-up contacts",
+          "x": "16",
+          "y": "144",
+          "width": "343",
+          "height": "508"
+        }
+      ],
+      "necessaryAssetNodes": []
+    },
+    {
+      "figmaFrameID": "94:4372",
+      "figmaFrameName": "Contacts / restore",
+      "productionComponent": "Missing ContactRestoreScreen / CleanerContactsStore.restore",
+      "requiredDistinctStateOrLayout": "restore",
+      "visibleReferenceText": [
+        "Restore contacts",
+        "AC",
+        "Alex",
+        "CP",
+        "Chloe",
+        "EB",
+        "Ella",
+        "NS",
+        "Noah",
+        "50%",
+        "Restoring contacts…",
+        "8 of 16 contacts",
+        "Cancel"
+      ],
+      "implemented": [
+        "Restore with deduplication receipts and honest partial-failure count."
+      ],
+      "missing": [
+        "Dedicated Restore contacts screen, percentage/progress count, contact-card illustration and Cancel.",
+        "Expose actual progress and cooperative cancellation in store; working Bool alone cannot drive requested state. Do not fake50% or timed completion."
+      ],
+      "exactNumericDiscrepancies": [
+        "Shared header: Figma Navigation 343×32 at content (16,16); CleanerHeader uses 44pt back hit area plus 8pt vertical padding = 60pt header. Preserve 44pt hit targets while aligning 32pt visual circle to design.",
+        "Shared footer where present: Figma button 343×56 at content (16,668), label height24 with16pt vertical inset; PrimaryButton uses natural Inter16 line height +28pt vertical padding, no56pt minimum.",
+        "Figma progress illustration328×344 at viewport(7.5,86); central ring200×200 at(64,76); status160×48; no corresponding code."
+      ],
+      "figmaGeometry": [
+        {
+          "id": "94:4375",
+          "name": "Navigation",
+          "x": "16",
+          "y": "16",
+          "width": "343",
+          "height": "32"
+        },
+        {
+          "id": "94:4430",
+          "name": "Restore progress",
+          "x": "16",
+          "y": "64",
+          "width": "343",
+          "height": "588"
+        },
+        {
+          "id": "107:1940",
+          "name": "Restore status",
+          "x": "91.5",
+          "y": "454",
+          "width": "160",
+          "height": "48"
+        }
+      ],
+      "necessaryAssetNodes": [
+        {
+          "id": "107:1911",
+          "name": "Restoring · contacts from backup",
+          "x": "7.5",
+          "y": "86",
+          "width": "328",
+          "height": "344"
+        }
+      ]
+    },
+    {
+      "figmaFrameID": "94:4441",
+      "figmaFrameName": "Contacts / detail2",
+      "productionComponent": "ContactBackupDetail",
+      "requiredDistinctStateOrLayout": "detail2",
+      "visibleReferenceText": [
+        "Contact backup",
+        "Nov 5, 2026 · 12:28",
+        "16 contacts",
+        "#",
+        "+1 202 555 0119",
+        "Missing name",
+        "AC",
+        "Alex C.",
+        "+1 202 555 0101",
+        "AC",
+        "Alex Carter",
+        "+1 202 555 0101",
+        "BM",
+        "Ben Morris",
+        "+1 202 555 0102",
+        "BM",
+        "Benjamin Morris",
+        "+1 202 555 0102",
+        "CP",
+        "Chloe P.",
+        "+1 202 555 0103",
+        "CP",
+        "Chloe Park",
+        "+1 202 555 0103",
+        "DL",
+        "Dan Lee",
+        "+1 202 555 0104",
+        "DL",
+        "Daniel Lee",
+        "+1 202 555 0104",
+        "EB",
+        "Ella B.",
+        "+1 202 555 0105",
+        "EB",
+        "Ella Brooks",
+        "+1 202 555 0105",
+        "HR",
+        "Harper Reed",
+        "Missing phone number",
+        "JM",
+        "Jules Martin",
+        "+1 202 555 0114",
+        "MG",
+        "Maya Green",
+        "Missing phone number",
+        "NS",
+        "Noah S.",
+        "+1 202 555 0106",
+        "NS",
+        "Noah Scott",
+        "+1 202 555 0106",
+        "Restore"
+      ],
+      "implemented": [
+        "Reads specific vCard; lists names; restore and export."
+      ],
+      "missing": [
+        "Contact backup title, saved date/time, count, initials and phone/reason rows; current title Backup and names-only cards.",
+        "Bottom fixed Restore action; current button follows full list."
+      ],
+      "exactNumericDiscrepancies": [
+        "Shared header: Figma Navigation 343×32 at content (16,16); CleanerHeader uses 44pt back hit area plus 8pt vertical padding = 60pt header. Preserve 44pt hit targets while aligning 32pt visual circle to design.",
+        "Shared footer where present: Figma button 343×56 at content (16,668), label height24 with16pt vertical inset; PrimaryButton uses natural Inter16 line height +28pt vertical padding, no56pt minimum.",
+        "Figma list343×508 begins content y144 with64pt rows separated8pt; current plain-name cleanerCard applies32pt padding and16pt outer gap.",
+        "Figma count text box height24; current count font20 semibold."
+      ],
+      "figmaGeometry": [
+        {
+          "id": "94:4444",
+          "name": "Navigation",
+          "x": "16",
+          "y": "16",
+          "width": "343",
+          "height": "32"
+        },
+        {
+          "id": "94:4499",
+          "name": "Backed-up contacts",
+          "x": "16",
+          "y": "144",
+          "width": "343",
+          "height": "508"
+        }
+      ],
+      "necessaryAssetNodes": []
+    },
+    {
+      "figmaFrameID": "94:4598",
+      "figmaFrameName": "Contacts / restore2",
+      "productionComponent": "Missing ContactRestoreScreen / CleanerContactsStore.restore",
+      "requiredDistinctStateOrLayout": "restore2",
+      "visibleReferenceText": [
+        "Restore contacts",
+        "AC",
+        "Alex",
+        "CP",
+        "Chloe",
+        "EB",
+        "Ella",
+        "NS",
+        "Noah",
+        "50%",
+        "Restoring contacts…",
+        "8 of 16 contacts",
+        "Cancel"
+      ],
+      "implemented": [
+        "Restore with deduplication receipts and honest partial-failure count."
+      ],
+      "missing": [
+        "Dedicated Restore contacts screen, percentage/progress count, contact-card illustration and Cancel.",
+        "Expose actual progress and cooperative cancellation in store; working Bool alone cannot drive requested state. Do not fake50% or timed completion."
+      ],
+      "exactNumericDiscrepancies": [
+        "Shared header: Figma Navigation 343×32 at content (16,16); CleanerHeader uses 44pt back hit area plus 8pt vertical padding = 60pt header. Preserve 44pt hit targets while aligning 32pt visual circle to design.",
+        "Shared footer where present: Figma button 343×56 at content (16,668), label height24 with16pt vertical inset; PrimaryButton uses natural Inter16 line height +28pt vertical padding, no56pt minimum.",
+        "Figma progress illustration328×344 at viewport(7.5,86); central ring200×200 at(64,76); status160×48; no corresponding code."
+      ],
+      "figmaGeometry": [
+        {
+          "id": "94:4601",
+          "name": "Navigation",
+          "x": "16",
+          "y": "16",
+          "width": "343",
+          "height": "32"
+        },
+        {
+          "id": "94:4654",
+          "name": "Restore progress",
+          "x": "16",
+          "y": "64",
+          "width": "343",
+          "height": "588"
+        },
+        {
+          "id": "107:1970",
+          "name": "Restore status",
+          "x": "91.5",
+          "y": "454",
+          "width": "160",
+          "height": "48"
+        }
+      ],
+      "necessaryAssetNodes": [
+        {
+          "id": "107:1941",
+          "name": "Restoring · contacts from backup",
+          "x": "7.5",
+          "y": "86",
+          "width": "328",
+          "height": "344"
+        }
+      ]
+    },
+    {
+      "figmaFrameID": "94:4665",
+      "figmaFrameName": "Contacts / restored",
+      "productionComponent": "ContactListScreen / ContactsScreen / ContactMergePreview / ContactBackupsScreen",
+      "requiredDistinctStateOrLayout": "restored",
+      "visibleReferenceText": [
+        "Backups",
+        "Nov 5, 2026 · 12:24",
+        "16 contacts",
+        "Create backup",
+        "16 contacts restored",
+        "Your backup has been restored.",
+        "Continue"
+      ],
+      "implemented": [
+        "Store emits notice strings after successful operations."
+      ],
+      "missing": [
+        "Full-screen dimmed result modal, over correct list/hub/backups destination, with Continue. Current inline notices do not implement this state."
+      ],
+      "exactNumericDiscrepancies": [
+        "Shared header: Figma Navigation 343×32 at content (16,16); CleanerHeader uses 44pt back hit area plus 8pt vertical padding = 60pt header. Preserve 44pt hit targets while aligning 32pt visual circle to design.",
+        "Shared footer where present: Figma button 343×56 at content (16,668), label height24 with16pt vertical inset; PrimaryButton uses natural Inter16 line height +28pt vertical padding, no56pt minimum.",
+        "Figma result panel312×232 (some merge messages expand; see geometry), success artwork112×112, action264×72; code has no modal geometry."
+      ],
+      "figmaGeometry": [
+        {
+          "id": "95:2175",
+          "name": "Navigation",
+          "x": "16",
+          "y": "16",
+          "width": "343",
+          "height": "32"
+        },
+        {
+          "id": "95:2179",
+          "name": "Saved backups",
+          "x": "16",
+          "y": "64",
+          "width": "343",
+          "height": "588"
+        },
+        {
+          "id": "95:2192",
+          "name": "Deletion result",
+          "x": "31.5",
+          "y": "278",
+          "width": "312",
+          "height": "256"
+        },
+        {
+          "id": "95:2201",
+          "name": "Modal action",
+          "x": "24",
+          "y": "160",
+          "width": "264",
+          "height": "72"
+        }
+      ],
+      "necessaryAssetNodes": [
+        {
+          "id": "95:2181",
+          "name": "Icon · backup",
+          "x": "16",
+          "y": "28",
+          "width": "40",
+          "height": "40"
+        },
+        {
+          "id": "123:2097",
+          "name": "Success artwork · Backups",
+          "x": "0",
+          "y": "0",
+          "width": "112",
+          "height": "112"
+        }
+      ]
+    },
+    {
+      "figmaFrameID": "105:1866",
+      "figmaFrameName": "Contacts / All contacts · A–Z · default",
+      "productionComponent": "ContactListScreen",
+      "requiredDistinctStateOrLayout": "All contacts · A–Z · default",
+      "visibleReferenceText": [
+        "All contacts",
+        "27 contacts",
+        "Select all",
+        "A",
+        "AS",
+        "Avery Stone",
+        "+1 202 555 0120",
+        "B",
+        "BM",
+        "Ben Morris",
+        "+1 202 555 0121",
+        "C",
+        "CP",
+        "Chloe Park",
+        "+1 202 555 0122",
+        "D",
+        "DL",
+        "Daniel Lee",
+        "+1 202 555 0123",
+        "E",
+        "EB",
+        "Ella Brooks",
+        "+1 202 555 0124",
+        "F",
+        "FD",
+        "Finn Doyle",
+        "+1 202 555 0125",
+        "G",
+        "GM",
+        "Grace Miller",
+        "+1 202 555 0126",
+        "H",
+        "HR",
+        "Harper Reed",
+        "+1 202 555 0127",
+        "I",
+        "IS",
+        "Iris Shaw",
+        "+1 202 555 0128",
+        "J",
+        "JM",
+        "Jules Martin",
+        "+1 202 555 0129",
+        "K",
+        "KE",
+        "Kai Evans",
+        "+1 202 555 0130",
+        "L",
+        "LF",
+        "Lena Fox",
+        "+1 202 555 0131",
+        "M",
+        "MG",
+        "Maya Green",
+        "+1 202 555 0132",
+        "N",
+        "NS",
+        "Noah Scott",
+        "+1 202 555 0133",
+        "O",
+        "OL",
+        "Olive Lane",
+        "+1 202 555 0134",
+        "P",
+        "PW",
+        "Parker West",
+        "+1 202 555 0135",
+        "Q",
+        "QB",
+        "Quinn Baker",
+        "+1 202 555 0136",
+        "R",
+        "RH",
+        "Riley Hall",
+        "+1 202 555 0137",
+        "S",
+        "SK",
+        "Sofia King",
+        "+1 202 555 0138",
+        "T",
+        "TM",
+        "Theo Mason",
+        "+1 202 555 0139",
+        "U",
+        "UG",
+        "Uma Gray",
+        "+1 202 555 0140",
+        "V",
+        "VY",
+        "Vera Young",
+        "+1 202 555 0141",
+        "W",
+        "WC",
+        "Will Carter",
+        "+1 202 555 0142",
+        "X",
+        "XB",
+        "Xavier Bell",
+        "+1 202 555 0143",
+        "Y",
+        "YH",
+        "Yara Hayes",
+        "+1 202 555 0144",
+        "Z",
+        "ZR",
+        "Zoe Ross",
+        "+1 202 555 0145",
+        "#",
+        "#",
+        "+1 202 555 0119",
+        "Missing name",
+        "A",
+        "C",
+        "E",
+        "G",
+        "I",
+        "K",
+        "M",
+        "O",
+        "Q",
+        "S",
+        "U",
+        "W",
+        "Y",
+        "Z",
+        "#",
+        "Delete contacts"
+      ],
+      "implemented": [
+        "Individual multiselect, select/deselect, scrolling and deletion; dynamic type adaptations."
+      ],
+      "missing": [
+        "Remove unrequested search field from default design layout.",
+        "Correct partial-selection control: Select all until all visible contacts selected; code Deselect all for any nonempty selection.",
+        "Correct0/1/many delete labels.",
+        "Missing-name rows must use # grouping/initials and Missing name subtitle; code groups by first phone character and repeats phone as subtitle.",
+        "Compressed alphabet rail with dots between displayed letters and #; current44pt-per-letter scrolling rail cannot show27 sections together."
+      ],
+      "exactNumericDiscrepancies": [
+        "Shared header: Figma Navigation 343×32 at content (16,16); CleanerHeader uses 44pt back hit area plus 8pt vertical padding = 60pt header. Preserve 44pt hit targets while aligning 32pt visual circle to design.",
+        "Shared footer where present: Figma button 343×56 at content (16,668), label height24 with16pt vertical inset; PrimaryButton uses natural Inter16 line height +28pt vertical padding, no56pt minimum.",
+        "Figma list width319 and index16pt at container x327; code available list295 (=343-44-4), index44, gap4. Figma contacts rail right edge8pt per note (actual container geometry ends16pt from screen edge; verify screenshot/context inconsistency).",
+        "Figma row horizontal inset16; code padding8; initials40×40 matches. Figma selection row24pt; code44pt minimum Select all button plus search field."
+      ],
+      "figmaGeometry": [
+        {
+          "id": "105:1869",
+          "name": "Navigation",
+          "x": "16",
+          "y": "16",
+          "width": "343",
+          "height": "32"
+        },
+        {
+          "id": "105:1873",
+          "name": "Selection",
+          "x": "16",
+          "y": "64",
+          "width": "343",
+          "height": "24"
+        },
+        {
+          "id": "105:1876",
+          "name": "Contacts with index",
+          "x": "16",
+          "y": "104",
+          "width": "343",
+          "height": "548"
+        },
+        {
+          "id": "105:1877",
+          "name": "Alphabetical list",
+          "x": "0",
+          "y": "0",
+          "width": "319",
+          "height": "548"
+        },
+        {
+          "id": "105:2000",
+          "name": "Alphabet index · right edge",
+          "x": "327",
+          "y": "0",
+          "width": "16",
+          "height": "548"
+        }
+      ],
+      "necessaryAssetNodes": []
+    },
+    {
+      "figmaFrameID": "105:2338",
+      "figmaFrameName": "Contacts / All contacts · A–Z · selected",
+      "productionComponent": "ContactListScreen",
+      "requiredDistinctStateOrLayout": "All contacts · A–Z · selected",
+      "visibleReferenceText": [
+        "All contacts",
+        "27 contacts",
+        "Deselect all",
+        "A",
+        "AS",
+        "Avery Stone",
+        "+1 202 555 0120",
+        "✓",
+        "B",
+        "BM",
+        "Ben Morris",
+        "+1 202 555 0121",
+        "✓",
+        "C",
+        "CP",
+        "Chloe Park",
+        "+1 202 555 0122",
+        "✓",
+        "D",
+        "DL",
+        "Daniel Lee",
+        "+1 202 555 0123",
+        "✓",
+        "E",
+        "EB",
+        "Ella Brooks",
+        "+1 202 555 0124",
+        "✓",
+        "F",
+        "FD",
+        "Finn Doyle",
+        "+1 202 555 0125",
+        "✓",
+        "G",
+        "GM",
+        "Grace Miller",
+        "+1 202 555 0126",
+        "✓",
+        "H",
+        "HR",
+        "Harper Reed",
+        "+1 202 555 0127",
+        "✓",
+        "I",
+        "IS",
+        "Iris Shaw",
+        "+1 202 555 0128",
+        "✓",
+        "J",
+        "JM",
+        "Jules Martin",
+        "+1 202 555 0129",
+        "✓",
+        "K",
+        "KE",
+        "Kai Evans",
+        "+1 202 555 0130",
+        "✓",
+        "L",
+        "LF",
+        "Lena Fox",
+        "+1 202 555 0131",
+        "✓",
+        "M",
+        "MG",
+        "Maya Green",
+        "+1 202 555 0132",
+        "✓",
+        "N",
+        "NS",
+        "Noah Scott",
+        "+1 202 555 0133",
+        "✓",
+        "O",
+        "OL",
+        "Olive Lane",
+        "+1 202 555 0134",
+        "✓",
+        "P",
+        "PW",
+        "Parker West",
+        "+1 202 555 0135",
+        "✓",
+        "Q",
+        "QB",
+        "Quinn Baker",
+        "+1 202 555 0136",
+        "✓",
+        "R",
+        "RH",
+        "Riley Hall",
+        "+1 202 555 0137",
+        "✓",
+        "S",
+        "SK",
+        "Sofia King",
+        "+1 202 555 0138",
+        "✓",
+        "T",
+        "TM",
+        "Theo Mason",
+        "+1 202 555 0139",
+        "✓",
+        "U",
+        "UG",
+        "Uma Gray",
+        "+1 202 555 0140",
+        "✓",
+        "V",
+        "VY",
+        "Vera Young",
+        "+1 202 555 0141",
+        "✓",
+        "W",
+        "WC",
+        "Will Carter",
+        "+1 202 555 0142",
+        "✓",
+        "X",
+        "XB",
+        "Xavier Bell",
+        "+1 202 555 0143",
+        "✓",
+        "Y",
+        "YH",
+        "Yara Hayes",
+        "+1 202 555 0144",
+        "✓",
+        "Z",
+        "ZR",
+        "Zoe Ross",
+        "+1 202 555 0145",
+        "✓",
+        "#",
+        "#",
+        "+1 202 555 0119",
+        "Missing name",
+        "✓",
+        "A",
+        "C",
+        "E",
+        "G",
+        "I",
+        "K",
+        "M",
+        "O",
+        "Q",
+        "S",
+        "U",
+        "W",
+        "Y",
+        "Z",
+        "#",
+        "Delete 27 Contacts"
+      ],
+      "implemented": [
+        "Individual multiselect, select/deselect, scrolling and deletion; dynamic type adaptations."
+      ],
+      "missing": [
+        "Remove unrequested search field from default design layout.",
+        "Correct partial-selection control: Select all until all visible contacts selected; code Deselect all for any nonempty selection.",
+        "Correct0/1/many delete labels.",
+        "Missing-name rows must use # grouping/initials and Missing name subtitle; code groups by first phone character and repeats phone as subtitle.",
+        "Compressed alphabet rail with dots between displayed letters and #; current44pt-per-letter scrolling rail cannot show27 sections together."
+      ],
+      "exactNumericDiscrepancies": [
+        "Shared header: Figma Navigation 343×32 at content (16,16); CleanerHeader uses 44pt back hit area plus 8pt vertical padding = 60pt header. Preserve 44pt hit targets while aligning 32pt visual circle to design.",
+        "Shared footer where present: Figma button 343×56 at content (16,668), label height24 with16pt vertical inset; PrimaryButton uses natural Inter16 line height +28pt vertical padding, no56pt minimum.",
+        "Figma list width319 and index16pt at container x327; code available list295 (=343-44-4), index44, gap4. Figma contacts rail right edge8pt per note (actual container geometry ends16pt from screen edge; verify screenshot/context inconsistency).",
+        "Figma row horizontal inset16; code padding8; initials40×40 matches. Figma selection row24pt; code44pt minimum Select all button plus search field."
+      ],
+      "figmaGeometry": [
+        {
+          "id": "105:2341",
+          "name": "Navigation",
+          "x": "16",
+          "y": "16",
+          "width": "343",
+          "height": "32"
+        },
+        {
+          "id": "105:2345",
+          "name": "Selection",
+          "x": "16",
+          "y": "64",
+          "width": "343",
+          "height": "24"
+        },
+        {
+          "id": "105:2348",
+          "name": "Contacts with index",
+          "x": "16",
+          "y": "104",
+          "width": "343",
+          "height": "548"
+        },
+        {
+          "id": "105:2349",
+          "name": "Alphabetical list",
+          "x": "0",
+          "y": "0",
+          "width": "319",
+          "height": "548"
+        },
+        {
+          "id": "105:2488",
+          "name": "Alphabet index · right edge",
+          "x": "327",
+          "y": "0",
+          "width": "16",
+          "height": "548"
+        }
+      ],
+      "necessaryAssetNodes": []
+    },
+    {
+      "figmaFrameID": "105:2853",
+      "figmaFrameName": "Contacts / A–Z · Deleted",
+      "productionComponent": "ContactListScreen / ContactsScreen / ContactMergePreview / ContactBackupsScreen",
+      "requiredDistinctStateOrLayout": "A–Z · Deleted",
+      "visibleReferenceText": [
+        "All contacts",
+        "No contacts",
+        "27 contacts deleted",
+        "Your contact list is now empty.",
+        "Continue"
+      ],
+      "implemented": [
+        "Store emits notice strings after successful operations."
+      ],
+      "missing": [
+        "Full-screen dimmed result modal, over correct list/hub/backups destination, with Continue. Current inline notices do not implement this state."
+      ],
+      "exactNumericDiscrepancies": [
+        "Shared header: Figma Navigation 343×32 at content (16,16); CleanerHeader uses 44pt back hit area plus 8pt vertical padding = 60pt header. Preserve 44pt hit targets while aligning 32pt visual circle to design.",
+        "Shared footer where present: Figma button 343×56 at content (16,668), label height24 with16pt vertical inset; PrimaryButton uses natural Inter16 line height +28pt vertical padding, no56pt minimum.",
+        "Figma result panel312×232 (some merge messages expand; see geometry), success artwork112×112, action264×72; code has no modal geometry."
+      ],
+      "figmaGeometry": [
+        {
+          "id": "105:2856",
+          "name": "Navigation",
+          "x": "16",
+          "y": "16",
+          "width": "343",
+          "height": "32"
+        },
+        {
+          "id": "105:2860",
+          "name": "Empty list",
+          "x": "16",
+          "y": "64",
+          "width": "343",
+          "height": "660"
+        },
+        {
+          "id": "109:1973",
+          "name": "Illustration · Empty address book",
+          "x": "15.5",
+          "y": "178",
+          "width": "312",
+          "height": "264"
+        },
+        {
+          "id": "105:2872",
+          "name": "Deletion result",
+          "x": "31.5",
+          "y": "290",
+          "width": "312",
+          "height": "232"
+        },
+        {
+          "id": "105:2893",
+          "name": "Modal action",
+          "x": "24",
+          "y": "136",
+          "width": "264",
+          "height": "72"
+        }
+      ],
+      "necessaryAssetNodes": [
+        {
+          "id": "109:1973",
+          "name": "Illustration · Empty address book",
+          "x": "15.5",
+          "y": "178",
+          "width": "312",
+          "height": "264"
+        },
+        {
+          "id": "125:3266",
+          "name": "Success artwork · Contacts",
+          "x": "0",
+          "y": "0",
+          "width": "112",
+          "height": "112"
+        }
+      ]
+    },
+    {
+      "figmaFrameID": "119:1912",
+      "figmaFrameName": "Calendar / Past · browse",
+      "productionComponent": "CalendarScreen / CleanerCalendarStore",
+      "requiredDistinctStateOrLayout": "Past · browse",
+      "visibleReferenceText": [
+        "Calendar",
+        "Past",
+        "Future",
+        "340 events",
+        "Select all",
+        "2026",
+        "103 events",
+        "Design review",
+        "Nov 4",
+        "Work",
+        "Coffee with Maya",
+        "Nov 1",
+        "Personal",
+        "Project check-in",
+        "Oct 29",
+        "Work",
+        "Family dinner",
+        "Oct 26",
+        "Family",
+        "2025",
+        "122 events",
+        "Sunday brunch",
+        "Dec 30",
+        "Family",
+        "Design review",
+        "Dec 27",
+        "Work",
+        "Coffee with Maya",
+        "Dec 24",
+        "Personal",
+        "Project check-in",
+        "Dec 21",
+        "Work",
+        "2024",
+        "115 events",
+        "Coffee with Maya",
+        "Dec 29",
+        "Personal",
+        "Project check-in",
+        "Dec 26",
+        "Work",
+        "Family dinner",
+        "Dec 23",
+        "Family",
+        "Weekend walk",
+        "Dec 20",
+        "Personal",
+        "Delete events"
+      ],
+      "implemented": [
+        "Past/Future switching; year groups; chronological ordering; calendar-color dots; read-only protection; selection; confirmed deletion."
+      ],
+      "missing": [
+        "Keep selection header and list footer fixed; current CleanerPage scrolls the segment/selection together with events.",
+        "Use Delete events for0, Delete1Event singular, and Select all for partial selection; code shows Delete0Events / Delete1Events and Deselect all whenever any selected."
+      ],
+      "exactNumericDiscrepancies": [
+        "Shared header: Figma Navigation 343×32 at content (16,16); CleanerHeader uses 44pt back hit area plus 8pt vertical padding = 60pt header. Preserve 44pt hit targets while aligning 32pt visual circle to design.",
+        "Shared footer where present: Figma button 343×56 at content (16,668), label height24 with16pt vertical inset; PrimaryButton uses natural Inter16 line height +28pt vertical padding, no56pt minimum.",
+        "Figma selection row is24pt at content y128 and list starts y168; code inserts an additional date-range Text between segment and selection, then a result card after deletion.",
+        "Figma event cards343×64 with8pt row gaps and year header40pt: code minHeight64 and8pt within group match; outer groups use CleanerPage16pt spacing rather than8pt."
+      ],
+      "figmaGeometry": [
+        {
+          "id": "119:1915",
+          "name": "Navigation",
+          "x": "16",
+          "y": "16",
+          "width": "343",
+          "height": "32"
+        },
+        {
+          "id": "119:2089",
+          "name": "Past / Future",
+          "x": "16",
+          "y": "64",
+          "width": "343",
+          "height": "48"
+        },
+        {
+          "id": "119:2094",
+          "name": "Selection",
+          "x": "16",
+          "y": "128",
+          "width": "343",
+          "height": "24"
+        },
+        {
+          "id": "119:2097",
+          "name": "Events by year",
+          "x": "16",
+          "y": "168",
+          "width": "343",
+          "height": "484"
+        },
+        {
+          "id": "119:2108",
+          "name": "Selection",
+          "x": "303",
+          "y": "20",
+          "width": "24",
+          "height": "24"
+        },
+        {
+          "id": "119:2116",
+          "name": "Selection",
+          "x": "303",
+          "y": "20",
+          "width": "24",
+          "height": "24"
+        },
+        {
+          "id": "119:2124",
+          "name": "Selection",
+          "x": "303",
+          "y": "20",
+          "width": "24",
+          "height": "24"
+        },
+        {
+          "id": "119:2132",
+          "name": "Selection",
+          "x": "303",
+          "y": "20",
+          "width": "24",
+          "height": "24"
+        },
+        {
+          "id": "119:2143",
+          "name": "Selection",
+          "x": "303",
+          "y": "20",
+          "width": "24",
+          "height": "24"
+        },
+        {
+          "id": "119:2151",
+          "name": "Selection",
+          "x": "303",
+          "y": "20",
+          "width": "24",
+          "height": "24"
+        },
+        {
+          "id": "119:2159",
+          "name": "Selection",
+          "x": "303",
+          "y": "20",
+          "width": "24",
+          "height": "24"
+        },
+        {
+          "id": "119:2167",
+          "name": "Selection",
+          "x": "303",
+          "y": "20",
+          "width": "24",
+          "height": "24"
+        },
+        {
+          "id": "119:2178",
+          "name": "Selection",
+          "x": "303",
+          "y": "20",
+          "width": "24",
+          "height": "24"
+        },
+        {
+          "id": "119:2186",
+          "name": "Selection",
+          "x": "303",
+          "y": "20",
+          "width": "24",
+          "height": "24"
+        },
+        {
+          "id": "119:2194",
+          "name": "Selection",
+          "x": "303",
+          "y": "20",
+          "width": "24",
+          "height": "24"
+        },
+        {
+          "id": "119:2202",
+          "name": "Selection",
+          "x": "303",
+          "y": "20",
+          "width": "24",
+          "height": "24"
+        }
+      ],
+      "necessaryAssetNodes": []
+    },
+    {
+      "figmaFrameID": "119:2205",
+      "figmaFrameName": "Calendar / Past · all",
+      "productionComponent": "CalendarScreen / CleanerCalendarStore",
+      "requiredDistinctStateOrLayout": "Past · all",
+      "visibleReferenceText": [
+        "Calendar",
+        "Past",
+        "Future",
+        "340 events",
+        "Deselect all",
+        "2026",
+        "103 events",
+        "Design review",
+        "Nov 4",
+        "Work",
+        "✓",
+        "Coffee with Maya",
+        "Nov 1",
+        "Personal",
+        "✓",
+        "Project check-in",
+        "Oct 29",
+        "Work",
+        "✓",
+        "Family dinner",
+        "Oct 26",
+        "Family",
+        "✓",
+        "2025",
+        "122 events",
+        "Sunday brunch",
+        "Dec 30",
+        "Family",
+        "✓",
+        "Design review",
+        "Dec 27",
+        "Work",
+        "✓",
+        "Coffee with Maya",
+        "Dec 24",
+        "Personal",
+        "✓",
+        "Project check-in",
+        "Dec 21",
+        "Work",
+        "✓",
+        "2024",
+        "115 events",
+        "Coffee with Maya",
+        "Dec 29",
+        "Personal",
+        "✓",
+        "Project check-in",
+        "Dec 26",
+        "Work",
+        "✓",
+        "Family dinner",
+        "Dec 23",
+        "Family",
+        "✓",
+        "Weekend walk",
+        "Dec 20",
+        "Personal",
+        "✓",
+        "Delete 340 Events"
+      ],
+      "implemented": [
+        "Past/Future switching; year groups; chronological ordering; calendar-color dots; read-only protection; selection; confirmed deletion."
+      ],
+      "missing": [
+        "Keep selection header and list footer fixed; current CleanerPage scrolls the segment/selection together with events.",
+        "Use Delete events for0, Delete1Event singular, and Select all for partial selection; code shows Delete0Events / Delete1Events and Deselect all whenever any selected."
+      ],
+      "exactNumericDiscrepancies": [
+        "Shared header: Figma Navigation 343×32 at content (16,16); CleanerHeader uses 44pt back hit area plus 8pt vertical padding = 60pt header. Preserve 44pt hit targets while aligning 32pt visual circle to design.",
+        "Shared footer where present: Figma button 343×56 at content (16,668), label height24 with16pt vertical inset; PrimaryButton uses natural Inter16 line height +28pt vertical padding, no56pt minimum.",
+        "Figma selection row is24pt at content y128 and list starts y168; code inserts an additional date-range Text between segment and selection, then a result card after deletion.",
+        "Figma event cards343×64 with8pt row gaps and year header40pt: code minHeight64 and8pt within group match; outer groups use CleanerPage16pt spacing rather than8pt."
+      ],
+      "figmaGeometry": [
+        {
+          "id": "119:2208",
+          "name": "Navigation",
+          "x": "16",
+          "y": "16",
+          "width": "343",
+          "height": "32"
+        },
+        {
+          "id": "119:2382",
+          "name": "Past / Future",
+          "x": "16",
+          "y": "64",
+          "width": "343",
+          "height": "48"
+        },
+        {
+          "id": "119:2387",
+          "name": "Selection",
+          "x": "16",
+          "y": "128",
+          "width": "343",
+          "height": "24"
+        },
+        {
+          "id": "119:2390",
+          "name": "Events by year",
+          "x": "16",
+          "y": "168",
+          "width": "343",
+          "height": "484"
+        },
+        {
+          "id": "119:2401",
+          "name": "Selection",
+          "x": "303",
+          "y": "20",
+          "width": "24",
+          "height": "24"
+        },
+        {
+          "id": "119:2410",
+          "name": "Selection",
+          "x": "303",
+          "y": "20",
+          "width": "24",
+          "height": "24"
+        },
+        {
+          "id": "119:2419",
+          "name": "Selection",
+          "x": "303",
+          "y": "20",
+          "width": "24",
+          "height": "24"
+        },
+        {
+          "id": "119:2428",
+          "name": "Selection",
+          "x": "303",
+          "y": "20",
+          "width": "24",
+          "height": "24"
+        },
+        {
+          "id": "119:2440",
+          "name": "Selection",
+          "x": "303",
+          "y": "20",
+          "width": "24",
+          "height": "24"
+        },
+        {
+          "id": "119:2449",
+          "name": "Selection",
+          "x": "303",
+          "y": "20",
+          "width": "24",
+          "height": "24"
+        },
+        {
+          "id": "119:2458",
+          "name": "Selection",
+          "x": "303",
+          "y": "20",
+          "width": "24",
+          "height": "24"
+        },
+        {
+          "id": "119:2467",
+          "name": "Selection",
+          "x": "303",
+          "y": "20",
+          "width": "24",
+          "height": "24"
+        },
+        {
+          "id": "119:2479",
+          "name": "Selection",
+          "x": "303",
+          "y": "20",
+          "width": "24",
+          "height": "24"
+        },
+        {
+          "id": "119:2488",
+          "name": "Selection",
+          "x": "303",
+          "y": "20",
+          "width": "24",
+          "height": "24"
+        },
+        {
+          "id": "119:2497",
+          "name": "Selection",
+          "x": "303",
+          "y": "20",
+          "width": "24",
+          "height": "24"
+        },
+        {
+          "id": "119:2506",
+          "name": "Selection",
+          "x": "303",
+          "y": "20",
+          "width": "24",
+          "height": "24"
+        }
+      ],
+      "necessaryAssetNodes": []
+    },
+    {
+      "figmaFrameID": "119:2510",
+      "figmaFrameName": "Calendar / Past · partial",
+      "productionComponent": "CalendarScreen / CleanerCalendarStore",
+      "requiredDistinctStateOrLayout": "Past · partial",
+      "visibleReferenceText": [
+        "Calendar",
+        "Past",
+        "Future",
+        "340 events",
+        "Select all",
+        "2026",
+        "103 events",
+        "Design review",
+        "Nov 4",
+        "Work",
+        "✓",
+        "Coffee with Maya",
+        "Nov 1",
+        "Personal",
+        "✓",
+        "Project check-in",
+        "Oct 29",
+        "Work",
+        "✓",
+        "Family dinner",
+        "Oct 26",
+        "Family",
+        "✓",
+        "2025",
+        "122 events",
+        "Sunday brunch",
+        "Dec 30",
+        "Family",
+        "✓",
+        "Design review",
+        "Dec 27",
+        "Work",
+        "✓",
+        "Coffee with Maya",
+        "Dec 24",
+        "Personal",
+        "✓",
+        "Project check-in",
+        "Dec 21",
+        "Work",
+        "✓",
+        "2024",
+        "115 events",
+        "Coffee with Maya",
+        "Dec 29",
+        "Personal",
+        "✓",
+        "Project check-in",
+        "Dec 26",
+        "Work",
+        "✓",
+        "Family dinner",
+        "Dec 23",
+        "Family",
+        "✓",
+        "Weekend walk",
+        "Dec 20",
+        "Personal",
+        "✓",
+        "Delete 1 Event"
+      ],
+      "implemented": [
+        "Past/Future switching; year groups; chronological ordering; calendar-color dots; read-only protection; selection; confirmed deletion."
+      ],
+      "missing": [
+        "Keep selection header and list footer fixed; current CleanerPage scrolls the segment/selection together with events.",
+        "Use Delete events for0, Delete1Event singular, and Select all for partial selection; code shows Delete0Events / Delete1Events and Deselect all whenever any selected."
+      ],
+      "exactNumericDiscrepancies": [
+        "Shared header: Figma Navigation 343×32 at content (16,16); CleanerHeader uses 44pt back hit area plus 8pt vertical padding = 60pt header. Preserve 44pt hit targets while aligning 32pt visual circle to design.",
+        "Shared footer where present: Figma button 343×56 at content (16,668), label height24 with16pt vertical inset; PrimaryButton uses natural Inter16 line height +28pt vertical padding, no56pt minimum.",
+        "Figma selection row is24pt at content y128 and list starts y168; code inserts an additional date-range Text between segment and selection, then a result card after deletion.",
+        "Figma event cards343×64 with8pt row gaps and year header40pt: code minHeight64 and8pt within group match; outer groups use CleanerPage16pt spacing rather than8pt."
+      ],
+      "figmaGeometry": [
+        {
+          "id": "119:2513",
+          "name": "Navigation",
+          "x": "16",
+          "y": "16",
+          "width": "343",
+          "height": "32"
+        },
+        {
+          "id": "119:2687",
+          "name": "Past / Future",
+          "x": "16",
+          "y": "64",
+          "width": "343",
+          "height": "48"
+        },
+        {
+          "id": "119:2692",
+          "name": "Selection",
+          "x": "16",
+          "y": "128",
+          "width": "343",
+          "height": "24"
+        },
+        {
+          "id": "119:2695",
+          "name": "Events by year",
+          "x": "16",
+          "y": "168",
+          "width": "343",
+          "height": "484"
+        },
+        {
+          "id": "119:2706",
+          "name": "Selection",
+          "x": "303",
+          "y": "20",
+          "width": "24",
+          "height": "24"
+        },
+        {
+          "id": "119:2715",
+          "name": "Selection",
+          "x": "303",
+          "y": "20",
+          "width": "24",
+          "height": "24"
+        },
+        {
+          "id": "119:2723",
+          "name": "Selection",
+          "x": "303",
+          "y": "20",
+          "width": "24",
+          "height": "24"
+        },
+        {
+          "id": "119:2731",
+          "name": "Selection",
+          "x": "303",
+          "y": "20",
+          "width": "24",
+          "height": "24"
+        },
+        {
+          "id": "119:2742",
+          "name": "Selection",
+          "x": "303",
+          "y": "20",
+          "width": "24",
+          "height": "24"
+        },
+        {
+          "id": "119:2750",
+          "name": "Selection",
+          "x": "303",
+          "y": "20",
+          "width": "24",
+          "height": "24"
+        },
+        {
+          "id": "119:2758",
+          "name": "Selection",
+          "x": "303",
+          "y": "20",
+          "width": "24",
+          "height": "24"
+        },
+        {
+          "id": "119:2766",
+          "name": "Selection",
+          "x": "303",
+          "y": "20",
+          "width": "24",
+          "height": "24"
+        },
+        {
+          "id": "119:2777",
+          "name": "Selection",
+          "x": "303",
+          "y": "20",
+          "width": "24",
+          "height": "24"
+        },
+        {
+          "id": "119:2785",
+          "name": "Selection",
+          "x": "303",
+          "y": "20",
+          "width": "24",
+          "height": "24"
+        },
+        {
+          "id": "119:2793",
+          "name": "Selection",
+          "x": "303",
+          "y": "20",
+          "width": "24",
+          "height": "24"
+        },
+        {
+          "id": "119:2801",
+          "name": "Selection",
+          "x": "303",
+          "y": "20",
+          "width": "24",
+          "height": "24"
+        }
+      ],
+      "necessaryAssetNodes": []
+    },
+    {
+      "figmaFrameID": "119:2804",
+      "figmaFrameName": "Calendar / Past · empty",
+      "productionComponent": "CalendarScreen / CleanerCalendarStore",
+      "requiredDistinctStateOrLayout": "Past · empty",
+      "visibleReferenceText": [
+        "Calendar",
+        "Past",
+        "Future",
+        "0 events",
+        "No past events",
+        "When an event ends, it will appear here."
+      ],
+      "implemented": [
+        "Past/Future switching; year groups; chronological ordering; calendar-color dots; read-only protection; selection; confirmed deletion."
+      ],
+      "missing": [
+        "Keep selection header and list footer fixed; current CleanerPage scrolls the segment/selection together with events.",
+        "Use Delete events for0, Delete1Event singular, and Select all for partial selection; code shows Delete0Events / Delete1Events and Deselect all whenever any selected.",
+        "Exact past/future empty illustration and copy; retain0events count; code hides selection header when empty and shows generic No events."
+      ],
+      "exactNumericDiscrepancies": [
+        "Shared header: Figma Navigation 343×32 at content (16,16); CleanerHeader uses 44pt back hit area plus 8pt vertical padding = 60pt header. Preserve 44pt hit targets while aligning 32pt visual circle to design.",
+        "Shared footer where present: Figma button 343×56 at content (16,668), label height24 with16pt vertical inset; PrimaryButton uses natural Inter16 line height +28pt vertical padding, no56pt minimum.",
+        "Figma selection row is24pt at content y128 and list starts y168; code inserts an additional date-range Text between segment and selection, then a result card after deletion.",
+        "Figma event cards343×64 with8pt row gaps and year header40pt: code minHeight64 and8pt within group match; outer groups use CleanerPage16pt spacing rather than8pt.",
+        "Figma empty illustration312×264; code EmptyState SF Symbol font44 and vertical padding32."
+      ],
+      "figmaGeometry": [
+        {
+          "id": "119:2807",
+          "name": "Navigation",
+          "x": "16",
+          "y": "16",
+          "width": "343",
+          "height": "32"
+        },
+        {
+          "id": "119:2979",
+          "name": "Past / Future",
+          "x": "16",
+          "y": "64",
+          "width": "343",
+          "height": "48"
+        },
+        {
+          "id": "119:2984",
+          "name": "Selection",
+          "x": "16",
+          "y": "128",
+          "width": "343",
+          "height": "24"
+        },
+        {
+          "id": "119:2987",
+          "name": "Events by year",
+          "x": "16",
+          "y": "168",
+          "width": "343",
+          "height": "556"
+        }
+      ],
+      "necessaryAssetNodes": [
+        {
+          "id": "119:2988",
+          "name": "Illustration · Empty calendar",
+          "x": "15.5",
+          "y": "110",
+          "width": "312",
+          "height": "264"
+        }
+      ]
+    },
+    {
+      "figmaFrameID": "119:2990",
+      "figmaFrameName": "Calendar / Future · browse",
+      "productionComponent": "CalendarScreen / CleanerCalendarStore",
+      "requiredDistinctStateOrLayout": "Future · browse",
+      "visibleReferenceText": [
+        "Calendar",
+        "Past",
+        "Future",
+        "12 events",
+        "Select all",
+        "2026",
+        "5 events",
+        "Family dinner",
+        "Nov 7",
+        "Family",
+        "Weekend walk",
+        "Nov 18",
+        "Personal",
+        "Team planning",
+        "Nov 29",
+        "Work",
+        "Piano lesson",
+        "Dec 10",
+        "Personal",
+        "Sunday brunch",
+        "Dec 21",
+        "Family",
+        "2027",
+        "7 events",
+        "Design review",
+        "Jan 1",
+        "Work",
+        "Coffee with Maya",
+        "Jan 12",
+        "Personal",
+        "Project check-in",
+        "Jan 23",
+        "Work",
+        "Family dinner",
+        "Feb 3",
+        "Family",
+        "Weekend walk",
+        "Feb 14",
+        "Personal",
+        "Team planning",
+        "Feb 25",
+        "Work",
+        "Piano lesson",
+        "Mar 8",
+        "Personal",
+        "Delete events"
+      ],
+      "implemented": [
+        "Past/Future switching; year groups; chronological ordering; calendar-color dots; read-only protection; selection; confirmed deletion."
+      ],
+      "missing": [
+        "Keep selection header and list footer fixed; current CleanerPage scrolls the segment/selection together with events.",
+        "Use Delete events for0, Delete1Event singular, and Select all for partial selection; code shows Delete0Events / Delete1Events and Deselect all whenever any selected."
+      ],
+      "exactNumericDiscrepancies": [
+        "Shared header: Figma Navigation 343×32 at content (16,16); CleanerHeader uses 44pt back hit area plus 8pt vertical padding = 60pt header. Preserve 44pt hit targets while aligning 32pt visual circle to design.",
+        "Shared footer where present: Figma button 343×56 at content (16,668), label height24 with16pt vertical inset; PrimaryButton uses natural Inter16 line height +28pt vertical padding, no56pt minimum.",
+        "Figma selection row is24pt at content y128 and list starts y168; code inserts an additional date-range Text between segment and selection, then a result card after deletion.",
+        "Figma event cards343×64 with8pt row gaps and year header40pt: code minHeight64 and8pt within group match; outer groups use CleanerPage16pt spacing rather than8pt."
+      ],
+      "figmaGeometry": [
+        {
+          "id": "119:2993",
+          "name": "Navigation",
+          "x": "16",
+          "y": "16",
+          "width": "343",
+          "height": "32"
+        },
+        {
+          "id": "119:3167",
+          "name": "Past / Future",
+          "x": "16",
+          "y": "64",
+          "width": "343",
+          "height": "48"
+        },
+        {
+          "id": "119:3172",
+          "name": "Selection",
+          "x": "16",
+          "y": "128",
+          "width": "343",
+          "height": "24"
+        },
+        {
+          "id": "119:3175",
+          "name": "Events by year",
+          "x": "16",
+          "y": "168",
+          "width": "343",
+          "height": "484"
+        },
+        {
+          "id": "119:3186",
+          "name": "Selection",
+          "x": "303",
+          "y": "20",
+          "width": "24",
+          "height": "24"
+        },
+        {
+          "id": "119:3194",
+          "name": "Selection",
+          "x": "303",
+          "y": "20",
+          "width": "24",
+          "height": "24"
+        },
+        {
+          "id": "119:3202",
+          "name": "Selection",
+          "x": "303",
+          "y": "20",
+          "width": "24",
+          "height": "24"
+        },
+        {
+          "id": "119:3210",
+          "name": "Selection",
+          "x": "303",
+          "y": "20",
+          "width": "24",
+          "height": "24"
+        },
+        {
+          "id": "119:3218",
+          "name": "Selection",
+          "x": "303",
+          "y": "20",
+          "width": "24",
+          "height": "24"
+        },
+        {
+          "id": "119:3229",
+          "name": "Selection",
+          "x": "303",
+          "y": "20",
+          "width": "24",
+          "height": "24"
+        },
+        {
+          "id": "119:3237",
+          "name": "Selection",
+          "x": "303",
+          "y": "20",
+          "width": "24",
+          "height": "24"
+        },
+        {
+          "id": "119:3245",
+          "name": "Selection",
+          "x": "303",
+          "y": "20",
+          "width": "24",
+          "height": "24"
+        },
+        {
+          "id": "119:3253",
+          "name": "Selection",
+          "x": "303",
+          "y": "20",
+          "width": "24",
+          "height": "24"
+        },
+        {
+          "id": "119:3261",
+          "name": "Selection",
+          "x": "303",
+          "y": "20",
+          "width": "24",
+          "height": "24"
+        },
+        {
+          "id": "119:3269",
+          "name": "Selection",
+          "x": "303",
+          "y": "20",
+          "width": "24",
+          "height": "24"
+        },
+        {
+          "id": "119:3277",
+          "name": "Selection",
+          "x": "303",
+          "y": "20",
+          "width": "24",
+          "height": "24"
+        }
+      ],
+      "necessaryAssetNodes": []
+    },
+    {
+      "figmaFrameID": "119:3280",
+      "figmaFrameName": "Calendar / Future · all",
+      "productionComponent": "CalendarScreen / CleanerCalendarStore",
+      "requiredDistinctStateOrLayout": "Future · all",
+      "visibleReferenceText": [
+        "Calendar",
+        "Past",
+        "Future",
+        "12 events",
+        "Deselect all",
+        "2026",
+        "5 events",
+        "Family dinner",
+        "Nov 7",
+        "Family",
+        "✓",
+        "Weekend walk",
+        "Nov 18",
+        "Personal",
+        "✓",
+        "Team planning",
+        "Nov 29",
+        "Work",
+        "✓",
+        "Piano lesson",
+        "Dec 10",
+        "Personal",
+        "✓",
+        "Sunday brunch",
+        "Dec 21",
+        "Family",
+        "✓",
+        "2027",
+        "7 events",
+        "Design review",
+        "Jan 1",
+        "Work",
+        "✓",
+        "Coffee with Maya",
+        "Jan 12",
+        "Personal",
+        "✓",
+        "Project check-in",
+        "Jan 23",
+        "Work",
+        "✓",
+        "Family dinner",
+        "Feb 3",
+        "Family",
+        "✓",
+        "Weekend walk",
+        "Feb 14",
+        "Personal",
+        "✓",
+        "Team planning",
+        "Feb 25",
+        "Work",
+        "✓",
+        "Piano lesson",
+        "Mar 8",
+        "Personal",
+        "✓",
+        "Delete 12 Events"
+      ],
+      "implemented": [
+        "Past/Future switching; year groups; chronological ordering; calendar-color dots; read-only protection; selection; confirmed deletion."
+      ],
+      "missing": [
+        "Keep selection header and list footer fixed; current CleanerPage scrolls the segment/selection together with events.",
+        "Use Delete events for0, Delete1Event singular, and Select all for partial selection; code shows Delete0Events / Delete1Events and Deselect all whenever any selected."
+      ],
+      "exactNumericDiscrepancies": [
+        "Shared header: Figma Navigation 343×32 at content (16,16); CleanerHeader uses 44pt back hit area plus 8pt vertical padding = 60pt header. Preserve 44pt hit targets while aligning 32pt visual circle to design.",
+        "Shared footer where present: Figma button 343×56 at content (16,668), label height24 with16pt vertical inset; PrimaryButton uses natural Inter16 line height +28pt vertical padding, no56pt minimum.",
+        "Figma selection row is24pt at content y128 and list starts y168; code inserts an additional date-range Text between segment and selection, then a result card after deletion.",
+        "Figma event cards343×64 with8pt row gaps and year header40pt: code minHeight64 and8pt within group match; outer groups use CleanerPage16pt spacing rather than8pt."
+      ],
+      "figmaGeometry": [
+        {
+          "id": "119:3283",
+          "name": "Navigation",
+          "x": "16",
+          "y": "16",
+          "width": "343",
+          "height": "32"
+        },
+        {
+          "id": "119:3457",
+          "name": "Past / Future",
+          "x": "16",
+          "y": "64",
+          "width": "343",
+          "height": "48"
+        },
+        {
+          "id": "119:3462",
+          "name": "Selection",
+          "x": "16",
+          "y": "128",
+          "width": "343",
+          "height": "24"
+        },
+        {
+          "id": "119:3465",
+          "name": "Events by year",
+          "x": "16",
+          "y": "168",
+          "width": "343",
+          "height": "484"
+        },
+        {
+          "id": "119:3476",
+          "name": "Selection",
+          "x": "303",
+          "y": "20",
+          "width": "24",
+          "height": "24"
+        },
+        {
+          "id": "119:3485",
+          "name": "Selection",
+          "x": "303",
+          "y": "20",
+          "width": "24",
+          "height": "24"
+        },
+        {
+          "id": "119:3494",
+          "name": "Selection",
+          "x": "303",
+          "y": "20",
+          "width": "24",
+          "height": "24"
+        },
+        {
+          "id": "119:3503",
+          "name": "Selection",
+          "x": "303",
+          "y": "20",
+          "width": "24",
+          "height": "24"
+        },
+        {
+          "id": "119:3512",
+          "name": "Selection",
+          "x": "303",
+          "y": "20",
+          "width": "24",
+          "height": "24"
+        },
+        {
+          "id": "119:3524",
+          "name": "Selection",
+          "x": "303",
+          "y": "20",
+          "width": "24",
+          "height": "24"
+        },
+        {
+          "id": "119:3533",
+          "name": "Selection",
+          "x": "303",
+          "y": "20",
+          "width": "24",
+          "height": "24"
+        },
+        {
+          "id": "119:3542",
+          "name": "Selection",
+          "x": "303",
+          "y": "20",
+          "width": "24",
+          "height": "24"
+        },
+        {
+          "id": "119:3551",
+          "name": "Selection",
+          "x": "303",
+          "y": "20",
+          "width": "24",
+          "height": "24"
+        },
+        {
+          "id": "119:3560",
+          "name": "Selection",
+          "x": "303",
+          "y": "20",
+          "width": "24",
+          "height": "24"
+        },
+        {
+          "id": "119:3569",
+          "name": "Selection",
+          "x": "303",
+          "y": "20",
+          "width": "24",
+          "height": "24"
+        },
+        {
+          "id": "119:3578",
+          "name": "Selection",
+          "x": "303",
+          "y": "20",
+          "width": "24",
+          "height": "24"
+        }
+      ],
+      "necessaryAssetNodes": []
+    },
+    {
+      "figmaFrameID": "119:3582",
+      "figmaFrameName": "Calendar / Future · partial",
+      "productionComponent": "CalendarScreen / CleanerCalendarStore",
+      "requiredDistinctStateOrLayout": "Future · partial",
+      "visibleReferenceText": [
+        "Calendar",
+        "Past",
+        "Future",
+        "12 events",
+        "Select all",
+        "2026",
+        "5 events",
+        "Family dinner",
+        "Nov 7",
+        "Family",
+        "✓",
+        "Weekend walk",
+        "Nov 18",
+        "Personal",
+        "✓",
+        "Team planning",
+        "Nov 29",
+        "Work",
+        "✓",
+        "Piano lesson",
+        "Dec 10",
+        "Personal",
+        "✓",
+        "Sunday brunch",
+        "Dec 21",
+        "Family",
+        "✓",
+        "2027",
+        "7 events",
+        "Design review",
+        "Jan 1",
+        "Work",
+        "✓",
+        "Coffee with Maya",
+        "Jan 12",
+        "Personal",
+        "✓",
+        "Project check-in",
+        "Jan 23",
+        "Work",
+        "✓",
+        "Family dinner",
+        "Feb 3",
+        "Family",
+        "✓",
+        "Weekend walk",
+        "Feb 14",
+        "Personal",
+        "✓",
+        "Team planning",
+        "Feb 25",
+        "Work",
+        "✓",
+        "Piano lesson",
+        "Mar 8",
+        "Personal",
+        "✓",
+        "Delete 1 Event"
+      ],
+      "implemented": [
+        "Past/Future switching; year groups; chronological ordering; calendar-color dots; read-only protection; selection; confirmed deletion."
+      ],
+      "missing": [
+        "Keep selection header and list footer fixed; current CleanerPage scrolls the segment/selection together with events.",
+        "Use Delete events for0, Delete1Event singular, and Select all for partial selection; code shows Delete0Events / Delete1Events and Deselect all whenever any selected."
+      ],
+      "exactNumericDiscrepancies": [
+        "Shared header: Figma Navigation 343×32 at content (16,16); CleanerHeader uses 44pt back hit area plus 8pt vertical padding = 60pt header. Preserve 44pt hit targets while aligning 32pt visual circle to design.",
+        "Shared footer where present: Figma button 343×56 at content (16,668), label height24 with16pt vertical inset; PrimaryButton uses natural Inter16 line height +28pt vertical padding, no56pt minimum.",
+        "Figma selection row is24pt at content y128 and list starts y168; code inserts an additional date-range Text between segment and selection, then a result card after deletion.",
+        "Figma event cards343×64 with8pt row gaps and year header40pt: code minHeight64 and8pt within group match; outer groups use CleanerPage16pt spacing rather than8pt."
+      ],
+      "figmaGeometry": [
+        {
+          "id": "119:3585",
+          "name": "Navigation",
+          "x": "16",
+          "y": "16",
+          "width": "343",
+          "height": "32"
+        },
+        {
+          "id": "119:3759",
+          "name": "Past / Future",
+          "x": "16",
+          "y": "64",
+          "width": "343",
+          "height": "48"
+        },
+        {
+          "id": "119:3764",
+          "name": "Selection",
+          "x": "16",
+          "y": "128",
+          "width": "343",
+          "height": "24"
+        },
+        {
+          "id": "119:3767",
+          "name": "Events by year",
+          "x": "16",
+          "y": "168",
+          "width": "343",
+          "height": "484"
+        },
+        {
+          "id": "119:3778",
+          "name": "Selection",
+          "x": "303",
+          "y": "20",
+          "width": "24",
+          "height": "24"
+        },
+        {
+          "id": "119:3787",
+          "name": "Selection",
+          "x": "303",
+          "y": "20",
+          "width": "24",
+          "height": "24"
+        },
+        {
+          "id": "119:3795",
+          "name": "Selection",
+          "x": "303",
+          "y": "20",
+          "width": "24",
+          "height": "24"
+        },
+        {
+          "id": "119:3803",
+          "name": "Selection",
+          "x": "303",
+          "y": "20",
+          "width": "24",
+          "height": "24"
+        },
+        {
+          "id": "119:3811",
+          "name": "Selection",
+          "x": "303",
+          "y": "20",
+          "width": "24",
+          "height": "24"
+        },
+        {
+          "id": "119:3822",
+          "name": "Selection",
+          "x": "303",
+          "y": "20",
+          "width": "24",
+          "height": "24"
+        },
+        {
+          "id": "119:3830",
+          "name": "Selection",
+          "x": "303",
+          "y": "20",
+          "width": "24",
+          "height": "24"
+        },
+        {
+          "id": "119:3838",
+          "name": "Selection",
+          "x": "303",
+          "y": "20",
+          "width": "24",
+          "height": "24"
+        },
+        {
+          "id": "119:3846",
+          "name": "Selection",
+          "x": "303",
+          "y": "20",
+          "width": "24",
+          "height": "24"
+        },
+        {
+          "id": "119:3854",
+          "name": "Selection",
+          "x": "303",
+          "y": "20",
+          "width": "24",
+          "height": "24"
+        },
+        {
+          "id": "119:3862",
+          "name": "Selection",
+          "x": "303",
+          "y": "20",
+          "width": "24",
+          "height": "24"
+        },
+        {
+          "id": "119:3870",
+          "name": "Selection",
+          "x": "303",
+          "y": "20",
+          "width": "24",
+          "height": "24"
+        }
+      ],
+      "necessaryAssetNodes": []
+    },
+    {
+      "figmaFrameID": "119:3873",
+      "figmaFrameName": "Calendar / Future · empty",
+      "productionComponent": "CalendarScreen / CleanerCalendarStore",
+      "requiredDistinctStateOrLayout": "Future · empty",
+      "visibleReferenceText": [
+        "Calendar",
+        "Past",
+        "Future",
+        "0 events",
+        "No future events",
+        "New events from your calendars will appear here."
+      ],
+      "implemented": [
+        "Past/Future switching; year groups; chronological ordering; calendar-color dots; read-only protection; selection; confirmed deletion."
+      ],
+      "missing": [
+        "Keep selection header and list footer fixed; current CleanerPage scrolls the segment/selection together with events.",
+        "Use Delete events for0, Delete1Event singular, and Select all for partial selection; code shows Delete0Events / Delete1Events and Deselect all whenever any selected.",
+        "Exact past/future empty illustration and copy; retain0events count; code hides selection header when empty and shows generic No events."
+      ],
+      "exactNumericDiscrepancies": [
+        "Shared header: Figma Navigation 343×32 at content (16,16); CleanerHeader uses 44pt back hit area plus 8pt vertical padding = 60pt header. Preserve 44pt hit targets while aligning 32pt visual circle to design.",
+        "Shared footer where present: Figma button 343×56 at content (16,668), label height24 with16pt vertical inset; PrimaryButton uses natural Inter16 line height +28pt vertical padding, no56pt minimum.",
+        "Figma selection row is24pt at content y128 and list starts y168; code inserts an additional date-range Text between segment and selection, then a result card after deletion.",
+        "Figma event cards343×64 with8pt row gaps and year header40pt: code minHeight64 and8pt within group match; outer groups use CleanerPage16pt spacing rather than8pt.",
+        "Figma empty illustration312×264; code EmptyState SF Symbol font44 and vertical padding32."
+      ],
+      "figmaGeometry": [
+        {
+          "id": "119:3876",
+          "name": "Navigation",
+          "x": "16",
+          "y": "16",
+          "width": "343",
+          "height": "32"
+        },
+        {
+          "id": "119:4048",
+          "name": "Past / Future",
+          "x": "16",
+          "y": "64",
+          "width": "343",
+          "height": "48"
+        },
+        {
+          "id": "119:4053",
+          "name": "Selection",
+          "x": "16",
+          "y": "128",
+          "width": "343",
+          "height": "24"
+        },
+        {
+          "id": "119:4056",
+          "name": "Events by year",
+          "x": "16",
+          "y": "168",
+          "width": "343",
+          "height": "556"
+        }
+      ],
+      "necessaryAssetNodes": [
+        {
+          "id": "119:4057",
+          "name": "Illustration · Empty calendar",
+          "x": "15.5",
+          "y": "98",
+          "width": "312",
+          "height": "264"
+        }
+      ]
+    },
+    {
+      "figmaFrameID": "119:4059",
+      "figmaFrameName": "Calendar / Past · success",
+      "productionComponent": "CalendarScreen / CleanerCalendarStore",
+      "requiredDistinctStateOrLayout": "Past · success",
+      "visibleReferenceText": [
+        "Calendar",
+        "Past",
+        "Future",
+        "0 events",
+        "No past events",
+        "When an event ends, it will appear here.",
+        "340 events deleted",
+        "Past events",
+        "Continue"
+      ],
+      "implemented": [
+        "Past/Future switching; year groups; chronological ordering; calendar-color dots; read-only protection; selection; confirmed deletion."
+      ],
+      "missing": [
+        "Keep selection header and list footer fixed; current CleanerPage scrolls the segment/selection together with events.",
+        "Use Delete events for0, Delete1Event singular, and Select all for partial selection; code shows Delete0Events / Delete1Events and Deselect all whenever any selected.",
+        "Exact past/future empty illustration and copy; retain0events count; code hides selection header when empty and shows generic No events.",
+        "Dimmed full-screen success modal with result count, Past events/Upcoming events, Continue; correct empty or remaining-events background. Code renders inline result string."
+      ],
+      "exactNumericDiscrepancies": [
+        "Shared header: Figma Navigation 343×32 at content (16,16); CleanerHeader uses 44pt back hit area plus 8pt vertical padding = 60pt header. Preserve 44pt hit targets while aligning 32pt visual circle to design.",
+        "Shared footer where present: Figma button 343×56 at content (16,668), label height24 with16pt vertical inset; PrimaryButton uses natural Inter16 line height +28pt vertical padding, no56pt minimum.",
+        "Figma selection row is24pt at content y128 and list starts y168; code inserts an additional date-range Text between segment and selection, then a result card after deletion.",
+        "Figma event cards343×64 with8pt row gaps and year header40pt: code minHeight64 and8pt within group match; outer groups use CleanerPage16pt spacing rather than8pt.",
+        "Figma empty illustration312×264; code EmptyState SF Symbol font44 and vertical padding32.",
+        "Figma success panel312×232 at(31.5,290);112×112 artwork at panel(100,-48); action264×72 at(24,136). No matching code overlay."
+      ],
+      "figmaGeometry": [
+        {
+          "id": "119:4129",
+          "name": "Navigation",
+          "x": "16",
+          "y": "16",
+          "width": "343",
+          "height": "32"
+        },
+        {
+          "id": "119:4133",
+          "name": "Past / Future",
+          "x": "16",
+          "y": "64",
+          "width": "343",
+          "height": "48"
+        },
+        {
+          "id": "119:4138",
+          "name": "Selection",
+          "x": "16",
+          "y": "128",
+          "width": "343",
+          "height": "24"
+        },
+        {
+          "id": "119:4141",
+          "name": "Events by year",
+          "x": "16",
+          "y": "168",
+          "width": "343",
+          "height": "556"
+        },
+        {
+          "id": "119:4101",
+          "name": "Deletion result",
+          "x": "31.5",
+          "y": "290",
+          "width": "312",
+          "height": "232"
+        },
+        {
+          "id": "119:4110",
+          "name": "Modal action",
+          "x": "24",
+          "y": "136",
+          "width": "264",
+          "height": "72"
+        }
+      ],
+      "necessaryAssetNodes": [
+        {
+          "id": "119:4142",
+          "name": "Illustration · Empty calendar",
+          "x": "15.5",
+          "y": "110",
+          "width": "312",
+          "height": "264"
+        },
+        {
+          "id": "89:3245",
+          "name": "Success artwork · Calendar",
+          "x": "0",
+          "y": "0",
+          "width": "112",
+          "height": "112"
+        }
+      ]
+    },
+    {
+      "figmaFrameID": "119:4146",
+      "figmaFrameName": "Calendar / Past · partial success",
+      "productionComponent": "CalendarScreen / CleanerCalendarStore",
+      "requiredDistinctStateOrLayout": "Past · partial success",
+      "visibleReferenceText": [
+        "Calendar",
+        "Past",
+        "Future",
+        "339 events",
+        "Select all",
+        "2026",
+        "103 events",
+        "Design review",
+        "Nov 4",
+        "Work",
+        "Coffee with Maya",
+        "Nov 1",
+        "Personal",
+        "Project check-in",
+        "Oct 29",
+        "Work",
+        "Family dinner",
+        "Oct 26",
+        "Family",
+        "2025",
+        "122 events",
+        "Sunday brunch",
+        "Dec 30",
+        "Family",
+        "Design review",
+        "Dec 27",
+        "Work",
+        "Coffee with Maya",
+        "Dec 24",
+        "Personal",
+        "Project check-in",
+        "Dec 21",
+        "Work",
+        "2024",
+        "115 events",
+        "Coffee with Maya",
+        "Dec 29",
+        "Personal",
+        "Project check-in",
+        "Dec 26",
+        "Work",
+        "Family dinner",
+        "Dec 23",
+        "Family",
+        "Weekend walk",
+        "Dec 20",
+        "Personal",
+        "Delete events",
+        "1 event deleted",
+        "Past events",
+        "Continue"
+      ],
+      "implemented": [
+        "Past/Future switching; year groups; chronological ordering; calendar-color dots; read-only protection; selection; confirmed deletion."
+      ],
+      "missing": [
+        "Keep selection header and list footer fixed; current CleanerPage scrolls the segment/selection together with events.",
+        "Use Delete events for0, Delete1Event singular, and Select all for partial selection; code shows Delete0Events / Delete1Events and Deselect all whenever any selected.",
+        "Dimmed full-screen success modal with result count, Past events/Upcoming events, Continue; correct empty or remaining-events background. Code renders inline result string."
+      ],
+      "exactNumericDiscrepancies": [
+        "Shared header: Figma Navigation 343×32 at content (16,16); CleanerHeader uses 44pt back hit area plus 8pt vertical padding = 60pt header. Preserve 44pt hit targets while aligning 32pt visual circle to design.",
+        "Shared footer where present: Figma button 343×56 at content (16,668), label height24 with16pt vertical inset; PrimaryButton uses natural Inter16 line height +28pt vertical padding, no56pt minimum.",
+        "Figma selection row is24pt at content y128 and list starts y168; code inserts an additional date-range Text between segment and selection, then a result card after deletion.",
+        "Figma event cards343×64 with8pt row gaps and year header40pt: code minHeight64 and8pt within group match; outer groups use CleanerPage16pt spacing rather than8pt.",
+        "Figma success panel312×232 at(31.5,290);112×112 artwork at panel(100,-48); action264×72 at(24,136). No matching code overlay."
+      ],
+      "figmaGeometry": [
+        {
+          "id": "119:4216",
+          "name": "Navigation",
+          "x": "16",
+          "y": "16",
+          "width": "343",
+          "height": "32"
+        },
+        {
+          "id": "119:4220",
+          "name": "Past / Future",
+          "x": "16",
+          "y": "64",
+          "width": "343",
+          "height": "48"
+        },
+        {
+          "id": "119:4225",
+          "name": "Selection",
+          "x": "16",
+          "y": "128",
+          "width": "343",
+          "height": "24"
+        },
+        {
+          "id": "119:4228",
+          "name": "Events by year",
+          "x": "16",
+          "y": "168",
+          "width": "343",
+          "height": "484"
+        },
+        {
+          "id": "119:4239",
+          "name": "Selection",
+          "x": "303",
+          "y": "20",
+          "width": "24",
+          "height": "24"
+        },
+        {
+          "id": "119:4247",
+          "name": "Selection",
+          "x": "303",
+          "y": "20",
+          "width": "24",
+          "height": "24"
+        },
+        {
+          "id": "119:4255",
+          "name": "Selection",
+          "x": "303",
+          "y": "20",
+          "width": "24",
+          "height": "24"
+        },
+        {
+          "id": "119:4263",
+          "name": "Selection",
+          "x": "303",
+          "y": "20",
+          "width": "24",
+          "height": "24"
+        },
+        {
+          "id": "119:4274",
+          "name": "Selection",
+          "x": "303",
+          "y": "20",
+          "width": "24",
+          "height": "24"
+        },
+        {
+          "id": "119:4282",
+          "name": "Selection",
+          "x": "303",
+          "y": "20",
+          "width": "24",
+          "height": "24"
+        },
+        {
+          "id": "119:4290",
+          "name": "Selection",
+          "x": "303",
+          "y": "20",
+          "width": "24",
+          "height": "24"
+        },
+        {
+          "id": "119:4298",
+          "name": "Selection",
+          "x": "303",
+          "y": "20",
+          "width": "24",
+          "height": "24"
+        },
+        {
+          "id": "119:4309",
+          "name": "Selection",
+          "x": "303",
+          "y": "20",
+          "width": "24",
+          "height": "24"
+        },
+        {
+          "id": "119:4317",
+          "name": "Selection",
+          "x": "303",
+          "y": "20",
+          "width": "24",
+          "height": "24"
+        },
+        {
+          "id": "119:4325",
+          "name": "Selection",
+          "x": "303",
+          "y": "20",
+          "width": "24",
+          "height": "24"
+        },
+        {
+          "id": "119:4333",
+          "name": "Selection",
+          "x": "303",
+          "y": "20",
+          "width": "24",
+          "height": "24"
+        },
+        {
+          "id": "119:4188",
+          "name": "Deletion result",
+          "x": "31.5",
+          "y": "290",
+          "width": "312",
+          "height": "232"
+        },
+        {
+          "id": "119:4197",
+          "name": "Modal action",
+          "x": "24",
+          "y": "136",
+          "width": "264",
+          "height": "72"
+        }
+      ],
+      "necessaryAssetNodes": [
+        {
+          "id": "119:4190",
+          "name": "Success artwork · Calendar",
+          "x": "0",
+          "y": "0",
+          "width": "112",
+          "height": "112"
+        }
+      ]
+    },
+    {
+      "figmaFrameID": "119:4338",
+      "figmaFrameName": "Calendar / Future · success",
+      "productionComponent": "CalendarScreen / CleanerCalendarStore",
+      "requiredDistinctStateOrLayout": "Future · success",
+      "visibleReferenceText": [
+        "Calendar",
+        "Past",
+        "Future",
+        "0 events",
+        "No future events",
+        "New events from your calendars will appear here.",
+        "12 events deleted",
+        "Upcoming events",
+        "Continue"
+      ],
+      "implemented": [
+        "Past/Future switching; year groups; chronological ordering; calendar-color dots; read-only protection; selection; confirmed deletion."
+      ],
+      "missing": [
+        "Keep selection header and list footer fixed; current CleanerPage scrolls the segment/selection together with events.",
+        "Use Delete events for0, Delete1Event singular, and Select all for partial selection; code shows Delete0Events / Delete1Events and Deselect all whenever any selected.",
+        "Exact past/future empty illustration and copy; retain0events count; code hides selection header when empty and shows generic No events.",
+        "Dimmed full-screen success modal with result count, Past events/Upcoming events, Continue; correct empty or remaining-events background. Code renders inline result string."
+      ],
+      "exactNumericDiscrepancies": [
+        "Shared header: Figma Navigation 343×32 at content (16,16); CleanerHeader uses 44pt back hit area plus 8pt vertical padding = 60pt header. Preserve 44pt hit targets while aligning 32pt visual circle to design.",
+        "Shared footer where present: Figma button 343×56 at content (16,668), label height24 with16pt vertical inset; PrimaryButton uses natural Inter16 line height +28pt vertical padding, no56pt minimum.",
+        "Figma selection row is24pt at content y128 and list starts y168; code inserts an additional date-range Text between segment and selection, then a result card after deletion.",
+        "Figma event cards343×64 with8pt row gaps and year header40pt: code minHeight64 and8pt within group match; outer groups use CleanerPage16pt spacing rather than8pt.",
+        "Figma empty illustration312×264; code EmptyState SF Symbol font44 and vertical padding32.",
+        "Figma success panel312×232 at(31.5,290);112×112 artwork at panel(100,-48); action264×72 at(24,136). No matching code overlay."
+      ],
+      "figmaGeometry": [
+        {
+          "id": "119:4408",
+          "name": "Navigation",
+          "x": "16",
+          "y": "16",
+          "width": "343",
+          "height": "32"
+        },
+        {
+          "id": "119:4412",
+          "name": "Past / Future",
+          "x": "16",
+          "y": "64",
+          "width": "343",
+          "height": "48"
+        },
+        {
+          "id": "119:4417",
+          "name": "Selection",
+          "x": "16",
+          "y": "128",
+          "width": "343",
+          "height": "24"
+        },
+        {
+          "id": "119:4420",
+          "name": "Events by year",
+          "x": "16",
+          "y": "168",
+          "width": "343",
+          "height": "556"
+        },
+        {
+          "id": "119:4380",
+          "name": "Deletion result",
+          "x": "31.5",
+          "y": "290",
+          "width": "312",
+          "height": "232"
+        },
+        {
+          "id": "119:4389",
+          "name": "Modal action",
+          "x": "24",
+          "y": "136",
+          "width": "264",
+          "height": "72"
+        }
+      ],
+      "necessaryAssetNodes": [
+        {
+          "id": "119:4421",
+          "name": "Illustration · Empty calendar",
+          "x": "15.5",
+          "y": "98",
+          "width": "312",
+          "height": "264"
+        },
+        {
+          "id": "89:3252",
+          "name": "Success artwork · Calendar",
+          "x": "0",
+          "y": "0",
+          "width": "112",
+          "height": "112"
+        }
+      ]
+    },
+    {
+      "figmaFrameID": "119:4425",
+      "figmaFrameName": "Calendar / Future · partial success",
+      "productionComponent": "CalendarScreen / CleanerCalendarStore",
+      "requiredDistinctStateOrLayout": "Future · partial success",
+      "visibleReferenceText": [
+        "Calendar",
+        "Past",
+        "Future",
+        "11 events",
+        "Select all",
+        "2026",
+        "5 events",
+        "Family dinner",
+        "Nov 7",
+        "Family",
+        "Weekend walk",
+        "Nov 18",
+        "Personal",
+        "Team planning",
+        "Nov 29",
+        "Work",
+        "Piano lesson",
+        "Dec 10",
+        "Personal",
+        "Sunday brunch",
+        "Dec 21",
+        "Family",
+        "2027",
+        "7 events",
+        "Design review",
+        "Jan 1",
+        "Work",
+        "Coffee with Maya",
+        "Jan 12",
+        "Personal",
+        "Project check-in",
+        "Jan 23",
+        "Work",
+        "Family dinner",
+        "Feb 3",
+        "Family",
+        "Weekend walk",
+        "Feb 14",
+        "Personal",
+        "Team planning",
+        "Feb 25",
+        "Work",
+        "Piano lesson",
+        "Mar 8",
+        "Personal",
+        "Delete events",
+        "1 event deleted",
+        "Upcoming events",
+        "Continue"
+      ],
+      "implemented": [
+        "Past/Future switching; year groups; chronological ordering; calendar-color dots; read-only protection; selection; confirmed deletion."
+      ],
+      "missing": [
+        "Keep selection header and list footer fixed; current CleanerPage scrolls the segment/selection together with events.",
+        "Use Delete events for0, Delete1Event singular, and Select all for partial selection; code shows Delete0Events / Delete1Events and Deselect all whenever any selected.",
+        "Dimmed full-screen success modal with result count, Past events/Upcoming events, Continue; correct empty or remaining-events background. Code renders inline result string."
+      ],
+      "exactNumericDiscrepancies": [
+        "Shared header: Figma Navigation 343×32 at content (16,16); CleanerHeader uses 44pt back hit area plus 8pt vertical padding = 60pt header. Preserve 44pt hit targets while aligning 32pt visual circle to design.",
+        "Shared footer where present: Figma button 343×56 at content (16,668), label height24 with16pt vertical inset; PrimaryButton uses natural Inter16 line height +28pt vertical padding, no56pt minimum.",
+        "Figma selection row is24pt at content y128 and list starts y168; code inserts an additional date-range Text between segment and selection, then a result card after deletion.",
+        "Figma event cards343×64 with8pt row gaps and year header40pt: code minHeight64 and8pt within group match; outer groups use CleanerPage16pt spacing rather than8pt.",
+        "Figma success panel312×232 at(31.5,290);112×112 artwork at panel(100,-48); action264×72 at(24,136). No matching code overlay."
+      ],
+      "figmaGeometry": [
+        {
+          "id": "119:4495",
+          "name": "Navigation",
+          "x": "16",
+          "y": "16",
+          "width": "343",
+          "height": "32"
+        },
+        {
+          "id": "119:4499",
+          "name": "Past / Future",
+          "x": "16",
+          "y": "64",
+          "width": "343",
+          "height": "48"
+        },
+        {
+          "id": "119:4504",
+          "name": "Selection",
+          "x": "16",
+          "y": "128",
+          "width": "343",
+          "height": "24"
+        },
+        {
+          "id": "119:4507",
+          "name": "Events by year",
+          "x": "16",
+          "y": "168",
+          "width": "343",
+          "height": "484"
+        },
+        {
+          "id": "119:4518",
+          "name": "Selection",
+          "x": "303",
+          "y": "20",
+          "width": "24",
+          "height": "24"
+        },
+        {
+          "id": "119:4526",
+          "name": "Selection",
+          "x": "303",
+          "y": "20",
+          "width": "24",
+          "height": "24"
+        },
+        {
+          "id": "119:4534",
+          "name": "Selection",
+          "x": "303",
+          "y": "20",
+          "width": "24",
+          "height": "24"
+        },
+        {
+          "id": "119:4542",
+          "name": "Selection",
+          "x": "303",
+          "y": "20",
+          "width": "24",
+          "height": "24"
+        },
+        {
+          "id": "119:4550",
+          "name": "Selection",
+          "x": "303",
+          "y": "20",
+          "width": "24",
+          "height": "24"
+        },
+        {
+          "id": "119:4561",
+          "name": "Selection",
+          "x": "303",
+          "y": "20",
+          "width": "24",
+          "height": "24"
+        },
+        {
+          "id": "119:4569",
+          "name": "Selection",
+          "x": "303",
+          "y": "20",
+          "width": "24",
+          "height": "24"
+        },
+        {
+          "id": "119:4577",
+          "name": "Selection",
+          "x": "303",
+          "y": "20",
+          "width": "24",
+          "height": "24"
+        },
+        {
+          "id": "119:4585",
+          "name": "Selection",
+          "x": "303",
+          "y": "20",
+          "width": "24",
+          "height": "24"
+        },
+        {
+          "id": "119:4593",
+          "name": "Selection",
+          "x": "303",
+          "y": "20",
+          "width": "24",
+          "height": "24"
+        },
+        {
+          "id": "119:4601",
+          "name": "Selection",
+          "x": "303",
+          "y": "20",
+          "width": "24",
+          "height": "24"
+        },
+        {
+          "id": "119:4609",
+          "name": "Selection",
+          "x": "303",
+          "y": "20",
+          "width": "24",
+          "height": "24"
+        },
+        {
+          "id": "119:4467",
+          "name": "Deletion result",
+          "x": "31.5",
+          "y": "290",
+          "width": "312",
+          "height": "232"
+        },
+        {
+          "id": "119:4476",
+          "name": "Modal action",
+          "x": "24",
+          "y": "136",
+          "width": "264",
+          "height": "72"
+        }
+      ],
+      "necessaryAssetNodes": [
+        {
+          "id": "89:3258",
+          "name": "Success artwork · Calendar",
+          "x": "0",
+          "y": "0",
+          "width": "112",
+          "height": "112"
+        }
+      ]
+    }
+  ]
+}

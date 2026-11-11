@@ -1,0 +1,25 @@
+{
+  "source_sha256": {
+    "PhotoCleanerApp/BackgroundRemoverFeature.swift": "36dabd4b8581710b3163a77e65a28c6cbc475b724914a3f6366ce3d38f3f0fe9",
+    "PhotoCleanerApp/CalendarFeature.swift": "b73314072a2a7d354ba6163c064083d44256b3c217352f22addc255ec4c5a457",
+    "PhotoCleanerApp/CleanerModal.swift": "a2aa8dc9d92afa33f41facd8c0bd713cfe43e265894a43d0393fe5ef186e91b5",
+    "PhotoCleanerApp/ContactsFeature.swift": "fc0e9054920ce1430bdf9a1333fd7f8ff1cee1b1929893bc6bc919f63b78c7ba",
+    "PhotoCleanerApp/ContentView.swift": "10f683f18d2eaac9cd361f82b9dc71c77bc713da06ba569f401d462e027f65f3",
+    "PhotoCleanerApp/DesignSystem.swift": "c63e1ac9fb86f484f97bd12f325029d991384ded36b98f39d859276fe6193697",
+    "PhotoCleanerApp/FidelityPreview.swift": "a8107248adc7f8b00935ccc08e68374ef6e2f6edf640f2960f6655f9b50329c2",
+    "PhotoCleanerApp/HomeScreen.swift": "fff3f6866d4be2caf6ff80824dd10fc877121507b5908f550f9eec77207c8dde",
+    "PhotoCleanerApp/MediaLibrary.swift": "343c0f45d1e86034889c4df330eae43d16a9ef7ab4218ea068c669b275e45104",
+    "PhotoCleanerApp/MediaScreens.swift": "4463f8b5ae4c2bd9e91bed5a241e350937cac6464d5882e8b682c350f45b9e3e",
+    "PhotoCleanerApp/PhotoCleanerAppApp.swift": "0d79f11f2006d26a1d79201d57a29e6834652807108a780d27bdb5081fcd8cbf",
+    "PhotoCleanerApp/SecurityScreen.swift": "f1b3d572b312e2513399484c269eb1afc7ce8dfc1b4b4133cfc8bc76558579a5",
+    "PhotoCleanerApp/SettingsScreen.swift": "67007f235f2233a59fb05839e0d9ae67f066c8348c7b7e064cc229d5f811ff63",
+    "PhotoCleanerApp/SplashScreen.swift": "f5d23cc2da6a0937512bf54a2a798e59a031743dead3862c1d75b54cd2b15995"
+  },
+  "app": "/tmp/PhotoCleanerApp-fidelity-build/Build/Products/Debug-iphonesimulator/PhotoCleanerApp.app",
+  "bundle_id": "test.com.PhotoCleanerApp",
+  "version": "1.0",
+  "build": "1",
+  "app_binary_sha256": "27f173d3f2d25d5872da371eeb3f725c0ad4d3febb09944032fe59e12f029211",
+  "reference": "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10",
+  "production_edits_authorized_in_this_pass": false
+}

@@ -1,0 +1,35 @@
+{
+  "date": "2026-11-11",
+  "baseline": "build-evidence.json",
+  "source_sha256": {
+    "PhotoCleanerApp/BackgroundRemoverFeature.swift": "5915adf6c8c05e71470c8f1a516dd9b908d107df7d9ec3b5a1b4e5cf68a562fc",
+    "PhotoCleanerApp/CalendarFeature.swift": "acda264cbd5f4525c626484e4b5fb2ebd216e115f0bf06889d48392070017040",
+    "PhotoCleanerApp/CleanerModal.swift": "1c04ba7ad240fa5adb0c540cc3f2eb68f9c537b9522786a69970a6b430831226",
+    "PhotoCleanerApp/ContactsFeature.swift": "fcea8c72240cff21008c70eea01a0fe3618ffff47bea8e5aaba548b5bd732e5d",
+    "PhotoCleanerApp/ContentView.swift": "10f683f18d2eaac9cd361f82b9dc71c77bc713da06ba569f401d462e027f65f3",
+    "PhotoCleanerApp/DesignSystem.swift": "cf667c39c54739a8c0098674d674bffb6f4b21804f5bb341aeeadbc813223be8",
+    "PhotoCleanerApp/FidelityPreview.swift": "a8107248adc7f8b00935ccc08e68374ef6e2f6edf640f2960f6655f9b50329c2",
+    "PhotoCleanerApp/HomeScreen.swift": "6f7e7f5640d5c035c935fb8002e6625fccc0cf5ce047d6b9c50ff140d30dadda",
+    "PhotoCleanerApp/MediaLibrary.swift": "343c0f45d1e86034889c4df330eae43d16a9ef7ab4218ea068c669b275e45104",
+    "PhotoCleanerApp/MediaScreens.swift": "23aabe479b484a1b275dc5ca360647bfec98eb28867913e508b67b16f0e0127e",
+    "PhotoCleanerApp/PhotoCleanerAppApp.swift": "0d79f11f2006d26a1d79201d57a29e6834652807108a780d27bdb5081fcd8cbf",
+    "PhotoCleanerApp/SecurityScreen.swift": "e804768edf4c7c736f27694085937c2386502d03bcdc7d1d06731ed927122ba3",
+    "PhotoCleanerApp/SettingsScreen.swift": "84a82485ac304eed8766ca6a3a6ed6a906435c969e0415644be53d62a6c02c22",
+    "PhotoCleanerApp/SplashScreen.swift": "302ab2311bbf01a940685b7ef8cddb4466ffafdf2d8d35a86f04ba4bad7c6601"
+  },
+  "changed_sources": [
+    "PhotoCleanerApp/BackgroundRemoverFeature.swift",
+    "PhotoCleanerApp/CalendarFeature.swift",
+    "PhotoCleanerApp/CleanerModal.swift",
+    "PhotoCleanerApp/ContactsFeature.swift",
+    "PhotoCleanerApp/DesignSystem.swift",
+    "PhotoCleanerApp/HomeScreen.swift",
+    "PhotoCleanerApp/MediaScreens.swift",
+    "PhotoCleanerApp/SecurityScreen.swift",
+    "PhotoCleanerApp/SettingsScreen.swift",
+    "PhotoCleanerApp/SplashScreen.swift"
+  ],
+  "app_binary_sha256": "d35fdf8bd2258d254572ff13ef1130e7d11ec5dfb644def8b94d9aa86929c95d",
+  "build_log": "/tmp/cleaner-ax-final-build.log",
+  "build_succeeded": true
+}

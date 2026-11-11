@@ -1,0 +1,2651 @@
+[
+  {
+    "key": "max_text:4:214",
+    "mode": "max_text",
+    "id_or_route": "4:214",
+    "name": "Main",
+    "status": "pass",
+    "source_frame": "4:214",
+    "comparison": "adaptation",
+    "findings": [
+      "Fresh maximum-text screenshot and XCTest scrolling visually inspected; complete labels/content and actions are reachable without earlier clipping/overlap. Long words may wrap at maximum text; layout is adaptation, not pixel identity."
+    ],
+    "evidence": [
+      "qa/extended-states/pro/final/max-text/4-214.png",
+      "qa/extended-states/pro/final/scroll/max-4-214-scroll-3.png",
+      "qa/extended-states/pro/final/scroll/max-4-214-scroll-3-ax.txt",
+      "qa/extended-states/pro/final/scroll/max-4-214-top.png"
+    ],
+    "capture_sha256": "0c202d7f50c904b431218ac1383e1acf78d230665005d0a90f08bee4c9d99c11",
+    "history": [
+      {
+        "key": "max_text:4:214",
+        "mode": "max_text",
+        "id_or_route": "4:214",
+        "name": "Main",
+        "status": "blocked",
+        "source_frame": "4:214",
+        "comparison": "adaptation",
+        "findings": [
+          "Top viewport readable; lower Home content needs scroll reachability check."
+        ],
+        "evidence": [
+          "qa/extended-states/pro/max-text/4-214.png",
+          "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/4-214.png"
+        ]
+      }
+    ],
+    "scroll_sha256": "1938a63f1096b7dff7fc3d47a231a551507918ab2d9df2c7ac99c11635783f3d"
+  },
+  {
+    "key": "max_text:47:23",
+    "mode": "max_text",
+    "id_or_route": "47:23",
+    "name": "Smart Scan / Scanning",
+    "status": "pass",
+    "source_frame": "47:23",
+    "comparison": "adaptation",
+    "findings": [
+      "Fresh fixed-build screenshot visually inspected; text/actions visible without earlier clipping or overlap."
+    ],
+    "evidence": [
+      "qa/extended-states/pro/final/max-text/47-23.png"
+    ],
+    "capture_sha256": "c3d1182c014b2a06de15f2ee7176b4eb5f73ccf251102c950fdf6e077a1abc27",
+    "history": [
+      {
+        "key": "max_text:47:23",
+        "mode": "max_text",
+        "id_or_route": "47:23",
+        "name": "Smart Scan / Scanning",
+        "status": "issue",
+        "source_frame": "47:23",
+        "comparison": "adaptation",
+        "findings": [
+          "Progress percentage truncates to 6… inside the fixed ring at maximum accessibility text."
+        ],
+        "evidence": [
+          "qa/extended-states/pro/max-text/47-23.png",
+          "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/47-23.png"
+        ]
+      }
+    ]
+  },
+  {
+    "key": "max_text:47:56",
+    "mode": "max_text",
+    "id_or_route": "47:56",
+    "name": "Smart Scan / Results",
+    "status": "pass",
+    "source_frame": "47:56",
+    "comparison": "adaptation",
+    "findings": [
+      "Fresh maximum-text screenshot and XCTest scrolling visually inspected; complete labels/content and actions are reachable without earlier clipping/overlap. Long words may wrap at maximum text; layout is adaptation, not pixel identity."
+    ],
+    "evidence": [
+      "qa/extended-states/pro/final/max-text/47-56.png",
+      "qa/extended-states/pro/final/scroll/max-47-56-scroll-3.png",
+      "qa/extended-states/pro/final/scroll/max-47-56-scroll-3-ax.txt",
+      "qa/extended-states/pro/final/scroll/max-47-56-top.png"
+    ],
+    "capture_sha256": "b535595feaa4b6b385b8e97f757db9bd50b27b3903bd1f30f0edd971e4b26f4d",
+    "history": [
+      {
+        "key": "max_text:47:56",
+        "mode": "max_text",
+        "id_or_route": "47:56",
+        "name": "Smart Scan / Results",
+        "status": "issue",
+        "source_frame": "47:56",
+        "comparison": "adaptation",
+        "findings": [
+          "8.5 GB metric truncates and overlaps can be freed subtitle in fixed-height results summary."
+        ],
+        "evidence": [
+          "qa/extended-states/pro/max-text/47-56.png",
+          "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/47-56.png"
+        ]
+      }
+    ],
+    "scroll_sha256": "f099575a19f4212db4a48f4a3e574dc19495503d7f445dda14ac03f60fe3acb1"
+  },
+  {
+    "key": "max_text:51:52",
+    "mode": "max_text",
+    "id_or_route": "51:52",
+    "name": "Photos / First visit",
+    "status": "pass",
+    "source_frame": "51:52",
+    "comparison": "adaptation",
+    "findings": [
+      "Fresh maximum-text screenshot and XCTest scrolling visually inspected; complete labels/content and actions are reachable without earlier clipping/overlap. Long words may wrap at maximum text; layout is adaptation, not pixel identity."
+    ],
+    "evidence": [
+      "qa/extended-states/pro/final/max-text/51-52.png",
+      "qa/extended-states/pro/final/scroll/max-51-52-scroll-3.png",
+      "qa/extended-states/pro/final/scroll/max-51-52-scroll-3-ax.txt",
+      "qa/extended-states/pro/final/scroll/max-51-52-top.png"
+    ],
+    "capture_sha256": "cf294edaa1e80121e5142baec24865cff14b9181571571adbb61bba74190bec9",
+    "history": [
+      {
+        "key": "max_text:51:52",
+        "mode": "max_text",
+        "id_or_route": "51:52",
+        "name": "Photos / First visit",
+        "status": "issue",
+        "source_frame": "51:52",
+        "comparison": "adaptation",
+        "findings": [
+          "Intro title and explanatory text truncate with ellipses at maximum text; primary action remains visible."
+        ],
+        "evidence": [
+          "qa/extended-states/pro/max-text/51-52.png",
+          "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/51-52.png"
+        ]
+      }
+    ],
+    "scroll_sha256": "8f97b68e1328df436ba8d7254b70d16b6f85fc4e864781c2fc4f6570f1943119"
+  },
+  {
+    "key": "max_text:51:87",
+    "mode": "max_text",
+    "id_or_route": "51:87",
+    "name": "Photos / Categories",
+    "status": "pass",
+    "source_frame": "51:87",
+    "comparison": "adaptation",
+    "findings": [
+      "Fresh maximum-text screenshot and XCTest scrolling visually inspected; complete labels/content and actions are reachable without earlier clipping/overlap. Long words may wrap at maximum text; layout is adaptation, not pixel identity."
+    ],
+    "evidence": [
+      "qa/extended-states/pro/final/max-text/51-87.png",
+      "qa/extended-states/pro/final/scroll/max-51-87-scroll-3.png",
+      "qa/extended-states/pro/final/scroll/max-51-87-scroll-3-ax.txt",
+      "qa/extended-states/pro/final/scroll/max-51-87-top.png"
+    ],
+    "capture_sha256": "66c5211a6a851a8d3f390f8e963a2ef7b7fddbe36e925bec59055e6fb15273cd",
+    "history": [
+      {
+        "key": "max_text:51:87",
+        "mode": "max_text",
+        "id_or_route": "51:87",
+        "name": "Photos / Categories",
+        "status": "blocked",
+        "source_frame": "51:87",
+        "comparison": "adaptation",
+        "findings": [
+          "Visible categories readable with word wrapping; Other lower content needs scroll check."
+        ],
+        "evidence": [
+          "qa/extended-states/pro/max-text/51-87.png",
+          "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/51-87.png"
+        ]
+      }
+    ],
+    "scroll_sha256": "76987718e0822f7d7519b47e5b60bc82ac0ceb903efc9ba1d175d75da58360d0"
+  },
+  {
+    "key": "max_text:51:145",
+    "mode": "max_text",
+    "id_or_route": "51:145",
+    "name": "Photos / Counting",
+    "status": "pass",
+    "source_frame": "51:145",
+    "comparison": "adaptation",
+    "findings": [
+      "Fresh fixed-build screenshot visually inspected; text/actions visible without earlier clipping or overlap."
+    ],
+    "evidence": [
+      "qa/extended-states/pro/final/max-text/51-145.png"
+    ],
+    "capture_sha256": "31b47f910d00ca9f1efa65db3a0df8811150bcf7cb15be44db157c30a301ed31",
+    "history": [
+      {
+        "key": "max_text:51:145",
+        "mode": "max_text",
+        "id_or_route": "51:145",
+        "name": "Photos / Counting",
+        "status": "pass",
+        "source_frame": "51:145",
+        "comparison": "adaptation",
+        "findings": [
+          "All four counting categories and loading rings remain readable; Screenshots wraps within card."
+        ],
+        "evidence": [
+          "qa/extended-states/pro/max-text/51-145.png",
+          "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/51-145.png"
+        ]
+      }
+    ]
+  },
+  {
+    "key": "max_text:51:211",
+    "mode": "max_text",
+    "id_or_route": "51:211",
+    "name": "Duplicates / Selected",
+    "status": "pass",
+    "source_frame": "51:211",
+    "comparison": "adaptation",
+    "findings": [
+      "Fresh maximum-text screenshot and XCTest scrolling visually inspected; complete labels/content and actions are reachable without earlier clipping/overlap. Long words may wrap at maximum text; layout is adaptation, not pixel identity."
+    ],
+    "evidence": [
+      "qa/extended-states/pro/final/max-text/51-211.png",
+      "qa/extended-states/pro/final/scroll/max-51-211-scroll-3.png",
+      "qa/extended-states/pro/final/scroll/max-51-211-scroll-3-ax.txt",
+      "qa/extended-states/pro/final/scroll/max-51-211-top.png"
+    ],
+    "capture_sha256": "737983a8e17b1a2fc9d07a9ca4c3037783a73344c9ee9f448926c700b03a6489",
+    "history": [
+      {
+        "key": "max_text:51:211",
+        "mode": "max_text",
+        "id_or_route": "51:211",
+        "name": "Duplicates / Selected",
+        "status": "issue",
+        "source_frame": "51:211",
+        "comparison": "adaptation",
+        "findings": [
+          "Best badge scales beyond fixed thumbnail badge height; oversized star/text is clipped."
+        ],
+        "evidence": [
+          "qa/extended-states/pro/max-text/51-211.png",
+          "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/51-211.png"
+        ]
+      }
+    ],
+    "scroll_sha256": "8b37ff88c2fee4d348ec4db19dfe188d17737f807372d999495f824df216b52f"
+  },
+  {
+    "key": "max_text:51:411",
+    "mode": "max_text",
+    "id_or_route": "51:411",
+    "name": "Duplicates / No selection",
+    "status": "pass",
+    "source_frame": "51:411",
+    "comparison": "adaptation",
+    "findings": [
+      "Fresh final-build screenshot and direct XCTest scrolling visually inspected; labels and lower content reachable, earlier clipped badges/overlap resolved."
+    ],
+    "evidence": [
+      "qa/extended-states/pro/final/max-text/51-411.png",
+      "qa/extended-states/pro/final/scroll/max-51-411-scroll-3.png"
+    ],
+    "capture_sha256": "023bafbf0379c094d0d1273d91a74e9f9863819a26282553a869f57e7bf8e3bd",
+    "history": [
+      {
+        "key": "max_text:51:411",
+        "mode": "max_text",
+        "id_or_route": "51:411",
+        "name": "Duplicates / No selection",
+        "status": "issue",
+        "source_frame": "51:411",
+        "comparison": "adaptation",
+        "findings": [
+          "Best badge scales beyond fixed thumbnail badge height; oversized star/text is clipped."
+        ],
+        "evidence": [
+          "qa/extended-states/pro/max-text/51-411.png",
+          "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/51-411.png"
+        ]
+      }
+    ],
+    "scroll_sha256": "2757efcfa1f304953854100365720c15d14432d5ecb9662778cede405fd54179"
+  },
+  {
+    "key": "max_text:51:915",
+    "mode": "max_text",
+    "id_or_route": "51:915",
+    "name": "Screenshots / Newest",
+    "status": "pass",
+    "source_frame": "51:915",
+    "comparison": "adaptation",
+    "findings": [
+      "Fresh maximum-text screenshot and XCTest scrolling visually inspected; complete labels/content and actions are reachable without earlier clipping/overlap. Long words may wrap at maximum text; layout is adaptation, not pixel identity."
+    ],
+    "evidence": [
+      "qa/extended-states/pro/final/max-text/51-915.png",
+      "qa/extended-states/pro/final/scroll/max-51-915-scroll-3.png",
+      "qa/extended-states/pro/final/scroll/max-51-915-scroll-3-ax.txt",
+      "qa/extended-states/pro/final/scroll/max-51-915-top.png"
+    ],
+    "capture_sha256": "26fcca4f902cbdf79b9fb489eddc7cde2d2196f86106d1da6eb2cf5e79bd99f0",
+    "history": [
+      {
+        "key": "max_text:51:915",
+        "mode": "max_text",
+        "id_or_route": "51:915",
+        "name": "Screenshots / Newest",
+        "status": "pass",
+        "source_frame": "51:915",
+        "comparison": "adaptation",
+        "findings": [
+          "Title and selection action wrap; two-column adaptive grid and pinned Delete action remain visible."
+        ],
+        "evidence": [
+          "qa/extended-states/pro/max-text/51-915.png",
+          "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/51-915.png"
+        ]
+      }
+    ],
+    "scroll_sha256": "288d0d222609be2cfc2b263959ab4c03a92798a993f627b0b8a054b3f7d06b49"
+  },
+  {
+    "key": "max_text:51:1843",
+    "mode": "max_text",
+    "id_or_route": "51:1843",
+    "name": "Photos / Deleted",
+    "status": "pass",
+    "source_frame": "51:1843",
+    "comparison": "adaptation",
+    "findings": [
+      "Fresh fixed-build screenshot visually inspected; text/actions visible without earlier clipping or overlap."
+    ],
+    "evidence": [
+      "qa/extended-states/pro/final/max-text/51-1843.png"
+    ],
+    "capture_sha256": "03d79b4c2cd367c88d891dec61ee372d41b4a3c6d61c54dc7a195e69c17e698d",
+    "history": [
+      {
+        "key": "max_text:51:1843",
+        "mode": "max_text",
+        "id_or_route": "51:1843",
+        "name": "Photos / Deleted",
+        "status": "pass",
+        "source_frame": "51:1843",
+        "comparison": "adaptation",
+        "findings": [
+          "Completion modal title, amount and Continue action wrap and fit."
+        ],
+        "evidence": [
+          "qa/extended-states/pro/max-text/51-1843.png",
+          "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/51-1843.png"
+        ]
+      }
+    ]
+  },
+  {
+    "key": "max_text:59:1683",
+    "mode": "max_text",
+    "id_or_route": "59:1683",
+    "name": "Photo Swipe / Tutorial",
+    "status": "pass",
+    "source_frame": "59:1683",
+    "comparison": "adaptation",
+    "findings": [
+      "Fresh maximum-text screenshot and XCTest scrolling visually inspected; complete labels/content and actions are reachable without earlier clipping/overlap. Long words may wrap at maximum text; layout is adaptation, not pixel identity."
+    ],
+    "evidence": [
+      "qa/extended-states/pro/final/max-text/59-1683.png",
+      "qa/extended-states/pro/final/scroll/max-59-1683-scroll-3.png",
+      "qa/extended-states/pro/final/scroll/max-59-1683-scroll-3-ax.txt",
+      "qa/extended-states/pro/final/scroll/max-59-1683-top.png"
+    ],
+    "capture_sha256": "905780e7567aca0d0520fe81ef3038999a2eb1b6a2051f6e1d4df5ca7525721a",
+    "history": [
+      {
+        "key": "max_text:59:1683",
+        "mode": "max_text",
+        "id_or_route": "59:1683",
+        "name": "Photo Swipe / Tutorial",
+        "status": "issue",
+        "source_frame": "59:1683",
+        "comparison": "adaptation",
+        "findings": [
+          "Tutorial title and gesture instructions truncate with ellipses; Got it remains visible."
+        ],
+        "evidence": [
+          "qa/extended-states/pro/max-text/59-1683.png",
+          "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/59-1683.png"
+        ]
+      }
+    ],
+    "scroll_sha256": "d174888e8bce359f6830482039026d2c11a374928db53bec517e6ce5223e992a"
+  },
+  {
+    "key": "max_text:59:1729",
+    "mode": "max_text",
+    "id_or_route": "59:1729",
+    "name": "Photo Swipe / card",
+    "status": "pass",
+    "source_frame": "59:1729",
+    "comparison": "adaptation",
+    "findings": [
+      "Fresh fixed-build screenshot visually inspected; text/actions visible without earlier clipping or overlap."
+    ],
+    "evidence": [
+      "qa/extended-states/pro/final/max-text/59-1729.png"
+    ],
+    "capture_sha256": "96b5279d3ffaf0b1f0c463f2c9987091065383cf8164e5547c5234b8e82ae5d2",
+    "history": [
+      {
+        "key": "max_text:59:1729",
+        "mode": "max_text",
+        "id_or_route": "59:1729",
+        "name": "Photo Swipe / card",
+        "status": "pass",
+        "source_frame": "59:1729",
+        "comparison": "adaptation",
+        "findings": [
+          "Photo Swipe header/Trash wrap; count, current card and Delete/Keep controls fit."
+        ],
+        "evidence": [
+          "qa/extended-states/pro/max-text/59-1729.png",
+          "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/59-1729.png"
+        ]
+      }
+    ]
+  },
+  {
+    "key": "max_text:59:1773",
+    "mode": "max_text",
+    "id_or_route": "59:1773",
+    "name": "Photo Swipe / delete",
+    "status": "pass",
+    "source_frame": "59:1773",
+    "comparison": "adaptation",
+    "findings": [
+      "Fresh fixed-build screenshot visually inspected; text/actions visible without earlier clipping or overlap."
+    ],
+    "evidence": [
+      "qa/extended-states/pro/final/max-text/59-1773.png"
+    ],
+    "capture_sha256": "4a03ea29a520f0d047230d1d12688ee70522c247b76290f03e0d4eefadbe0b07",
+    "history": [
+      {
+        "key": "max_text:59:1773",
+        "mode": "max_text",
+        "id_or_route": "59:1773",
+        "name": "Photo Swipe / delete",
+        "status": "blocked",
+        "source_frame": "59:1773",
+        "comparison": "adaptation",
+        "findings": [
+          "Capture caught a faded transition; recapture required before classifying clipped gesture badge."
+        ],
+        "evidence": [
+          "qa/extended-states/pro/max-text/59-1773.png",
+          "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/59-1773.png"
+        ]
+      }
+    ]
+  },
+  {
+    "key": "max_text:59:1819",
+    "mode": "max_text",
+    "id_or_route": "59:1819",
+    "name": "Photo Swipe / keep",
+    "status": "pass",
+    "source_frame": "59:1819",
+    "comparison": "adaptation",
+    "findings": [
+      "Fresh fixed-build screenshot visually inspected; text/actions visible without earlier clipping or overlap."
+    ],
+    "evidence": [
+      "qa/extended-states/pro/final/max-text/59-1819.png"
+    ],
+    "capture_sha256": "55cb4a451b072f36fe96cfab53af6b90b2ac6306d0c4634b7b99ea68b2f93f4a",
+    "history": [
+      {
+        "key": "max_text:59:1819",
+        "mode": "max_text",
+        "id_or_route": "59:1819",
+        "name": "Photo Swipe / keep",
+        "status": "issue",
+        "source_frame": "59:1819",
+        "comparison": "adaptation",
+        "findings": [
+          "Oversized Keep gesture badge runs past the right viewport edge."
+        ],
+        "evidence": [
+          "qa/extended-states/pro/max-text/59-1819.png",
+          "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/59-1819.png"
+        ]
+      }
+    ]
+  },
+  {
+    "key": "max_text:59:1953",
+    "mode": "max_text",
+    "id_or_route": "59:1953",
+    "name": "Trash / 18 selected",
+    "status": "pass",
+    "source_frame": "59:1953",
+    "comparison": "adaptation",
+    "findings": [
+      "Fresh maximum-text screenshot and XCTest scrolling visually inspected; complete labels/content and actions are reachable without earlier clipping/overlap. Long words may wrap at maximum text; layout is adaptation, not pixel identity."
+    ],
+    "evidence": [
+      "qa/extended-states/pro/final/max-text/59-1953.png",
+      "qa/extended-states/pro/final/scroll/max-59-1953-scroll-3.png",
+      "qa/extended-states/pro/final/scroll/max-59-1953-scroll-3-ax.txt",
+      "qa/extended-states/pro/final/scroll/max-59-1953-top.png"
+    ],
+    "capture_sha256": "0f773cba62a839ef302c954242bccf8b0debfffeed89c9c50cb258650a92df2b",
+    "history": [
+      {
+        "key": "max_text:59:1953",
+        "mode": "max_text",
+        "id_or_route": "59:1953",
+        "name": "Trash / 18 selected",
+        "status": "pass",
+        "source_frame": "59:1953",
+        "comparison": "adaptation",
+        "findings": [
+          "Adaptive two-column Trash grid and wrapped pinned Delete action fit."
+        ],
+        "evidence": [
+          "qa/extended-states/pro/max-text/59-1953.png",
+          "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/59-1953.png"
+        ]
+      }
+    ],
+    "scroll_sha256": "fc47a0ec13014026248a67a3d2ff28ac955ef74e63aee86b418057461c2dddd2"
+  },
+  {
+    "key": "max_text:59:2316",
+    "mode": "max_text",
+    "id_or_route": "59:2316",
+    "name": "Photo Swipe / Deleted",
+    "status": "pass",
+    "source_frame": "59:2316",
+    "comparison": "adaptation",
+    "findings": [
+      "Fresh fixed-build screenshot visually inspected; text/actions visible without earlier clipping or overlap."
+    ],
+    "evidence": [
+      "qa/extended-states/pro/final/max-text/59-2316.png"
+    ],
+    "capture_sha256": "f18ccc9bcd1a0134866df89f5063ee5d0c9b864d46bc37b4b0c65dacf9f1c7d1",
+    "history": [
+      {
+        "key": "max_text:59:2316",
+        "mode": "max_text",
+        "id_or_route": "59:2316",
+        "name": "Photo Swipe / Deleted",
+        "status": "pass",
+        "source_frame": "59:2316",
+        "comparison": "adaptation",
+        "findings": [
+          "Deletion result text and Continue action fit with multiline text."
+        ],
+        "evidence": [
+          "qa/extended-states/pro/max-text/59-2316.png",
+          "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/59-2316.png"
+        ]
+      }
+    ]
+  },
+  {
+    "key": "max_text:78:5059",
+    "mode": "max_text",
+    "id_or_route": "78:5059",
+    "name": "Videos / cats",
+    "status": "pass",
+    "source_frame": "78:5059",
+    "comparison": "adaptation",
+    "findings": [
+      "Fresh final-build screenshot and direct XCTest scrolling visually inspected; labels and lower content reachable, earlier clipped badges/overlap resolved."
+    ],
+    "evidence": [
+      "qa/extended-states/pro/final/max-text/78-5059.png",
+      "qa/extended-states/pro/final/scroll/max-78-5059-scroll-3.png"
+    ],
+    "capture_sha256": "8328daad12b6af45474af82ca9c8956ed51f43fcc3d66cc61ab51aeb67e4a822",
+    "history": [
+      {
+        "key": "max_text:78:5059",
+        "mode": "max_text",
+        "id_or_route": "78:5059",
+        "name": "Videos / cats",
+        "status": "blocked",
+        "source_frame": "78:5059",
+        "comparison": "adaptation",
+        "findings": [
+          "Lower video categories need scroll reachability verification."
+        ],
+        "evidence": [
+          "qa/extended-states/pro/max-text/78-5059.png",
+          "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/78-5059.png"
+        ]
+      }
+    ],
+    "scroll_sha256": "88005a339fb71f98f53ca0632e8196978da570b60cb200e518515146ae366a1f"
+  },
+  {
+    "key": "max_text:78:5157",
+    "mode": "max_text",
+    "id_or_route": "78:5157",
+    "name": "Videos / dup0a",
+    "status": "pass",
+    "source_frame": "78:5157",
+    "comparison": "adaptation",
+    "findings": [
+      "Fresh final-build screenshot and direct XCTest scrolling visually inspected; labels and lower content reachable, earlier clipped badges/overlap resolved."
+    ],
+    "evidence": [
+      "qa/extended-states/pro/final/max-text/78-5157.png",
+      "qa/extended-states/pro/final/scroll/max-78-5157-scroll-3.png"
+    ],
+    "capture_sha256": "a86982dca45f3ccfa93591e05c651b09387c80b1a9b8b10a9b3e9e1f19920cc0",
+    "history": [
+      {
+        "key": "max_text:78:5157",
+        "mode": "max_text",
+        "id_or_route": "78:5157",
+        "name": "Videos / dup0a",
+        "status": "issue",
+        "source_frame": "78:5157",
+        "comparison": "adaptation",
+        "findings": [
+          "Best badge and stacked duration/bytes overflow fixed thumbnail overlays; duration and bytes overlap."
+        ],
+        "evidence": [
+          "qa/extended-states/pro/max-text/78-5157.png",
+          "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/78-5157.png"
+        ]
+      }
+    ],
+    "scroll_sha256": "0def1a48bcab7942bb7842863f3087584913a737f06aae2f07dfd3b61954dfb7"
+  },
+  {
+    "key": "max_text:78:5345",
+    "mode": "max_text",
+    "id_or_route": "78:5345",
+    "name": "Videos / sim0a",
+    "status": "pass",
+    "source_frame": "78:5345",
+    "comparison": "adaptation",
+    "findings": [
+      "Fresh final-build screenshot and direct XCTest scrolling visually inspected; labels and lower content reachable, earlier clipped badges/overlap resolved."
+    ],
+    "evidence": [
+      "qa/extended-states/pro/final/max-text/78-5345.png",
+      "qa/extended-states/pro/final/scroll/max-78-5345-scroll-3.png"
+    ],
+    "capture_sha256": "2d105f4d5cf6fc53169afabfa889e1d7371cc63fe794e13525bfc4ae07b5044e",
+    "history": [
+      {
+        "key": "max_text:78:5345",
+        "mode": "max_text",
+        "id_or_route": "78:5345",
+        "name": "Videos / sim0a",
+        "status": "issue",
+        "source_frame": "78:5345",
+        "comparison": "adaptation",
+        "findings": [
+          "Best badge and stacked duration/bytes overflow fixed thumbnail overlays; duration and bytes overlap."
+        ],
+        "evidence": [
+          "qa/extended-states/pro/max-text/78-5345.png",
+          "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/78-5345.png"
+        ]
+      }
+    ],
+    "scroll_sha256": "54bc857e9893f82dff50176eb9e29941b08587284710882d1b5722063a607574"
+  },
+  {
+    "key": "max_text:78:5559",
+    "mode": "max_text",
+    "id_or_route": "78:5559",
+    "name": "Videos / large0a",
+    "status": "pass",
+    "source_frame": "78:5559",
+    "comparison": "adaptation",
+    "findings": [
+      "Fresh maximum-text screenshot and XCTest scrolling visually inspected; complete labels/content and actions are reachable without earlier clipping/overlap. Long words may wrap at maximum text; layout is adaptation, not pixel identity.",
+      "Final AX-only unlimited video-row title fix rechecked with viewport-coordinate swipes: Morning surf and Skate session fully wrap, metadata and Delete footer visible."
+    ],
+    "evidence": [
+      "qa/extended-states/pro/final/max-text/78-5559.png",
+      "qa/extended-states/pro/final/scroll/max-78-5559-scroll-3.png",
+      "qa/extended-states/pro/final/scroll/max-78-5559-scroll-3-ax.txt",
+      "qa/extended-states/pro/final/scroll/max-78-5559-top.png",
+      "qa/extended-states/pro/final/final-video-titles-bottom.png"
+    ],
+    "capture_sha256": "a9f75cb9110480ba86d2457794ca690d7f146687048bc08eea8a0ea01bfde952",
+    "history": [
+      {
+        "key": "max_text:78:5559",
+        "mode": "max_text",
+        "id_or_route": "78:5559",
+        "name": "Videos / large0a",
+        "status": "blocked",
+        "source_frame": "78:5559",
+        "comparison": "adaptation",
+        "findings": [
+          "Capture caught faded transition; visible sort labels also truncate; recapture required."
+        ],
+        "evidence": [
+          "qa/extended-states/pro/max-text/78-5559.png",
+          "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/78-5559.png"
+        ]
+      }
+    ],
+    "scroll_sha256": "1b0f1d7cb9fc196b4479f59e5c2078b5b97ab9bb988312cd33fca3fb8873e3eb",
+    "final_title_sha256": "64597c358672e1c351f70fb95b0885101f1d5228bab18389d376e8666eda46f0"
+  },
+  {
+    "key": "max_text:78:7881",
+    "mode": "max_text",
+    "id_or_route": "78:7881",
+    "name": "Videos / playlarge0a",
+    "status": "pass",
+    "source_frame": "78:7881",
+    "comparison": "adaptation",
+    "findings": [
+      "Fresh fixed-build screenshot visually inspected; text/actions visible without earlier clipping or overlap."
+    ],
+    "evidence": [
+      "qa/extended-states/pro/final/max-text/78-7881.png"
+    ],
+    "capture_sha256": "27a750f2e66c9b43aaf16673faf8e50a70bcf26d71b693eef44fe7c5d3cdc112",
+    "history": [
+      {
+        "key": "max_text:78:7881",
+        "mode": "max_text",
+        "id_or_route": "78:7881",
+        "name": "Videos / playlarge0a",
+        "status": "pass",
+        "source_frame": "78:7881",
+        "comparison": "adaptation",
+        "findings": [
+          "Video poster shrinks adaptively; play control, time labels and multiline metadata fit."
+        ],
+        "evidence": [
+          "qa/extended-states/pro/max-text/78-7881.png",
+          "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/78-7881.png"
+        ]
+      }
+    ]
+  },
+  {
+    "key": "max_text:94:1327",
+    "mode": "max_text",
+    "id_or_route": "94:1327",
+    "name": "Contacts / hub",
+    "status": "pass",
+    "source_frame": "94:1327",
+    "comparison": "adaptation",
+    "findings": [
+      "Fresh fixed-build screenshot visually inspected; text/actions visible without earlier clipping or overlap."
+    ],
+    "evidence": [
+      "qa/extended-states/pro/final/max-text/94-1327.png"
+    ],
+    "capture_sha256": "8e37814527b0ed3d97f78832de03ce444c6ff2a55b96b417abb3c8117c3336e7",
+    "history": [
+      {
+        "key": "max_text:94:1327",
+        "mode": "max_text",
+        "id_or_route": "94:1327",
+        "name": "Contacts / hub",
+        "status": "pass",
+        "source_frame": "94:1327",
+        "comparison": "adaptation",
+        "findings": [
+          "All contact categories, counts and controls fit; some category words wrap awkwardly but remain complete."
+        ],
+        "evidence": [
+          "qa/extended-states/pro/max-text/94-1327.png",
+          "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/94-1327.png"
+        ]
+      }
+    ]
+  },
+  {
+    "key": "max_text:94:1517",
+    "mode": "max_text",
+    "id_or_route": "94:1517",
+    "name": "Contacts / all0",
+    "status": "pass",
+    "source_frame": "94:1517",
+    "comparison": "adaptation",
+    "findings": [
+      "Fresh maximum-text screenshot and XCTest scrolling visually inspected; complete labels/content and actions are reachable without earlier clipping/overlap. Long words may wrap at maximum text; layout is adaptation, not pixel identity."
+    ],
+    "evidence": [
+      "qa/extended-states/pro/final/max-text/94-1517.png",
+      "qa/extended-states/pro/final/scroll/max-94-1517-scroll-3.png",
+      "qa/extended-states/pro/final/scroll/max-94-1517-scroll-3-ax.txt",
+      "qa/extended-states/pro/final/scroll/max-94-1517-top.png"
+    ],
+    "capture_sha256": "542922e4401930b7f4f1453dd02876b7314494ed9763ac59ae3fdfc6c4782260",
+    "history": [
+      {
+        "key": "max_text:94:1517",
+        "mode": "max_text",
+        "id_or_route": "94:1517",
+        "name": "Contacts / all0",
+        "status": "blocked",
+        "source_frame": "94:1517",
+        "comparison": "adaptation",
+        "findings": [
+          "First contact and pinned Delete action fit; remaining contact-list reachability needs scrolling."
+        ],
+        "evidence": [
+          "qa/extended-states/pro/max-text/94-1517.png",
+          "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/94-1517.png"
+        ]
+      }
+    ],
+    "scroll_sha256": "ac2536aa28086f686cd5f196ba978907a262420848823d2cee409ac9b1f4c2a6"
+  },
+  {
+    "key": "max_text:94:1992",
+    "mode": "max_text",
+    "id_or_route": "94:1992",
+    "name": "Contacts / allEmpty",
+    "status": "pass",
+    "source_frame": "94:1992",
+    "comparison": "adaptation",
+    "findings": [
+      "Fresh fixed-build screenshot visually inspected; text/actions visible without earlier clipping or overlap."
+    ],
+    "evidence": [
+      "qa/extended-states/pro/final/max-text/94-1992.png"
+    ],
+    "capture_sha256": "40ec9bd9c7dd7f3422351c323d1ae254ca12027c585223e54f88101cfca1a477",
+    "history": [
+      {
+        "key": "max_text:94:1992",
+        "mode": "max_text",
+        "id_or_route": "94:1992",
+        "name": "Contacts / allEmpty",
+        "status": "pass",
+        "source_frame": "94:1992",
+        "comparison": "adaptation",
+        "findings": [
+          "Empty contact illustration and full No contacts title fit."
+        ],
+        "evidence": [
+          "qa/extended-states/pro/max-text/94-1992.png",
+          "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/94-1992.png"
+        ]
+      }
+    ]
+  },
+  {
+    "key": "max_text:94:2057",
+    "mode": "max_text",
+    "id_or_route": "94:2057",
+    "name": "Contacts / inc0",
+    "status": "pass",
+    "source_frame": "94:2057",
+    "comparison": "adaptation",
+    "findings": [
+      "Fresh maximum-text screenshot and XCTest scrolling visually inspected; complete labels/content and actions are reachable without earlier clipping/overlap. Long words may wrap at maximum text; layout is adaptation, not pixel identity."
+    ],
+    "evidence": [
+      "qa/extended-states/pro/final/max-text/94-2057.png",
+      "qa/extended-states/pro/final/scroll/max-94-2057-scroll-3.png",
+      "qa/extended-states/pro/final/scroll/max-94-2057-scroll-3-ax.txt",
+      "qa/extended-states/pro/final/scroll/max-94-2057-top.png"
+    ],
+    "capture_sha256": "d03175767c6cc6fc7ceaee9b582f278a00abc0351b7eac1861063d099dbe9c81",
+    "history": [
+      {
+        "key": "max_text:94:2057",
+        "mode": "max_text",
+        "id_or_route": "94:2057",
+        "name": "Contacts / inc0",
+        "status": "issue",
+        "source_frame": "94:2057",
+        "comparison": "adaptation",
+        "findings": [
+          "Initials truncate inside fixed avatar; names and missing-number text wrap. Scroll reachability pending."
+        ],
+        "evidence": [
+          "qa/extended-states/pro/max-text/94-2057.png",
+          "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/94-2057.png"
+        ]
+      }
+    ],
+    "scroll_sha256": "661e702b01ca959a79f85b8a92a436a97ea3e38d738fc956cde565acb2aac2ec"
+  },
+  {
+    "key": "max_text:94:2930",
+    "mode": "max_text",
+    "id_or_route": "94:2930",
+    "name": "Contacts / dupAll",
+    "status": "pass",
+    "source_frame": "94:2930",
+    "comparison": "adaptation",
+    "findings": [
+      "Fresh maximum-text screenshot and XCTest scrolling visually inspected; complete labels/content and actions are reachable without earlier clipping/overlap. Long words may wrap at maximum text; layout is adaptation, not pixel identity."
+    ],
+    "evidence": [
+      "qa/extended-states/pro/final/max-text/94-2930.png",
+      "qa/extended-states/pro/final/scroll/max-94-2930-scroll-3.png",
+      "qa/extended-states/pro/final/scroll/max-94-2930-scroll-3-ax.txt",
+      "qa/extended-states/pro/final/scroll/max-94-2930-top.png"
+    ],
+    "capture_sha256": "92df478155071c058bd21cfeca9b2f3662e9dc5700c7e74ae5a88e0b0e33454a",
+    "history": [
+      {
+        "key": "max_text:94:2930",
+        "mode": "max_text",
+        "id_or_route": "94:2930",
+        "name": "Contacts / dupAll",
+        "status": "blocked",
+        "source_frame": "94:2930",
+        "comparison": "adaptation",
+        "findings": [
+          "First duplicate group text readable and action visible; remaining groups need scroll verification."
+        ],
+        "evidence": [
+          "qa/extended-states/pro/max-text/94-2930.png",
+          "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/94-2930.png"
+        ]
+      }
+    ],
+    "scroll_sha256": "96b29146fc6e8c53bd5cb19e0865bef7de2e95e08efcc0724ad3445f6a06d35b"
+  },
+  {
+    "key": "max_text:94:3224",
+    "mode": "max_text",
+    "id_or_route": "94:3224",
+    "name": "Contacts / preview0",
+    "status": "pass",
+    "source_frame": "94:3224",
+    "comparison": "adaptation",
+    "findings": [
+      "Fresh maximum-text screenshot and XCTest scrolling visually inspected; complete labels/content and actions are reachable without earlier clipping/overlap. Long words may wrap at maximum text; layout is adaptation, not pixel identity."
+    ],
+    "evidence": [
+      "qa/extended-states/pro/final/max-text/94-3224.png",
+      "qa/extended-states/pro/final/scroll/max-94-3224-scroll-3.png",
+      "qa/extended-states/pro/final/scroll/max-94-3224-scroll-3-ax.txt",
+      "qa/extended-states/pro/final/scroll/max-94-3224-top.png"
+    ],
+    "capture_sha256": "f9ad24e9a58160a31c1814fd456dd79e16477279ce914d21d7caa4916f63ca3d",
+    "history": [
+      {
+        "key": "max_text:94:3224",
+        "mode": "max_text",
+        "id_or_route": "94:3224",
+        "name": "Contacts / preview0",
+        "status": "issue",
+        "source_frame": "94:3224",
+        "comparison": "adaptation",
+        "findings": [
+          "Initials truncate inside fixed avatar. Lower merge fields require scroll verification."
+        ],
+        "evidence": [
+          "qa/extended-states/pro/max-text/94-3224.png",
+          "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/94-3224.png"
+        ]
+      }
+    ],
+    "scroll_sha256": "73a40bb468321aed9972fe1c0c025b86d2bce56970604abb89638dd2c7289cf3"
+  },
+  {
+    "key": "max_text:94:3869",
+    "mode": "max_text",
+    "id_or_route": "94:3869",
+    "name": "Contacts / mergeDone",
+    "status": "pass",
+    "source_frame": "94:3869",
+    "comparison": "adaptation",
+    "findings": [
+      "Fresh maximum-text screenshot and XCTest scrolling visually inspected; complete labels/content and actions are reachable without earlier clipping/overlap. Long words may wrap at maximum text; layout is adaptation, not pixel identity."
+    ],
+    "evidence": [
+      "qa/extended-states/pro/final/max-text/94-3869.png",
+      "qa/extended-states/pro/final/scroll/max-94-3869-scroll-3.png",
+      "qa/extended-states/pro/final/scroll/max-94-3869-scroll-3-ax.txt",
+      "qa/extended-states/pro/final/scroll/max-94-3869-top.png"
+    ],
+    "capture_sha256": "ca47fb700f5c1f2e40a5ea088a3de455235bfed078ec1598948417dc9ddedcac",
+    "history": [
+      {
+        "key": "max_text:94:3869",
+        "mode": "max_text",
+        "id_or_route": "94:3869",
+        "name": "Contacts / mergeDone",
+        "status": "issue",
+        "source_frame": "94:3869",
+        "comparison": "adaptation",
+        "findings": [
+          "Tall completion modal places artwork into the status-bar/top safe area; text and Continue still fit."
+        ],
+        "evidence": [
+          "qa/extended-states/pro/max-text/94-3869.png",
+          "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/94-3869.png"
+        ]
+      }
+    ],
+    "scroll_sha256": "996ffd90d05b2d0c59d5180b539f95bb3985b5811bc49d3b4545486769a7dce5"
+  },
+  {
+    "key": "max_text:94:4066",
+    "mode": "max_text",
+    "id_or_route": "94:4066",
+    "name": "Contacts / backups",
+    "status": "pass",
+    "source_frame": "94:4066",
+    "comparison": "adaptation",
+    "findings": [
+      "Fresh fixed-build screenshot visually inspected; text/actions visible without earlier clipping or overlap."
+    ],
+    "evidence": [
+      "qa/extended-states/pro/final/max-text/94-4066.png"
+    ],
+    "capture_sha256": "8eb7e288c2062c10613933e2bcfc2164446dfc1c7b6243f8234cf97c6091e6d2",
+    "history": [
+      {
+        "key": "max_text:94:4066",
+        "mode": "max_text",
+        "id_or_route": "94:4066",
+        "name": "Contacts / backups",
+        "status": "pass",
+        "source_frame": "94:4066",
+        "comparison": "adaptation",
+        "findings": [
+          "Backup date/count wrap fully; Create backup remains visible."
+        ],
+        "evidence": [
+          "qa/extended-states/pro/max-text/94-4066.png",
+          "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/94-4066.png"
+        ]
+      }
+    ]
+  },
+  {
+    "key": "max_text:94:4213",
+    "mode": "max_text",
+    "id_or_route": "94:4213",
+    "name": "Contacts / detail",
+    "status": "pass",
+    "source_frame": "94:4213",
+    "comparison": "adaptation",
+    "findings": [
+      "Fresh maximum-text screenshot and XCTest scrolling visually inspected; complete labels/content and actions are reachable without earlier clipping/overlap. Long words may wrap at maximum text; layout is adaptation, not pixel identity."
+    ],
+    "evidence": [
+      "qa/extended-states/pro/final/max-text/94-4213.png",
+      "qa/extended-states/pro/final/scroll/max-94-4213-scroll-3.png",
+      "qa/extended-states/pro/final/scroll/max-94-4213-scroll-3-ax.txt",
+      "qa/extended-states/pro/final/scroll/max-94-4213-top.png"
+    ],
+    "capture_sha256": "b55e432d88aad21f53502298fc98d73884bf4f08f8857b7ad9d4bc6fe8fde31d",
+    "history": [
+      {
+        "key": "max_text:94:4213",
+        "mode": "max_text",
+        "id_or_route": "94:4213",
+        "name": "Contacts / detail",
+        "status": "blocked",
+        "source_frame": "94:4213",
+        "comparison": "adaptation",
+        "findings": [
+          "Backup header/date/count and pinned Restore fit; lower contacts need scroll verification."
+        ],
+        "evidence": [
+          "qa/extended-states/pro/max-text/94-4213.png",
+          "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/94-4213.png"
+        ]
+      }
+    ],
+    "scroll_sha256": "c44bd07c1df8afd1cee0fb96b96240435180a05170ec7c63a6bc6fee1ea64088"
+  },
+  {
+    "key": "max_text:94:4372",
+    "mode": "max_text",
+    "id_or_route": "94:4372",
+    "name": "Contacts / restore",
+    "status": "pass",
+    "source_frame": "94:4372",
+    "comparison": "adaptation",
+    "findings": [
+      "Fresh maximum-text screenshot and XCTest scrolling visually inspected; complete labels/content and actions are reachable without earlier clipping/overlap. Long words may wrap at maximum text; layout is adaptation, not pixel identity."
+    ],
+    "evidence": [
+      "qa/extended-states/pro/final/max-text/94-4372.png",
+      "qa/extended-states/pro/final/scroll/max-94-4372-scroll-3.png",
+      "qa/extended-states/pro/final/scroll/max-94-4372-scroll-3-ax.txt",
+      "qa/extended-states/pro/final/scroll/max-94-4372-top.png"
+    ],
+    "capture_sha256": "e12f7b945e2f7b565d1ea7e96b66b2c7b06a82e4a272880b1e8225f2a88f057e",
+    "history": [
+      {
+        "key": "max_text:94:4372",
+        "mode": "max_text",
+        "id_or_route": "94:4372",
+        "name": "Contacts / restore",
+        "status": "issue",
+        "source_frame": "94:4372",
+        "comparison": "adaptation",
+        "findings": [
+          "Restore status truncates with ellipsis; fixed artwork avatars/names clip with large text."
+        ],
+        "evidence": [
+          "qa/extended-states/pro/max-text/94-4372.png",
+          "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/94-4372.png"
+        ]
+      }
+    ],
+    "scroll_sha256": "b79597d638648c12099ee5b167be76e2b2b032b33b77b8ce64a0ff6ccbd46cc9"
+  },
+  {
+    "key": "max_text:94:4665",
+    "mode": "max_text",
+    "id_or_route": "94:4665",
+    "name": "Contacts / restored",
+    "status": "pass",
+    "source_frame": "94:4665",
+    "comparison": "adaptation",
+    "findings": [
+      "Fresh maximum-text screenshot and XCTest scrolling visually inspected; complete labels/content and actions are reachable without earlier clipping/overlap. Long words may wrap at maximum text; layout is adaptation, not pixel identity."
+    ],
+    "evidence": [
+      "qa/extended-states/pro/final/max-text/94-4665.png",
+      "qa/extended-states/pro/final/scroll/max-94-4665-scroll-3.png",
+      "qa/extended-states/pro/final/scroll/max-94-4665-scroll-3-ax.txt",
+      "qa/extended-states/pro/final/scroll/max-94-4665-top.png"
+    ],
+    "capture_sha256": "e4c31a964684b1d21330fb4c52b6b4b92f3764d3628be7a9ff8a384ad35bac46",
+    "history": [
+      {
+        "key": "max_text:94:4665",
+        "mode": "max_text",
+        "id_or_route": "94:4665",
+        "name": "Contacts / restored",
+        "status": "pass",
+        "source_frame": "94:4665",
+        "comparison": "adaptation",
+        "findings": [
+          "Restore-result modal wraps full title/body with accessible Continue."
+        ],
+        "evidence": [
+          "qa/extended-states/pro/max-text/94-4665.png",
+          "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/94-4665.png"
+        ]
+      }
+    ],
+    "scroll_sha256": "ea7040db1b488226a09acb66eaad026caeb279a7157f857ef8a812a0bef54e9a"
+  },
+  {
+    "key": "max_text:119:1912",
+    "mode": "max_text",
+    "id_or_route": "119:1912",
+    "name": "Calendar / Past · browse",
+    "status": "pass",
+    "source_frame": "119:1912",
+    "comparison": "adaptation",
+    "findings": [
+      "Fresh maximum-text screenshot and XCTest scrolling visually inspected; complete labels/content and actions are reachable without earlier clipping/overlap. Long words may wrap at maximum text; layout is adaptation, not pixel identity."
+    ],
+    "evidence": [
+      "qa/extended-states/pro/final/max-text/119-1912.png",
+      "qa/extended-states/pro/final/scroll/max-119-1912-scroll-3.png",
+      "qa/extended-states/pro/final/scroll/max-119-1912-scroll-3-ax.txt",
+      "qa/extended-states/pro/final/scroll/max-119-1912-top.png"
+    ],
+    "capture_sha256": "ebac80d8195a3a94e25f04bba31a591bdabc46bc4d69734e9f0b61ec6c0a72e5",
+    "history": [
+      {
+        "key": "max_text:119:1912",
+        "mode": "max_text",
+        "id_or_route": "119:1912",
+        "name": "Calendar / Past · browse",
+        "status": "blocked",
+        "source_frame": "119:1912",
+        "comparison": "adaptation",
+        "findings": [
+          "Year wraps into two lines; list/footer readable initially. More events require scroll verification."
+        ],
+        "evidence": [
+          "qa/extended-states/pro/max-text/119-1912.png",
+          "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/119-1912.png"
+        ]
+      }
+    ],
+    "scroll_sha256": "bc565b9b64d8f0ea23de791666f2abc1edfdb81d77cdf26b68648facffd49aa1"
+  },
+  {
+    "key": "max_text:119:3280",
+    "mode": "max_text",
+    "id_or_route": "119:3280",
+    "name": "Calendar / Future · all",
+    "status": "pass",
+    "source_frame": "119:3280",
+    "comparison": "adaptation",
+    "findings": [
+      "Fresh maximum-text screenshot and XCTest scrolling visually inspected; complete labels/content and actions are reachable without earlier clipping/overlap. Long words may wrap at maximum text; layout is adaptation, not pixel identity."
+    ],
+    "evidence": [
+      "qa/extended-states/pro/final/max-text/119-3280.png",
+      "qa/extended-states/pro/final/scroll/max-119-3280-scroll-3.png",
+      "qa/extended-states/pro/final/scroll/max-119-3280-scroll-3-ax.txt",
+      "qa/extended-states/pro/final/scroll/max-119-3280-top.png"
+    ],
+    "capture_sha256": "5f07d61958a3b3333ab7b1f3ffc504be9c732609c579d63bd150550699337a7b",
+    "history": [
+      {
+        "key": "max_text:119:3280",
+        "mode": "max_text",
+        "id_or_route": "119:3280",
+        "name": "Calendar / Future · all",
+        "status": "issue",
+        "source_frame": "119:3280",
+        "comparison": "adaptation",
+        "findings": [
+          "Event metadata truncates in fixed row width; remaining event-list reachability pending."
+        ],
+        "evidence": [
+          "qa/extended-states/pro/max-text/119-3280.png",
+          "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/119-3280.png"
+        ]
+      }
+    ],
+    "scroll_sha256": "fd3a84bea6ca6dddd7f753d0587bae2ba97279c70724b68164c6f5f29e5b93f3"
+  },
+  {
+    "key": "max_text:119:2804",
+    "mode": "max_text",
+    "id_or_route": "119:2804",
+    "name": "Calendar / Past · empty",
+    "status": "pass",
+    "source_frame": "119:2804",
+    "comparison": "adaptation",
+    "findings": [
+      "Fresh maximum-text screenshot and XCTest scrolling visually inspected; complete labels/content and actions are reachable without earlier clipping/overlap. Long words may wrap at maximum text; layout is adaptation, not pixel identity."
+    ],
+    "evidence": [
+      "qa/extended-states/pro/final/max-text/119-2804.png",
+      "qa/extended-states/pro/final/scroll/max-119-2804-scroll-3.png",
+      "qa/extended-states/pro/final/scroll/max-119-2804-scroll-3-ax.txt",
+      "qa/extended-states/pro/final/scroll/max-119-2804-top.png"
+    ],
+    "capture_sha256": "686a0e41d6855c250b97507583b97564c85312a4bad7febfc054bbda613a80f8",
+    "history": [
+      {
+        "key": "max_text:119:2804",
+        "mode": "max_text",
+        "id_or_route": "119:2804",
+        "name": "Calendar / Past · empty",
+        "status": "issue",
+        "source_frame": "119:2804",
+        "comparison": "adaptation",
+        "findings": [
+          "Empty-calendar title and explanation truncate with ellipses."
+        ],
+        "evidence": [
+          "qa/extended-states/pro/max-text/119-2804.png",
+          "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/119-2804.png"
+        ]
+      }
+    ],
+    "scroll_sha256": "05b70b2cb220978c41fe7708f08508884c2707237cb05b792fe426160631a982"
+  },
+  {
+    "key": "max_text:119:4146",
+    "mode": "max_text",
+    "id_or_route": "119:4146",
+    "name": "Calendar / Past · partial success",
+    "status": "pass",
+    "source_frame": "119:4146",
+    "comparison": "adaptation",
+    "findings": [
+      "Fresh fixed-build screenshot visually inspected; text/actions visible without earlier clipping or overlap."
+    ],
+    "evidence": [
+      "qa/extended-states/pro/final/max-text/119-4146.png"
+    ],
+    "capture_sha256": "403855045fc3423b4b11b3303d3d12dd0ff84d1d4d53d29e80f31b34c93ad192",
+    "history": [
+      {
+        "key": "max_text:119:4146",
+        "mode": "max_text",
+        "id_or_route": "119:4146",
+        "name": "Calendar / Past · partial success",
+        "status": "pass",
+        "source_frame": "119:4146",
+        "comparison": "adaptation",
+        "findings": [
+          "Partial-success modal title/body/Continue fit."
+        ],
+        "evidence": [
+          "qa/extended-states/pro/max-text/119-4146.png",
+          "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/119-4146.png"
+        ]
+      }
+    ]
+  },
+  {
+    "key": "max_text:127:2092",
+    "mode": "max_text",
+    "id_or_route": "127:2092",
+    "name": "Background Remover / Choose photo",
+    "status": "pass",
+    "source_frame": "127:2092",
+    "comparison": "adaptation",
+    "findings": [
+      "Fresh maximum-text screenshot and XCTest scrolling visually inspected; complete labels/content and actions are reachable without earlier clipping/overlap. Long words may wrap at maximum text; layout is adaptation, not pixel identity."
+    ],
+    "evidence": [
+      "qa/extended-states/pro/final/max-text/127-2092.png",
+      "qa/extended-states/pro/final/scroll/max-127-2092-scroll-3.png",
+      "qa/extended-states/pro/final/scroll/max-127-2092-scroll-3-ax.txt",
+      "qa/extended-states/pro/final/scroll/max-127-2092-top.png"
+    ],
+    "capture_sha256": "6d2a14a5d80b753bdc753ebd2978d0815d2028c809f232eb2d04f9ac1b333dd9",
+    "history": [
+      {
+        "key": "max_text:127:2092",
+        "mode": "max_text",
+        "id_or_route": "127:2092",
+        "name": "Background Remover / Choose photo",
+        "status": "blocked",
+        "source_frame": "127:2092",
+        "comparison": "adaptation",
+        "findings": [
+          "Intro copy initially lies under fixed Choose photo footer; need scroll verification."
+        ],
+        "evidence": [
+          "qa/extended-states/pro/max-text/127-2092.png",
+          "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/127-2092.png"
+        ]
+      }
+    ],
+    "scroll_sha256": "435a832e3804b68817a46fc5a625525c0f20f5352282828a803d871e5c5b568a"
+  },
+  {
+    "key": "max_text:129:2123",
+    "mode": "max_text",
+    "id_or_route": "129:2123",
+    "name": "Background Remover / Processing · 1",
+    "status": "pass",
+    "source_frame": "129:2123",
+    "comparison": "adaptation",
+    "findings": [
+      "Fresh final-build screenshot and direct XCTest scrolling visually inspected; labels and lower content reachable, earlier clipped badges/overlap resolved."
+    ],
+    "evidence": [
+      "qa/extended-states/pro/final/max-text/129-2123.png",
+      "qa/extended-states/pro/final/scroll/max-129-2123-scroll-3.png"
+    ],
+    "capture_sha256": "b830e5d762ea3b99622493a4f6fc012adabe2043cf142114a9802601dc5f3afa",
+    "history": [
+      {
+        "key": "max_text:129:2123",
+        "mode": "max_text",
+        "id_or_route": "129:2123",
+        "name": "Background Remover / Processing · 1",
+        "status": "blocked",
+        "source_frame": "129:2123",
+        "comparison": "adaptation",
+        "findings": [
+          "Removing-background caption lies below viewport; need scroll verification."
+        ],
+        "evidence": [
+          "qa/extended-states/pro/max-text/129-2123.png",
+          "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/129-2123.png"
+        ]
+      }
+    ],
+    "scroll_sha256": "e410daeba1f15a10ef28fb5191e8366d1d279348f7a7db8a29fe8785df0f66d5"
+  },
+  {
+    "key": "max_text:141:2383",
+    "mode": "max_text",
+    "id_or_route": "141:2383",
+    "name": "App / Loading selected photo",
+    "status": "pass",
+    "source_frame": "141:2383",
+    "comparison": "adaptation",
+    "findings": [
+      "Fresh fixed-build screenshot visually inspected; text/actions visible without earlier clipping or overlap."
+    ],
+    "evidence": [
+      "qa/extended-states/pro/final/max-text/141-2383.png"
+    ],
+    "capture_sha256": "581366f9a9e2ebafc61bcd637e04602606a081a24740325bdec8cec0ad336a2a",
+    "history": [
+      {
+        "key": "max_text:141:2383",
+        "mode": "max_text",
+        "id_or_route": "141:2383",
+        "name": "App / Loading selected photo",
+        "status": "blocked",
+        "source_frame": "141:2383",
+        "comparison": "adaptation",
+        "findings": [
+          "Loading caption near lower edge; need scroll verification for full content."
+        ],
+        "evidence": [
+          "qa/extended-states/pro/max-text/141-2383.png",
+          "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/141-2383.png"
+        ]
+      }
+    ]
+  },
+  {
+    "key": "max_text:129:2217",
+    "mode": "max_text",
+    "id_or_route": "129:2217",
+    "name": "Background Remover / Transparent",
+    "status": "pass",
+    "source_frame": "129:2217",
+    "comparison": "adaptation",
+    "findings": [
+      "Fresh maximum-text screenshot and XCTest scrolling visually inspected; complete labels/content and actions are reachable without earlier clipping/overlap. Long words may wrap at maximum text; layout is adaptation, not pixel identity."
+    ],
+    "evidence": [
+      "qa/extended-states/pro/final/max-text/129-2217.png",
+      "qa/extended-states/pro/final/scroll/max-129-2217-scroll-3.png",
+      "qa/extended-states/pro/final/scroll/max-129-2217-scroll-3-ax.txt",
+      "qa/extended-states/pro/final/scroll/max-129-2217-top.png"
+    ],
+    "capture_sha256": "b10e51a72cc30b9ca169287412f9fe43297cc8f6cb5d3b170cf64d4a79389438",
+    "history": [
+      {
+        "key": "max_text:129:2217",
+        "mode": "max_text",
+        "id_or_route": "129:2217",
+        "name": "Background Remover / Transparent",
+        "status": "blocked",
+        "source_frame": "129:2217",
+        "comparison": "adaptation",
+        "findings": [
+          "Background selection controls below Share/Save footer initially; need scroll verification."
+        ],
+        "evidence": [
+          "qa/extended-states/pro/max-text/129-2217.png",
+          "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/129-2217.png"
+        ]
+      }
+    ],
+    "scroll_sha256": "03a4f56686966ec3d2401c667a94219dc7ad185ca2572d50cd17cfb123ca5ade"
+  },
+  {
+    "key": "max_text:141:2461",
+    "mode": "max_text",
+    "id_or_route": "141:2461",
+    "name": "App / Photos access off",
+    "status": "pass",
+    "source_frame": "141:2461",
+    "comparison": "adaptation",
+    "findings": [
+      "Fresh fixed-build screenshot visually inspected; text/actions visible without earlier clipping or overlap."
+    ],
+    "evidence": [
+      "qa/extended-states/pro/final/max-text/141-2461.png"
+    ],
+    "capture_sha256": "c04df57497aff65dc32ac345bd66545b2fc766677113e6ce75ae3a9be650278b",
+    "history": [
+      {
+        "key": "max_text:141:2461",
+        "mode": "max_text",
+        "id_or_route": "141:2461",
+        "name": "App / Photos access off",
+        "status": "pass",
+        "source_frame": "141:2461",
+        "comparison": "adaptation",
+        "findings": [
+          "Long access-off modal message wraps and Back to editor remains fully visible."
+        ],
+        "evidence": [
+          "qa/extended-states/pro/max-text/141-2461.png",
+          "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/141-2461.png"
+        ]
+      }
+    ]
+  },
+  {
+    "key": "max_text:141:2492",
+    "mode": "max_text",
+    "id_or_route": "141:2492",
+    "name": "App / Photo saved",
+    "status": "pass",
+    "source_frame": "141:2492",
+    "comparison": "adaptation",
+    "findings": [
+      "Fresh fixed-build screenshot visually inspected; text/actions visible without earlier clipping or overlap."
+    ],
+    "evidence": [
+      "qa/extended-states/pro/final/max-text/141-2492.png"
+    ],
+    "capture_sha256": "89ad189596b2e02d9eef7af78e39cac6e0023a3bc62c372ec988c4257ec2749c",
+    "history": [
+      {
+        "key": "max_text:141:2492",
+        "mode": "max_text",
+        "id_or_route": "141:2492",
+        "name": "App / Photo saved",
+        "status": "pass",
+        "source_frame": "141:2492",
+        "comparison": "adaptation",
+        "findings": [
+          "Photo-saved modal text and Continue fit."
+        ],
+        "evidence": [
+          "qa/extended-states/pro/max-text/141-2492.png",
+          "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/141-2492.png"
+        ]
+      }
+    ]
+  },
+  {
+    "key": "max_text:147:2387",
+    "mode": "max_text",
+    "id_or_route": "147:2387",
+    "name": "Security Center / hub",
+    "status": "pass",
+    "source_frame": "147:2387",
+    "comparison": "adaptation",
+    "findings": [
+      "Fresh maximum-text screenshot and XCTest scrolling visually inspected; complete labels/content and actions are reachable without earlier clipping/overlap. Long words may wrap at maximum text; layout is adaptation, not pixel identity."
+    ],
+    "evidence": [
+      "qa/extended-states/pro/final/max-text/147-2387.png",
+      "qa/extended-states/pro/final/scroll/max-147-2387-scroll-3.png",
+      "qa/extended-states/pro/final/scroll/max-147-2387-scroll-3-ax.txt",
+      "qa/extended-states/pro/final/scroll/max-147-2387-top.png"
+    ],
+    "capture_sha256": "dc5d48afc8b47f7e51b5dd4a06f18b9793eaeb4e0cd27bc964ccc59a960fedbb",
+    "history": [
+      {
+        "key": "max_text:147:2387",
+        "mode": "max_text",
+        "id_or_route": "147:2387",
+        "name": "Security Center / hub",
+        "status": "blocked",
+        "source_frame": "147:2387",
+        "comparison": "adaptation",
+        "findings": [
+          "Security lower cards need scroll verification."
+        ],
+        "evidence": [
+          "qa/extended-states/pro/max-text/147-2387.png",
+          "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/147-2387.png"
+        ]
+      }
+    ],
+    "scroll_sha256": "4462c0a13d219b9b09706859d0c11b5ea8b8fc794139fe03feedd3b200c77c84"
+  },
+  {
+    "key": "max_text:147:2719",
+    "mode": "max_text",
+    "id_or_route": "147:2719",
+    "name": "Security Center / emailInvalid",
+    "status": "pass",
+    "source_frame": "147:2719",
+    "comparison": "adaptation",
+    "findings": [
+      "Fresh maximum-text screenshot and XCTest scrolling visually inspected; complete labels/content and actions are reachable without earlier clipping/overlap. Long words may wrap at maximum text; layout is adaptation, not pixel identity."
+    ],
+    "evidence": [
+      "qa/extended-states/pro/final/max-text/147-2719.png",
+      "qa/extended-states/pro/final/scroll/max-147-2719-scroll-3.png",
+      "qa/extended-states/pro/final/scroll/max-147-2719-scroll-3-ax.txt",
+      "qa/extended-states/pro/final/scroll/max-147-2719-top.png"
+    ],
+    "capture_sha256": "307ed2fa65ea50d6f0de569ffb8240437371e9dedc1881e4e692399d8513ed2c",
+    "history": [
+      {
+        "key": "max_text:147:2719",
+        "mode": "max_text",
+        "id_or_route": "147:2719",
+        "name": "Security Center / emailInvalid",
+        "status": "blocked",
+        "source_frame": "147:2719",
+        "comparison": "adaptation",
+        "findings": [
+          "Invalid-email field/error below initial viewport and footer; need scroll verification."
+        ],
+        "evidence": [
+          "qa/extended-states/pro/max-text/147-2719.png",
+          "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/147-2719.png"
+        ]
+      }
+    ],
+    "scroll_sha256": "03811c87339ab9b7b42171d93fdb16e7fd90d393afc8b50b891f545436daaabd"
+  },
+  {
+    "key": "max_text:147:2774",
+    "mode": "max_text",
+    "id_or_route": "147:2774",
+    "name": "Security Center / checkingClear",
+    "status": "pass",
+    "source_frame": "147:2774",
+    "comparison": "adaptation",
+    "findings": [
+      "Fresh fixed-build screenshot visually inspected; text/actions visible without earlier clipping or overlap."
+    ],
+    "evidence": [
+      "qa/extended-states/pro/final/max-text/147-2774.png"
+    ],
+    "capture_sha256": "13ad6765d9910e5c01af9e951d05e4dc130fa13f3ff1ee889131bb61baa07aae",
+    "history": [
+      {
+        "key": "max_text:147:2774",
+        "mode": "max_text",
+        "id_or_route": "147:2774",
+        "name": "Security Center / checkingClear",
+        "status": "pass",
+        "source_frame": "147:2774",
+        "comparison": "adaptation",
+        "findings": [
+          "Checking artwork/caption fit; full email wraps across lines."
+        ],
+        "evidence": [
+          "qa/extended-states/pro/max-text/147-2774.png",
+          "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/147-2774.png"
+        ]
+      }
+    ]
+  },
+  {
+    "key": "max_text:147:2969",
+    "mode": "max_text",
+    "id_or_route": "147:2969",
+    "name": "Security Center / emailUnavailable",
+    "status": "pass",
+    "source_frame": "147:2969",
+    "comparison": "adaptation",
+    "findings": [
+      "Fresh fixed-build screenshot visually inspected; text/actions visible without earlier clipping or overlap."
+    ],
+    "evidence": [
+      "qa/extended-states/pro/final/max-text/147-2969.png"
+    ],
+    "capture_sha256": "658578c329d728a52b75e0602019276a33a38b5068cf6fb78d3325a5c666971e",
+    "history": [
+      {
+        "key": "max_text:147:2969",
+        "mode": "max_text",
+        "id_or_route": "147:2969",
+        "name": "Security Center / emailUnavailable",
+        "status": "pass",
+        "source_frame": "147:2969",
+        "comparison": "adaptation",
+        "findings": [
+          "Unavailable message and Retry fit."
+        ],
+        "evidence": [
+          "qa/extended-states/pro/max-text/147-2969.png",
+          "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/147-2969.png"
+        ]
+      }
+    ]
+  },
+  {
+    "key": "max_text:147:3080",
+    "mode": "max_text",
+    "id_or_route": "147:3080",
+    "name": "Security Center / pwdWeak",
+    "status": "pass",
+    "source_frame": "147:3080",
+    "comparison": "adaptation",
+    "findings": [
+      "Fresh maximum-text screenshot and XCTest scrolling visually inspected; complete labels/content and actions are reachable without earlier clipping/overlap. Long words may wrap at maximum text; layout is adaptation, not pixel identity."
+    ],
+    "evidence": [
+      "qa/extended-states/pro/final/max-text/147-3080.png",
+      "qa/extended-states/pro/final/scroll/max-147-3080-scroll-3.png",
+      "qa/extended-states/pro/final/scroll/max-147-3080-scroll-3-ax.txt",
+      "qa/extended-states/pro/final/scroll/max-147-3080-top.png"
+    ],
+    "capture_sha256": "9736113777aefe377bd8ff4aac99a5649835a991f8847de487a5d4f142515f1d",
+    "history": [
+      {
+        "key": "max_text:147:3080",
+        "mode": "max_text",
+        "id_or_route": "147:3080",
+        "name": "Security Center / pwdWeak",
+        "status": "blocked",
+        "source_frame": "147:3080",
+        "comparison": "adaptation",
+        "findings": [
+          "Password strength/result below viewport; need scroll verification."
+        ],
+        "evidence": [
+          "qa/extended-states/pro/max-text/147-3080.png",
+          "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/147-3080.png"
+        ]
+      }
+    ],
+    "scroll_sha256": "09402847fef7341a535d3691ad4d5dd7ba5dd8ebbfc477d6193bac0d637b12ce"
+  },
+  {
+    "key": "max_text:147:3269",
+    "mode": "max_text",
+    "id_or_route": "147:3269",
+    "name": "Security Center / pwdLeaks",
+    "status": "pass",
+    "source_frame": "147:3269",
+    "comparison": "adaptation",
+    "findings": [
+      "Fresh maximum-text screenshot and XCTest scrolling visually inspected; complete labels/content and actions are reachable without earlier clipping/overlap. Long words may wrap at maximum text; layout is adaptation, not pixel identity."
+    ],
+    "evidence": [
+      "qa/extended-states/pro/final/max-text/147-3269.png",
+      "qa/extended-states/pro/final/scroll/max-147-3269-scroll-3.png",
+      "qa/extended-states/pro/final/scroll/max-147-3269-scroll-3-ax.txt",
+      "qa/extended-states/pro/final/scroll/max-147-3269-top.png"
+    ],
+    "capture_sha256": "9736113777aefe377bd8ff4aac99a5649835a991f8847de487a5d4f142515f1d",
+    "history": [
+      {
+        "key": "max_text:147:3269",
+        "mode": "max_text",
+        "id_or_route": "147:3269",
+        "name": "Security Center / pwdLeaks",
+        "status": "blocked",
+        "source_frame": "147:3269",
+        "comparison": "adaptation",
+        "findings": [
+          "Leak warning below viewport; need scroll verification."
+        ],
+        "evidence": [
+          "qa/extended-states/pro/max-text/147-3269.png",
+          "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/147-3269.png"
+        ]
+      }
+    ],
+    "scroll_sha256": "cb3e2f5a4de8a6d9739b2ee9cacf27e5bcfb374e7addb6f1a6e8e25d22055803"
+  },
+  {
+    "key": "max_text:147:3340",
+    "mode": "max_text",
+    "id_or_route": "147:3340",
+    "name": "Security Center / deviceStart",
+    "status": "pass",
+    "source_frame": "147:3340",
+    "comparison": "adaptation",
+    "findings": [
+      "Fresh maximum-text screenshot and XCTest scrolling visually inspected; complete labels/content and actions are reachable without earlier clipping/overlap. Long words may wrap at maximum text; layout is adaptation, not pixel identity."
+    ],
+    "evidence": [
+      "qa/extended-states/pro/final/max-text/147-3340.png",
+      "qa/extended-states/pro/final/scroll/max-147-3340-scroll-3.png",
+      "qa/extended-states/pro/final/scroll/max-147-3340-scroll-3-ax.txt",
+      "qa/extended-states/pro/final/scroll/max-147-3340-top.png"
+    ],
+    "capture_sha256": "654d30c7b204fc354429a369770854b3e04e76bce423976d9d8fb1f5aaad3b3d",
+    "history": [
+      {
+        "key": "max_text:147:3340",
+        "mode": "max_text",
+        "id_or_route": "147:3340",
+        "name": "Security Center / deviceStart",
+        "status": "blocked",
+        "source_frame": "147:3340",
+        "comparison": "adaptation",
+        "findings": [
+          "Device checklist lower cards need scroll verification."
+        ],
+        "evidence": [
+          "qa/extended-states/pro/max-text/147-3340.png",
+          "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/147-3340.png"
+        ]
+      }
+    ],
+    "scroll_sha256": "0a9071d7997b13709588bd2678306320a6bf6d15d66c5f59a16219a72fd92202"
+  },
+  {
+    "key": "max_text:147:3669",
+    "mode": "max_text",
+    "id_or_route": "147:3669",
+    "name": "Security Center / guide2",
+    "status": "pass",
+    "source_frame": "147:3669",
+    "comparison": "adaptation",
+    "findings": [
+      "Fresh maximum-text screenshot and XCTest scrolling visually inspected; complete labels/content and actions are reachable without earlier clipping/overlap. Long words may wrap at maximum text; layout is adaptation, not pixel identity."
+    ],
+    "evidence": [
+      "qa/extended-states/pro/final/max-text/147-3669.png",
+      "qa/extended-states/pro/final/scroll/max-147-3669-scroll-3.png",
+      "qa/extended-states/pro/final/scroll/max-147-3669-scroll-3-ax.txt",
+      "qa/extended-states/pro/final/scroll/max-147-3669-top.png"
+    ],
+    "capture_sha256": "90453e8ad71e8399106fe648d3bc031dffab34bbb49913a481678186e262bf8b",
+    "history": [
+      {
+        "key": "max_text:147:3669",
+        "mode": "max_text",
+        "id_or_route": "147:3669",
+        "name": "Security Center / guide2",
+        "status": "blocked",
+        "source_frame": "147:3669",
+        "comparison": "adaptation",
+        "findings": [
+          "Guide path below initial viewport; need scroll verification."
+        ],
+        "evidence": [
+          "qa/extended-states/pro/max-text/147-3669.png",
+          "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/147-3669.png"
+        ]
+      }
+    ],
+    "scroll_sha256": "2e77fad5ec181c5f7ea5354edbfc1a60692fd96b69f546169106a94bb50f3785"
+  },
+  {
+    "key": "max_text:159:2752",
+    "mode": "max_text",
+    "id_or_route": "159:2752",
+    "name": "Settings / No subscription",
+    "status": "pass",
+    "source_frame": "159:2752",
+    "comparison": "adaptation",
+    "findings": [
+      "Fresh maximum-text screenshot and XCTest scrolling visually inspected; complete labels/content and actions are reachable without earlier clipping/overlap. Long words may wrap at maximum text; layout is adaptation, not pixel identity."
+    ],
+    "evidence": [
+      "qa/extended-states/pro/final/max-text/159-2752.png",
+      "qa/extended-states/pro/final/scroll/max-159-2752-scroll-3.png",
+      "qa/extended-states/pro/final/scroll/max-159-2752-scroll-3-ax.txt",
+      "qa/extended-states/pro/final/scroll/max-159-2752-top.png"
+    ],
+    "capture_sha256": "ff5d10f968a6863928eb1d4fed76b2f77785b546742ee74ab5650b83915d2a97",
+    "history": [
+      {
+        "key": "max_text:159:2752",
+        "mode": "max_text",
+        "id_or_route": "159:2752",
+        "name": "Settings / No subscription",
+        "status": "issue",
+        "source_frame": "159:2752",
+        "comparison": "adaptation",
+        "findings": [
+          "Version footer visibly overlaps Rate us/Contact us rows at max text; lower rows need scroll verification."
+        ],
+        "evidence": [
+          "qa/extended-states/pro/max-text/159-2752.png",
+          "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/159-2752.png"
+        ]
+      }
+    ],
+    "scroll_sha256": "481537c01c38f58f5a2a33cfc9fb0be0ae81bfde29c8081afdf5e1f7c907a36d"
+  },
+  {
+    "key": "max_text:159:2979",
+    "mode": "max_text",
+    "id_or_route": "159:2979",
+    "name": "Settings / checking",
+    "status": "pass",
+    "source_frame": "159:2979",
+    "comparison": "adaptation",
+    "findings": [
+      "Fresh maximum-text screenshot and XCTest scrolling visually inspected; complete labels/content and actions are reachable without earlier clipping/overlap. Long words may wrap at maximum text; layout is adaptation, not pixel identity."
+    ],
+    "evidence": [
+      "qa/extended-states/pro/final/max-text/159-2979.png",
+      "qa/extended-states/pro/final/scroll/max-159-2979-scroll-3.png",
+      "qa/extended-states/pro/final/scroll/max-159-2979-scroll-3-ax.txt",
+      "qa/extended-states/pro/final/scroll/max-159-2979-top.png"
+    ],
+    "capture_sha256": "245b0d06c35fb18dc3db4ddd885968678ad21c065be57112d23c9d5beaadc6f7",
+    "history": [
+      {
+        "key": "max_text:159:2979",
+        "mode": "max_text",
+        "id_or_route": "159:2979",
+        "name": "Settings / checking",
+        "status": "issue",
+        "source_frame": "159:2979",
+        "comparison": "adaptation",
+        "findings": [
+          "Version footer visibly overlaps Rate us/Contact us rows at max text; restore row readable."
+        ],
+        "evidence": [
+          "qa/extended-states/pro/max-text/159-2979.png",
+          "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/159-2979.png"
+        ]
+      }
+    ],
+    "scroll_sha256": "e3aa9dc3312ace2c218ba00a8d33b4d28f211469db6d3cfea065a80e82d82fbf"
+  },
+  {
+    "key": "max_text:159:3259",
+    "mode": "max_text",
+    "id_or_route": "159:3259",
+    "name": "Settings / error",
+    "status": "pass",
+    "source_frame": "159:3259",
+    "comparison": "adaptation",
+    "findings": [
+      "Fresh maximum-text screenshot and XCTest scrolling visually inspected; complete labels/content and actions are reachable without earlier clipping/overlap. Long words may wrap at maximum text; layout is adaptation, not pixel identity.",
+      "XCTest asserted Back to Settings is hittable after scroll, tapped it and confirmed Try again disappears."
+    ],
+    "evidence": [
+      "qa/extended-states/pro/final/max-text/159-3259.png",
+      "qa/extended-states/pro/final/scroll/max-159-3259-scroll-3.png",
+      "qa/extended-states/pro/final/scroll/max-159-3259-scroll-3-ax.txt",
+      "qa/extended-states/pro/final/scroll/max-159-3259-top.png"
+    ],
+    "capture_sha256": "bfe78384b2cd31ec0d9cf3e5907350ce21fd27210f3c278bd8fcddc43931b2df",
+    "history": [
+      {
+        "key": "max_text:159:3259",
+        "mode": "max_text",
+        "id_or_route": "159:3259",
+        "name": "Settings / error",
+        "status": "issue",
+        "source_frame": "159:3259",
+        "comparison": "adaptation",
+        "findings": [
+          "Restore-error modal exceeds safe-area height: artwork clipped by top screen/Island, bottom secondary action near home-indicator area."
+        ],
+        "evidence": [
+          "qa/extended-states/pro/max-text/159-3259.png",
+          "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/159-3259.png"
+        ]
+      }
+    ],
+    "scroll_sha256": "f879c0f63f316cc77b39dffa575a9d86df8174cb277513af029e09e2a14bc722"
+  },
+  {
+    "key": "max_text:159:3124",
+    "mode": "max_text",
+    "id_or_route": "159:3124",
+    "name": "Settings / restored",
+    "status": "pass",
+    "source_frame": "159:3124",
+    "comparison": "adaptation",
+    "findings": [
+      "Fresh maximum-text screenshot and XCTest scrolling visually inspected; complete labels/content and actions are reachable without earlier clipping/overlap. Long words may wrap at maximum text; layout is adaptation, not pixel identity."
+    ],
+    "evidence": [
+      "qa/extended-states/pro/final/max-text/159-3124.png",
+      "qa/extended-states/pro/final/scroll/max-159-3124-scroll-3.png",
+      "qa/extended-states/pro/final/scroll/max-159-3124-scroll-3-ax.txt",
+      "qa/extended-states/pro/final/scroll/max-159-3124-top.png"
+    ],
+    "capture_sha256": "a918ca1d5a7da54999278462453c39864297b9fdda004964bd6096e917f248d1",
+    "history": [
+      {
+        "key": "max_text:159:3124",
+        "mode": "max_text",
+        "id_or_route": "159:3124",
+        "name": "Settings / restored",
+        "status": "pass",
+        "source_frame": "159:3124",
+        "comparison": "adaptation",
+        "findings": [
+          "Purchases-restored modal wraps title/body and keeps Continue visible."
+        ],
+        "evidence": [
+          "qa/extended-states/pro/max-text/159-3124.png",
+          "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/159-3124.png"
+        ]
+      }
+    ],
+    "scroll_sha256": "6d5c50b39ce8038f59e94e237669403a856774b5aa15fa453132826b76e9eb23"
+  },
+  {
+    "key": "max_text:159:3189",
+    "mode": "max_text",
+    "id_or_route": "159:3189",
+    "name": "Settings / none",
+    "status": "pass",
+    "source_frame": "159:3189",
+    "comparison": "adaptation",
+    "findings": [
+      "Fresh maximum-text screenshot and XCTest scrolling visually inspected; complete labels/content and actions are reachable without earlier clipping/overlap. Long words may wrap at maximum text; layout is adaptation, not pixel identity.",
+      "XCTest asserted Continue is hittable after scroll."
+    ],
+    "evidence": [
+      "qa/extended-states/pro/final/max-text/159-3189.png",
+      "qa/extended-states/pro/final/scroll/max-159-3189-scroll-3.png",
+      "qa/extended-states/pro/final/scroll/max-159-3189-scroll-3-ax.txt",
+      "qa/extended-states/pro/final/scroll/max-159-3189-top.png"
+    ],
+    "capture_sha256": "2297705bd683bdb8abbb6c5741072dfc5912948cad50ee34e6c444a282405d8b",
+    "history": [
+      {
+        "key": "max_text:159:3189",
+        "mode": "max_text",
+        "id_or_route": "159:3189",
+        "name": "Settings / none",
+        "status": "issue",
+        "source_frame": "159:3189",
+        "comparison": "adaptation",
+        "findings": [
+          "No-purchases result artwork reaches the top status-bar area; words break awkwardly but full message/action visible."
+        ],
+        "evidence": [
+          "qa/extended-states/pro/max-text/159-3189.png",
+          "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/159-3189.png"
+        ]
+      }
+    ],
+    "scroll_sha256": "695c2afd91f1881eb0f63733e7cac4c5f9ac5291bc98c7973424e1fa8b6440b4"
+  },
+  {
+    "key": "max_text:235:2861",
+    "mode": "max_text",
+    "id_or_route": "235:2861",
+    "name": "My subscription / Active",
+    "status": "pass",
+    "source_frame": "235:2861",
+    "comparison": "adaptation",
+    "findings": [
+      "Fresh maximum-text screenshot and XCTest scrolling visually inspected; complete labels/content and actions are reachable without earlier clipping/overlap. Long words may wrap at maximum text; layout is adaptation, not pixel identity."
+    ],
+    "evidence": [
+      "qa/extended-states/pro/final/max-text/235-2861.png",
+      "qa/extended-states/pro/final/scroll/max-235-2861-scroll-3.png",
+      "qa/extended-states/pro/final/scroll/max-235-2861-scroll-3-ax.txt",
+      "qa/extended-states/pro/final/scroll/max-235-2861-top.png"
+    ],
+    "capture_sha256": "4d9bc2a6b62d24267ad81877ff895fd61c412af2e3dff8b357c3a9b59252b2ef",
+    "history": [
+      {
+        "key": "max_text:235:2861",
+        "mode": "max_text",
+        "id_or_route": "235:2861",
+        "name": "My subscription / Active",
+        "status": "blocked",
+        "source_frame": "235:2861",
+        "comparison": "adaptation",
+        "findings": [
+          "Subscription details/actions below initial viewport; need scroll verification."
+        ],
+        "evidence": [
+          "qa/extended-states/pro/max-text/235-2861.png",
+          "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/235-2861.png"
+        ]
+      }
+    ],
+    "scroll_sha256": "5176382a3b3a513dccecd1e3a37fd218e1a606cef90ff6d85df81a29f4940d3e"
+  },
+  {
+    "key": "max_text:235:2908",
+    "mode": "max_text",
+    "id_or_route": "235:2908",
+    "name": "My subscription / Renewal off",
+    "status": "pass",
+    "source_frame": "235:2908",
+    "comparison": "adaptation",
+    "findings": [
+      "Fresh maximum-text screenshot and XCTest scrolling visually inspected; complete labels/content and actions are reachable without earlier clipping/overlap. Long words may wrap at maximum text; layout is adaptation, not pixel identity."
+    ],
+    "evidence": [
+      "qa/extended-states/pro/final/max-text/235-2908.png",
+      "qa/extended-states/pro/final/scroll/max-235-2908-scroll-3.png",
+      "qa/extended-states/pro/final/scroll/max-235-2908-scroll-3-ax.txt",
+      "qa/extended-states/pro/final/scroll/max-235-2908-top.png"
+    ],
+    "capture_sha256": "4be8b94b76c593a428307915af1bc6cff7553164f1d366e6975adbc42944a4ef",
+    "history": [
+      {
+        "key": "max_text:235:2908",
+        "mode": "max_text",
+        "id_or_route": "235:2908",
+        "name": "My subscription / Renewal off",
+        "status": "blocked",
+        "source_frame": "235:2908",
+        "comparison": "adaptation",
+        "findings": [
+          "Renewal-off details/actions below initial viewport; need scroll verification."
+        ],
+        "evidence": [
+          "qa/extended-states/pro/max-text/235-2908.png",
+          "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/235-2908.png"
+        ]
+      }
+    ],
+    "scroll_sha256": "101f7becbdd44c98d994fffb9ed0aaf0debaddbefeed2637adf9c4562b555509"
+  },
+  {
+    "key": "max_text:235:2955",
+    "mode": "max_text",
+    "id_or_route": "235:2955",
+    "name": "My subscription / No subscription",
+    "status": "pass",
+    "source_frame": "235:2955",
+    "comparison": "adaptation",
+    "findings": [
+      "Fresh maximum-text screenshot and XCTest scrolling visually inspected; complete labels/content and actions are reachable without earlier clipping/overlap. Long words may wrap at maximum text; layout is adaptation, not pixel identity."
+    ],
+    "evidence": [
+      "qa/extended-states/pro/final/max-text/235-2955.png",
+      "qa/extended-states/pro/final/scroll/max-235-2955-scroll-3.png",
+      "qa/extended-states/pro/final/scroll/max-235-2955-scroll-3-ax.txt",
+      "qa/extended-states/pro/final/scroll/max-235-2955-top.png"
+    ],
+    "capture_sha256": "aabe37eac62e99de59d20e1f44a5055d6eed66194cf38c41e65c75e6e3fdc4a4",
+    "history": [
+      {
+        "key": "max_text:235:2955",
+        "mode": "max_text",
+        "id_or_route": "235:2955",
+        "name": "My subscription / No subscription",
+        "status": "blocked",
+        "source_frame": "235:2955",
+        "comparison": "adaptation",
+        "findings": [
+          "No-subscription message/actions below initial viewport; need scroll verification."
+        ],
+        "evidence": [
+          "qa/extended-states/pro/max-text/235-2955.png",
+          "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/235-2955.png"
+        ]
+      }
+    ],
+    "scroll_sha256": "770ece28e2295fb3e9b7ff7a0f7f80db6f3315b2ece377980aa40218afdc0b6a"
+  },
+  {
+    "key": "max_text:175:2863",
+    "mode": "max_text",
+    "id_or_route": "175:2863",
+    "name": "Splash / First launch",
+    "status": "pass",
+    "source_frame": "175:2863",
+    "comparison": "adaptation",
+    "findings": [
+      "Fresh fixed-build screenshot visually inspected; text/actions visible without earlier clipping or overlap."
+    ],
+    "evidence": [
+      "qa/extended-states/pro/final/max-text/175-2863.png"
+    ],
+    "capture_sha256": "aaf20ff64451dcefba01c09118f00e3a37cdf3536e8fdfd553a8ca65d20c4e8d",
+    "history": [
+      {
+        "key": "max_text:175:2863",
+        "mode": "max_text",
+        "id_or_route": "175:2863",
+        "name": "Splash / First launch",
+        "status": "issue",
+        "source_frame": "175:2863",
+        "comparison": "adaptation",
+        "findings": [
+          "Splash brand name truncates to Cle… beneath artwork."
+        ],
+        "evidence": [
+          "qa/extended-states/pro/max-text/175-2863.png",
+          "/Users/stanislaureut/.figma_cache/Cleaner-9/audit-2026-11-10/renders/175-2863.png"
+        ]
+      }
+    ]
+  },
+  {
+    "key": "real:home",
+    "mode": "real",
+    "id_or_route": "home",
+    "name": "home",
+    "status": "pass",
+    "source_frame": "4:214",
+    "comparison": "source_chrome",
+    "findings": [
+      "Fresh live screenshot visually inspected at normal text; displayed values and controls fit; corresponding source chrome preserved, dynamic data excluded from identity.",
+      "Initial Ready to scan state; lower feature reachability supplemented by same production Home max-text XCTest evidence.",
+      "Actual live-route XCTest scroll captured and visually inspected; lower content reachable."
+    ],
+    "evidence": [
+      "qa/extended-states/pro/final/real/home.png",
+      "qa/extended-states/pro/final/live-interactions/real-home-scroll-3.png"
+    ],
+    "capture_sha256": "bccbad194376eb6f61ac1cec452d9a9be6bd1238ffaeb5c785e32baf38338dc9"
+  },
+  {
+    "key": "real:scan",
+    "mode": "real",
+    "id_or_route": "scan",
+    "name": "scan",
+    "status": "pass",
+    "source_frame": "47:56",
+    "comparison": "source_chrome",
+    "findings": [
+      "Fresh live screenshot visually inspected at normal text; displayed values and controls fit; corresponding source chrome preserved, dynamic data excluded from identity."
+    ],
+    "evidence": [
+      "qa/extended-states/pro/final/real/scan.png"
+    ],
+    "capture_sha256": "dfc3cb6d970cfb2cdee2406f96c0c03d4e8465784bf7a6069603257889bdb2b3"
+  },
+  {
+    "key": "real:photos",
+    "mode": "real",
+    "id_or_route": "photos",
+    "name": "photos",
+    "status": "pass",
+    "source_frame": "51:87",
+    "comparison": "source_chrome",
+    "findings": [
+      "Fresh live screenshot visually inspected at normal text; displayed values and controls fit; corresponding source chrome preserved, dynamic data excluded from identity.",
+      "Observed13Other photos/24MB, duplicate/similar/screenshot counts0."
+    ],
+    "evidence": [
+      "qa/extended-states/pro/final/real/photos.png"
+    ],
+    "capture_sha256": "db294430212d5b0116bdca5ba4a822bf2a27ec37adf32003916e5d53d1b003f7"
+  },
+  {
+    "key": "real:swipe",
+    "mode": "real",
+    "id_or_route": "swipe",
+    "name": "swipe",
+    "status": "pass",
+    "source_frame": "59:1683",
+    "comparison": "source_chrome",
+    "findings": [
+      "Actual first-visit Photo Swipe tutorial fits and matches source chrome; this capture is not evidence of loaded swipe-card interaction."
+    ],
+    "evidence": [
+      "qa/extended-states/pro/final/real/swipe.png"
+    ],
+    "capture_sha256": "60005b44d42e39da6729250dc811d67877dde855277692916241a71d53bc7aa9"
+  },
+  {
+    "key": "real:videos",
+    "mode": "real",
+    "id_or_route": "videos",
+    "name": "videos",
+    "status": "pass",
+    "source_frame": "78:5059",
+    "comparison": "source_chrome",
+    "findings": [
+      "Fresh live screenshot visually inspected at normal text; displayed values and controls fit; corresponding source chrome preserved, dynamic data excluded from identity.",
+      "Device has no videos; observed empty category counts, not loaded video UI."
+    ],
+    "evidence": [
+      "qa/extended-states/pro/final/real/videos.png"
+    ],
+    "capture_sha256": "a83bdebc10db005c73e3d7b19c0058531dfb77bdc3596e8144606df67a177ec9"
+  },
+  {
+    "key": "real:contacts",
+    "mode": "real",
+    "id_or_route": "contacts",
+    "name": "contacts",
+    "status": "pass",
+    "source_frame": "94:1327",
+    "comparison": "source_chrome",
+    "findings": [
+      "Fresh live screenshot visually inspected at normal text; displayed values and controls fit; corresponding source chrome preserved, dynamic data excluded from identity.",
+      "Observed6sample contacts, no changes."
+    ],
+    "evidence": [
+      "qa/extended-states/pro/final/real/contacts.png"
+    ],
+    "capture_sha256": "86350d37ae7435c341ea3846c8b24abedd3abd0f0a1d6d090f725d778a4cdf98"
+  },
+  {
+    "key": "real:calendar",
+    "mode": "real",
+    "id_or_route": "calendar",
+    "name": "calendar",
+    "status": "pass",
+    "source_frame": "119:1912",
+    "comparison": "source_chrome",
+    "findings": [
+      "Fresh live screenshot visually inspected at normal text; displayed values and controls fit; corresponding source chrome preserved, dynamic data excluded from identity.",
+      "Observed100read-only system holiday events; no event mutations."
+    ],
+    "evidence": [
+      "qa/extended-states/pro/final/real/calendar.png"
+    ],
+    "capture_sha256": "d3467dbbb7a925362736fe6b86e737b323f39cce465521d16d865681e0510801"
+  },
+  {
+    "key": "real:background",
+    "mode": "real",
+    "id_or_route": "background",
+    "name": "background",
+    "status": "pass",
+    "source_frame": "127:2092",
+    "comparison": "source_chrome",
+    "findings": [
+      "Fresh live screenshot visually inspected at normal text; displayed values and controls fit; corresponding source chrome preserved, dynamic data excluded from identity."
+    ],
+    "evidence": [
+      "qa/extended-states/pro/final/real/background.png"
+    ],
+    "capture_sha256": "7ecbb6e458c9b444c8947b0cd31cef1b1cde44cab1293f7cba96250dd7ee8f66"
+  },
+  {
+    "key": "real:security",
+    "mode": "real",
+    "id_or_route": "security",
+    "name": "security",
+    "status": "pass",
+    "source_frame": "147:2387",
+    "comparison": "source_chrome",
+    "findings": [
+      "Fresh live screenshot visually inspected at normal text; displayed values and controls fit; corresponding source chrome preserved, dynamic data excluded from identity."
+    ],
+    "evidence": [
+      "qa/extended-states/pro/final/real/security.png"
+    ],
+    "capture_sha256": "16563df14b7120965a97d2f98e9bd65bb64c64dcd091b48b3fb90b26639b16a2"
+  },
+  {
+    "key": "real:settings",
+    "mode": "real",
+    "id_or_route": "settings",
+    "name": "settings",
+    "status": "pass",
+    "source_frame": "159:2752",
+    "comparison": "source_chrome",
+    "findings": [
+      "Fresh live screenshot visually inspected at normal text; displayed values and controls fit; corresponding source chrome preserved, dynamic data excluded from identity."
+    ],
+    "evidence": [
+      "qa/extended-states/pro/final/real/settings.png"
+    ],
+    "capture_sha256": "eab6122bea9ecb264dd331ae7c5d2423e824dd2c52db24054a3054594ffdc35d"
+  },
+  {
+    "key": "real:subscription",
+    "mode": "real",
+    "id_or_route": "subscription",
+    "name": "subscription",
+    "status": "pass",
+    "source_frame": "235:2955",
+    "comparison": "source_chrome",
+    "findings": [
+      "Fresh live screenshot visually inspected at normal text; displayed values and controls fit; corresponding source chrome preserved, dynamic data excluded from identity.",
+      "Actual live-route XCTest scroll captured and visually inspected; lower content reachable."
+    ],
+    "evidence": [
+      "qa/extended-states/pro/final/real/subscription.png",
+      "qa/extended-states/pro/final/live-interactions/real-subscription-scroll-3.png"
+    ],
+    "capture_sha256": "e61dda67db2c58b6311369e449cb984f4428019911e1923e9e57014289c9cc35"
+  },
+  {
+    "key": "real:email",
+    "mode": "real",
+    "id_or_route": "email",
+    "name": "email",
+    "status": "pass",
+    "source_frame": "147:2559",
+    "comparison": "source_chrome",
+    "findings": [
+      "Fresh live screenshot visually inspected at normal text; displayed values and controls fit; corresponding source chrome preserved, dynamic data excluded from identity."
+    ],
+    "evidence": [
+      "qa/extended-states/pro/final/real/email.png"
+    ],
+    "capture_sha256": "0253df9dd2e0ea30f810b2cf2e5d0bd80c29a1e1fb15fc8a9ed9f068d027fe17"
+  },
+  {
+    "key": "real:password",
+    "mode": "real",
+    "id_or_route": "password",
+    "name": "password",
+    "status": "pass",
+    "source_frame": "147:3019",
+    "comparison": "source_chrome",
+    "findings": [
+      "Fresh live screenshot visually inspected at normal text; displayed values and controls fit; corresponding source chrome preserved, dynamic data excluded from identity."
+    ],
+    "evidence": [
+      "qa/extended-states/pro/final/real/password.png"
+    ],
+    "capture_sha256": "fcc0c6f5236efbb18f23d828ee4aa563d9831e4039455532fa2e61784fd8e13c"
+  },
+  {
+    "key": "real:device",
+    "mode": "real",
+    "id_or_route": "device",
+    "name": "device",
+    "status": "pass",
+    "source_frame": "147:3340",
+    "comparison": "source_chrome",
+    "findings": [
+      "Fresh live screenshot visually inspected at normal text; displayed values and controls fit; corresponding source chrome preserved, dynamic data excluded from identity.",
+      "Actual live-route XCTest scroll captured and visually inspected; lower content reachable."
+    ],
+    "evidence": [
+      "qa/extended-states/pro/final/real/device.png",
+      "qa/extended-states/pro/final/live-interactions/real-device-scroll-3.png"
+    ],
+    "capture_sha256": "603daa0cc641f30d165378d57eb254129f008192058a03db25fab8c93d7a09a2"
+  },
+  {
+    "key": "denied:photos",
+    "mode": "denied",
+    "id_or_route": "photos",
+    "name": "photos",
+    "status": "pass",
+    "source_frame": null,
+    "comparison": "adaptation",
+    "findings": [
+      "Permission revoked for this application, fresh denial screenshot inspected: explanation and recovery action visible. No exact Figma denial source; adaptation only."
+    ],
+    "evidence": [
+      "qa/extended-states/pro/final/denied/photos.png"
+    ],
+    "capture_sha256": "4ae1cb0e1846ebee1e26fd566363f9b0b77890abde24a9314a2bfc1b9862bbee"
+  },
+  {
+    "key": "denied:contacts",
+    "mode": "denied",
+    "id_or_route": "contacts",
+    "name": "contacts",
+    "status": "pass",
+    "source_frame": null,
+    "comparison": "adaptation",
+    "findings": [
+      "Permission revoked for this application, fresh denial screenshot inspected: explanation and recovery action visible. No exact Figma denial source; adaptation only."
+    ],
+    "evidence": [
+      "qa/extended-states/pro/final/denied/contacts.png"
+    ],
+    "capture_sha256": "a0d9791c1aa78c8d1df0783cb3bbf78d64905ee4eee84f9ace4ca5dff980ef58"
+  },
+  {
+    "key": "denied:calendar",
+    "mode": "denied",
+    "id_or_route": "calendar",
+    "name": "calendar",
+    "status": "pass",
+    "source_frame": null,
+    "comparison": "adaptation",
+    "findings": [
+      "Permission revoked for this application, fresh denial screenshot inspected: explanation and recovery action visible. No exact Figma denial source; adaptation only."
+    ],
+    "evidence": [
+      "qa/extended-states/pro/final/denied/calendar.png"
+    ],
+    "capture_sha256": "e57714aeb4e6213901b1532c03d9ca40628e072eb7049e3f7959f1f19649354b"
+  },
+  {
+    "key": "supplemental:email-unavailable",
+    "mode": "supplemental",
+    "id_or_route": "email-unavailable",
+    "name": "email-unavailable",
+    "status": "pass",
+    "comparison": "adaptation",
+    "findings": [
+      "Actual email sample alex@example.com leads to service-unavailable card, truthful extra disclosure and Retry; no email sent. Source147:2969 chrome matches; disclosure has no dedicated design frame."
+    ],
+    "evidence": [
+      "qa/extended-states/pro/final/live-interactions/supplemental-email-unavailable.png"
+    ],
+    "capture_sha256": "7188ddfe1aeca4d8989944eb72443c852f73689a8d78489321039233c0d7674c"
+  },
+  {
+    "key": "supplemental:restore-unconfigured",
+    "mode": "supplemental",
+    "id_or_route": "restore-unconfigured",
+    "name": "restore-unconfigured",
+    "status": "pass",
+    "comparison": "adaptation",
+    "findings": [
+      "Actual Restore Purchases displays Purchases are not available yet in native alert, OK dismisses. No configured StoreKit products; not equivalent to fixture restore-failure artwork."
+    ],
+    "evidence": [
+      "qa/extended-states/pro/final/live-interactions/supplemental-restore-unconfigured.png"
+    ],
+    "capture_sha256": "c8ad47e3dfaa972359102dfc6a05f6d9ba341fc69ce29013297afbe48f86604e"
+  },
+  {
+    "key": "normal_regression:47:56",
+    "mode": "supplemental",
+    "id_or_route": "47:56",
+    "name": "Smart Scan / Results",
+    "status": "pass",
+    "comparison": "source_chrome",
+    "source_frame": "47:56",
+    "findings": [
+      "Fresh normal-text frame visually paired with cached Figma reference. Typography, controls, colors and layout retained under existing adaptive-size/dynamic-photo exclusions; no new regression observed."
+    ],
+    "evidence": [
+      "qa/extended-states/pro/final/normal/47-56.png",
+      "qa/extended-states/pro/final/normal/pairs-0.jpg",
+      "qa/extended-states/pro/final/normal/pairs-1.jpg",
+      "qa/extended-states/pro/final/normal/pairs-2.jpg"
+    ],
+    "capture_sha256": "9dd3b422dbe95406ef4c8bec1fb2fbadb27b69aac673f7a2c678b76d241de5ae"
+  },
+  {
+    "key": "normal_regression:51:52",
+    "mode": "supplemental",
+    "id_or_route": "51:52",
+    "name": "Photos / First visit",
+    "status": "pass",
+    "comparison": "source_chrome",
+    "source_frame": "51:52",
+    "findings": [
+      "Fresh normal-text frame visually paired with cached Figma reference. Typography, controls, colors and layout retained under existing adaptive-size/dynamic-photo exclusions; no new regression observed."
+    ],
+    "evidence": [
+      "qa/extended-states/pro/final/normal/51-52.png",
+      "qa/extended-states/pro/final/normal/pairs-0.jpg",
+      "qa/extended-states/pro/final/normal/pairs-1.jpg",
+      "qa/extended-states/pro/final/normal/pairs-2.jpg"
+    ],
+    "capture_sha256": "ad2ee5fbb99ed8a95de107c149840618f5887407e50b57895c43013c5d1d9588"
+  },
+  {
+    "key": "normal_regression:51:211",
+    "mode": "supplemental",
+    "id_or_route": "51:211",
+    "name": "Duplicates / Selected",
+    "status": "pass",
+    "comparison": "source_chrome",
+    "source_frame": "51:211",
+    "findings": [
+      "Fresh normal-text frame visually paired with cached Figma reference. Typography, controls, colors and layout retained under existing adaptive-size/dynamic-photo exclusions; no new regression observed."
+    ],
+    "evidence": [
+      "qa/extended-states/pro/final/normal/51-211.png",
+      "qa/extended-states/pro/final/normal/pairs-0.jpg",
+      "qa/extended-states/pro/final/normal/pairs-1.jpg",
+      "qa/extended-states/pro/final/normal/pairs-2.jpg"
+    ],
+    "capture_sha256": "62ce9c02f8d3d01fe6606cdd88f24189667787a820910d57016e6b901cc46ae4"
+  },
+  {
+    "key": "normal_regression:94:4372",
+    "mode": "supplemental",
+    "id_or_route": "94:4372",
+    "name": "Contacts / restore",
+    "status": "pass",
+    "comparison": "source_chrome",
+    "source_frame": "94:4372",
+    "findings": [
+      "Fresh normal-text frame visually paired with cached Figma reference. Typography, controls, colors and layout retained under existing adaptive-size/dynamic-photo exclusions; no new regression observed."
+    ],
+    "evidence": [
+      "qa/extended-states/pro/final/normal/94-4372.png",
+      "qa/extended-states/pro/final/normal/pairs-0.jpg",
+      "qa/extended-states/pro/final/normal/pairs-1.jpg",
+      "qa/extended-states/pro/final/normal/pairs-2.jpg"
+    ],
+    "capture_sha256": "c09f88467fd76384509f5362157c4317cfcb765ac6e2d8098dcb64a522ba11fd"
+  },
+  {
+    "key": "normal_regression:119:2804",
+    "mode": "supplemental",
+    "id_or_route": "119:2804",
+    "name": "Calendar / Past · empty",
+    "status": "pass",
+    "comparison": "source_chrome",
+    "source_frame": "119:2804",
+    "findings": [
+      "Fresh normal-text frame visually paired with cached Figma reference. Typography, controls, colors and layout retained under existing adaptive-size/dynamic-photo exclusions; no new regression observed."
+    ],
+    "evidence": [
+      "qa/extended-states/pro/final/normal/119-2804.png",
+      "qa/extended-states/pro/final/normal/pairs-0.jpg",
+      "qa/extended-states/pro/final/normal/pairs-1.jpg",
+      "qa/extended-states/pro/final/normal/pairs-2.jpg"
+    ],
+    "capture_sha256": "30e3424826bfe45564966597520e11910d0d150b440272c6bdf48be4fcaf4de5"
+  },
+  {
+    "key": "normal_regression:129:2217",
+    "mode": "supplemental",
+    "id_or_route": "129:2217",
+    "name": "Background Remover / Transparent",
+    "status": "pass",
+    "comparison": "source_chrome",
+    "source_frame": "129:2217",
+    "findings": [
+      "Fresh normal-text frame visually paired with cached Figma reference. Typography, controls, colors and layout retained under existing adaptive-size/dynamic-photo exclusions; no new regression observed."
+    ],
+    "evidence": [
+      "qa/extended-states/pro/final/normal/129-2217.png",
+      "qa/extended-states/pro/final/normal/pairs-0.jpg",
+      "qa/extended-states/pro/final/normal/pairs-1.jpg",
+      "qa/extended-states/pro/final/normal/pairs-2.jpg"
+    ],
+    "capture_sha256": "1eec6d83d5e73156ee745c6ddebc125fa35902f942f3bd3c83876d7b14216205"
+  },
+  {
+    "key": "normal_regression:159:2752",
+    "mode": "supplemental",
+    "id_or_route": "159:2752",
+    "name": "Settings / No subscription",
+    "status": "pass",
+    "comparison": "source_chrome",
+    "source_frame": "159:2752",
+    "findings": [
+      "Fresh normal-text frame visually paired with cached Figma reference. Typography, controls, colors and layout retained under existing adaptive-size/dynamic-photo exclusions; no new regression observed."
+    ],
+    "evidence": [
+      "qa/extended-states/pro/final/normal/159-2752.png",
+      "qa/extended-states/pro/final/normal/pairs-0.jpg",
+      "qa/extended-states/pro/final/normal/pairs-1.jpg",
+      "qa/extended-states/pro/final/normal/pairs-2.jpg"
+    ],
+    "capture_sha256": "f6d2063222e96e518cb7ce64ec2a9117a54a0630337faeed80004589c2f9d846"
+  },
+  {
+    "key": "normal_regression:159:3259",
+    "mode": "supplemental",
+    "id_or_route": "159:3259",
+    "name": "Settings / error",
+    "status": "pass",
+    "comparison": "source_chrome",
+    "source_frame": "159:3259",
+    "findings": [
+      "Fresh normal-text frame visually paired with cached Figma reference. Typography, controls, colors and layout retained under existing adaptive-size/dynamic-photo exclusions; no new regression observed."
+    ],
+    "evidence": [
+      "qa/extended-states/pro/final/normal/159-3259.png",
+      "qa/extended-states/pro/final/normal/pairs-0.jpg",
+      "qa/extended-states/pro/final/normal/pairs-1.jpg",
+      "qa/extended-states/pro/final/normal/pairs-2.jpg"
+    ],
+    "capture_sha256": "df60de5322961a2809d2dc05c2047aa5b704eca955d5d3cf8c9dd9ffea199a2e"
+  },
+  {
+    "key": "normal_regression:175:2863",
+    "mode": "supplemental",
+    "id_or_route": "175:2863",
+    "name": "Splash / First launch",
+    "status": "pass",
+    "comparison": "source_chrome",
+    "source_frame": "175:2863",
+    "findings": [
+      "Fresh normal-text frame visually paired with cached Figma reference. Typography, controls, colors and layout retained under existing adaptive-size/dynamic-photo exclusions; no new regression observed."
+    ],
+    "evidence": [
+      "qa/extended-states/pro/final/normal/175-2863.png",
+      "qa/extended-states/pro/final/normal/pairs-0.jpg",
+      "qa/extended-states/pro/final/normal/pairs-1.jpg",
+      "qa/extended-states/pro/final/normal/pairs-2.jpg"
+    ],
+    "capture_sha256": "aaf20ff64451dcefba01c09118f00e3a37cdf3536e8fdfd553a8ca65d20c4e8d"
+  }
+]

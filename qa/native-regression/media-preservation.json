@@ -1,0 +1,19 @@
+{
+  "changes": [
+    {
+      "uuid": "B6EC37CB-4BD1-42FC-A1CE-D215CED4131E",
+      "before": [
+        "B6EC37CB-4BD1-42FC-A1CE-D215CED4131E",
+        0,
+        "cleaner-test-video.mp4"
+      ],
+      "after": [
+        "B6EC37CB-4BD1-42FC-A1CE-D215CED4131E",
+        1,
+        "cleaner-test-video.mp4"
+      ]
+    }
+  ],
+  "unrelatedChanged": 0,
+  "remainingOwned": 1
+}
