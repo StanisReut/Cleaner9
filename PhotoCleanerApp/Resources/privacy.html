@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy Policy</title>
+  <style>
+    :root {
+      --bg: #f8fafc;
+      --surface: #ffffff;
+      --text: #172b4d;
+      --muted: #526580;
+      --accent: #0048ae;
+      --border: #e2e8f0;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      padding: 32px 16px 64px;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Inter, Helvetica, Arial, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.65;
+    }
+    main {
+      max-width: 780px;
+      margin: 0 auto;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 40px 36px;
+    }
+    h1 {
+      margin: 0 0 8px;
+      font-size: 30px;
+      line-height: 1.2;
+      color: var(--accent);
+    }
+    .meta {
+      margin: 0 0 28px;
+      color: var(--muted);
+      font-size: 14px;
+    }
+    h2 {
+      margin: 28px 0 10px;
+      font-size: 19px;
+      color: var(--text);
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 6px;
+    }
+    h3 {
+      margin: 18px 0 6px;
+      font-size: 16px;
+      color: var(--text);
+    }
+    p { margin: 0 0 12px; }
+    ul {
+      margin: 0 0 14px;
+      padding-left: 22px;
+    }
+    li { margin-bottom: 6px; }
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .contact-box {
+      background: #f1f6ff;
+      border: 1px solid #d4e4ff;
+      border-radius: 12px;
+      padding: 16px 20px;
+      margin-top: 12px;
+    }
+    @media (max-width: 600px) {
+      main { padding: 24px 20px; }
+      h1 { font-size: 24px; }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Privacy Policy</h1>
+    <p class="meta">Effective Date: November 20, 2026 &middot; LOCA EST</p>
+
+    <h2>1. Introduction</h2>
+    <p>
+      This Privacy Policy explains how <strong>LOCA EST</strong> ("we", "our", or "us") collects, uses, processes, and protects information when you use our mobile application (the "App"). By using the App, you agree to the practices described in this Privacy Policy.
+    </p>
+
+    <h2>2. Company Information</h2>
+    <p>
+      Data Controller: <strong>LOCA EST</strong><br>
+      Support Email: <a href="mailto:maxime@locaest.com">maxime@locaest.com</a>
+    </p>
+
+    <h2>3. Categories of Information Collected and Device Permissions</h2>
+    <p>
+      The App does not require user registration or an account. Most core tools operate directly on your device. Depending on the features you choose to use and the permissions you grant, the following categories of information may be processed:
+    </p>
+
+    <h3>3.1 Device Permissions (On-Device Processing)</h3>
+    <ul>
+      <li>
+        <strong>Photo Library (Read Access):</strong> Used to scan your device locally for duplicate photos, similar photos, screenshots, and large videos so you can review and delete items you select. Your photos and videos are processed on your device and are not uploaded to our servers.
+      </li>
+      <li>
+        <strong>Photo Library (Add-Only Write Access):</strong> Used solely to save edited images created with the on-device Background Remover feature back to your photo library when you request it.
+      </li>
+      <li>
+        <strong>Contacts:</strong> Used locally on your device to identify duplicate or incomplete contacts and to create or restore local contact backups stored within the App's on-device storage. Your contacts are not uploaded to our servers.
+      </li>
+      <li>
+        <strong>Calendar:</strong> Used locally on your device to list past or unwanted calendar events so you can review and delete only the events you choose. Your calendar data is not uploaded to our servers.
+      </li>
+      <li>
+        <strong>App Tracking Transparency (ATT):</strong> Optional permission requested via iOS. If you grant permission, the App may access your device's Advertising Identifier (IDFA) for install attribution and campaign measurement. If you decline, the App continues to function normally without IDFA access.
+      </li>
+    </ul>
+
+    <h3>3.2 Optional Security Check Inputs</h3>
+    <ul>
+      <li>
+        <strong>Email Breach Check:</strong> If you choose to check an email address for known data breaches, the email address you enter is transmitted over HTTPS to our security check endpoint to query breach records and return the result to your device. It is not used for marketing.
+      </li>
+      <li>
+        <strong>Password Breach Check:</strong> If you choose to check a password against known breaches, the App computes a SHA-1 hash on your device and transmits only the first 5 characters of that hash over HTTPS using the k-anonymity model to the Pwned Passwords API. Your plaintext password and full hash never leave your device.
+      </li>
+    </ul>
+
+    <h3>3.3 Purchases and Subscriptions</h3>
+    <p>
+      In-app subscriptions are processed exclusively by Apple through the App Store. We do not collect or have access to your payment card details or Apple ID billing credentials. When you complete a purchase, the App transmits purchase metadata (product identifier, price, currency, and App Store receipt data) over HTTPS to our purchase validation and attribution server to verify entitlements and measure campaign performance. If you opt in via the in-app refund consent prompt (configurable at any time in Settings &rarr; Manage Consent), we share your purchase consumption data with Apple to assist in processing refund requests.
+    </p>
+
+    <h3>3.4 Automatically Collected Technical and Usage Data</h3>
+    <ul>
+      <li><strong>Identifiers:</strong> App-scoped device identifiers (IDFV, Firebase installation ID, AppsFlyer UID) and, only if you grant ATT permission, the Advertising Identifier (IDFA).</li>
+      <li><strong>Usage Data:</strong> Product interaction events (such as onboarding progress, paywall views, and screen transitions) used to measure app performance and evaluate feature configurations.</li>
+      <li><strong>Diagnostics:</strong> Crash logs, stack traces, device model, OS version, and app version used to identify and fix stability issues.</li>
+      <li><strong>Network Information:</strong> IP address and approximate country/region derived during network requests to analytics, attribution, and remote configuration services.</li>
+      <li><strong>Push Notification Token:</strong> If remote notifications are enabled, an Apple Push Notification token may be used to measure app uninstalls and associate push tokens with subscription records.</li>
+    </ul>
+
+    <h3>3.5 Support Requests</h3>
+    <p>
+      If you contact us by email at <a href="mailto:maxime@locaest.com">maxime@locaest.com</a>, we receive your email address and any information you choose to include in your message solely to respond to your inquiry.
+    </p>
+
+    <h2>4. How We Use Information</h2>
+    <ul>
+      <li>To provide on-device media, contacts, calendar, background removal, and security check features.</li>
+      <li>To verify in-app subscriptions and deliver remote configuration updates.</li>
+      <li>To measure marketing campaign attribution and evaluate onboarding and subscription flows.</li>
+      <li>To monitor stability, diagnose crashes, and improve overall app quality.</li>
+      <li>To respond to customer support requests and process Apple refund-consent preferences.</li>
+    </ul>
+
+    <h2>5. Third-Party Providers</h2>
+    <p>
+      We do not sell your personal data. We share limited technical, analytics, attribution, and purchase-verification data with the following service providers strictly to operate and measure the App:
+    </p>
+    <ul>
+      <li>
+        <strong>Google Firebase (Analytics, Crashlytics, Remote Config)</strong> — Google LLC. Used for usage analytics, crash reporting, and remote feature configuration. Privacy Policy: <a href="https://firebase.google.com/support/privacy" target="_blank" rel="noopener noreferrer">https://firebase.google.com/support/privacy</a>
+      </li>
+      <li>
+        <strong>AppsFlyer</strong> — AppsFlyer Ltd. Used for mobile install attribution, campaign measurement, and uninstall tracking. Privacy Policy: <a href="https://www.appsflyer.com/legal/privacy-policy/" target="_blank" rel="noopener noreferrer">https://www.appsflyer.com/legal/privacy-policy/</a>
+      </li>
+      <li>
+        <strong>Apple App Store (StoreKit)</strong> — Apple Inc. Used to process in-app subscriptions, billing, and subscription management. Privacy Policy: <a href="https://www.apple.com/legal/privacy/" target="_blank" rel="noopener noreferrer">https://www.apple.com/legal/privacy/</a>
+      </li>
+      <li>
+        <strong>Have I Been Pwned (Pwned Passwords API)</strong> — Used solely when you initiate a password breach check, receiving only a 5-character SHA-1 hash prefix over HTTPS. Privacy Policy: <a href="https://haveibeenpwned.com/Privacy" target="_blank" rel="noopener noreferrer">https://haveibeenpwned.com/Privacy</a>
+      </li>
+    </ul>
+
+    <h2>6. Disclosure of Information</h2>
+    <p>
+      We may disclose information only: (a) to the third-party service providers listed above under appropriate confidentiality and data-processing obligations; (b) if required by applicable law, regulation, legal process, or enforceable governmental request; (c) to protect the rights, safety, or security of users or LOCA EST; or (d) in connection with a merger, acquisition, or transfer of assets, subject to continued protection under this Privacy Policy.
+    </p>
+
+    <h2>7. Security and Data Retention</h2>
+    <p>
+      All network communications performed by the App use HTTPS encryption in transit. Media files, contacts, contact backups, and calendar events remain on your device under your control and are removed when you delete them or uninstall the App. Technical analytics, crash logs, and attribution records are retained by our service providers only for as long as necessary for the purposes described in this Policy or as required by law. Support emails are retained only as long as needed to resolve your request.
+    </p>
+
+    <h2>8. International Data Transfers</h2>
+    <p>
+      Our service providers (including Google Firebase and AppsFlyer) may process data on servers located outside your country of residence. Where required by applicable law, such transfers rely on appropriate safeguards such as Standard Contractual Clauses or equivalent legal mechanisms.
+    </p>
+
+    <h2>9. Your Privacy Rights</h2>
+    <p>
+      Depending on your jurisdiction (including the EEA, UK, and applicable US state privacy laws), you may have the right to:
+    </p>
+    <ul>
+      <li>Access, correct, or request deletion of personal data we hold about you.</li>
+      <li>Restrict or object to certain processing activities.</li>
+      <li>Withdraw consent at any time — including revoking Photo, Contacts, Calendar, or Tracking (ATT) permissions in iOS Settings, or updating your Apple refund-sharing preference in the App under <strong>Settings &rarr; Manage Consent</strong>.</li>
+      <li>Lodge a complaint with your local data protection authority.</li>
+    </ul>
+    <p>
+      To exercise any of these rights, contact us at <a href="mailto:maxime@locaest.com">maxime@locaest.com</a>.
+    </p>
+
+    <h2>10. Children's Privacy</h2>
+    <p>
+      The App is not directed to children under the age of 13 (or the applicable minimum age in your jurisdiction), and we do not knowingly collect personal information from children. If you believe a child has provided personal information to us, please contact <a href="mailto:maxime@locaest.com">maxime@locaest.com</a> so we can delete it promptly.
+    </p>
+
+    <h2>11. Third-Party Links</h2>
+    <p>
+      The App may contain links to external websites or Apple system pages (such as App Store subscription management). We are not responsible for the privacy practices or content of third-party websites.
+    </p>
+
+    <h2>12. Updates to This Policy</h2>
+    <p>
+      We may update this Privacy Policy from time to time to reflect changes in our practices or applicable law. The revised version will be posted on this page with an updated Effective Date.
+    </p>
+
+    <h2>13. Contact Information</h2>
+    <div class="contact-box">
+      <p style="margin:0;">
+        <strong>LOCA EST</strong><br>
+        Email: <a href="mailto:maxime@locaest.com">maxime@locaest.com</a>
+      </p>
+    </div>
+  </main>
+</body>
+</html>

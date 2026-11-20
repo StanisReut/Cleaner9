@@ -243,20 +243,12 @@
 			path = Stores;
 			sourceTree = "<group>";
 		};
-		5A51252E2F54DEFE3F53A9A4 /* Legal */ = {
-			isa = PBXGroup;
-			children = (
-				AC5E029FC47535DB47973BC8 /* privacy.html */,
-				ADE8CF7129B5BE38CE6219F4 /* terms.html */,
-			);
-			path = Legal;
-			sourceTree = "<group>";
-		};
 		6E5391A45B5E66B525B31FCF /* Resources */ = {
 			isa = PBXGroup;
 			children = (
 				7A57280D87FE16D45AF04C34 /* GoogleService-Info.plist */,
-				5A51252E2F54DEFE3F53A9A4 /* Legal */,
+				AC5E029FC47535DB47973BC8 /* privacy.html */,
+				ADE8CF7129B5BE38CE6219F4 /* terms.html */,
 				276721D580460C8AE21B39F4 /* Localization */,
 				12C3212CB8D64CD50C740DD9 /* Privacy */,
 			);
