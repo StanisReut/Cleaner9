@@ -1,0 +1,274 @@
+name: iOS CI - Build and Upload to App Store Connect
+
+on:
+  push:
+    branches: [ "release" ]
+  workflow_dispatch:
+    inputs:
+      skip_upload:
+        description: "Собрать .ipa, но не загружать в App Store Connect"
+        type: boolean
+        default: false
+
+jobs:
+  build-and-upload:
+    runs-on: macos-latest
+
+    env:
+      PROJECT: ${{ secrets.TARGET_PROJECT }}
+
+    steps:
+    # Шаг 1: Клонируем репозиторий
+    - name: Checkout code
+      uses: actions/checkout@v4
+
+    # Шаг 2: Версия Xcode
+    - name: Set up Xcode
+      uses: maxim-lobanov/setup-xcode@v1
+      with:
+        xcode-version: '26.2'
+
+    # Шаг 3: Сертификат распространения в связку ключей
+    - name: Import Signing Certificate
+      uses: apple-actions/import-codesign-certs@v2
+      with:
+        p12-file-base64: ${{ secrets.APPSTORE_CONNECT_CERTIFICATE }}
+        p12-password: ${{ secrets.APPSTORE_CONNECT_CERTIFICATE_PASSWORD }}
+        p12-import-location: "file"
+        create-keychain: true
+        keychain-password: "temp_password"
+
+    # Шаг 4: Ставим ВСЕ профили, какие нашлись в секретах
+    #
+    # Имена секретов не перечисляем: берём все, что начинаются на
+    # APPSTORE_CONNECT_PROVISIONING_PROFILE. Один таргет, часы, виджет,
+    # блокировщик звонков — пайплайн одинаковый, меняется только набор секретов.
+    #
+    # Суффикс в имени секрета нужен человеку, а не машине: всё, что важно —
+    # bundle id, имя, UUID, срок, entitlements — лежит внутри самого профиля.
+    - name: Install Provisioning Profiles
+      env:
+        ALL_SECRETS: ${{ toJSON(secrets) }}
+      run: |
+        python3 - <<'PY'
+        import base64, json, os, plistlib, subprocess, sys
+
+        PREFIX = "APPSTORE_CONNECT_PROVISIONING_PROFILE"
+        MAIN = PREFIX
+
+        secrets = json.loads(os.environ["ALL_SECRETS"])
+        found = {k: v for k, v in secrets.items() if k.startswith(PREFIX) and v}
+        if MAIN not in found:
+            sys.exit(f"❌ Нет секрета {MAIN} — без основного профиля собирать нечего")
+
+        dest = os.path.expanduser("~/Library/MobileDevice/Provisioning Profiles")
+        os.makedirs(dest, exist_ok=True)
+        os.makedirs("profiles", exist_ok=True)
+
+        manifest = []
+        for name in sorted(found):
+            label = name[len(PREFIX):].lstrip("_") or "MAIN"
+            path = f"profiles/{label}.mobileprovision"
+            with open(path, "wb") as fh:
+                fh.write(base64.b64decode(found[name]))
+
+            raw = subprocess.run(["security", "cms", "-D", "-i", path],
+                                 capture_output=True, check=True).stdout
+            p = plistlib.loads(raw)
+            ent = p.get("Entitlements", {})
+            app_id = ent.get("application-identifier", "")
+            team = p.get("TeamIdentifier", [""])[0]
+
+            manifest.append({
+                "label": label,
+                "file": path,
+                "uuid": p["UUID"],
+                "name": p["Name"],
+                "team_id": team,
+                "bundle_id": app_id[len(team) + 1:] if app_id.startswith(team + ".") else app_id,
+                "app_groups": ent.get("com.apple.security.application-groups", []),
+                "entitlements": sorted(ent.keys()),
+                "expires": p["ExpirationDate"].isoformat(),
+                "is_main": name == MAIN,
+            })
+
+            subprocess.run(["cp", path, f"{dest}/{p['UUID']}.mobileprovision"], check=True)
+            print(f"✅ {label} — '{p['Name']}' для {manifest[-1]['bundle_id']}")
+
+        with open("profiles/manifest.json", "w") as fh:
+            json.dump(manifest, fh, indent=2)
+        print(f"\n✅ Установлено профилей: {len(manifest)}")
+        PY
+
+    # Шаг 5: Ключ App Store Connect
+    #
+    # Один ключ обслуживает и проверки версии, и загрузку, поэтому кладём его
+    # сразу в оба места, где эти инструменты его ищут.
+    - name: Install App Store Connect API key
+      env:
+        API_KEY_ID: ${{ secrets.APPSTORE_CONNECT_API_KEY_ID }}
+        API_ISSUER_ID: ${{ secrets.APPSTORE_CONNECT_API_ISSUER_ID }}
+        API_PRIVATE_KEY: ${{ secrets.APPSTORE_CONNECT_API_PRIVATE_KEY }}
+      run: |
+        if [ -z "$API_KEY_ID" ] || [ -z "$API_ISSUER_ID" ] || [ -z "$API_PRIVATE_KEY" ]; then
+          echo "❌ Error: нет данных ключа App Store Connect"
+          exit 1
+        fi
+        for dir in "$HOME/private_keys" "$HOME/.appstoreconnect/private_keys"; do
+          mkdir -p "$dir"
+          printf '%s\n' "$API_PRIVATE_KEY" > "$dir/AuthKey_$API_KEY_ID.p8"
+          chmod 600 "$dir/AuthKey_$API_KEY_ID.p8"
+        done
+        echo "✅ Ключ App Store Connect на месте"
+
+    # Шаг 6: Проверки до сборки
+    #
+    # Всё, из-за чего прогон падал в самом конце: альфа в иконке, забытая
+    # версия, истёкший профиль. Здесь это стоит секунд, а не двадцати минут.
+    - name: Preflight
+      env:
+        API_KEY_ID: ${{ secrets.APPSTORE_CONNECT_API_KEY_ID }}
+        API_ISSUER_ID: ${{ secrets.APPSTORE_CONNECT_API_ISSUER_ID }}
+      run: python3 .github/scripts/preflight.py "$PROJECT.xcodeproj" profiles/manifest.json
+
+    # Шаг 7: Раскладываем подпись по таргетам
+    - name: Configure Signing
+      run: |
+        gem install xcodeproj --no-document --quiet || sudo gem install xcodeproj --no-document --quiet
+        ruby .github/scripts/configure_signing.rb "$PROJECT.xcodeproj" profiles/manifest.json
+
+    # Шаг 8: Зависимости Swift Package Manager
+    - name: Resolve Swift Package Dependencies
+      run: |
+        xcodebuild -resolvePackageDependencies -project "$PROJECT.xcodeproj" -scheme "$PROJECT" || \
+        echo "⚠️ Не удалось разрешить зависимости заранее — попробуем во время сборки"
+
+    # Шаг 9: Архив
+    #
+    # Ни PRODUCT_BUNDLE_IDENTIFIER, ни CODE_SIGN_IDENTITY здесь не передаём:
+    # аргумент командной строки применяется ко всем таргетам графа, включая
+    # SPM-пакеты, и роняет сборку с "conflicting provisioning settings".
+    # Всё нужное уже проставлено точечно на шаге 7.
+    #
+    # Номер сборки тоже не трогаем: версию поднимает человек, осознанно.
+    - name: Build and Archive
+      run: |
+        mkdir -p ./output
+        echo "=== Личности для подписи на раннере ==="
+        security find-identity -v -p codesigning
+
+        xcodebuild \
+          -project "$PROJECT.xcodeproj" \
+          -scheme "$PROJECT" \
+          -configuration Release \
+          -destination 'generic/platform=iOS' \
+          -archivePath "./output/$PROJECT.xcarchive" \
+          -skipPackageUpdates \
+          COMPILER_INDEX_STORE_ENABLE=NO \
+          ONLY_ACTIVE_ARCH=NO \
+          archive 2>&1 | tee xcodebuild.log
+
+        if [ "${PIPESTATUS[0]}" -ne 0 ] || [ ! -d "./output/$PROJECT.xcarchive" ]; then
+          echo "❌ Error: архив не собрался"
+          exit 1
+        fi
+        echo "✅ Архив готов"
+
+    # Шаг 10: Все ли таргеты вошли в архив
+    #
+    # Без этой проверки пропавшее расширение всплывает только на валидации в
+    # App Store Connect — через двадцать минут после старта.
+    - name: Verify Embedded Targets
+      run: |
+        python3 - <<'PY'
+        import json, os, plistlib, sys, glob
+
+        profiles = json.load(open("profiles/manifest.json"))
+        app = glob.glob(f"./output/{os.environ['PROJECT']}.xcarchive/Products/Applications/*.app")
+        if not app:
+            sys.exit("❌ В архиве нет приложения")
+
+        found = set()
+        for path in glob.glob(f"{app[0]}/**/Info.plist", recursive=True) + [f"{app[0]}/Info.plist"]:
+            try:
+                with open(path, "rb") as fh:
+                    data = plistlib.load(fh)
+            except Exception:
+                continue
+            if "CFBundleIdentifier" in data:
+                found.add(data["CFBundleIdentifier"])
+
+        missing = [p["bundle_id"] for p in profiles if p["bundle_id"] not in found]
+        for p in profiles:
+            print(("✅ " if p["bundle_id"] in found else "❌ ") + p["bundle_id"])
+        if missing:
+            sys.exit(f"\n❌ В архив не вошли: {', '.join(missing)}")
+        print(f"\n✅ В архиве все таргеты: {len(profiles)}")
+        PY
+
+    # Шаг 11: Логи сборки — всегда, даже если упало
+    - name: Upload Build Logs
+      if: always()
+      uses: actions/upload-artifact@v4
+      with:
+        name: xcodebuild-logs
+        path: xcodebuild.log
+
+    # Шаг 12: ExportOptions из тех же профилей
+    - name: Create Export Options
+      run: |
+        python3 - <<'PY'
+        import json, plistlib
+
+        profiles = json.load(open("profiles/manifest.json"))
+        main = next(p for p in profiles if p["is_main"])
+
+        options = {
+            "method": "app-store-connect",
+            "teamID": main["team_id"],
+            "signingStyle": "manual",
+            "signingCertificate": "Apple Distribution",
+            "provisioningProfiles": {p["bundle_id"]: p["name"] for p in profiles},
+            "uploadBitcode": False,
+            "uploadSymbols": True,
+            "manageAppVersionAndBuildNumber": False,
+        }
+        with open("ExportOptions.plist", "wb") as fh:
+            plistlib.dump(options, fh)
+        print(json.dumps(options["provisioningProfiles"], indent=2, ensure_ascii=False))
+        PY
+
+    # Шаг 13: Экспорт .ipa
+    #
+    # Без -allowProvisioningUpdates: профили уже стоят на раннере, а этот флаг
+    # погнал бы Xcode в облачную подпись и создал бы в аккаунте лишние профили.
+    - name: Export IPA
+      run: |
+        xcodebuild -exportArchive \
+          -archivePath "./output/$PROJECT.xcarchive" \
+          -exportOptionsPlist ./ExportOptions.plist \
+          -exportPath ./output
+
+        IPA=$(find ./output -maxdepth 1 -name '*.ipa' -type f | head -1)
+        if [ -z "$IPA" ]; then
+          echo "❌ Error: .ipa не создался"
+          ls -lah ./output/
+          exit 1
+        fi
+        mv "$IPA" "./output/$PROJECT.ipa"
+        echo "✅ Готов ./output/$PROJECT.ipa ($(du -h "./output/$PROJECT.ipa" | cut -f1))"
+
+    # Шаг 14: Загрузка в App Store Connect
+    - name: Upload to App Store Connect
+      if: ${{ github.event.inputs.skip_upload != 'true' }}
+      env:
+        API_KEY_ID: ${{ secrets.APPSTORE_CONNECT_API_KEY_ID }}
+        API_ISSUER_ID: ${{ secrets.APPSTORE_CONNECT_API_ISSUER_ID }}
+      run: |
+        xcrun altool --upload-app \
+          --type ios \
+          --file "./output/$PROJECT.ipa" \
+          --apiKey "$API_KEY_ID" \
+          --apiIssuer "$API_ISSUER_ID" \
+          --verbose
+        echo "✅ Загружено в App Store Connect"
