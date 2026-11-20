@@ -1,18 +1,22 @@
 {
-  "images": [
+  "images" : [
     {
-      "filename": "Coast@2x.png",
-      "idiom": "universal",
-      "scale": "2x"
+      "idiom" : "universal",
+      "scale" : "1x"
     },
     {
-      "filename": "Coast@3x.png",
-      "idiom": "universal",
-      "scale": "3x"
+      "filename" : "Coast@2x.png",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "Coast@3x.png",
+      "idiom" : "universal",
+      "scale" : "3x"
     }
   ],
-  "info": {
-    "author": "xcode",
-    "version": 1
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
   }
 }
